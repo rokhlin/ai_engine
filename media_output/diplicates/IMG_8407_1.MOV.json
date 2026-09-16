@@ -1,0 +1,102 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8407_1.MOV",
+    "file_name": "IMG_8407_1.MOV",
+    "file_size": 16126276,
+    "mtime": 1641881277.188,
+    "media_type": "video",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "waves",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "pebbled beach",
+            "category": "scene",
+            "confidence": 0.85
+        },
+        {
+            "tag": "overcast sky",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "distant hills",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "industrial structures",
+            "category": "scene",
+            "confidence": 0.85
+        }
+    ],
+    "video_metadata": {
+        "duration": 15.58,
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.974326059050064,
+        "bitrate": 8280501,
+        "codec": "hevc",
+        "datetime": null
+    },
+    "face_timeline": {},
+    "gemini_analysis": {
+        "summary": "The video showcases a serene beach scene with waves crashing onto the shore. The camera captures the rhythmic motion of the water as it meets the pebbled beach, with distant hills and industrial structures visible in the background under an overcast sky.",
+        "summary_ru": "Видео показывает спокойный пейзаж морского побережья с волнами, которые ударяются о каменистый берег. Камера фиксирует ритмичное движение воды, когда она встречается с песчаным берегом, на заднем плане видны холмы и промышленные сооружения под непроглядным небом.",
+        "transcription": "Welcome to the gewirr web w w w w w w w w w w w w w w w w w w w",
+        "transcription_ru": "Welcome to the gewirr web w w w w w w w w w w w w w w w w w w w",
+        "timeline_events": [
+            {
+                "timestamp_start": "00:00:00",
+                "timestamp_end": "00:05:00",
+                "activity": "The camera captures the waves crashing onto a pebbled beach with distant hills and industrial structures in the background under an overcast sky.",
+                "activity_ru": "Камера фиксирует волны, которые ударяются о каменистый берег с видом на холмы и промышленные сооружения на заднем плане под непроглядным небом."
+            },
+            {
+                "timestamp_start": "00:10:00",
+                "timestamp_end": "00:15:00",
+                "activity": "The camera continues to capture the waves crashing onto a pebbled beach with distant hills and industrial structures in the background under an overcast sky.",
+                "activity_ru": "Камера продолжает фиксировать волны, которые ударяются о каменистый берег с видом на холмы и промышленные сооружения на заднем плане под непроглядным небом."
+            }
+        ],
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "waves",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "pebbled beach",
+                "category": "scene",
+                "confidence": 0.85
+            },
+            {
+                "tag": "overcast sky",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "distant hills",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "industrial structures",
+                "category": "scene",
+                "confidence": 0.85
+            }
+        ]
+    },
+    "transcription": "Welcome to the gewirr web w w w w w w w w w w w w w w w w w w w",
+    "transcription_ru": "Welcome to the gewirr web w w w w w w w w w w w w w w w w w w w",
+    "phash": "c6d99d847ce4862e",
+    "modules_status": {
+        "transcribe": true,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

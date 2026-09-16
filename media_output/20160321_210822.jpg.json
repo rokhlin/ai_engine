@@ -1,0 +1,109 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210822.jpg",
+    "file_name": "20160321_210822.jpg",
+    "file_size": 864617,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "people",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "costume",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:08:22",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bfc29e999ccc4cc0",
+    "faces": [
+        {
+            "bbox": [
+                1501,
+                425,
+                1857,
+                890
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8824675679206848
+        },
+        {
+            "bbox": [
+                2157,
+                402,
+                2503,
+                881
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8642805218696594
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Two individuals are posing for a photo in an indoor setting.",
+        "summary_ru": "Два человека позируют на фото в помещении.",
+        "description": "На фотографии изображены два человека, стоящие рядом. Оба они носят темные очки и причёски: один имеет кудрявую шевелюру, а другой длинные волосы. Они одеты в повседневную одежду — один в футболку с принтом и джинсы, другой в свитер и брюки. На заднем плане виден белый стены и часть двери.",
+        "description_ru": "На фотографии изображены два человека, стоящие рядом. Оба они носят темные очки и причёски: один имеет кудрявую шевелюру, а другой длинные волосы. Они одеты в повседневную одежду — один в футболку с принтом и джинсы, другой в свитер и брюки. На заднем плане виден белый стены и часть двери.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственная",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "people",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "costume",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:08 PM using a Samsung SM-N900 camera with an ISO of 250 and an exposure time of approximately 0.058 seconds (f/2.2).",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:08 с использованием камеры Samsung SM-N900 при ISO 250 и выдержке около 0,058 секунды (f/2.2)."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_009",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_nox50elq.jpg",
+        "reasoning": "All images appear to be taken in the same setting and with similar subjects. The subject's pose and expression are consistent across all frames, indicating that there is little variation between them. Since the technical defects (closed eyes) are present in each frame but do not significantly impact the overall quality of the image, we can conclude that the best frame is one where these defects are least noticeable or have been corrected post-processing. However, since no post-processing details were provided and all frames appear to be taken under similar conditions, it's reasonable to assume that the first frame (be_media_nox50elq.jpg) might be slightly better due to potential minor differences in lighting or focus that could not be detected visually.",
+        "reasoning_ru": "Все изображения были сделаны в одинаковой среде и с одними и теми же объектами. Поза и выражение лица субъектов остаются одинаковыми во всех кадрах, что указывает на малую вариацию между ними. Поскольку технические дефекты (закрытые глаза) присутствуют в каждом кадре, но не значительно влияют на общее качество изображения, можно сделать вывод, что лучшим кадром является тот, где эти дефекты менее заметны или были исправлены после обработки. Однако, так как нет информации о пост-обработке и все кадры были сделаны под схожими условиями, можно предположить, что первый кадр (be_media_nox50elq.jpg) может быть слегка лучше из-за потенциальных небольших различий в освещении или фокусе, которые не могут быть обнаружены визуально.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

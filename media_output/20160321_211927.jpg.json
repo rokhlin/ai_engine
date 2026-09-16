@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211927.jpg",
+    "file_name": "20160321_211927.jpg",
+    "file_size": 738500,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "casual",
+            "category": "content_type",
+            "confidence": 0.7
+        },
+        {
+            "tag": "interaction",
+            "category": "people",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:19:27",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 200,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e2b9434c1cb8b55e",
+    "faces": [
+        {
+            "bbox": [
+                1117,
+                1102,
+                1446,
+                1534
+            ],
+            "face_id": "FACE_ID_301",
+            "name": "FACE_ID_301",
+            "confidence": 0.8282645344734192
+        },
+        {
+            "bbox": [
+                1634,
+                1574,
+                2080,
+                1814
+            ],
+            "face_id": "FACE_ID_302",
+            "name": "FACE_ID_302",
+            "confidence": 0.7062390446662903
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful moment between two individuals in a casual indoor setting.",
+        "summary_ru": "Праздничный момент между двумя людьми в неформальной домашней обстановке.",
+        "description": "The image captures two people in an indoor environment, seemingly engaged in a lighthearted interaction. One person is wearing a white shirt with text and dark pants, while the other is dressed in a red top and black pants. The person in the red top appears to be playfully leaning back or being lifted by the individual in the white shirt, suggesting a moment of fun or celebration.",
+        "description_ru": "На изображении запечатлены два человека в домашней обстановке, которые, по-видимому, участвуют в веселой взаимодействии. Один человек одет в белую футболку с надписью и темные брюки, а другой — в красную рубашку и черные брюки. Человек в красной рубашке кажется, что он играет, отталкиваясь или поднимаясь за руку другого человека, что указывает на момент веселья или праздника.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "casual",
+                "category": "content_type",
+                "confidence": 0.7
+            },
+            {
+                "tag": "interaction",
+                "category": "people",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:19:27 using a Samsung SM-N900 camera with an ISO of 200 and an exposure time of 0.05882 seconds.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_013",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_gg8c2f0u.jpg",
+        "reasoning": "The best frame is 'be_media_gg8c2f0u.jpg' because it has no motion blur, which suggests a steady camera or minimal movement. The subject's eyes are open and clear, indicating that the photo was taken with proper focus on the subject. There is also no indication of defocus or bad exposure in this image compared to 'be_media_l3cqf1rc.jpg', where there is noticeable motion blur due to either a shaky camera or rapid movement during capture.",
+        "reasoning_ru": "Лучшим кадром является 'be_media_gg8c2f0u.jpg' из-за отсутствия размытия, что указывает на стабильность камеры или минимальное движение. Глаза у субъекта открыты и четкие, что указывает на правильный фокус на субъекте. Также нет признаковkeh, defocus, or bad exposure observed in this image compared to 'be_media_l3cqf1rc.jpg', где есть заметное размытие из-за быстрого движения камеры или быстрого движения субъекта.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

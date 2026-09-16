@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160312_150329.jpg",
+    "file_name": "20160312_150329.jpg",
+    "file_size": 1339842,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "Dead Sea",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Israel",
+            "category": "location",
+            "confidence": 0.8
+        },
+        {
+            "tag": "relaxation",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "bench",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "water bottle",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:12 15:03:28",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00072",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "de81bdd39025c14f",
+    "faces": [
+        {
+            "bbox": [
+                3274,
+                430,
+                3428,
+                644
+            ],
+            "face_id": "FACE_ID_129",
+            "name": "FACE_ID_129",
+            "confidence": 0.8408503532409668
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is lying on a bench overlooking the Dead Sea in Israel, while another individual stands nearby.",
+        "summary_ru": "Люди отдыхают на набережной Мертвого моря в Израиле.",
+        "description": "На фотографии изображены два человека. Один лежит на деревянном скамейке, смотрящий на Мертвое море, а другой стоит рядом, глядя в ту же сторону. Вокруг видны песчаные берега и дистанционные палатки для отдыха. На скамейке лежит бутылка воды.",
+        "description_ru": "На фотографии изображены два человека, один из которых лежит на деревянной скамейке, смотрящий на Мертвое море, а другой стоит рядом и также смотрит в ту же сторону. Вокруг видны песчаные берега и дистанционные палатки для отдыха. На скамейке лежит бутылка воды.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "Dead Sea",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Israel",
+                "category": "location",
+                "confidence": 0.8
+            },
+            {
+                "tag": "relaxation",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "bench",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "water bottle",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 12, 2016, at 3:03 PM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00072 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 12 марта 2016 года в 3:03 PM с использованием камеры Samsung SM-N900 при ISO 50 и выдержке 0.00072 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

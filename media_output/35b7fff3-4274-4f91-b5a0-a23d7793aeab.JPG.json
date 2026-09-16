@@ -1,0 +1,120 @@
+{
+    "file_path": "/nas/2022/35b7fff3-4274-4f91-b5a0-a23d7793aeab.JPG",
+    "file_name": "35b7fff3-4274-4f91-b5a0-a23d7793aeab.JPG",
+    "file_size": 359890,
+    "mtime": 1662708804.848,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "outdoor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.85
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "greenery",
+            "category": "nature",
+            "confidence": 0.9
+        },
+        {
+            "tag": "red_flowers",
+            "category": "nature",
+            "confidence": 0.85
+        },
+        {
+            "tag": "white_top",
+            "category": "objects",
+            "confidence": 0.75
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "c17aa4843eb497cb",
+    "faces": [
+        {
+            "bbox": [
+                458,
+                458,
+                867,
+                1065
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.7147946357727051
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "The photo depicts a person outdoors in a natural setting with greenery and red flowers visible in the background. The lighting is bright and suggests it was taken during the daytime under clear weather conditions.",
+        "summary_ru": "Фотография показывает человека на открытом воздухе в природной среде с видимыми зелеными растениями и красными цветами на заднем плане. Освещение яркое, что указывает на то, что снимок был сделан днем под ясным небом.",
+        "description": "The person in the photo is wearing a white top and sunglasses, standing outdoors with greenery and red flowers visible behind them. The lighting suggests it was taken during daytime under clear weather conditions.",
+        "description_ru": "На фотографии человек в белой блузке и солнцезащитных очках стоит на открытом воздухе с видимыми зелеными растениями и красными цветами за ним. Освещение указывает на то, что снимок был сделан днем под ясным небом.",
+        "environment": "outdoor",
+        "lighting": "bright",
+        "lighting_ru": "яркое",
+        "weather": "clear",
+        "weather_ru": "ясное",
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "outdoor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.85
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "greenery",
+                "category": "nature",
+                "confidence": 0.9
+            },
+            {
+                "tag": "red_flowers",
+                "category": "nature",
+                "confidence": 0.85
+            },
+            {
+                "tag": "white_top",
+                "category": "objects",
+                "confidence": 0.75
+            }
+        ],
+        "ocr_text": "",
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

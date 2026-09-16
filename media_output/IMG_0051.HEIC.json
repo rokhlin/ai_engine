@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0051.HEIC",
+    "file_name": "IMG_0051.HEIC",
+    "file_size": 2205457,
+    "mtime": 1674221167.882,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child playing with toy construction vehicle",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicle on the floor",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "child sitting on a carpet",
+            "category": "people",
+            "confidence": 0.7
+        },
+        {
+            "tag": "palitos for ear cleaning scattered around",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "living room interior",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a04340aadfce9b9d",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A child is playing with a toy construction vehicle on the floor of a living room.",
+        "summary_ru": "Дети играют с игрушечной строительной машиной на полу в гостиной.",
+        "description": "На фото изображена маленький ребенок, сидящий на ковре и играющий с желтой игрушечной строительной машиной. Рядом с ним разбросаны палочки для чистки ушей. В заднем плане видна мебель в гостиной: телевизионный шкаф и стереосистема.",
+        "description_ru": "На фотографии изображена маленький ребенок, сидящий на ковре и играющий с желтой игрушечной строительной машиной. Рядом с ним разбросаны палочки для чистки ушей. В заднем плане видна мебель в гостиной: телевизионный шкаф и стереосистема.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child playing with toy construction vehicle",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicle on the floor",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "child sitting on a carpet",
+                "category": "people",
+                "confidence": 0.7
+            },
+            {
+                "tag": "palitos for ear cleaning scattered around",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "living room interior",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0068.HEIC",
+    "file_name": "IMG_0068.HEIC",
+    "file_size": 2111274,
+    "mtime": 1674221167.666,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "bbcae8a2c0daa6c5",
+    "faces": [
+        {
+            "bbox": [
+                983,
+                431,
+                1136,
+                570
+            ],
+            "face_id": "FACE_ID_51",
+            "name": "FACE_ID_51",
+            "confidence": 0.7977414727210999
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on a patterned carpet playing with toy construction vehicles surrounded by scattered cotton swabs.",
+        "summary_ru": "Маленький ребенок сидит на ковре и играет с игрушечными строительными машинами, рядом разбросаны ватные палочки.",
+        "description": "На фотографии изображена маленькая девочка, которая сидит на ковре и играет с желтыми игрушечными строительными машинками. На ковре также видны белые ватные палочки, которые разбросаны вокруг игрушек. В заднем плане можно увидеть мебель, включая комод и стойку для аудио-оборудования.",
+        "description_ru": "На фотографии изображена маленькая девочка, которая сидит на ковре и играет с желтыми игрушечными строительными машинками. На ковре также видны белые ватные палочки, которые разбросаны вокруг игрушек. В заднем плане можно увидеть мебель, включая комод и стойку для аудио-оборудования.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0176.HEIC",
+    "file_name": "IMG_0176.HEIC",
+    "file_size": 1647903,
+    "mtime": 1674221167.526,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f135c5075644bb3a",
+    "faces": [
+        {
+            "bbox": [
+                1380,
+                525,
+                1657,
+                743
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.8480220437049866
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is lying on a carpet surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок лежит на ковре среди разноцветных конфетти и апельсинов.",
+        "description": "На фотографии изображен маленький ребенок, лежащий на ковре. Вокруг него разбросаны яркие конфетти различных цветов (зеленый, желтый, розовый) и несколько апельсинов. Ребенок одет в джинсы, свитер с надписью \"Super\" на груди и носки с полосками. Его лицо выражает удивление или интерес.",
+        "description_ru": "На фотографии изображен маленький ребенок, лежащий на ковре. Вокруг него разбросаны яркие конфетти различных цветов (зеленый, желтый, розовый) и несколько апельсинов. Ребенок одет в джинсы, свитер с надписью \"Super\" на груди и носки с полосками. Его лицо выражает удивление или интерес.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

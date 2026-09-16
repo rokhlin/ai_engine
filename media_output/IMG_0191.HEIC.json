@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0191.HEIC",
+    "file_name": "IMG_0191.HEIC",
+    "file_size": 1412094,
+    "mtime": 1674221167.563,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Superman t-shirt",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "carpet",
+            "category": "scene",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b66ca01af9333ea4",
+    "faces": [
+        {
+            "bbox": [
+                412,
+                110,
+                801,
+                612
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.7545107007026672
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is lying on a carpet surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок лежит на ковре среди разноцветных конфетти и апельсинов.",
+        "description": "The image shows a young child wearing a Superman t-shirt with the text 'Find Your Power' lying on a carpet. The child is surrounded by colorful confetti and several oranges scattered around them, suggesting a playful or festive setting. The child appears to be looking directly at the camera with an expression that could be interpreted as curiosity or surprise.",
+        "description_ru": "На изображении показан маленький ребенок в футболке супермена с надписью 'Find Your Power', лежащий на ковре. Ребенок окружён разноцветными конфетти и несколькими апельсинами, рассеянными вокруг него, что указывает на игровую или праздничную обстановку. Ребенок смотрит прямо в камеру, выражение лица может быть интерпретировано как любопытство или удивление.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Superman t-shirt",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "carpet",
+                "category": "scene",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211813.jpg",
+    "file_name": "20160321_211813.jpg",
+    "file_size": 878925,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "casual",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "portrait",
+            "category": "content_type",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:18:13",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 400,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "d8e2c698b1689bd3",
+    "faces": [
+        {
+            "bbox": [
+                1169,
+                1526,
+                1525,
+                2006
+            ],
+            "face_id": "FACE_ID_298",
+            "name": "FACE_ID_298",
+            "confidence": 0.8898555040359497
+        },
+        {
+            "bbox": [
+                637,
+                1020,
+                1040,
+                1632
+            ],
+            "face_id": "FACE_ID_276",
+            "name": "FACE_ID_276",
+            "confidence": 0.8632986545562744
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A casual indoor portrait of two individuals posing together for a photo.",
+        "summary_ru": "Портрет двух людей в помещении, которые позируют для фотографии.",
+        "description": "The image shows two people standing close to each other indoors. The person on the left has curly hair and is wearing a white shirt with gold text, while the person on the right is dressed in a red long-sleeve top and dark pants. They appear to be smiling and posing for the photo.",
+        "description_ru": "На изображении показаны два человека, стоящие рядом друг с другом внутри помещения. Человек слева имеет вьющиеся волосы и одет в белую футболку с золотым текстом, а человек справа одет в красную длинный рукав и темные брюки. Они кажутся улыбающимися и позируют для фотографии.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "casual",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "portrait",
+                "category": "content_type",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:18:13 using a Samsung SM-N900 camera with an ISO of 400 and an exposure time of 0.05882 seconds. The image does not contain GPS or location information.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:18:13 с помощью камеры Samsung SM-N900 с ISO 400 и выдержкой 0.05882 секунды. Изображение не содержит информации о GPS или местоположении."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

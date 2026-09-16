@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0017.HEIC",
+    "file_name": "IMG_0017.HEIC",
+    "file_size": 3057099,
+    "mtime": 1674221168.426,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "woman",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "panda-patterned outfit",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "balloons",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "home environment",
+            "category": "scene",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a5f49f98c83d3162",
+    "faces": [
+        {
+            "bbox": [
+                635,
+                593,
+                842,
+                893
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8578339219093323
+        },
+        {
+            "bbox": [
+                86,
+                1603,
+                237,
+                1802
+            ],
+            "face_id": "FACE_ID_39",
+            "name": "FACE_ID_39",
+            "confidence": 0.795323371887207
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman with curly hair is standing indoors wearing a panda-patterned outfit and holding colorful balloons. A child in the background appears to be eating something.",
+        "summary_ru": "Женщина с вьющимися волосами стоит внутри дома, одетая в пижаму с изображением панд и держит разноцветные шары. На заднем плане виден ребенок, который что-то ест.",
+        "description": "The image shows a woman with curly hair standing indoors wearing a panda-patterned outfit and holding colorful balloons. She appears to be in a home environment, possibly preparing for an event or outing. A child is visible in the background, sitting on the floor and eating something. The room has simple decor with a chair and some items scattered around.",
+        "description_ru": "На изображении показана женщина с вьющимися волосами, стоящая внутри дома и одетая в пижаму с изображением панды, держит разноцветные шары. Она находится в домашней обстановке, возможно, готовится к какому-то мероприятию или поездке. На заднем плане виден ребенок, сидящий на полу и что-то ест. В комнате простая мебель: стул и некоторые предметы.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "woman",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "panda-patterned outfit",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "balloons",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "home environment",
+                "category": "scene",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

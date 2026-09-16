@@ -1,0 +1,120 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0212.HEIC",
+    "file_name": "IMG_0212.HEIC",
+    "file_size": 1909647,
+    "mtime": 1674221167.012,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playroom",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "building_blocks",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "play_mat",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "books",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f6d4891bb9c48378",
+    "faces": [
+        {
+            "bbox": [
+                630,
+                787,
+                686,
+                879
+            ],
+            "face_id": "FACE_ID_124",
+            "name": "FACE_ID_124",
+            "confidence": 0.6906927824020386
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is sitting on a colorful play mat surrounded by various toys and building blocks in a room.",
+        "summary_ru": "Дети сидят на ярком игровом коврике среди различных игрушек и блоков в комнате.",
+        "description": "The image shows a child sitting on a vibrant, patterned play mat. The child is surrounded by an assortment of toys including building blocks, cars, and other colorful items. There are also some books and decorative objects on shelves in the background. The room appears to be a playroom or a child's bedroom with a playful and creative atmosphere.",
+        "description_ru": "На изображении виден ребенок, сидящий на ярком игровом коврике. Ребенок окружён разнообразными игрушками, включая блоки для сборки, автомобили и другие яркие предметы. На заднем плане также видны книги и декоративные предметы на полках. Спальня или игровая комната выглядит веселой и творческой.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playroom",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "building_blocks",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "play_mat",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "books",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

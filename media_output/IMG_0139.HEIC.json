@@ -1,0 +1,90 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0139.HEIC",
+    "file_name": "IMG_0139.HEIC",
+    "file_size": 1577411,
+    "mtime": 1674221167.709,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b7856e748acab8c1",
+    "faces": [
+        {
+            "bbox": [
+                958,
+                161,
+                1146,
+                399
+            ],
+            "face_id": "FACE_ID_80",
+            "name": "FACE_ID_80",
+            "confidence": 0.84366774559021
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на диване в гостиной.",
+        "description": "The image shows a young child sitting on a gray couch, reaching out to interact with several toy cars placed in front of them. The toys include various types such as monster trucks and other colorful vehicles. The setting appears to be a living room with modern furniture including a white cabinet and a television stand visible in the background.",
+        "description_ru": "На изображении виден маленький ребенок, сидящий на сером диване и играющий с несколькими игрушечными машинками. Машинки включают в себя различные типы, такие как монстр-траки и другие яркие автомобили. На заднем плане видна современная мебель, включая белый шкаф и телевизор на стенде.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0166.HEIC",
+    "file_name": "IMG_0166.HEIC",
+    "file_size": 2397816,
+    "mtime": 1674221167.54,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "living_room",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti_party",
+            "category": "event",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "c12abfe4e2db1a21",
+    "faces": [
+        {
+            "bbox": [
+                1190,
+                650,
+                1339,
+                761
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.6688904762268066
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is lying on the floor amidst colorful confetti and scattered oranges in a living room setting.",
+        "summary_ru": "Дети лежат на полу среди разноцветных конфетти и оранжевых фруктов в гостиной.",
+        "description": "The image shows a child lying on the floor, surrounded by colorful confetti and several oranges. The setting appears to be a living room with a gray sectional sofa in the background. There are also some stuffed animals and a shopping bag visible near the sofa. The child is wearing jeans and a shirt with a superhero logo.",
+        "description_ru": "На изображении виден ребенок, лежащий на полу, окруженный разноцветными конфетти и несколькими апельсинами. На заднем плане видна серая угловая диванная мебель в гостиной. Также рядом с диваном видны несколько мягких игрушек и пакет с покупками.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "living_room",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti_party",
+                "category": "event",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

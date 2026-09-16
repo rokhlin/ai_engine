@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0116.HEIC",
+    "file_name": "IMG_0116.HEIC",
+    "file_size": 2391241,
+    "mtime": 1674221167.777,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "eating",
+            "category": "event",
+            "confidence": 0.8
+        },
+        {
+            "tag": "fruit",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1f9e10fc88e86c2",
+    "faces": [
+        {
+            "bbox": [
+                408,
+                334,
+                694,
+                714
+            ],
+            "face_id": "FACE_ID_76",
+            "name": "FACE_ID_76",
+            "confidence": 0.8609968423843384
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is eating a piece of fruit in an indoor setting.",
+        "summary_ru": "Маленький ребенок ест кусочек фрукта в помещении.",
+        "description": "На фотографии изображена маленькая девочка, одетая в зеленую пижаму. Она стоит на полу и улыбается, держа в руке кусочек фрукта. В заднем плане видна сумка с арбузом.",
+        "description_ru": "На фотографии изображена маленькая девочка, одетая в зеленую пижаму. Она стоит на полу и улыбается, держа в руке кусочек фрукта. В заднем плане видна сумка с арбузом.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "eating",
+                "category": "event",
+                "confidence": 0.8
+            },
+            {
+                "tag": "fruit",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

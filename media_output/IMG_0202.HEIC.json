@@ -1,0 +1,130 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0202.HEIC",
+    "file_name": "IMG_0202.HEIC",
+    "file_size": 1842361,
+    "mtime": 1674221168.199,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Christmas tree",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "chocolate bars",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "table",
+            "category": "objects",
+            "confidence": 0.5
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.4
+        },
+        {
+            "tag": "adult",
+            "category": "people",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f33664c90418be3f",
+    "faces": [
+        {
+            "bbox": [
+                943,
+                390,
+                1087,
+                627
+            ],
+            "face_id": "FACE_ID_123",
+            "name": "FACE_ID_123",
+            "confidence": 0.8249214291572571
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is interacting with a small Christmas tree decorated with oranges and chocolate bars on a table.",
+        "summary_ru": "Дети играют с маленьким новогодним деревом, украшенным апельсинами и шоколадными батончиками на столе.",
+        "description": "На фото изображен ребенок, который держит в руках небольшое искусственное новогоднее дерево, увенчанное оранжевыми фруктами. На переднем плане видна стеклянная тарелка с шоколадными батончиками и рядом с ней стол, на котором также лежит несколько апельсинов. В заднем плане виден взрослый человек в белой футболке и джинсах, который стоит спиной к камере.",
+        "description_ru": "На фото изображен ребенок, который держит в руках небольшое искусственное новогоднее дерево, увенчанное оранжевыми фруктами. На переднем плане видна стеклянная тарелка с шоколадными батончиками и рядом с ней стол, на котором также лежит несколько апельсинов. В заднем плане виден взрослый человек в белой футболке и джинсах, который стоит спиной к камере.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Christmas tree",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "chocolate bars",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "table",
+                "category": "objects",
+                "confidence": 0.5
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.4
+            },
+            {
+                "tag": "adult",
+                "category": "people",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

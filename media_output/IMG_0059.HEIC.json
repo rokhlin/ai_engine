@@ -1,0 +1,120 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0059.HEIC",
+    "file_name": "IMG_0059.HEIC",
+    "file_size": 1955642,
+    "mtime": 1674221168.238,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "patterned carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "storage boxes",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "audio equipment",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1d0cea7d34d90a2",
+    "faces": [
+        {
+            "bbox": [
+                740,
+                531,
+                958,
+                763
+            ],
+            "face_id": "FACE_ID_48",
+            "name": "FACE_ID_48",
+            "confidence": 0.8388814330101013
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is playing with toy vehicles on a patterned carpet.",
+        "summary_ru": "Дети играют с игрушечными автомобилями на ковре с узором.",
+        "description": "The image shows a young child, dressed in a striped shirt, engaging with various objects on the floor. The child is surrounded by toy vehicles and what appear to be cotton swabs scattered across a patterned carpet. In the background, there are storage boxes featuring cityscapes and a piece of audio equipment on a cabinet.",
+        "description_ru": "На изображении виден ребенок в полосатой футболке, играющий с различными предметами на полу. Ребенок окружён игрушечными автомобилями и что-то похожее на ватах, рассеянных по ковру с узором. На заднем плане видны коробки для хранения с изображением городских пейзажей и аудиооборудование на шкафу.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "patterned carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "storage boxes",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "audio equipment",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

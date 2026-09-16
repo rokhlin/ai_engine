@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0011_1.HEIC",
+    "file_name": "IMG_0011_1.HEIC",
+    "file_size": 1577712,
+    "mtime": 1674221166.923,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "baby",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "play mat",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "feace33cd4808a8b",
+    "faces": [
+        {
+            "bbox": [
+                539,
+                675,
+                913,
+                995
+            ],
+            "face_id": "FACE_ID_38",
+            "name": "FACE_ID_38",
+            "confidence": 0.7742195129394531
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is lying on a colorful play mat with toys around them.",
+        "summary_ru": "Младенец лежит на яркой игровой коврике с игрушками вокруг.",
+        "description": "The image shows a baby wearing a gray shirt with the year '2017' printed on it, lying on their back on a vibrant play mat. The mat is decorated with various animal illustrations and has hanging toys attached to its frame. The baby appears to be reaching out towards one of the toys.",
+        "description_ru": "На изображении виден младенец в серой футболке с надписью '2017', лежащий на ярком игровом коврике, украшенном иллюстрациями животных. На коврике также установлены подвешенные игрушки. Младенец вытягивает руку в сторону одной из игрушек.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое естественное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "baby",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "play mat",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

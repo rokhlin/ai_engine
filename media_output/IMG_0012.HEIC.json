@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0012.HEIC",
+    "file_name": "IMG_0012.HEIC",
+    "file_size": 2037007,
+    "mtime": 1674221167.474,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "woman",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.85
+        },
+        {
+            "tag": "panda pajamas",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "Minnie Mouse ears",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "toy sword",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "acc59e1590b31eda",
+    "faces": [
+        {
+            "bbox": [
+                852,
+                469,
+                1051,
+                743
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8772841095924377
+        },
+        {
+            "bbox": [
+                349,
+                1302,
+                468,
+                1459
+            ],
+            "face_id": "FACE_ID_39",
+            "name": "FACE_ID_39",
+            "confidence": 0.7192414999008179
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman dressed in panda-themed pajamas with Minnie Mouse ears is standing indoors next to a young child who appears to be holding a toy sword. The setting seems casual and playful.",
+        "summary_ru": "Женщина в пижаме с изображением панд и наушниками Минни Маус стоит внутри рядом с маленьким ребенком, который держит игрушечный меч. Среда кажется непринужденной и забавной.",
+        "description": "The image shows a woman dressed in panda-themed pajamas with Minnie Mouse ears standing indoors next to a young child who appears to be holding a toy sword. The setting seems casual and playful, suggesting a lighthearted moment between the two individuals. The woman is wearing a black shirt and pants adorned with panda prints, while the child is dressed in dark clothing.",
+        "description_ru": "На изображении показана женщина в пижаме с изображением панд и наушниками Минни Маус, стоящая внутри рядом с маленьким ребенком, который держит игрушечный меч. Среда кажется непринужденной и забавной, что указывает на веселый момент между двумя людьми. Женщина одета в черную рубашку и брюки с изображением панд, а ребенок одет в темную одежду.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "woman",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.85
+            },
+            {
+                "tag": "panda pajamas",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "Minnie Mouse ears",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "toy sword",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

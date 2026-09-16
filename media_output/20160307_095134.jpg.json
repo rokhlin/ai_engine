@@ -1,0 +1,108 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_095134.jpg",
+    "file_name": "20160307_095134.jpg",
+    "file_size": 2703415,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "bear statue",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "person lying down",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "outdoor setting",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "selfie stick",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:51:33",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00102",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "aac2713d92e91b5a",
+    "faces": [
+        {
+            "bbox": [
+                834,
+                1614,
+                1056,
+                1895
+            ],
+            "face_id": "FACE_ID_125",
+            "name": "FACE_ID_125",
+            "confidence": 0.8467109203338623
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is lying on a large bear statue in an outdoor setting.",
+        "summary_ru": "Человек лежит на большом статуе медведя в открытом месте.",
+        "description": "На фотографии изображена человек, лежащий на огромной статуе медведя. Он одет в клетчатую рубашку и джинсы, а также носит кепку. В руках у него трость для селфи. Фоном служит открытый пространство с деревьями и другими элементами инфраструктуры.",
+        "description_ru": "На фотографии изображена человек, лежащий на огромной статуе медведя. Он одет в клетчатую рубашку и джинсы, а также носит кепку. В руках у него трость для селфи. Фоном служит открытый пространство с деревьями и другими элементами инфраструктуры.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "bear statue",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "person lying down",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "outdoor setting",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "selfie stick",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 9:51 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.001 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 9:51 утра с помощью камеры Samsung SM-N900 при ISO 50 и выдержке 0,001 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_002",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_dcglwuci.jpg",
+        "reasoning": "All images appear to be of the same scene with a similar composition and lighting. The subject's eyes are closed in all frames, which might be intentional for privacy or a specific pose. There is no motion blur, defocus, or bad exposure observed in any of these images. Since there are no significant differences between them, we can choose one based on the best visual quality. In this case, 'be_media_dcglwuci.jpg' seems to have the least amount of noise and the most balanced lighting among the three frames provided.",
+        "reasoning_ru": "Все изображения показывают одинаковую сцену с похожей композицией и освещением. У субъекта закрыты глаза в всех кадрах, что может быть намеренно для приватности или специфического позирования. В этих изображениях нет размытости,keh несредственном фокусе или плохой экспозиции. Поскольку между ними нет значительных отличий, мы можем выбрать один на основе лучшего качества визуального восприятия. В данном случае 'be_media_dcglwuci.jpg' кажется иметь наименьшее количество шума и наиболее сбалансированное освещение среди трех предоставленных кадров.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

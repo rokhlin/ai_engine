@@ -1,0 +1,22 @@
+{
+    "file_path": "/app/tests/test_local_model.py",
+    "file_name": "test_local_model.py",
+    "file_size": 9344,
+    "mtime": 1788424534.3598819,
+    "media_type": "video",
+    "content_type": "other",
+    "tags": [],
+    "video_metadata": {
+        "duration": 10.0
+    },
+    "face_timeline": {},
+    "gemini_analysis": {
+        "summary": "A nice video",
+        "summary_ru": "Хорошее видео",
+        "transcription": "Whisper text",
+        "transcription_ru": "Текст Whisper",
+        "timeline_events": [],
+        "content_type": "other",
+        "tags": []
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211928.jpg",
+    "file_name": "20160321_211928.jpg",
+    "file_size": 745295,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "people",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:19:27",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 200,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e2b9434d1cb2b45e",
+    "faces": [
+        {
+            "bbox": [
+                1130,
+                1108,
+                1460,
+                1550
+            ],
+            "face_id": "FACE_ID_301",
+            "name": "FACE_ID_301",
+            "confidence": 0.844633936882019
+        },
+        {
+            "bbox": [
+                1611,
+                1542,
+                2028,
+                1794
+            ],
+            "face_id": "FACE_ID_303",
+            "name": "FACE_ID_303",
+            "confidence": 0.7016056180000305
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful moment between two individuals in an indoor setting.",
+        "summary_ru": "Увлекательный момент между двумя людьми в помещении.",
+        "description": "Двое людей позируют на камеру, один из них носит афро-каре и солнцезащитные очки, другой одет в красную кофту. Они находятся в комнате с белыми стенами и полом из керамической плитки.",
+        "description_ru": "Два человека позируют на камеру, один из них носит афро-каре и солнцезащитные очки, другой одет в красную кофту. Они находятся в комнате с белыми стенами и полом из керамической плитки.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "people",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016 at 9:19 PM using a Samsung SM-N900 camera with an ISO of 200 and an exposure time of 0.05882 seconds.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_013",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_gg8c2f0u.jpg",
+        "reasoning": "The best frame is 'be_media_gg8c2f0u.jpg' because it has no motion blur, which suggests a steady camera or minimal movement. The subject's eyes are open and clear, indicating that the photo was taken with proper focus on the subject. There is also no indication of defocus or bad exposure in this image compared to 'be_media_l3cqf1rc.jpg', where there is noticeable motion blur due to either a shaky camera or rapid movement during capture.",
+        "reasoning_ru": "Лучшим кадром является 'be_media_gg8c2f0u.jpg' из-за отсутствия размытия, что указывает на стабильность камеры или минимальное движение. Глаза у субъекта открыты и четкие, что указывает на правильный фокус на субъекте. Также нет признаковkeh, defocus, or bad exposure observed in this image compared to 'be_media_l3cqf1rc.jpg', где есть заметное размытие из-за быстрого движения камеры или быстрого движения субъекта.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_084742.jpg",
+    "file_name": "20160307_084742.jpg",
+    "file_size": 3536582,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "red_flower",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "bare_tree",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "blue_sky",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "pathway",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "greenery",
+            "category": "scene",
+            "confidence": 0.65
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 08:47:41",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00123",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a5eb31a954fc684a",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A vibrant red flower stands out against a backdrop of bare tree branches and a clear blue sky.",
+        "summary_ru": "Ярко-красная цветок выделяется на фоне обнаженных ветвей дерева и ясного голубого неба.",
+        "description": "The image captures a striking red flower with multiple petals, prominently displayed in the foreground. The flower is surrounded by bare tree branches that extend across the frame, creating a stark contrast against the clear blue sky above. In the background, there appears to be a pathway and some greenery, suggesting an outdoor setting.",
+        "description_ru": "На изображении запечатлен ярко-красный цветок с множеством лепестков, который выделяется в переднем плане. Цветок окружён обнаженными ветвями дерева, которые распространяются по всему кадру, создавая контраст с чистым голубым небом сверху. На заднем плане видны путь и зелень, что указывает на открытую местность.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "morning",
+        "time_of_day_ru": "утро",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "red_flower",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "bare_tree",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "blue_sky",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "pathway",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "greenery",
+                "category": "scene",
+                "confidence": 0.65
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 8:47:41 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00123 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 8:47:41 утра с использованием камеры Samsung SM-N900 при ISO 50 и выдержке 0.00123 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_001",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_fu088nz9.jpg",
+        "reasoning": "Both images are of the same scene and appear to be taken in similar conditions. There is no significant difference between them that would justify preferring one over the other based on technical defects or changes. However, if we have to choose a 'best' image for consistency and lack of visible issues, both images seem equally good as they do not exhibit any motion blur, closed eyes, defocus, or bad exposure.",
+        "reasoning_ru": "Оба кадра снятые одной и той же сцены и похожи друг на друга в условиях съемки. Нет значительных различий между ними, которые бы позволили предпочесть один другой на основе технических дефектов или изменений. Однако если нужно выбрать 'лучший' кадр для сохранности и отсутствия видимых проблем, оба кадра выглядят одинаково хорошо, так как не демонстрируют размытости, закрытых глаз, размытия или плохой экспозиции.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

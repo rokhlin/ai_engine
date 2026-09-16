@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0024_1.HEIC",
+    "file_name": "IMG_0024_1.HEIC",
+    "file_size": 1375597,
+    "mtime": 1674221166.467,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "baby",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "ice_cream_cone",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "play_mat",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "adult_hand",
+            "category": "people",
+            "confidence": 0.6
+        },
+        {
+            "tag": "baby_bouncer",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "9a96fa91aad8cb21",
+    "faces": [
+        {
+            "bbox": [
+                903,
+                308,
+                1315,
+                789
+            ],
+            "face_id": "FACE_ID_38",
+            "name": "FACE_ID_38",
+            "confidence": 0.7872137427330017
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is lying on a colorful play mat, reaching out towards an ice cream cone being held by an adult.",
+        "summary_ru": "Младенец лежит на яркой игровой коврике и протягивает руку к мороженому в вафельной коробке, которое держит взрослый.",
+        "description": "The image captures a baby lying on its stomach on a vibrant play mat with various animal designs. The baby is reaching out towards an ice cream cone being held by an adult's hand. The background includes a baby bouncer and some toys scattered around the room, suggesting a home environment. The lighting appears to be natural daylight coming through a window.",
+        "description_ru": "На изображении запечатлено младенца, лежащего на животе на ярком игровом коврике с различными звериным дизайном. Младенец протягивает руку к мороженому в вафельной коробке, которое держит рука взрослого. На заднем плане видны детская коляска и игрушки, разбросанные по комнате, что указывает на домашнюю обстановку. Освещение кажется естественным дневным светом, проходящим через окно.",
+        "environment": "indoor",
+        "lighting": "natural_daylight",
+        "lighting_ru": "дневной свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "baby",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "ice_cream_cone",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "play_mat",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "adult_hand",
+                "category": "people",
+                "confidence": 0.6
+            },
+            {
+                "tag": "baby_bouncer",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

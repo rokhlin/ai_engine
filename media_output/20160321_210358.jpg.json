@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210358.jpg",
+    "file_name": "20160321_210358.jpg",
+    "file_size": 843024,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "smartphone",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:03:57",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "eaf09b87c7582ca2",
+    "faces": [
+        {
+            "bbox": [
+                1422,
+                1151,
+                1771,
+                1658
+            ],
+            "face_id": "FACE_ID_280",
+            "name": "FACE_ID_280",
+            "confidence": 0.8144800066947937
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is taking a selfie in an indoor setting.",
+        "summary_ru": "Человек делает селфи в помещении.",
+        "description": "На фотографии изображён человек, который держит свой смартфон и позирует для селфи. Он находится в комнате, на заднем плане видны стулья и полки с различными предметами. Человек одет в футболку и джинсы.",
+        "description_ru": "На фотографии изображён человек, который держит свой смартфон и позирует для селфи. Он находится в комнате, на заднем плане видны стулья и полки с различными предметами. Человек одет в футболку и джинсы.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "smartphone",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016 at 9:03 PM with a Samsung SM-N900 camera using an ISO of 250 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:03 вечера с помощью камеры Samsung SM-N900 при ISO 250 и выдержке около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

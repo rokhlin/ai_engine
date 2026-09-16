@@ -1,0 +1,140 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8427_1.HEIC",
+    "file_name": "IMG_8427_1.HEIC",
+    "file_size": 2708143,
+    "mtime": 1641882164.222,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "relaxation",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "outdoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "family",
+            "category": "content_type",
+            "confidence": 0.95
+        },
+        {
+            "tag": "woman and child",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "wooden bench",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "thatched umbrella",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "palm trees",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "stacked lounge chairs",
+            "category": "objects",
+            "confidence": 0.85
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b634330e9ff10ca3",
+    "faces": [
+        {
+            "bbox": [
+                513,
+                909,
+                598,
+                1005
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8603206276893616
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman and a child are relaxing on a wooden bench under a thatched umbrella in an outdoor setting with palm trees and stacked lounge chairs. The scene suggests a leisurely moment at a resort or park.",
+        "summary_ru": "Женщина и ребенок отдыхают на деревянной скамейке под соломенной зонтиком в открытой местности с пальмами и стопками лежаков. Сцена указывает на приятный момент отдыха в отеле или парке.",
+        "description": "The image shows a woman and a child sitting on a wooden bench under a thatched umbrella in an outdoor area with palm trees and stacked lounge chairs. The woman is wearing sunglasses, a light-colored hoodie, white pants, and sandals, while the child is dressed in a dark jacket and gray pants. They appear to be enjoying a relaxed moment together.",
+        "description_ru": "На изображении видна женщина и ребенок, сидящие на деревянной скамейке под соломенной зонтиком в открытой местности с пальмами и стопками лежаков. Женщина одета в солнцезащитные очки, светлую худи, белые брюки и сандалии, а ребенок — в темную куртку и серые брюки. Они кажутся, что наслаждаются приятным моментом отдыха вместе.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "relaxation",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "outdoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "family",
+                "category": "content_type",
+                "confidence": 0.95
+            },
+            {
+                "tag": "woman and child",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "wooden bench",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "thatched umbrella",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "palm trees",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "stacked lounge chairs",
+                "category": "objects",
+                "confidence": 0.85
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

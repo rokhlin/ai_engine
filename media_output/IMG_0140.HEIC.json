@@ -1,0 +1,90 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0140.HEIC",
+    "file_name": "IMG_0140.HEIC",
+    "file_size": 1413764,
+    "mtime": 1674221166.539,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a7c660239da69b1e",
+    "faces": [
+        {
+            "bbox": [
+                1147,
+                160,
+                1330,
+                397
+            ],
+            "face_id": "FACE_ID_80",
+            "name": "FACE_ID_80",
+            "confidence": 0.8468719720840454
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на диване в гостиной.",
+        "description": "The image shows a young child sitting on a gray couch, surrounded by various colorful toy cars. The child appears to be engaged in play, reaching out towards one of the toys. The background includes household items such as a cabinet with drawers and some hats hanging on hooks near a door. The setting suggests a casual home environment.",
+        "description_ru": "На изображении виден маленький ребенок, сидящий на сером диване, окруженный разноцветными игрушечными машинками. Ребенок кажется погруженным в игру, протягивая руку к одному из игрушек. На заднем плане видны домашние предметы, такие как шкаф с ящиками и несколько кепок на гвоздях возле двери. Среда напоминает обычную домашнюю обстановку.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

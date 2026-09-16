@@ -1,0 +1,130 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211547.jpg",
+    "file_name": "20160321_211547.jpg",
+    "file_size": 662426,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "people",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "headphones",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:15:46",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 125,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bced9892c2c0f3c3",
+    "faces": [
+        {
+            "bbox": [
+                1774,
+                596,
+                2190,
+                1203
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8624212741851807
+        },
+        {
+            "bbox": [
+                2520,
+                432,
+                2942,
+                999
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8598523736000061
+        },
+        {
+            "bbox": [
+                912,
+                435,
+                1382,
+                1031
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8569251298904419
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A group of three individuals are sitting closely together on a couch, smiling and posing for the photo. The person in the middle is wearing headphones and a black jacket with a white 'K' on it.",
+        "summary_ru": "Группа из трех человек сидит вместе на диване, улыбаясь и позируя для фото. Человек в середине одет в наушники и черную куртку с белым 'K' на ней.",
+        "description": "The photo captures a casual and friendly moment among three individuals sitting on a couch. They are all wearing sunglasses, with the person in the middle also sporting headphones. The setting appears to be indoors, likely in someone's home or living room. The individuals seem relaxed and happy, suggesting a close relationship or a fun gathering.",
+        "description_ru": "Фотография запечатлела дружелюбный и непринужденный момент среди трех человек, сидящих на диване. Все они одеты в солнцезащитные очки, а человек в середине также надевает наушники. Среди них находится домашний или гостиничный интерьер. Люди кажутся расслабленными и счастливыми, что указывает на близкие отношения или веселую встречу.",
+        "environment": "indoor",
+        "lighting": "soft",
+        "lighting_ru": "мягкий свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "people",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "headphones",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:15 PM using a Samsung SM-N900 camera with an ISO of 125 and an exposure time of 0.06667 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:15 вечера с помощью камеры Samsung SM-N900 с ISO 125 и выдержкой 0.06667 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_011",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_xfikryec.jpg",
+        "reasoning": "Both images are overexposed to a similar degree and do not exhibit any significant motion blur or closed eyes. However, the first image (be_media_xfikryec.jpg) has slightly better exposure compared to the second one (be_media_aktdnhkh.jpg), making it the best frame among the two provided. The slight overexposure in both images is not severe enough to significantly impact the overall quality or usability of the photo for most purposes.",
+        "reasoning_ru": "Оба изображения имеют схожий уровень переэкспозиции и не демонстрируют значительных следов размытия или закрытых глаз. Однако первое изображение (be_media_xfikryec.jpg) имеет несколько лучше экспозицию по сравнению со вторым (be_media_aktdnhkh.jpg), что делает его лучшим кадром среди двух предоставленных. Слабая переэкспозиция в обоих изображениях не достаточно серьезна, чтобы значительно повлиять на общую качество или использование фотографии для большинства целей.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

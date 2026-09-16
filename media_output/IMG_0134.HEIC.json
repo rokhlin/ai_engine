@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0134.HEIC",
+    "file_name": "IMG_0134.HEIC",
+    "file_size": 1572346,
+    "mtime": 1674221166.286,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "playing",
+            "category": "mood",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ad8464b6dad9d213",
+    "faces": [
+        {
+            "bbox": [
+                1052,
+                167,
+                1203,
+                355
+            ],
+            "face_id": "FACE_ID_45",
+            "name": "FACE_ID_45",
+            "confidence": 0.8321758508682251
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на диване в гостиной.",
+        "description": "The image shows a young child, dressed in a white tank top with colorful graphics, sitting on the edge of a gray sectional couch. The child is holding and playing with a yellow toy car. There are other toy cars scattered around the couch, including a red one and some monster trucks. The background reveals part of a living room with light-colored wooden flooring, a television stand, and various household items.",
+        "description_ru": "На изображении показан маленький ребенок, одетый в белую майку с цветными рисунками, сидящий на краю серого секционного дивана. Ребенок держит и играет с желтым игрушечным автомобилем. Вокруг дивана разбросаны другие игрушечные машины, включая красную и несколько монстр-траков. На заднем плане видна часть гостиной с светлым деревянным полом, телевизионной консолью и различными бытовыми предметами.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "природный свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "playing",
+                "category": "mood",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "file_path": "Z:\\2016-10-22 21-18-51.JPG",
+    "file_name": "2016-10-22 21-18-51.JPG",
+    "file_size": 1489176,
+    "mtime": 1787230450.024791,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sea",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "rock",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "balance",
+            "category": "mood",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b9c6ac43d825c6dc",
+    "faces": [
+        {
+            "bbox": [
+                666,
+                358,
+                781,
+                510
+            ],
+            "face_id": "FACE_ID_14",
+            "name": "FACE_ID_14",
+            "confidence": 0.842998206615448
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is playfully balancing on a rock by the sea.",
+        "summary_ru": "Человек играет и балансирует на камне у моря.",
+        "description": "На фотографии изображен человек, который позирует, стоя на одной ноге на большом камне у берега. Вода вокруг камня и человека небольшая, а за ним виден отдаленный горизонт с морем и парусными судами.",
+        "description_ru": "На фотографии изображен человек, который позирует, стоя на одной ноге на большом камне у берега. Вода вокруг камня и человека небольшая, а за ним виден отдаленный горизонт с морем и парусными судами.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sea",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "rock",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "balance",
+                "category": "mood",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

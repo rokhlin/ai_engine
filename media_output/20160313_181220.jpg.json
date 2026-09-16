@@ -1,0 +1,88 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160313_181220.jpg",
+    "file_name": "20160313_181220.jpg",
+    "file_size": 1722515,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "book",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "keychain",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "renault",
+            "category": "brand",
+            "confidence": 0.9
+        },
+        {
+            "tag": "israel",
+            "category": "content_type",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:13 18:12:20",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.01136",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "85f09e939663916d",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A book titled \"Новая жизнь в Израиле\" with a keychain featuring the Renault logo attached to it. The book is placed on a patterned surface.",
+        "summary_ru": "Книга с названием \"Новая жизнь в Израиле\" и ключницей с логотипом Renault, прикрепленной к ней. Книга находится на поверхности с узором.",
+        "description": "The image shows a book with the title in Russian: \"Новая жизнь в Израиле\" (New Life in Israel). The cover features an image of a landscape and some text on the right side, including additional information about new immigrants. A Renault keychain is attached to the book.",
+        "description_ru": "На изображении видна книга с названием на русском языке: \"Новая жизнь в Израиле\" (New Life in Israel). Обложка книги содержит изображение ландшафта и текст на правой стороне, включая дополнительную информацию о новых иммигрантах. Ключница с логотипом Renault прикреплена к книге.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "book",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "keychain",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "renault",
+                "category": "brand",
+                "confidence": 0.9
+            },
+            {
+                "tag": "israel",
+                "category": "content_type",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 13, 2016, at 18:12:20 using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.01136 seconds.",
+        "exif_analysis_ru": "Фотография была сделана 13 марта 2016 года в 18:12:20 с использованием камеры Samsung SM-N900 при ISO 50 и выдержке 0.01136 секунды."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_084726.jpg",
+    "file_name": "20160307_084726.jpg",
+    "file_size": 3345306,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "tree",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "red flowers",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "clear blue sky",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "paved path",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "benches",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 08:47:26",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00096",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "c6cc8ebc3894353e",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A park scene with a tree in the foreground featuring sparse branches and red flowers against a clear blue sky.",
+        "summary_ru": "Пейзаж парка с деревом в переднем плане, имеющим разреженные ветви и красные цветы на фоне ясного голубого неба.",
+        "description": "The image captures a park setting with a tree in the foreground. The tree has sparse branches and is adorned with red flowers, possibly indicating it's spring or early summer. The background features a clear blue sky, some greenery, and a paved path leading to benches on the right side of the frame.",
+        "description_ru": "На изображении показан парк с деревом в переднем плане. Дерево имеет разреженные ветви и украшено красными цветами, что может указывать на весну или раннюю летнюю пору. На заднем плане виден ясный голубой небо, зелень и пешая дорожка с лавочками справа.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "природное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "morning",
+        "time_of_day_ru": "утро",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "tree",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "red flowers",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "clear blue sky",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "paved path",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "benches",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 8:47 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00096 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 8:47 утра с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой 0,00096 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

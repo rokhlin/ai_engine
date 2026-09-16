@@ -1,0 +1,120 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0064.HEIC",
+    "file_name": "IMG_0064.HEIC",
+    "file_size": 1943519,
+    "mtime": 1674221167.699,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction equipment",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "patterned carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "entertainment unit",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "abc8a481463fb51f",
+    "faces": [
+        {
+            "bbox": [
+                923,
+                574,
+                1080,
+                769
+            ],
+            "face_id": "FACE_ID_50",
+            "name": "FACE_ID_50",
+            "confidence": 0.8996168971061707
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on a patterned carpet playing with toy construction equipment and cotton swabs.",
+        "summary_ru": "Маленький ребенок сидит на ковре и играет с игрушечной строительной техникой и ватными палочками.",
+        "description": "The image shows a young child sitting on the floor in what appears to be a living room. The child is wearing a striped shirt and gray pants, and they are surrounded by various items including toy construction equipment, cotton swabs scattered across the carpet, and storage boxes with city-themed designs (e.g., London Bridge). In the background, there is an entertainment unit with electronic devices such as a soundbar and a receiver. The setting suggests a casual home environment.",
+        "description_ru": "На изображении виден маленький ребенок, сидящий на полу в гостиной. Ребенок одет в полосатую футболку и серые брюки, вокруг него разбросаны различные предметы: игрушечная строительная техника, ватные палочки, рассеянные по ковру, а также контейнеры для хранения с изображениями городских достопримечательностей (например, Лондонского моста). На заднем плане видна мебель для развлечений с электронными устройствами, такими как звуковая панель и ресивер. Обстановка указывает на домашнюю обстановку.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction equipment",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "patterned carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "entertainment unit",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

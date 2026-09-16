@@ -1,0 +1,78 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0030.HEIC",
+    "file_name": "IMG_0030.HEIC",
+    "file_size": 2622013,
+    "mtime": 1674221167.596,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "baby foot",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "adult lap",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "close-up",
+            "category": "content_type",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ec9c72e09bce04e3",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A close-up of a baby's foot resting on an adult's lap.",
+        "summary_ru": "Близкий снимок ноги младенца, лежащей на коленях взрослого человека.",
+        "description": "На изображении показано детальное изображение маленькой ступни ребенка. Нога расположена на черном тканевом материале, вероятно, на коленях взрослого. Снимок сделан в близком фокусе, что позволяет увидеть кожу и пальцы ноги детеныша.",
+        "description_ru": "На изображении показано детальное изображение маленькой ступни ребенка. Нога расположена на черном тканевом материале, вероятно, на коленях взрослого. Снимок сделан в близком фокусе, что позволяет увидеть кожу и пальцы ноги детеныша.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "baby foot",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "adult lap",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "close-up",
+                "category": "content_type",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

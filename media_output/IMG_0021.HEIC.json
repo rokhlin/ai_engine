@@ -1,0 +1,108 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0021.HEIC",
+    "file_name": "IMG_0021.HEIC",
+    "file_size": 3608437,
+    "mtime": 1674221166.254,
+    "media_type": "photo",
+    "content_type": "documents",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "laptop",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "computer",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "screen",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "keyboard",
+            "category": "objects",
+            "confidence": 0.5
+        },
+        {
+            "tag": "office",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "8ebbf067514ea145",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A child is interacting with a laptop in what appears to be an office or study environment.",
+        "summary_ru": "Дети взаимодействуют с ноутбуком в офисе или учебной среде.",
+        "description": "На изображении виден ребенок, который смотрит на экран ноутбука. На мониторе отображается интерфейс Google Maps и другие приложения, такие как почта и браузер. Ребенок дотрагивается до клавиатуры ноутбука, что указывает на активное участие в деятельности на компьютере.",
+        "description_ru": "На изображении виден ребенок, который смотрит на экран ноутбука. На мониторе отображается интерфейс Google Maps и другие приложения, такие как почта и браузер. Ребенок дотрагивается до клавиатуры ноутбука, что указывает на активное участие в деятельности на компьютере.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "documents",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "laptop",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "computer",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "screen",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "keyboard",
+                "category": "objects",
+                "confidence": 0.5
+            },
+            {
+                "tag": "office",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

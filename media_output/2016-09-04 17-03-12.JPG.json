@@ -1,0 +1,130 @@
+{
+    "file_path": "Z:\\2016-09-04 17-03-12.JPG",
+    "file_name": "2016-09-04 17-03-12.JPG",
+    "file_size": 1359185,
+    "mtime": 1787230449.918791,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "balcony",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "coastal_view",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "mountains",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "sea",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "boats",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "palm_trees",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "c7b8f28f8e403971",
+    "faces": [
+        {
+            "bbox": [
+                615,
+                447,
+                825,
+                736
+            ],
+            "face_id": "FACE_ID_06",
+            "name": "FACE_ID_06",
+            "confidence": 0.8943779468536377
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is standing on a balcony overlooking a scenic coastal view with mountains in the background.",
+        "summary_ru": "Человек стоит на балконе и смотрит на панораму морского побережья с горами на заднем плане.",
+        "description": "The image shows an individual standing on a balcony, wearing casual summer attire including sunglasses and patterned shorts. The background features a beautiful coastal landscape with clear blue water, boats docked in the harbor, and distant mountains under a bright sky. There are palm trees visible near the railing of the balcony.",
+        "description_ru": "На изображении человек стоит на балконе и одет в летнюю одежду, включая солнцезащитные очки и шорты с узором. На заднем плане виден красивый пейзаж морского побережья с чистой голубой водой, яхтами в гавани и отдаленными горами под ясным небом. Видны пальмы возле ограждения балкона.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "природный свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "balcony",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "coastal_view",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "mountains",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "sea",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "boats",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "palm_trees",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

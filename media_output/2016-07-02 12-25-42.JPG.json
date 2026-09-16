@@ -1,0 +1,58 @@
+{
+    "file_path": "Z:\\2016-07-02 12-25-42.JPG",
+    "file_name": "2016-07-02 12-25-42.JPG",
+    "file_size": 398523,
+    "mtime": 1787230449.7927911,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a69c4df329e610ec",
+    "faces": [
+        {
+            "bbox": [
+                1092,
+                672,
+                1249,
+                920
+            ],
+            "face_id": "FACE_ID_02",
+            "name": "FACE_ID_02",
+            "confidence": 0.8580370545387268
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A dynamic, slightly blurry photo of a man in a red t-shirt and jeans striking an energetic pose against a large wall mural featuring two prominent wings.",
+        "summary_ru": "Динамичное, немного размытое фото мужчины в красной футболке и джинсах, который делает энергичную позу перед большой стеной с муралом, на котором изображены два больших крыла.",
+        "description": "The image captures a young man in mid-action. He is wearing a red t-shirt with a small white logo or text patch on the chest and blue jeans that are rolled up at the cuffs. His arms are outstretched, and his mouth is open as if he is shouting or cheering. The background consists of a large wall covered in what appears to be a painted mural or graffiti art. Two large, greyish wings with detailed feather patterns dominate the background behind him. There are also some faint markings on the wall, including what looks like the letters 'TROP' and possibly part of an arrow graphic.",
+        "description_ru": "На изображении запечатлен молодой человек в движении. Он одет в красную футболку с небольшим белым логотипом или текстовой наклейкой на груди и синие джинсы, подкатанные у манжет. Его руки вытянуты вперед, а рот открыт, словно он кричит или радуется. Фон представляет собой большую стену, покрытую тем, что похоже на нарисованный мурал или граффити-арт. За спиной доминируют два больших серых крыла с детализированным рисунком перьев. На стене также видны некоторые faint markings, включая буквы 'TROP' и, возможно, часть графического изображения стрелы.",
+        "environment": "outdoor",
+        "lighting": "natural daylight, diffuse",
+        "lighting_ru": "естественный дневной свет, рассеянный",
+        "weather": "clear to partly cloudy (inferred from lighting)",
+        "weather_ru": "ясно до частично облачно (выведено из освещения)",
+        "time_of_day": "daytime",
+        "time_of_day_ru": "днем",
+        "content_type": "other",
+        "tags": [],
+        "ocr_text": "TROP, GRS BUDKOH (approximate)",
+        "exif_analysis": "The EXIF data is null, so we rely on visual cues. The image has a slightly warm, possibly filtered look common in social media apps like Instagram or Snapchat.",
+        "exif_analysis_ru": "EXIF-данные отсутствуют, поэтому мы полагаемся на визуальные подсказки. Изображение имеет слегка теплый, возможно, отфильтрованный вид, характерный для приложений социальных сетей, таких как Instagram или Snapchat."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

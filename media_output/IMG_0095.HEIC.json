@@ -1,0 +1,78 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0095.HEIC",
+    "file_name": "IMG_0095.HEIC",
+    "file_size": 2642304,
+    "mtime": 1674221167.064,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f058c763986af986",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A young child is interacting with toy cars on a couch.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на диване.",
+        "description": "На фотографии изображена маленькая девочка, стоящая перед диваном и смотрящая на несколько игрушечных автомобилей. Девочка одета в белые трусики и имеет светлые волосы. На диване лежат разноцветные машины, которые она рассматривает.",
+        "description_ru": "На фотографии изображена маленькая девочка, стоящая перед диваном и смотрящая на несколько игрушечных автомобилей. Девочка одета в белые трусики и имеет светлые волосы. На диване лежат разноцветные машины, которые она рассматривает.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

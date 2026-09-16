@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0164.HEIC",
+    "file_name": "IMG_0164.HEIC",
+    "file_size": 2016657,
+    "mtime": 1674221166.362,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "animated_character",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "living_room",
+            "category": "content_type",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f5b08aa87d51c1d3",
+    "faces": [
+        {
+            "bbox": [
+                860,
+                703,
+                975,
+                825
+            ],
+            "face_id": "FACE_ID_84",
+            "name": "FACE_ID_84",
+            "confidence": 0.7684354782104492
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is standing in a room with colorful confetti scattered on the floor and a large screen displaying an animated character behind them.",
+        "summary_ru": "Маленький ребенок стоит в комнате с разбросанными по полу цветными конфетти и на заднем плане большой экран, на котором показывается анимированный персонаж.",
+        "description": "The image shows a young child standing in what appears to be a living room. The floor is covered with colorful confetti, suggesting some kind of celebration or party. Behind the child, there is a large screen displaying an animated character that looks like a cartoon fox wearing a purple shirt and red pants. The child is dressed casually in a Superman t-shirt and jeans, holding what seems to be a stuffed toy. In front of the child, on a piece of furniture (likely a TV stand), there are some electronic devices and boxes.",
+        "description_ru": "На изображении показан маленький ребенок, стоящий в комнате, похожей на гостиную. Пол покрыт разноцветными конфетти, что указывает на то, что здесь могло быть какое-то празднование или вечеринка. За ребенком виден большой экран с анимированным персонажем, который похож на мультяшного лиса в фиолетовой рубашке и красных брюках. Ребенок одет в обычную одежду: футболку Супермена и джинсы, держит игрушечную куклу. Впереди ребенка на мебели (вероятно, тумбочке под телевизор) находятся некоторые электронные устройства и коробки.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "animated_character",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "living_room",
+                "category": "content_type",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

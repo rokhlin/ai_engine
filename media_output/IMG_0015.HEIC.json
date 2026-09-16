@@ -1,0 +1,111 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0015.HEIC",
+    "file_name": "IMG_0015.HEIC",
+    "file_size": 3178855,
+    "mtime": 1674221166.888,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "woman",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "panda-patterned outfit",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a5d59e18c3313d63",
+    "faces": [
+        {
+            "bbox": [
+                705,
+                546,
+                904,
+                833
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8934600353240967
+        },
+        {
+            "bbox": [
+                167,
+                1585,
+                312,
+                1740
+            ],
+            "face_id": "FACE_ID_40",
+            "name": "FACE_ID_40",
+            "confidence": 0.762261152267456
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman is standing indoors wearing a panda-patterned outfit while holding something in her hands. A child is sitting on the floor nearby, appearing to be eating or playing with an object.",
+        "summary_ru": "Женщина стоит внутри дома в пижаме с рисунком панды и держит что-то в руках. Ребенок сидит на полу рядом, видимо, ест или играет с предметом.",
+        "description": "The image shows a woman standing indoors in a casual setting. She is wearing a panda-patterned outfit and appears to be holding something small in her hands. The room has simple decor with a chair visible in the background that holds some items on it, including what looks like clothing or fabric. A child is sitting on the floor near the woman, seemingly engaged in an activity involving their hand.",
+        "description_ru": "На изображении показана женщина, стоящая внутри дома в уютной обстановке. Она одета в пижаму с рисунком панды и держит что-то маленькое в руках. В комнате простая отделка: виден стул, на котором лежат какие-то вещи, возможно, одежда или ткань. Ребенок сидит на полу рядом с женщиной, видимо, занят чем-то своими руками.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "woman",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "panda-patterned outfit",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

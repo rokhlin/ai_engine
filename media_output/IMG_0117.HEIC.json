@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0117.HEIC",
+    "file_name": "IMG_0117.HEIC",
+    "file_size": 1458346,
+    "mtime": 1674221166.64,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "eating",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "green_outfit",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "watermelon",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b9d8ec47c2e305f0",
+    "faces": [
+        {
+            "bbox": [
+                251,
+                513,
+                556,
+                872
+            ],
+            "face_id": "FACE_ID_75",
+            "name": "FACE_ID_75",
+            "confidence": 0.7144811153411865
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child in a green outfit is eating something while standing indoors near a plastic bag containing watermelon slices.",
+        "summary_ru": "Маленький ребенок в зеленом костюме ест что-то, стоящий внутри дома рядом с пакетом из пластика, содержащим кусочки арбуза.",
+        "description": "The image shows a young child with curly hair tied up in a bun. The child is wearing a green outfit and appears to be eating something with their right hand near their mouth. They are standing indoors on a light-colored wooden floor. Behind the child, there is a plastic bag containing watermelon slices placed against the wall.",
+        "description_ru": "На изображении показано маленькое ребёнок с вьющимися волосами, собранными в пучок. Ребёнок одет в зелёный костюм и кажется, что ест что-то, держа правой рукой у рта. Он стоит внутри дома на светлой деревянной паркете. За ребёнком виден пакет из пластика с кусочками арбуза, который прижат к стене.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "eating",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "green_outfit",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "watermelon",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

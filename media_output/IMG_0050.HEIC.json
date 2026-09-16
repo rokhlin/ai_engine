@@ -1,0 +1,88 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0050.HEIC",
+    "file_name": "IMG_0050.HEIC",
+    "file_size": 2110154,
+    "mtime": 1674221166.478,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicle",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor playtime",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a0c1c09bdfde9594",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A child is playing with a toy construction vehicle on the floor surrounded by cotton swabs.",
+        "summary_ru": "Дети играют с игрушечной строительной машиной на полу рядом с ватными палочками.",
+        "description": "На фотографии изображена маленький ребенок, сидящий на ковре и играющий с желтой игрушечной строительной машиной. Рядом с машинкой разбросаны белые ватные палочки. В заднем плане видна мебель, включая телевизор и аудиосистему.",
+        "description_ru": "На фотографии изображена маленький ребенок, сидящий на ковре и играющий с желтой игрушечной строительной машиной. Рядом с машинкой разбросаны белые ватные палочки. В заднем плане видна мебель, включая телевизор и аудиосистему.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicle",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor playtime",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

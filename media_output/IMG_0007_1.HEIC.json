@@ -1,0 +1,90 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0007_1.HEIC",
+    "file_name": "IMG_0007_1.HEIC",
+    "file_size": 1252830,
+    "mtime": 1674221166.527,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "green blanket",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "bcbcf95043cbc0c5",
+    "faces": [
+        {
+            "bbox": [
+                376,
+                280,
+                933,
+                932
+            ],
+            "face_id": "FACE_ID_38",
+            "name": "FACE_ID_38",
+            "confidence": 0.8337447047233582
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is lying on a green blanket with their hands resting on the fabric.",
+        "summary_ru": "Младенец лежит на зеленом одеяле с руками, положенными на ткань.",
+        "description": "The image shows a young child, likely a toddler or baby, lying down and looking slightly to one side. The child is wearing a patterned shirt with short sleeves and appears to be resting on a green blanket that covers the surface they are lying on. The background suggests an indoor setting, possibly a home environment.",
+        "description_ru": "На изображении показано маленькое ребёнок, вероятно младенец или малыш, лежащий на зелёном одеяле и смотрящий в сторону. Ребёнок одет в футболку с узором и короткими рукавами и кажется, что он отдыхает на зелёном одеяле, которое покрывает поверхность, на которой он лежит. На заднем плане видно, что это внутреннее пространство, возможно домашняя обстановка.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "green blanket",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

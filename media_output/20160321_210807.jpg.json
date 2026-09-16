@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210807.jpg",
+    "file_name": "20160321_210807.jpg",
+    "file_size": 729602,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "posing",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "afro_wig",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "long_hair",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "social",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:08:07",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 320,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bfc6c9c966e0e221",
+    "faces": [
+        {
+            "bbox": [
+                2082,
+                682,
+                2413,
+                1160
+            ],
+            "face_id": "FACE_ID_30",
+            "name": "FACE_ID_30",
+            "confidence": 0.8534417748451233
+        },
+        {
+            "bbox": [
+                1426,
+                760,
+                1750,
+                1205
+            ],
+            "face_id": "FACE_ID_275",
+            "name": "FACE_ID_275",
+            "confidence": 0.8466849327087402
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Two individuals are posing for a photo indoors with one person wearing an afro wig and the other with long hair.",
+        "summary_ru": "Двое людей позируют на фото внутри дома, один из них одет в парик афро, другой с длинными волосами.",
+        "description": "The image shows two individuals standing indoors. One person is wearing a dark t-shirt and an afro wig, while the other is dressed in a light-colored jacket with long hair. They appear to be posing for the photo, with one arm around each other's shoulders. The background includes a doorway and part of a wall.",
+        "description_ru": "На изображении показаны два человека внутри дома. Один человек одет в темную футболку и парик афро, другой — в светлую куртку с длинными волосами. Они позируют для фото, одна рука у каждого на плече другого. На заднем плане виден проход и часть стены.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственная",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "posing",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "afro_wig",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "long_hair",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "social",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:08 PM using a Samsung SM-N900 camera with an ISO of 320 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:08 вечера с использованием камеры Samsung SM-N900 при ISO 320 и выдержке около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

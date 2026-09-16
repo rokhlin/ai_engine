@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0121.HEIC",
+    "file_name": "IMG_0121.HEIC",
+    "file_size": 1774193,
+    "mtime": 1674221168.368,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "blanket",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ec698ac69943d335",
+    "faces": [
+        {
+            "bbox": [
+                420,
+                402,
+                655,
+                721
+            ],
+            "face_id": "FACE_ID_77",
+            "name": "FACE_ID_77",
+            "confidence": 0.6993666291236877
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars on a blanket in an indoor setting.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на одеяле в помещении.",
+        "description": "The image shows a young child, dressed in a sleeveless shirt with colorful graphics, standing and interacting with several toy cars placed on a patterned blanket. The child appears to be smiling and focused on the toys. In the background, there is a stroller and some household items, indicating that this scene takes place indoors, likely in a home environment.",
+        "description_ru": "На изображении показан маленький ребенок в безрукавной футболке с яркими рисунками, стоящий и взаимодействующий с несколькими игрушечными машинками, размещёнными на узорчатом одеяле. Ребенок кажется улыбающимся и сосредоточенным на игрушках. На заднем плане видна коляска и некоторые предметы быта, что указывает на то, что эта сцена происходит внутри дома, вероятно в домашней обстановке.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "blanket",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

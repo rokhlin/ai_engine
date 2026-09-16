@@ -1,0 +1,88 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0097.HEIC",
+    "file_name": "IMG_0097.HEIC",
+    "file_size": 2666851,
+    "mtime": 1674221167.791,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e19fc1e0e05b9e86",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A young child is standing on a couch, facing away from the camera and looking at toy cars arranged in front of them.",
+        "summary_ru": "Маленький ребенок стоит на диване, смотрит в сторону от камеры и смотрит на игрушечные автомобили, расположенные перед ним.",
+        "description": "The image shows a young child standing on a couch. The child is facing away from the camera and appears to be looking at four toy cars arranged in front of them. The toys include a yellow construction vehicle, two red monster trucks, and one blue car. The setting seems to be indoors, likely in a living room or similar space.",
+        "description_ru": "На изображении показано маленькое ребёнок стоящее на диване. Ребёнок смотрит в сторону от камеры и видимо смотрит на четыре игрушечные машины, расположенные перед ним. Игрушки включают желтый строительный автомобиль, два красных монстр-трака и один синий автомобиль. Среди помещении, возможно, в гостиной или подобном пространстве.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

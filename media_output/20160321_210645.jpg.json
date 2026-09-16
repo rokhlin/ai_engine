@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210645.jpg",
+    "file_name": "20160321_210645.jpg",
+    "file_size": 1133996,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "casual",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "selfie",
+            "category": "content_type",
+            "confidence": 1.0
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "friends",
+            "category": "people",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:06:45",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 320,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f3a63691cc4c6663",
+    "faces": [
+        {
+            "bbox": [
+                406,
+                1611,
+                846,
+                2207
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8725409507751465
+        },
+        {
+            "bbox": [
+                1593,
+                1608,
+                2076,
+                2261
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8105399012565613
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A casual indoor photo of two individuals posing together for a selfie.",
+        "summary_ru": "Фотография в помещении двух людей, которые позируют друг для друга на селфи.",
+        "description": "На фотографии изображены два человека, стоящие близко друг к другу. Оба они носят темные очки и улыбаются. Один человек имеет длинные волосы, а другой - короткие вьющиеся волосы. Они одеты в повседневную одежду: один в светлую кофту с принтом и джинсы, другой в темную футболку с геометрическим узором и джинсы.",
+        "description_ru": "На фотографии изображены два человека, стоящие близко друг к другу. Оба они носят темные очки и улыбаются. Один человек имеет длинные волосы, а другой - короткие вьющиеся волосы. Они одеты в повседневную одежду: один в светлую кофту с принтом и джинсы, другой в темную футболку с геометрическим узором и джинсы.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "casual",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "selfie",
+                "category": "content_type",
+                "confidence": 1.0
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "friends",
+                "category": "people",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:06:45 using a Samsung SM-N900 camera with an ISO of 320 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:06:45 с помощью камеры Samsung SM-N900 с ISO 320 и выдержкой около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_008",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_r5u6pqt_.jpg",
+        "reasoning": "The best frame is 'be_media_r5u6pqt_.jpg' because it has the least amount of motion blur compared to the other two images. The subject's eyes are open, and there is no defocus or bad exposure present in this image. Although both 'be_media_ie7stqpr.jpg' and 'be_media_0xvg__4z.jpg' have no motion blur and no defocus or bad exposure, they suffer from closed eyes which makes them less desirable for a portrait where eye contact is typically expected.",
+        "reasoning_ru": "Наилучшим кадром является 'be_media_r5u6pqt_.jpg', так как он имеет наименьшее количество макрофокусировки по сравнению с другими двумя изображениями. Глаза субъекта открыты, и нет дефокусировки или проблем с экспозицией в этом кадре. Хотя оба 'be_media_ie7stqpr.jpg' и 'be_media_0xvg__4z.jpg' не имеют макрофокусировки и проблем с экспозицией, они страдают от закрытых глаз, что делает их менее подходящими для портрета, где контакт глаз обычно ожидается.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

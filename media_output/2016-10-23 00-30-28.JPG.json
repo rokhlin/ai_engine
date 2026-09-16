@@ -1,0 +1,110 @@
+{
+    "file_path": "Z:\\2016-10-23 00-30-28.JPG",
+    "file_name": "2016-10-23 00-30-28.JPG",
+    "file_size": 1159403,
+    "mtime": 1787230450.055791,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "seaside",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "smile",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "menu",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "ocean",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "c8b58ecd2603efc8",
+    "faces": [
+        {
+            "bbox": [
+                519,
+                568,
+                947,
+                1162
+            ],
+            "face_id": "FACE_ID_11",
+            "name": "FACE_ID_11",
+            "confidence": 0.7773738503456116
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is standing by the seaside holding a menu or brochure and smiling.",
+        "summary_ru": "Человек стоит на берегу моря с меню или брошюрой и улыбается.",
+        "description": "На фотографии изображен человек, стоящий на фоне моря. Он держит в руках что-то похожее на меню или брошюру и улыбается. На заднем плане виден океан с волнами и несколько парусных судов на горизонте.",
+        "description_ru": "На фотографии изображен человек, стоящий на берегу моря. Он держит в руках что-то похожее на меню или брошюру и улыбается. На заднем плане виден океан с волнами и несколько парусных судов на горизонте.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "seaside",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "smile",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "menu",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "ocean",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

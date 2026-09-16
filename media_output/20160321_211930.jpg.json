@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211930.jpg",
+    "file_name": "20160321_211930.jpg",
+    "file_size": 790054,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "humor",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "interaction",
+            "category": "people",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:19:30",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e4b193af1968725a",
+    "faces": [
+        {
+            "bbox": [
+                1189,
+                1240,
+                1480,
+                1656
+            ],
+            "face_id": "FACE_ID_301",
+            "name": "FACE_ID_301",
+            "confidence": 0.8495407104492188
+        },
+        {
+            "bbox": [
+                1730,
+                1473,
+                2140,
+                1769
+            ],
+            "face_id": "FACE_ID_298",
+            "name": "FACE_ID_298",
+            "confidence": 0.7881993651390076
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful moment between two individuals in an indoor setting.",
+        "summary_ru": "Праздничный момент между двумя людьми в помещении.",
+        "description": "The image captures a lively and humorous interaction where one person is playfully lifting another. The individual being lifted appears to be mid-air, suggesting movement or a playful toss. Both individuals are smiling, indicating a joyful and lighthearted atmosphere. The setting seems to be indoors, possibly in a home environment, with minimal background details.",
+        "description_ru": "На изображении запечатлен момент веселья и забавы между двумя людьми. Один человек поднимает другого, который находится в воздухе, что указывает на движение или игрушку. Оба улыбаются, что свидетельствует о радостной и веселой атмосфере. Среди заднего плана видны элементы дома, но деталей мало.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "humor",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "interaction",
+                "category": "people",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:19:30 using a Samsung SM-N900 camera with an ISO of 250 and an exposure time of 0.05882 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:19:30 с помощью камеры Samsung SM-N900 при ISO 250 и выдержке 0.05882 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_012",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_1tsw42q0.jpg",
+        "reasoning": "All images in the series show motion blur to varying degrees. However, when comparing these images for technical defects such as closed eyes, defocus, and bad exposure, it is evident that all frames are free from these issues. The primary difference between them lies in the degree of motion blur present. Since there's no significant impact on clarity or detail due to the motion blur (as they appear to be intentional), the best image can be chosen based on other factors such as composition and expression. In this case, 'be_media_1tsw42q0.jpg' appears to have a slightly better composition and more defined expressions compared to others in the series.",
+        "reasoning_ru": "Все изображения в серии показывают размытость из-за движения различной степени. Однако при сравнении этих изображений на наличие технических дефектов, таких как закрытые глаза, размытие и плохая экспозиция, становится очевидно, что все кадры свободны от этих проблем. Основное различие между ними заключается в степени присутствующей размытости. Поскольку размытость не оказывает значительного влияния на четкость или детализацию (поскольку она кажется намеренной), изображение можно выбрать на основе других факторов, таких как композиция и выражения лиц. В данном случае 'be_media_1tsw42q0.jpg' показало несколько лучшею композицию и более четкие выражения лица по сравнению с другими кадрами в серии.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

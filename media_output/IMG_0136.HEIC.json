@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0136.HEIC",
+    "file_name": "IMG_0136.HEIC",
+    "file_size": 1557380,
+    "mtime": 1674221167.185,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "playing",
+            "category": "mood",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "bd856cf6bac8c4c0",
+    "faces": [
+        {
+            "bbox": [
+                992,
+                119,
+                1128,
+                305
+            ],
+            "face_id": "FACE_ID_80",
+            "name": "FACE_ID_80",
+            "confidence": 0.7432111501693726
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на диване в гостиной.",
+        "description": "The image shows a young child, dressed in a white tank top with colorful patterns, standing on the armrest of a gray couch. The child is holding and playing with various toy cars, including a yellow construction vehicle, blue monster trucks, and other colorful models. The setting appears to be a modern living room with light-colored flooring and furniture.",
+        "description_ru": "На изображении виден маленький ребенок в белой майке с цветными узорами, стоящий на подлокотнике серого дивана. Ребенок играет с различными игрушечными машинками, включая желтый строительный трактор и голубые монстр-траки, а также другие яркие модели. Окружение представляет собой современную гостиную с светлым напольным покрытием и мебелью.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "playing",
+                "category": "mood",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

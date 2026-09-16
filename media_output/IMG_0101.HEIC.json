@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0101.HEIC",
+    "file_name": "IMG_0101.HEIC",
+    "file_size": 1396926,
+    "mtime": 1674221167.161,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "fc9dd147a30906b9",
+    "faces": [
+        {
+            "bbox": [
+                358,
+                380,
+                665,
+                735
+            ],
+            "face_id": "FACE_ID_50",
+            "name": "FACE_ID_50",
+            "confidence": 0.7501446008682251
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is standing on a couch with toy vehicles in the background.",
+        "summary_ru": "Маленький ребенок стоит на диване с игрушечными автомобилями в фоне.",
+        "description": "На фотографии изображен маленький ребенок, стоящий на диване. Ребенок обнажен до пояса и одет в подгузник. На заднем плане видны несколько игрушечных автомобилей: желтый грузовик с красными колесами, синий автомобиль и красный вертолет с надписью \"Fire Dept.\" Диван серого цвета, на котором ребенок стоит, украшен зеленым подушкой. На заднем плане виден шторы.",
+        "description_ru": "На фотографии изображен маленький ребенок, стоящий на диване. Ребенок обнажен до пояса и одет в подгузник. На заднем плане видны несколько игрушечных автомобилей: желтый грузовик с красными колесами, синий автомобиль и красный вертолет с надписью \"Fire Dept.\" Диван серого цвета, на котором ребенок стоит, украшен зеленым подушкой. На заднем плане виден шторы.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

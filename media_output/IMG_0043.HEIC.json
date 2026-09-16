@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0043.HEIC",
+    "file_name": "IMG_0043.HEIC",
+    "file_size": 1073691,
+    "mtime": 1674221167.997,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "interactivity",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "home",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a2e5011ba93666fe",
+    "faces": [
+        {
+            "bbox": [
+                632,
+                683,
+                882,
+                954
+            ],
+            "face_id": "FACE_ID_45",
+            "name": "FACE_ID_45",
+            "confidence": 0.7666497826576233
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A toddler is interacting with a colorful educational toy on a table.",
+        "summary_ru": "Малыш играет с яркой образовательной игрушкой на столе.",
+        "description": "На фотографии изображена маленький ребенок, стоящий возле стола и взаимодействующий с ярким детским устройством. Ребенок одет в светлую футболку и держит зеленую крышку бутылки. На столе лежит оранжевая игрушка, которая выглядит как интерактивная панель с кнопками и изображениями.",
+        "description_ru": "На фотографии изображена маленький ребенок, стоящий возле стола и взаимодействующий с ярким детским устройством. Ребенок одет в светлую футболку и держит зеленую крышку бутылки. На столе лежит оранжевая игрушка, которая выглядит как интерактивная панель с кнопками и изображениями.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "interactivity",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "home",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

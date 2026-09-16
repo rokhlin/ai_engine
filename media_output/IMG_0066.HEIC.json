@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0066.HEIC",
+    "file_name": "IMG_0066.HEIC",
+    "file_size": 2118596,
+    "mtime": 1674221168.388,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicle",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "patterned carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor setting",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "abcaeca3c0ca8be4",
+    "faces": [
+        {
+            "bbox": [
+                972,
+                441,
+                1133,
+                628
+            ],
+            "face_id": "FACE_ID_50",
+            "name": "FACE_ID_50",
+            "confidence": 0.8964270353317261
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on a patterned carpet playing with a toy construction vehicle surrounded by scattered cotton swabs.",
+        "summary_ru": "Маленький ребенок сидит на ковре и играет с игрушечной строительной машиной, рядом разбросаны ватные палочки.",
+        "description": "На фотографии изображен маленький ребенок, одетый в полосатую кофту и серые штаны. Ребенок сидит на ковре с орнаментом и играет с желтой игрушечной строительной машиной. Вокруг него разбросаны белые ватные палочки, а на заднем плане видны стеллажи с техникой и коробки для хранения.",
+        "description_ru": "На фотографии изображен маленький ребенок, одетый в полосатую кофту и серые штаны. Ребенок сидит на ковре с орнаментом и играет с желтой игрушечной строительной машиной. Вокруг него разбросаны белые ватные палочки, а на заднем плане видны стеллажи с техникой и коробки для хранения.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicle",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "patterned carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor setting",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

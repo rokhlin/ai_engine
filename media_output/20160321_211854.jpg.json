@@ -1,0 +1,111 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211854.jpg",
+    "file_name": "20160321_211854.jpg",
+    "file_size": 631382,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "casual",
+            "category": "content_type",
+            "confidence": 0.9
+        },
+        {
+            "tag": "interaction",
+            "category": "people",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:18:54",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 160,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f8e3879c848ccb39",
+    "faces": [
+        {
+            "bbox": [
+                1160,
+                1487,
+                1619,
+                2059
+            ],
+            "face_id": "FACE_ID_298",
+            "name": "FACE_ID_298",
+            "confidence": 0.866026759147644
+        },
+        {
+            "bbox": [
+                565,
+                1045,
+                1016,
+                1705
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8184943795204163
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful moment between two individuals in a casual indoor setting.",
+        "summary_ru": "Увлекательный момент между двумя людьми в неформальной домашней обстановке.",
+        "description": "The image captures a lighthearted interaction between two people. One individual is wearing a white shirt with curly hair and sunglasses, while the other is dressed in red and black attire, smiling warmly at the camera. The setting appears to be indoors, possibly a home or casual gathering space, given the plain background.",
+        "description_ru": "На изображении запечатлен увлекательный момент между двумя людьми. Один человек одет в белую рубашку с кудрявыми волосами и солнцезащитными очками, а другой - в красную и черную одежду, улыбаясь на камеру. Среди фоном кажется домашняя или неформальная обстановка, возможно, место для собрания.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "casual",
+                "category": "content_type",
+                "confidence": 0.9
+            },
+            {
+                "tag": "interaction",
+                "category": "people",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:18 PM using a Samsung SM-N900 camera with an ISO of 160 and an exposure time of approximately 0.067 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:18 вечера с помощью камеры Samsung SM-N900 при ISO 160 и выдержке около 0.067 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

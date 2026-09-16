@@ -1,0 +1,88 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0126.HEIC",
+    "file_name": "IMG_0126.HEIC",
+    "file_size": 1384597,
+    "mtime": 1674221167.118,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "playtime",
+            "category": "mood",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f2b38b2201fcb4b5",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками в гостиной.",
+        "description": "The image shows a young child standing barefoot on a light-colored wooden floor, wearing a white tank top adorned with colorful cartoon characters. The child is holding up a toy car in the air, appearing to be engaged and focused on it. In the background, there are several other toy cars placed on a beige leather couch, along with a speaker mounted on a shelf above the couch. The room has large windows covered by blinds that allow some natural light into the space.",
+        "description_ru": "На изображении показан маленький ребенок, стоящий на светлой деревянной паркете без обуви и одетый в белую майку с яркими карикатурными персонажами. Ребенок держит игрушечную машинку в воздухе, видимо, сосредоточенный на ней. На заднем плане видны несколько других игрушечных машинок, расположенных на бежевом кожаном диване, а также громкоговоритель, установленный на подставке над диваном. В комнате есть большие окна с жалюзи, через которые проникает естественный свет.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "световой эффект",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "playtime",
+                "category": "mood",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

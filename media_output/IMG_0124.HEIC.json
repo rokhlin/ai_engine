@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0124.HEIC",
+    "file_name": "IMG_0124.HEIC",
+    "file_size": 1506024,
+    "mtime": 1674221168.251,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1bfad0e25b40a2c",
+    "faces": [
+        {
+            "bbox": [
+                535,
+                295,
+                649,
+                444
+            ],
+            "face_id": "FACE_ID_79",
+            "name": "FACE_ID_79",
+            "confidence": 0.7366203665733337
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy vehicles on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными автомобилями на диване в гостиной.",
+        "description": "The image shows a young child standing and reaching out to touch or play with various toy vehicles placed on the armrest of a beige couch. The child is wearing a sleeveless dress adorned with colorful patterns, suggesting a playful and casual setting. The room appears to be well-lit, likely by natural light coming through blinds in the background, which also reveals some outdoor elements like plants and furniture.",
+        "description_ru": "На изображении показано маленькое ребёнок стоящее и дотрагивающееся до или играющее с различными игрушечными автомобилями, которые расположены на подлокотнике бежевого дивана. Ребенок одет в безрукавную блузку с яркими узорами, что указывает на игровую и непринужденную обстановку. Светлый интерьер комнаты, видимо, освещается естественным светом через жалюзи в заднем плане, который также показывает некоторые элементы снаружи, такие как растения и мебель.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,62 @@
+name: media-cataloger-all
+
+services:
+  cataloger:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/rokhlin/media_cataloger:latest
+    container_name: media-cataloger
+    restart: unless-stopped
+    ports:
+      - "${CATALOGER_PORT:-8001}:8001"
+    env_file:
+      - ${ENV_FILE:-./data/config/.env}
+    environment:
+      - API_PORT=8001
+      - API_HOST=0.0.0.0
+      - PYTHONUNBUFFERED=1
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - ORT_LOG_LEVEL=3
+      - ORT_LOGGING_LEVEL=3
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ${CONFIG_PATH:-./data/config}:/app/data/config
+      - ${MEDIA_INPUT:-./media_input}:/app/media_input
+      - ${MEDIA_OUTPUT:-./media_output}:/app/media_output
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  web:
+    build:
+      context: ../media_cataloger_web
+      dockerfile: Dockerfile
+    image: ghcr.io/rokhlin/media_cataloger_web:latest
+    container_name: media-cataloger-web
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-8000}:8000"
+    env_file:
+      - ${ENV_FILE:-./data/config/.env}
+    environment:
+      - PORT=8000
+      - CATALOGER_API_URL=http://cataloger:8001
+      - MEDIA_INPUT=/app/media_input
+      - MEDIA_OUTPUT=/app/media_output
+      - CONFIG_PATH=/app/data/config
+    volumes:
+      - ${CONFIG_PATH:-./data/config}:/app/data/config
+      - ${MEDIA_INPUT:-./media_input}:/app/media_input
+      - ${MEDIA_OUTPUT:-./media_output}:/app/media_output
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - cataloger
+

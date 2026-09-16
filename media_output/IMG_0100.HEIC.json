@@ -1,0 +1,90 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0100.HEIC",
+    "file_name": "IMG_0100.HEIC",
+    "file_size": 1383916,
+    "mtime": 1674221166.503,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b29f2cea9087e3b0",
+    "faces": [
+        {
+            "bbox": [
+                305,
+                261,
+                670,
+                675
+            ],
+            "face_id": "FACE_ID_56",
+            "name": "FACE_ID_56",
+            "confidence": 0.7002842426300049
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy vehicles on a couch.",
+        "summary_ru": "Маленький ребенок играет с игрушечными автомобилями на диване.",
+        "description": "На фотографии изображена маленькая девочка, которая сидит на диване и играет с разноцветными игрушечными автомобилями. Девочка выглядит сосредоточенной и улыбается, показывая видимую радость от игры.",
+        "description_ru": "На фотографии изображена маленькая девочка, которая сидит на диване и играет с разноцветными игрушечными автомобилями. Девочка выглядит сосредоточенной и улыбается, показывая видимую радость от игры.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

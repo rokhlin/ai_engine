@@ -1,0 +1,110 @@
+{
+    "file_path": "Z:\\2016-09-18 12-21-13.JPG",
+    "file_name": "2016-09-18 12-21-13.JPG",
+    "file_size": 1738497,
+    "mtime": 1787230449.933791,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "alleyway",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "stone walls",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "cobblestone path",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "casual clothing",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "94a4a9ae5cce6633",
+    "faces": [
+        {
+            "bbox": [
+                1032,
+                609,
+                1217,
+                855
+            ],
+            "face_id": "FACE_ID_08",
+            "name": "FACE_ID_08",
+            "confidence": 0.8460776805877686
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is standing in a narrow alleyway with stone walls and a cobblestone path, wearing casual summer clothing.",
+        "summary_ru": "Человек стоит в узком переулке с каменными стенами и тротуаром из гравия, одетый в летнюю повседневную одежду.",
+        "description": "The image shows a person standing in an alleyway with stone walls and a cobblestone path. The individual is wearing a white t-shirt with a cityscape print and light green shorts. They have their hand on their chin, suggesting they are deep in thought or observing something off-camera. The lighting suggests it might be late afternoon or early evening.",
+        "description_ru": "На изображении человек стоит в узком переулке с каменными стенами и тротуаром из гравия. Он одет в белую футболку с городским принтом и светло-зеленые шорты. Рука на подбородке, что может указывать на мысли или наблюдение за чем-то вне кадра. Освещение указывает на то, что это может быть вечером.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "натуральное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "alleyway",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "stone walls",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "cobblestone path",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "casual clothing",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

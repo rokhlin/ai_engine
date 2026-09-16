@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_212035.jpg",
+    "file_name": "20160321_212035.jpg",
+    "file_size": 754532,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "furniture",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "clothing",
+            "category": "objects",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:20:35",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 125,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e172c3e39d8d7038",
+    "faces": [
+        {
+            "bbox": [
+                976,
+                996,
+                1538,
+                1809
+            ],
+            "face_id": "FACE_ID_31",
+            "name": "FACE_ID_31",
+            "confidence": 0.8587779998779297
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is captured in a close-up shot with long hair and wearing a black jacket with white stripes on the sleeves. The individual appears to be indoors, standing against a plain wall with some furniture visible in the background.",
+        "summary_ru": "На фотографии изображена человек с длинными волосами и в черной куртке с белыми полосками на рукавах. Человек находится внутри помещения, стоит у простой стены с некоторой мебелью на заднем плане.",
+        "description": "The person in the image is wearing a black jacket with white stripes on the sleeves and has long hair. The background shows part of an indoor setting with furniture that includes a patterned fabric, possibly a cushion or blanket, and a wooden piece of furniture. The lighting appears to be artificial, likely from overhead lights.",
+        "description_ru": "На изображении человек одет в черную куртку с белыми полосками на рукавах и имеет длинные волосы. На заднем плане видна часть помещения с мебелью, которая включает в себя ткань с узором, возможно подушка или одеяло, а также деревянную мебель. Освещение кажется искусственным, вероятно от светодиодных ламп.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "furniture",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "clothing",
+                "category": "objects",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:20:35 using a Samsung SM-N900 camera with an ISO of 125 and an exposure time of 0.06667 seconds (f/2.2). The GPS information is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:20:35 с использованием камеры Samsung SM-N900 при ISO 125 и выдержке 0.06667 секунды (f/2.2). Информация о GPS недоступна."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

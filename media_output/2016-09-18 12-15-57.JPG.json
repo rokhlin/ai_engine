@@ -1,0 +1,130 @@
+{
+    "file_path": "Z:\\2016-09-18 12-15-57.JPG",
+    "file_name": "2016-09-18 12-15-57.JPG",
+    "file_size": 2599103,
+    "mtime": 1787230449.926791,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "artistic_sculpture",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "large_head",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "stone_wall",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "palm_trees",
+            "category": "scene",
+            "confidence": 0.5
+        },
+        {
+            "tag": "building_windows",
+            "category": "scene",
+            "confidence": 0.4
+        },
+        {
+            "tag": "car_parked",
+            "category": "objects",
+            "confidence": 0.3
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "c8333e8ce3833cec",
+    "faces": [
+        {
+            "bbox": [
+                1064,
+                1003,
+                1499,
+                1351
+            ],
+            "face_id": "FACE_ID_10",
+            "name": "FACE_ID_10",
+            "confidence": 0.7116308808326721
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is taking a selfie in front of an artistic sculpture with a large head.",
+        "summary_ru": "Человек делает селфи перед артистической скульптурой с большим головой.",
+        "description": "The image shows a person standing outdoors, wearing sunglasses and a white t-shirt. They are taking a selfie in front of an artistic sculpture that features a large head with a textured surface. The background includes a stone wall, some palm trees, and part of a building with windows. There is also a car parked nearby.",
+        "description_ru": "На изображении человек стоит на открытом воздухе, одетый в солнцезащитные очки и белую футболку. Он делает селфи перед артистической скульптурой с большим головой. На заднем плане видны каменная стена, пальмы и часть здания с окнами. Также рядом стоит автомобиль.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "artistic_sculpture",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "large_head",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "stone_wall",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "palm_trees",
+                "category": "scene",
+                "confidence": 0.5
+            },
+            {
+                "tag": "building_windows",
+                "category": "scene",
+                "confidence": 0.4
+            },
+            {
+                "tag": "car_parked",
+                "category": "objects",
+                "confidence": 0.3
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

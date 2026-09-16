@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0058.HEIC",
+    "file_name": "IMG_0058.HEIC",
+    "file_size": 1987469,
+    "mtime": 1674221168.532,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "patterned carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "TV stand with electronic devices and speakers",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "aadaad87059cb625",
+    "faces": [
+        {
+            "bbox": [
+                952,
+                470,
+                1095,
+                635
+            ],
+            "face_id": "FACE_ID_48",
+            "name": "FACE_ID_48",
+            "confidence": 0.8600360155105591
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on a patterned carpet playing with toy construction vehicles and cotton swabs.",
+        "summary_ru": "Маленький ребенок сидит на ковре и играет с игрушечными строительными машинами и ватными палочками.",
+        "description": "The image shows a young child sitting on the floor, surrounded by a patterned carpet. The child is wearing striped clothing and appears to be playing with toy construction vehicles and cotton swabs scattered around them. In the background, there are some household items such as a TV stand with electronic devices and speakers.",
+        "description_ru": "На изображении виден маленький ребенок сидящий на полу, окруженный ковром с узором. Ребенок одет в полосатую одежду и кажется, что играет с игрушечными строительными машинами и ватными палочками, разбросанными вокруг него. На заднем плане видны некоторые бытовые предметы, такие как телевизионный шкаф со звуковыми устройствами и колонками.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "patterned carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "TV stand with electronic devices and speakers",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

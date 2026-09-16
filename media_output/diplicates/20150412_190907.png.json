@@ -1,0 +1,98 @@
+{
+    "file_path": "Z:\\diplicates\\20150412_190907.png",
+    "file_name": "20150412_190907.png",
+    "file_size": 9745464,
+    "mtime": 1788357968.2065115,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "cityscape",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunset",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cloudy_sky",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "urban_environment",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "trees",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "c0c03f1b37f28765",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A cityscape during sunset with a dramatic sky filled with clouds and warm hues.",
+        "summary_ru": "Городской пейзаж на закате с драматическим небом, заполненным облаками и теплыми оттенками.",
+        "description": "The image captures a cityscape during sunset. The sky is filled with dramatic clouds illuminated by the warm hues of the setting sun, casting a pink and orange glow across the scene. In the foreground, there are trees and some sports courts, while in the background, numerous high-rise buildings dominate the skyline.",
+        "description_ru": "На изображении запечатлен городской пейзаж на закате. Небо наполнено драматическими облаками, освещенными теплыми оттенками заходящего солнца, что создает розовые и оранжевые тона. В переднем плане видны деревья и спортивные площадки, а в заднем плане доминируют многоэтажные здания.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "свет природный",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "sunset",
+        "time_of_day_ru": "закат солнца",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "cityscape",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunset",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cloudy_sky",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "urban_environment",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "trees",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

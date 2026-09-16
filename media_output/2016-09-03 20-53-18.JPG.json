@@ -1,0 +1,110 @@
+{
+    "file_path": "Z:\\2016-09-03 20-53-18.JPG",
+    "file_name": "2016-09-03 20-53-18.JPG",
+    "file_size": 3716224,
+    "mtime": 1787230449.912791,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "building",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "door",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "stone",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "green",
+            "category": "color",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": "2016:09:03 17:53:18",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00885",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "fd75c9a438997064",
+    "faces": [
+        {
+            "bbox": [
+                1423,
+                1870,
+                1630,
+                2153
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.9130018353462219
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person standing in front of a stone building with a green door labeled \"Notre Dame de Sion.\"",
+        "summary_ru": "Люди стоят перед каменным зданием с зелёной дверью, на которой написано \"Notre Dame de Sion\".",
+        "description": "The image shows a person standing outdoors in front of an old stone building with a green door. The individual is wearing a blue and white patterned dress and holding what appears to be a smartphone or small device in their right hand. The setting includes a paved area next to the building, which has a historical appearance due to its stone construction.",
+        "description_ru": "На изображении показан человек, стоящий на открытом воздухе перед старым каменным зданием с зелёной дверью. Человек одет в синий и белый паттернированную юбку и держит что-то похожее на смартфон или маленький прибор в правой руке. Окружение включает в себя уличное покрытие рядом с зданием, которое имеет исторический вид благодаря своей каменной конструкции.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "building",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "door",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "stone",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "green",
+                "category": "color",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on September 3, 2016, at 17:53:18 using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00885 seconds (f/2.2). The GPS information is not available.",
+        "exif_analysis_ru": "Фотография была сделана 3 сентября 2016 года в 17:53:18 с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой 0.00885 секунды (f/2.2). Информация о GPS недоступна."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

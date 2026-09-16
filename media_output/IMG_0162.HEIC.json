@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0162.HEIC",
+    "file_name": "IMG_0162.HEIC",
+    "file_size": 1925776,
+    "mtime": 1674221167.087,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Christmas tree",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "toy car",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "mandarins",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "febea4a423928c53",
+    "faces": [
+        {
+            "bbox": [
+                852,
+                476,
+                1045,
+                784
+            ],
+            "face_id": "FACE_ID_83",
+            "name": "FACE_ID_83",
+            "confidence": 0.6615378856658936
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with a toy car in front of a decorated Christmas tree.",
+        "summary_ru": "Маленький ребенок играет с машинкой перед украшенной елкой.",
+        "description": "На фотографии изображен маленький ребенок, одетый в футболку и пиджак, играющий с красным игрушечным автомобилем. Ребенок находится в комнате, на полу разбросаны цветные конфетти. В заднем плане видна небольшая искусственная елка, украшенная красными шарами и игрушками. Елка стоит на маленьком столике, рядом с которой лежат мандарины в стеклянной тарелке.",
+        "description_ru": "На фотографии изображен маленький ребенок, одетый в футболку и пиджак, играющий с красным игрушечным автомобилем. Ребенок находится в комнате, на полу разбросаны цветные конфетти. В заднем плане видна небольшая искусственная елка, украшенная красными шарами и игрушками. Елка стоит на маленьком столике, рядом с которой лежат мандарины в стеклянной тарелке.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Christmas tree",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "toy car",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "mandarins",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

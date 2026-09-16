@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0025_1.HEIC",
+    "file_name": "IMG_0025_1.HEIC",
+    "file_size": 1391588,
+    "mtime": 1674221167.516,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "ice cream",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "feeding",
+            "category": "event",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "939aeb842ad36556",
+    "faces": [
+        {
+            "bbox": [
+                750,
+                510,
+                1236,
+                1101
+            ],
+            "face_id": "FACE_ID_41",
+            "name": "FACE_ID_41",
+            "confidence": 0.6365876197814941
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is being fed an ice cream cone by a person's hand.",
+        "summary_ru": "Младенец ест мороженое, которое держит взрослый.",
+        "description": "На фотографии изображен ребенок лежащий на игровом коврике. Ребенок держит в руках вафельную чашечку и ест мороженое. Видна часть руки взрослого, которая подает ребенку мороженое.",
+        "description_ru": "На фотографии изображен ребенок лежащий на игровом коврике. Ребенок держит в руках вафельную чашечку и ест мороженое. Видна часть руки взрослого, которая подает ребенку мороженое.",
+        "environment": "indoor",
+        "lighting": "natural light from a window",
+        "lighting_ru": "свет с окна",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "ice cream",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "feeding",
+                "category": "event",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

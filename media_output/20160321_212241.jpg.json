@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_212241.jpg",
+    "file_name": "20160321_212241.jpg",
+    "file_size": 837017,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "toy sword",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "casual attire",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:22:40",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e8949786a7385979",
+    "faces": [
+        {
+            "bbox": [
+                1358,
+                1120,
+                1685,
+                1590
+            ],
+            "face_id": "FACE_ID_32",
+            "name": "FACE_ID_32",
+            "confidence": 0.7891071438789368
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is playfully posing indoors with a toy sword.",
+        "summary_ru": "Человек позирует с игрушечным мечом в помещении.",
+        "description": "The image shows an individual indoors, dressed in casual attire including a white t-shirt and jeans. They are holding a small toy sword in one hand while striking a dynamic pose with the other arm extended upwards. The setting appears to be a simple room with tiled flooring and minimal decor visible around them.",
+        "description_ru": "На изображении показан человек в помещении, одетый в повседневную одежду, включая белую футболку и джинсы. Он держит игрушечный меч одной рукой и позирует с другой рукой, поднятой вверх. Окружение простое: на полу видны плиты, а вокруг немного декора.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "toy sword",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "casual attire",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken indoors with artificial lighting, likely in the evening given the time stamp and indoor setting.",
+        "exif_analysis_ru": "Фотография была сделана внутри помещения с искусственным освещением, вероятно в вечернее время, так как указано время и это внутренний снимок."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

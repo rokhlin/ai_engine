@@ -1,0 +1,101 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210900.jpg",
+    "file_name": "20160321_210900.jpg",
+    "file_size": 666128,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "interaction",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "hair styling",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "room interior",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:09:00",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 125,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a98d9266720b6d3d",
+    "faces": [
+        {
+            "bbox": [
+                2479,
+                727,
+                2870,
+                1368
+            ],
+            "face_id": "FACE_ID_290",
+            "name": "FACE_ID_290",
+            "confidence": 0.6921833753585815
+        },
+        {
+            "bbox": [
+                1269,
+                749,
+                1666,
+                1353
+            ],
+            "face_id": "FACE_ID_292",
+            "name": "FACE_ID_292",
+            "confidence": 0.5709587335586548
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Two individuals are interacting in a room with one person adjusting the hair of another.",
+        "summary_ru": "Двое людей взаимодействуют в комнате, один человек укладывает волосы другого.",
+        "description": "На фотографии изображены два человека. Один с кудрявыми волосами и в футболке с графическим принтом, другой с длинными черными волосами и очками на шее. Человек с курчавыми волосами держит руку на голове другого человека, возможно, укладывая или расчесывая его волосы.",
+        "description_ru": "На фотографии изображены два человека. Один с кудрявыми волосами и в футболке с графическим принтом, другой с длинными черными волосами и очками на шее. Человек с курчавыми волосами держит руку на голове другого человека, возможно, укладывая или расчесывая его волосы.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "interaction",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "hair styling",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "room interior",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:09 PM using a Samsung SM-N900 camera with an ISO of 125 and an exposure time of 0.06667 seconds (f/2.2). The GPS location is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:09 вечера с использованием камеры Samsung SM-N900 при ISO 125 и выдержке 0.06667 секунды (f/2.2). Геолокация не доступна."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210511.jpg",
+    "file_name": "20160321_210511.jpg",
+    "file_size": 408681,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "pointing",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "curly_hair",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:05:11",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a4749207db9cf989",
+    "faces": [
+        {
+            "bbox": [
+                281,
+                709,
+                669,
+                1268
+            ],
+            "face_id": "FACE_ID_283",
+            "name": "FACE_ID_283",
+            "confidence": 0.7141361832618713
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person with curly hair is pointing towards the camera in a playful manner.",
+        "summary_ru": "Человек с вьющимися волосами указывает на камеру в забавной манере.",
+        "description": "На фотографии изображена человек, который держит руку поднятой и указывает пальцем в сторону камеры. У него вьющиеся темные волосы и он одет в синюю футболку с графическим принтом. Фоном служит белая стена и часть зеркала, отражающего часть комнаты.",
+        "description_ru": "На фотографии изображена человек, который держит руку поднятой и указывает пальцем в сторону камеры. У него вьющиеся темные волосы и он одет в синюю футболку с графическим принтом. Фоном служит белая стена и часть зеркала, отражающего часть комнаты.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "pointing",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "curly_hair",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_006",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_jz9tq_o8.jpg",
+        "reasoning": "Both images appear to be taken in similar conditions with the subject's eyes closed. There are no significant differences between these two frames that would suggest one is superior over the other based on technical defects such as motion blur, defocus, or exposure issues. However, since both images have a similar level of quality and there are no major flaws detected, it can be concluded that either image could be considered 'best'. For this analysis, we selected the first frame (be_media_jz9tq_o8.jpg) for its sequential order in the burst shooting sequence.",
+        "reasoning_ru": "Оба кадра были сделаны в схожих условиях с закрытыми глазами субъекта. Нет значительных различий между этими двумя кадрами, что бы они не показали один из них лучше другого по техническим дефектам, таким как размытие,keh или проблемы с экспозицией. Однако, так как оба кадра имеют схожий уровень качества и нет серьезных недостатков, можно сделать вывод, что любой из них может быть признан 'лучшим'. Для этого анализа мы выбрали первый кадр (be_media_jz9tq_o8.jpg) по его порядку в серии съемок.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

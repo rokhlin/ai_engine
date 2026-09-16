@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_091220.jpg",
+    "file_name": "20160307_091220.jpg",
+    "file_size": 3649495,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "park",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "crutches",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "palm trees",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "grass",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:12:20",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00102",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "9512a0f2f23c6ee6",
+    "faces": [
+        {
+            "bbox": [
+                2610,
+                651,
+                2844,
+                958
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8182860016822815
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is walking in a park with crutches.",
+        "summary_ru": "Человек с костылями идет в парке.",
+        "description": "На фото изображен человек средних лет, одетый в клетчатую рубашку и джинсы. Он использует костыли для поддержки при ходьбе. Фоном служат зеленые деревья и пальмы, а также каменная стена и дорожка.",
+        "description_ru": "На фото изображен человек средних лет, одетый в клетчатую рубашку и джинсы. Он использует костыли для поддержки при ходьбе. Фоном служат зеленые деревья и пальмы, а также каменная стена и дорожка.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "park",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "crutches",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "palm trees",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "grass",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016 at 9:12 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.001 seconds.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

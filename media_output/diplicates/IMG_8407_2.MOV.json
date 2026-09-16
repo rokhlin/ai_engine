@@ -1,0 +1,96 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8407_2.MOV",
+    "file_name": "IMG_8407_2.MOV",
+    "file_size": 16126276,
+    "mtime": 1643214647.526,
+    "media_type": "video",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "sea",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "waves",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "pebble beach",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "hills",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "buildings",
+            "category": "scene",
+            "confidence": 0.5
+        }
+    ],
+    "video_metadata": {
+        "duration": 15.58,
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.974326059050064,
+        "bitrate": 8280501,
+        "codec": "hevc",
+        "datetime": null
+    },
+    "face_timeline": {},
+    "gemini_analysis": {
+        "summary": "The video showcases a serene coastal scene with waves crashing onto a pebbled beach. The camera remains stationary, capturing the rhythmic movement of the sea and the distant view of hills and buildings along the shoreline.",
+        "summary_ru": "Видео показывает спокойный морской пейзаж с волнами, которые ударяются о каменистый берег. Камера остается неподвижной, снимая ритмичное движение моря и вид на холмы и здания вдали по берегу.",
+        "transcription": "You",
+        "transcription_ru": "Вы",
+        "timeline_events": [
+            {
+                "timestamp_start": "00:00",
+                "timestamp_end": "00:15",
+                "activity": "The video begins with a view of the sea waves crashing onto a pebbled beach. The camera remains stationary, capturing the continuous motion and sound of the waves as they break on the shore.",
+                "activity_ru": "Видео начинается с видом на морские волны, которые ударяются о каменистый берег. Камера остается неподвижной, снимая постоянное движение и звук волн, как они разбиваются на берегу."
+            }
+        ],
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "sea",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "waves",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "pebble beach",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "hills",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "buildings",
+                "category": "scene",
+                "confidence": 0.5
+            }
+        ]
+    },
+    "transcription": "You",
+    "transcription_ru": "Вы",
+    "phash": "c6d99d847ce4862e",
+    "modules_status": {
+        "transcribe": true,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

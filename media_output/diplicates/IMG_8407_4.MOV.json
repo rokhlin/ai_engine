@@ -1,0 +1,102 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8407_4.MOV",
+    "file_name": "IMG_8407_4.MOV",
+    "file_size": 16126276,
+    "mtime": 1643822974.952,
+    "media_type": "video",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "waves",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "pebbled beach",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "hills",
+            "category": "objects",
+            "confidence": 0.75
+        },
+        {
+            "tag": "buildings",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "overcast sky",
+            "category": "mood",
+            "confidence": 0.9
+        }
+    ],
+    "video_metadata": {
+        "duration": 15.58,
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.974326059050064,
+        "bitrate": 8280501,
+        "codec": "hevc",
+        "datetime": null
+    },
+    "face_timeline": {},
+    "gemini_analysis": {
+        "summary": "The video showcases a serene coastal scene with waves crashing onto a pebbled beach. The camera remains stationary, capturing the rhythmic movement of the sea and the distant view of hills and buildings under an overcast sky.",
+        "summary_ru": "Видео показывает спокойный морской пейзаж с волнами, которые ударяются о каменистый берег. Камера остается неподвижной, снимая ритмичное движение моря и вид на холмы и здания вдали под облачным небом.",
+        "transcription": "the  the  so  well  well  well  well  well  well  well",
+        "transcription_ru": "такой такая так же хорошо хорошо хорошо хорошо хорошо хорошо",
+        "timeline_events": [
+            {
+                "timestamp_start": "00:00:00",
+                "timestamp_end": "00:05:00",
+                "activity": "The camera captures the waves crashing onto a pebbled beach with hills and buildings in the background under an overcast sky.",
+                "activity_ru": "Камера снимает, как волны ударяются о каменистый берег под холмами и зданиями на заднем плане при облачном небе."
+            },
+            {
+                "timestamp_start": "00:10:00",
+                "timestamp_end": "00:15:00",
+                "activity": "The camera continues to capture the waves and the pebbled beach, with a slight shift in perspective showing more of the distant buildings.",
+                "activity_ru": "Камера продолжает снимать волны и каменистый берег, немного меняя точку зрения для большего видения удаленных зданий."
+            }
+        ],
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "waves",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "pebbled beach",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "hills",
+                "category": "objects",
+                "confidence": 0.75
+            },
+            {
+                "tag": "buildings",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "overcast sky",
+                "category": "mood",
+                "confidence": 0.9
+            }
+        ]
+    },
+    "transcription": "the  the  so  well  well  well  well  well  well  well",
+    "transcription_ru": "такой такая так же хорошо хорошо хорошо хорошо хорошо хорошо",
+    "phash": "c6d99d847ce4862e",
+    "modules_status": {
+        "transcribe": true,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0013.HEIC",
+    "file_name": "IMG_0013.HEIC",
+    "file_size": 3050209,
+    "mtime": 1674221166.404,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "woman",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "panda-patterned outfit",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "Minnie Mouse ears",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a4c59a1ad1b33cc7",
+    "faces": [
+        {
+            "bbox": [
+                745,
+                501,
+                912,
+                736
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8777797222137451
+        },
+        {
+            "bbox": [
+                326,
+                1396,
+                444,
+                1533
+            ],
+            "face_id": "FACE_ID_39",
+            "name": "FACE_ID_39",
+            "confidence": 0.804169237613678
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman wearing a panda-patterned outfit with Minnie Mouse ears and a child standing nearby in an indoor setting.",
+        "summary_ru": "Женщина в пижаме с изображением панд и косынка Минни Мауса рядом стоит с ребенком в помещении.",
+        "description": "На фотографии изображен взрослый человек, одетый в пижаму с изображением панд и украшенный косынкой в стиле Минни Маус. Рядом с ним находится маленький ребенок, который держит игрушку. Фоном служит просторная комната с мебелью и открытым проходом.",
+        "description_ru": "На фотографии изображен взрослый человек в пижаме с изображением панды и косынкой Минни Мауса. Рядом с ним стоит маленький ребенок, держащий игрушку. Фоном служит просторная комната с мебелью и открытым проходом.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "woman",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "panda-patterned outfit",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "Minnie Mouse ears",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

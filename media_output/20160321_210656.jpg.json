@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210656.jpg",
+    "file_name": "20160321_210656.jpg",
+    "file_size": 544228,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "content_type",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "unique_hairstyles",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:06:55",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 100,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1d3ce49e66c4c90",
+    "faces": [
+        {
+            "bbox": [
+                413,
+                1492,
+                879,
+                2165
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8142428398132324
+        },
+        {
+            "bbox": [
+                1296,
+                1357,
+                1811,
+                2043
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.7584569454193115
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful selfie of two individuals with unique hairstyles and sunglasses.",
+        "summary_ru": "Селфи двух людей с необычными прическами и солнцезащитными очками.",
+        "description": "The image shows a close-up selfie of two people. One individual has long, dark hair styled in an afro-like manner with some strands falling over their face and wearing sunglasses. The other person is partially visible behind them, also wearing sunglasses and dressed in a light blue jacket. Both appear to be smiling and enjoying the moment.",
+        "description_ru": "На изображении показано близкое селфи двух людей. Один человек имеет длинные темные волосы, собранные в афро-подобную прическу, с некоторыми прядями, падающими на лицо и одетый в солнцезащитные очки. Другой человек частично виден за ним, также одетый в солнцезащитные очки и светло-голубую куртку. Оба выглядят довольными и веселыми.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "content_type",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "unique_hairstyles",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:06:55 using a Samsung SM-N900 camera with an ISO of 100 and an exposure time of 0.06667 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:06:55 с использованием камеры Samsung SM-N900 при ISO 100 и выдержке 0.06667 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

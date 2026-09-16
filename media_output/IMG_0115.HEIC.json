@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0115.HEIC",
+    "file_name": "IMG_0115.HEIC",
+    "file_size": 1495768,
+    "mtime": 1674221166.902,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "eating",
+            "category": "event",
+            "confidence": 0.8
+        },
+        {
+            "tag": "watermelon",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "9ddfe360e8a0e0f0",
+    "faces": [
+        {
+            "bbox": [
+                146,
+                398,
+                439,
+                794
+            ],
+            "face_id": "FACE_ID_75",
+            "name": "FACE_ID_75",
+            "confidence": 0.8371638655662537
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is eating a piece of food while standing indoors near a watermelon in a plastic bag.",
+        "summary_ru": "Маленький ребенок ест кусочек пищи, стоя в помещении рядом с арбузом в пакете.",
+        "description": "The image shows a young child wearing a green outfit with buttons down the front. The child is standing barefoot on a light-colored wooden floor and appears to be eating something from their hand. Behind them, there is a plastic bag containing a watermelon placed against a wall near an open doorway leading to another room.",
+        "description_ru": "На изображении показано маленькое детство в зеленом костюме с пуговицами по всей длине. Ребенок стоит на светлой деревянной поверхности и ест что-то из рук. За ним находится пакет из пластика, содержащий арбуз, который стоит у стены рядом с открытым проходом в другую комнату.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "eating",
+                "category": "event",
+                "confidence": 0.8
+            },
+            {
+                "tag": "watermelon",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

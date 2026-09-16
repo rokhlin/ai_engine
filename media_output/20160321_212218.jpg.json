@@ -1,0 +1,118 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_212218.jpg",
+    "file_name": "20160321_212218.jpg",
+    "file_size": 723478,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "action",
+            "category": "content_type",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "casual_attire",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "toy_or_prop",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:22:17",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "d1898c84bbbbd253",
+    "faces": [
+        {
+            "bbox": [
+                1087,
+                1332,
+                1466,
+                1831
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8522474765777588
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is captured in a dynamic pose indoors, wearing casual attire and holding an object that appears to be a toy or prop.",
+        "summary_ru": "На фото изображена человек в динамической позе внутри помещения, одетый в повседневную одежду и держащий предмет, который похож на игрушку или аксессуар.",
+        "description": "The image shows a person indoors in an action pose. They are wearing a white t-shirt with text on it and dark jeans. The individual is holding what looks like a toy or prop in one hand while the other arm is raised, suggesting movement or playfulness. The background includes plain walls and part of a wooden furniture piece.",
+        "description_ru": "На изображении показан человек внутри помещения в динамической позе. Он одет в белую футболку с надписью и темные джинсы. Человек держит что-то, похожее на игрушку или аксессуар, одной рукой, а другая рука поднята, что указывает на движение или игру. На заднем плане видны стены и часть деревянной мебели.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "световой эффект",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "action",
+                "category": "content_type",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "casual_attire",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "toy_or_prop",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:22 PM using a Samsung SM-N900 camera with an ISO of 250 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:22 вечера с использованием камеры Samsung SM-N900 при ISO 250 и выдержке около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_014",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_7wnpfo52.jpg",
+        "reasoning": "All images appear to be taken in a similar setting and pose, with the subject's eyes closed. The lack of motion blur or defocus suggests that the camera was steady during the burst shooting sequence. The exposure seems consistent across all frames, indicating no significant changes in lighting conditions. Since there are no technical defects present (motion blur, defocus, bad exposure), we can consider the image with the most detail and clarity as the best frame. In this case, 'be_media_7wnpfo52.jpg' appears to have a slightly better exposure compared to others, making it the best choice for the series of images.",
+        "reasoning_ru": "Все изображения были сделаны в схожем месте и позе, у субъекта закрыты глаза. Отсутствие размытости илиkeh указывает на то, что камера была стабильной во время серии снимков. Экспозиция кажется одинаковой во всех кадрах, что указывает на отсутствие значительных изменений в условиях освещения. Поскольку нет технических дефектов (размытости,keh, плохой экспозиции), мы можем считать изображение с наибольшей детализацией и ясностью лучшим кадром для серии изображений. В данном случае 'be_media_7wnpfo52.jpg' кажется иметь несколько лучше экспозицию по сравнению с другими, делая его лучшим выбором для серии изображений.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

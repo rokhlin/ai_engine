@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160312_150342.jpg",
+    "file_name": "20160312_150342.jpg",
+    "file_size": 839773,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "water",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "rocky_shoreline",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "pavilions",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "overcast_sky",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "hills",
+            "category": "scene",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:12 15:03:42",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00053",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "ce883d473c977807",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A serene landscape featuring a calm body of water with a rocky shoreline and a distant view of hills under an overcast sky. There are structures resembling pavilions or gazebos on the right side near the water's edge.",
+        "summary_ru": "Сереный пейзаж с тихим водоемом, каменистым берегом и видом на холмы вдали под облакистым небом. На правой стороне у воды расположены структуры, похожие на беседки или газоны.",
+        "description": "The image captures a tranquil scene of a large body of water with gentle ripples on the surface. The shoreline is rocky and extends into the water. In the distance, there are hills that appear to be part of a desert landscape. On the right side near the water's edge, there are structures resembling pavilions or gazebos, which suggest a recreational area. The sky above is overcast with clouds, giving the scene a calm and somewhat muted atmosphere.",
+        "description_ru": "На изображении запечатлен спокойный пейзаж с большим водоемом и мягкими волнами на поверхности. Берег каменистый и тянется в воду. Вдали видны холмы, которые похожи на часть пустынного ландшафта. На правой стороне у воды расположены структуры, похожие на беседки или газоны, что указывает на рекреационную зону. Небо над головой затянуто облаками, что придает сцене спокойный и немного мрачный атмосферный эффект.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "световой эффект",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "water",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "rocky_shoreline",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "pavilions",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "overcast_sky",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "hills",
+                "category": "scene",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 12, 2016, at 3:03 PM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00053 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 12 марта 2016 года в 15:03 с использованием камеры Samsung SM-N900 при ISO 50 и выдержке 0.00053 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

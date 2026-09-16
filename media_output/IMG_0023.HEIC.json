@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0023.HEIC",
+    "file_name": "IMG_0023.HEIC",
+    "file_size": 3328711,
+    "mtime": 1674221167.632,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "work",
+            "category": "content_type",
+            "confidence": 0.9
+        },
+        {
+            "tag": "laptop",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "map",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "meeting scheduling tool",
+            "category": "content_type",
+            "confidence": 0.6
+        },
+        {
+            "tag": "person working",
+            "category": "people",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "949fea633a4a9790",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A person is working on a laptop with multiple applications open, including a map and a meeting scheduling tool.",
+        "summary_ru": "Человек работает на ноутбуке с несколькими открытыми приложениями, включая карту и инструмент планирования встреч.",
+        "description": "На изображении виден человек, работающий за столом. На переднем плане находится серый ноутбук MacBook Pro, на котором открыто несколько окон: одно с текстовыми данными, другое с графикой и еще одно с картой. Видны также кнопки клавиатуры и мыши. На заднем плане виден большой монитор, на котором также отображается карта. Рядом с ноутбуком лежит белый лист бумаги.",
+        "description_ru": "На изображении виден человек, работающий за столом. На переднем плане находится серый ноутбук MacBook Pro, на котором открыто несколько окон: одно с текстовыми данными, другое с графикой и еще одно с картой. Видны также кнопки клавиатуры и мыши. На заднем плане виден большой монитор, на котором также отображается карта. Рядом с ноутбуком лежит белый лист бумаги.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "work",
+                "category": "content_type",
+                "confidence": 0.9
+            },
+            {
+                "tag": "laptop",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "map",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "meeting scheduling tool",
+                "category": "content_type",
+                "confidence": 0.6
+            },
+            {
+                "tag": "person working",
+                "category": "people",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211924.jpg",
+    "file_name": "20160321_211924.jpg",
+    "file_size": 735566,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "motion",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.7
+        },
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:19:24",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 200,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e4b193ac1c6cd35c",
+    "faces": [
+        {
+            "bbox": [
+                1076,
+                1110,
+                1369,
+                1534
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8664509654045105
+        },
+        {
+            "bbox": [
+                1728,
+                1324,
+                2155,
+                1602
+            ],
+            "face_id": "FACE_ID_300",
+            "name": "FACE_ID_300",
+            "confidence": 0.5117875933647156
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful moment between two individuals in an indoor setting.",
+        "summary_ru": "Играческий момент между двумя людьми в помещении.",
+        "description": "Двое людей, один из которых одет в белую футболку с надписью \"Fool\" и темные брюки, держит другого человека за руку. Второй человек, одетый в красную футболку и темные брюки, поднимается на одной ноге, создавая эффект движения или танца. Фоном служат стены с керамической плиткой и часть мебели.",
+        "description_ru": "Два человека, один из которых одет в белую футболку с надписью \"Fool\" и темные брюки, держит другого человека за руку. Второй человек, одетый в красную футболку и темные брюки, поднимается на одной ноге, создавая эффект движения или танца. Фоном служат стены с керамической плиткой и часть мебели.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "motion",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.7
+            },
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:19:24 using a Samsung SM-N900 camera with an ISO of 200 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:19:24 с использованием камеры Samsung SM-N900 при ISO 200 и выдержке около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_012",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_1tsw42q0.jpg",
+        "reasoning": "All images in the series show motion blur to varying degrees. However, when comparing these images for technical defects such as closed eyes, defocus, and bad exposure, it is evident that all frames are free from these issues. The primary difference between them lies in the degree of motion blur present. Since there's no significant impact on clarity or detail due to the motion blur (as they appear to be intentional), the best image can be chosen based on other factors such as composition and expression. In this case, 'be_media_1tsw42q0.jpg' appears to have a slightly better composition and more defined expressions compared to others in the series.",
+        "reasoning_ru": "Все изображения в серии показывают размытость из-за движения различной степени. Однако при сравнении этих изображений на наличие технических дефектов, таких как закрытые глаза, размытие и плохая экспозиция, становится очевидно, что все кадры свободны от этих проблем. Основное различие между ними заключается в степени присутствующей размытости. Поскольку размытость не оказывает значительного влияния на четкость или детализацию (поскольку она кажется намеренной), изображение можно выбрать на основе других факторов, таких как композиция и выражения лиц. В данном случае 'be_media_1tsw42q0.jpg' показало несколько лучшею композицию и более четкие выражения лица по сравнению с другими кадрами в серии.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

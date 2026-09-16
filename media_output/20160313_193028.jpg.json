@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160313_193028.jpg",
+    "file_name": "20160313_193028.jpg",
+    "file_size": 367826,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "lighting",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:13 19:30:28",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "efd2854f3619b821",
+    "faces": [
+        {
+            "bbox": [
+                266,
+                682,
+                696,
+                1228
+            ],
+            "face_id": "FACE_ID_11",
+            "name": "FACE_ID_11",
+            "confidence": 0.8075247406959534
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is taking a selfie in an indoor setting with industrial lighting and visible ceiling structures.",
+        "summary_ru": "Человек делает селфи в помещении с промышленным освещением и видимыми структурами потолка.",
+        "description": "The image shows a person wearing a light-colored t-shirt with a graphic design, holding what appears to be a black object in their hand. The background features industrial-style lighting fixtures and metal beams, suggesting the setting might be an indoor space like a warehouse or factory. The person is looking directly at the camera.",
+        "description_ru": "На изображении виден человек в светлой футболке с графическим дизайном, держащий что-то черного цвета в руках. На заднем плане видны промышленные светильники и металлические балки, что указывает на то, что это может быть помещение типа склада или фабрики. Человек смотрит прямо в камеру.",
+        "environment": "indoor",
+        "lighting": "industrial",
+        "lighting_ru": "промышленное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "lighting",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The EXIF data indicates that the photo was taken on March 13, 2016, at 19:30:28 using a Samsung SM-N900 camera. The camera settings for ISO and exposure time are not provided in this metadata.",
+        "exif_analysis_ru": "Информация из EXIF указывает на то, что снимок был сделан 13 марта 2016 года в 19:30:28 камерой Samsung SM-N900. Уровень шума и экспозиция не указаны в этом метаданных."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

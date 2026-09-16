@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0114.HEIC",
+    "file_name": "IMG_0114.HEIC",
+    "file_size": 1532392,
+    "mtime": 1674221168.107,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "eating",
+            "category": "event",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "snack",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1f1cc0fd8898dd0",
+    "faces": [
+        {
+            "bbox": [
+                585,
+                427,
+                830,
+                768
+            ],
+            "face_id": "FACE_ID_68",
+            "name": "FACE_ID_68",
+            "confidence": 0.7123597860336304
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is eating a snack while standing in an indoor setting.",
+        "summary_ru": "Маленький ребенок ест сладость, стоя в помещении.",
+        "description": "На фотографии изображена маленькая девочка, одетая в зеленую пижаму. Она стоит на полу и ест что-то из своей руки. В заднем плане видна часть комнаты с белыми стенами и светлым полом. На полу рядом с девочкой лежит пакет с огурцами.",
+        "description_ru": "На фотографии изображена маленькая девочка, одетая в зеленую пижаму. Она стоит на полу и ест что-то из своей руки. В заднем плане видна часть комнаты с белыми стенами и светлым полом. На полу рядом с девочкой лежит пакет с огурцами.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "eating",
+                "category": "event",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "snack",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210423.jpg",
+    "file_name": "20160321_210423.jpg",
+    "file_size": 913714,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "cleaning",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "mirror",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "brush",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.95
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:04:23",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "fac3e23c5c498786",
+    "faces": [
+        {
+            "bbox": [
+                860,
+                731,
+                1189,
+                1223
+            ],
+            "face_id": "FACE_ID_281",
+            "name": "FACE_ID_281",
+            "confidence": 0.7053564786911011
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is cleaning a mirror with a brush.",
+        "summary_ru": "Человек чистит зеркало щеткой.",
+        "description": "На фотографии изображена женщина, которая стоит в комнате и чистит зеркало с помощью щетки. Она одета в светлую кофту и темные джинсы. Зеркало имеет овальную форму и установлено на стене. Внизу виден пол из керамической плитки.",
+        "description_ru": "На фотографии изображена женщина, которая стоит в комнате и чистит зеркало с помощью щетки. Она одета в светлую кофту и темные джинсы. Зеркало имеет овальную форму и установлено на стене. Внизу виден пол из керамической плитки.",
+        "environment": "indoor",
+        "lighting": "indoor_lighting",
+        "lighting_ru": "свет в помещении",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "cleaning",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "mirror",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "brush",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.95
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:04:23 using a Samsung SM-N900 camera with an ISO of 250 and an exposure time of 0.05882 seconds.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:04:23 с помощью камеры Samsung SM-N900 с ISO 250 и выдержкой 0.05882 секунды."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_005",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_w6af_0ix.jpg",
+        "reasoning": "Both images are very similar in terms of composition and content. The primary difference is the subject's eyes being closed, which can be considered a technical defect but does not significantly impact the overall quality or focus of the image. Since there are no other noticeable differences between these two frames, either could be chosen as the best frame. However, if we must select one based on the provided information, 'be_media_w6af_0ix.jpg' is slightly preferred due to its position in the sequence and potential for being part of a better series of images (as it comes after 'be_media_crl_d_x4.jpg').",
+        "reasoning_ru": "Оба изображения очень похожи по композиции и содержанию. Основное различие заключается в том, что глаза субъекта закрыты, что можно считать техническим дефектом, но не значительно влияет на общую качество или фокус изображения. Поскольку между этими двумя кадрами нет других заметных отличий, любой из них можно выбрать как лучший кадр. Однако если необходимо выбрать один из них на основе предоставленной информации, 'be_media_w6af_0ix.jpg' слегка предпочтительнее из-за его положения в последовательности и потенциала быть частью более качественной серии изображений (как он следует за 'be_media_crl_d_x4.jpg').",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

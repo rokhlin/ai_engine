@@ -1,0 +1,140 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211455.jpg",
+    "file_name": "20160321_211455.jpg",
+    "file_size": 664234,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "smartphone",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "wig",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "people",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:14:54",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 125,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bdcdba92c0f3c248",
+    "faces": [
+        {
+            "bbox": [
+                2693,
+                596,
+                3123,
+                1174
+            ],
+            "face_id": "FACE_ID_293",
+            "name": "FACE_ID_293",
+            "confidence": 0.8137441277503967
+        },
+        {
+            "bbox": [
+                836,
+                576,
+                1311,
+                1150
+            ],
+            "face_id": "FACE_ID_283",
+            "name": "FACE_ID_283",
+            "confidence": 0.7888032793998718
+        },
+        {
+            "bbox": [
+                1846,
+                782,
+                2284,
+                1374
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.7872006893157959
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Three individuals are gathered closely together indoors, looking at a smartphone screen. They appear to be in a casual and possibly humorous setting, as one person is wearing an afro wig and sunglasses.",
+        "summary_ru": "Трое людей собрались вместе внутри помещения и смотрят на экран смартфона. Они кажутся в расслабленной и возможно забавной обстановке, так как один из них одет в парик афро и солнцезащитные очки.",
+        "description": "The image shows three individuals sitting closely together on a couch or similar seating arrangement indoors. They are all looking at the screen of a smartphone that one person is holding in their hands. The individual on the left has an afro wig and sunglasses, while the other two have more neutral appearances but also wear sunglasses. The setting appears to be casual and informal.",
+        "description_ru": "На изображении показано трех человек, сидящих рядом друг с другом на диване или подобной мебели внутри помещения. Они все смотрят на экран смартфона, который держит в руках один из них. Человек слева имеет парик афро и солнцезащитные очки, тогда как другие двое имеют более нейтральные внешности, но также носят солнцезащитные очки. Обстановка кажется расслабленной и неформальной.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "smartphone",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "wig",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "people",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:14 PM using a Samsung SM-N900 camera with an ISO of 125 and an exposure time of 0.0667 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:14 вечера с помощью камеры Samsung SM-N900 с ISO 125 и временем экспозиции 0.0667 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_010",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_dabq0d21.jpg",
+        "reasoning": "Both images appear to have similar issues with overexposure affecting the brightness and contrast levels. However, 'be_media_zy4_d_km.jpg' has a slightly more pronounced issue where there seems to be some motion blur present in the background, which is not visible or noticeable in 'be_media_dabq0d21.jpg'. Since both images suffer from overexposure but one also exhibits motion blur, we choose 'be_media_dabq0d21.jpg' as it has fewer technical defects overall.",
+        "reasoning_ru": "Оба изображения имеют схожие проблемы с пересветленностью, влияющей на общую яркость и контрастность. Однако в 'be_media_zy4_d_km.jpg' видна более заметная проблема - наличие размытости фона, которая не заметна или не видна в 'be_media_dabq0d21.jpg'. Поскольку оба изображения страдают от пересветленности, но одно также демонстрирует размытость фона, мы выбираем 'be_media_dabq0d21.jpg', так как у него меньше технических дефектов в целом.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

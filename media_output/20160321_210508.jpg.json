@@ -1,0 +1,108 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210508.jpg",
+    "file_name": "20160321_210508.jpg",
+    "file_size": 447520,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "peace sign",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "curly hair",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:05:08",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a6349007db9e7d89",
+    "faces": [
+        {
+            "bbox": [
+                256,
+                795,
+                661,
+                1316
+            ],
+            "face_id": "FACE_ID_283",
+            "name": "FACE_ID_283",
+            "confidence": 0.7230553030967712
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person with curly hair wearing sunglasses is making a peace sign gesture.",
+        "summary_ru": "Человек с вьющимися волосами и солнцезащитными очками делает жест мира.",
+        "description": "The image shows an individual with curly, voluminous hair and dark sunglasses. The person is wearing a blue t-shirt with a graphic design on it. They are making a peace sign gesture with their right hand while looking towards the camera. The background appears to be indoors, possibly in a room or office setting, with some furniture visible.",
+        "description_ru": "На изображении показан человек с вьющимися волосами и темными солнцезащитными очками. Он одет в синюю футболку с графическим дизайном. Человек делает жест мира правой рукой, глядя на камеру. На заднем плане видна часть интерьера, возможно, это комната или офисное помещение.",
+        "environment": "indoor",
+        "lighting": "natural light from a window",
+        "lighting_ru": "свет от окна",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "peace sign",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "curly hair",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The EXIF data indicates that the photo was taken on March 21, 2016, at 9:05 PM using a Samsung SM-N900 camera. The image does not contain GPS or location information.",
+        "exif_analysis_ru": "Информация из EXIF показывает, что снимок был сделан 21 марта 2016 года в 21:05 (9:05 вечера) камерой Samsung SM-N900. Изображение не содержит данных о GPS или местоположении."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_006",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_jz9tq_o8.jpg",
+        "reasoning": "Both images appear to be taken in similar conditions with the subject's eyes closed. There are no significant differences between these two frames that would suggest one is superior over the other based on technical defects such as motion blur, defocus, or exposure issues. However, since both images have a similar level of quality and there are no major flaws detected, it can be concluded that either image could be considered 'best'. For this analysis, we selected the first frame (be_media_jz9tq_o8.jpg) for its sequential order in the burst shooting sequence.",
+        "reasoning_ru": "Оба кадра были сделаны в схожих условиях с закрытыми глазами субъекта. Нет значительных различий между этими двумя кадрами, что бы они не показали один из них лучше другого по техническим дефектам, таким как размытие,keh или проблемы с экспозицией. Однако, так как оба кадра имеют схожий уровень качества и нет серьезных недостатков, можно сделать вывод, что любой из них может быть признан 'лучшим'. Для этого анализа мы выбрали первый кадр (be_media_jz9tq_o8.jpg) по его порядку в серии съемок.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

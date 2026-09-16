@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160312_150350.jpg",
+    "file_name": "20160312_150350.jpg",
+    "file_size": 1353595,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "waterfront",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "man sitting on bench",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "overcast sky",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "hotel in background",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "mountains in distance",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:12 15:03:50",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00083",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "c9aecb953214b64b",
+    "faces": [
+        {
+            "bbox": [
+                3391,
+                1062,
+                3579,
+                1321
+            ],
+            "face_id": "FACE_ID_129",
+            "name": "FACE_ID_129",
+            "confidence": 0.8560914397239685
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A man is sitting on a bench by the water, enjoying a peaceful moment with scenic views of buildings and mountains in the background.",
+        "summary_ru": "Мужчина сидит на скамейке у воды и наслаждается спокойным моментом, на заднем плане видны здания и горы.",
+        "description": "The image captures a man sitting on a wooden bench by the water. He is wearing sunglasses and casual clothing, including a white t-shirt and blue shorts. The setting appears to be a waterfront area with a railing in front of him. In the background, there are several buildings, including a prominent hotel or resort structure labeled 'Crowne Plaza'. The sky is overcast, suggesting it might be a cloudy day. The water reflects some of the surroundings, adding depth to the scene.",
+        "description_ru": "На изображении запечатлен мужчина, сидящий на деревянной скамейке у воды. Он одет в солнцезащитные очки и повседневную одежду, включая белую футболку и синие шорты. Окружение представляет собой береговой участок с ограждением перед ним. На заднем плане видны несколько зданий, включая значительное здание отеля или курортного комплекса, помечённое как 'Crowne Plaza'. Небо затянуто облаками, что указывает на то, что это может быть облачный день. Вода отражает некоторые из окружающих объектов, добавляя глубину сцене.",
+        "environment": "outdoor",
+        "lighting": "overcast",
+        "lighting_ru": "облачно",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "waterfront",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "man sitting on bench",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "overcast sky",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "hotel in background",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "mountains in distance",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 12, 2016, at 3:03 PM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00083 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 12 марта 2016 года в 15:03 с использованием камеры Samsung SM-N900 при ISO 50 и выдержке 0.00083 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

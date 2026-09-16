@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0185.HEIC",
+    "file_name": "IMG_0185.HEIC",
+    "file_size": 1657615,
+    "mtime": 1674221167.857,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "floor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b2448b1bc99b1e9d",
+    "faces": [
+        {
+            "bbox": [
+                614,
+                464,
+                851,
+                752
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.7994154691696167
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on the floor surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок сидит на полу среди разноцветной конфетти и апельсинов.",
+        "description": "На фотографии изображена маленькая девочка, которая сидит на ковре. Вокруг нее разбросаны яркие кусочки конфетти и несколько апельсинов. Девочка одета в джинсы и свитер, надетый поверх рубашки. На ее футболке написано 'Find Your Power' с символом Супермена.",
+        "description_ru": "На фотографии изображена маленькая девочка, которая сидит на ковре. Вокруг нее разбросаны яркие кусочки конфетти и несколько апельсинов. Девочка одета в джинсы и свитер, надетый поверх рубашки. На ее футболке написано 'Find Your Power' с символом Супермена.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "floor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

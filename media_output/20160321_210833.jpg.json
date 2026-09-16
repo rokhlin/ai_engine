@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210833.jpg",
+    "file_name": "20160321_210833.jpg",
+    "file_size": 822800,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "casual",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "costume",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:08:32",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 320,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "b7d2ce898ecec4c0",
+    "faces": [
+        {
+            "bbox": [
+                1345,
+                419,
+                1688,
+                878
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8842287063598633
+        },
+        {
+            "bbox": [
+                1996,
+                414,
+                2348,
+                885
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8590606451034546
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Two individuals are posing for a photo in an indoor setting.",
+        "summary_ru": "Двое людей позируют на фото в помещении.",
+        "description": "The image shows two people standing indoors. One person is wearing a dark t-shirt with colorful graphics and jeans, while the other is dressed in a light green hoodie over a white shirt. Both are wearing sunglasses and have wigs on; one has an afro-style wig and the other has long black hair. They appear to be posing for a casual photo.",
+        "description_ru": "На изображении показаны два человека, стоящие в помещении. Один человек одет в темную футболку с цветными графическими элементами и джинсы, другой — в светло-зеленую худи над белой рубашкой. Оба носят солнцезащитные очки и имеют парики; один имеет афро-стильный парик, а другой — длинные черные волосы. Они позируют для фотографии в неформальной обстановке.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "casual",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "costume",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:08 PM using a Samsung SM-N900 camera with an ISO of 320 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:08 вечера с использованием камеры Samsung SM-N900 при ISO 320 и выдержке около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_009",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_nox50elq.jpg",
+        "reasoning": "All images appear to be taken in the same setting and with similar subjects. The subject's pose and expression are consistent across all frames, indicating that there is little variation between them. Since the technical defects (closed eyes) are present in each frame but do not significantly impact the overall quality of the image, we can conclude that the best frame is one where these defects are least noticeable or have been corrected post-processing. However, since no post-processing details were provided and all frames appear to be taken under similar conditions, it's reasonable to assume that the first frame (be_media_nox50elq.jpg) might be slightly better due to potential minor differences in lighting or focus that could not be detected visually.",
+        "reasoning_ru": "Все изображения были сделаны в одинаковой среде и с одними и теми же объектами. Поза и выражение лица субъектов остаются одинаковыми во всех кадрах, что указывает на малую вариацию между ними. Поскольку технические дефекты (закрытые глаза) присутствуют в каждом кадре, но не значительно влияют на общее качество изображения, можно сделать вывод, что лучшим кадром является тот, где эти дефекты менее заметны или были исправлены после обработки. Однако, так как нет информации о пост-обработке и все кадры были сделаны под схожими условиями, можно предположить, что первый кадр (be_media_nox50elq.jpg) может быть слегка лучше из-за потенциальных небольших различий в освещении или фокусе, которые не могут быть обнаружены визуально.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

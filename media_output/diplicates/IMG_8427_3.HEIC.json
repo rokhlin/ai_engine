@@ -1,0 +1,130 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8427_3.HEIC",
+    "file_name": "IMG_8427_3.HEIC",
+    "file_size": 2708143,
+    "mtime": 1643451822.357,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "woman",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "bench",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "umbrella",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "palm trees",
+            "category": "scene",
+            "confidence": 0.5
+        },
+        {
+            "tag": "stacked chairs",
+            "category": "objects",
+            "confidence": 0.4
+        },
+        {
+            "tag": "high-rise building",
+            "category": "scene",
+            "confidence": 0.3
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b634330e9ff10ca3",
+    "faces": [
+        {
+            "bbox": [
+                513,
+                909,
+                598,
+                1005
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8603206276893616
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman and a child are relaxing on a wooden bench under a thatched umbrella in an outdoor setting with palm trees and stacked chairs in the background.",
+        "summary_ru": "Женщина и ребенок отдыхают на деревянной скамье под соломенной зонтиком в открытой местности с пальмами и стопками стульев на заднем плане.",
+        "description": "На фотографии изображена женщина и ребенок, лежащие на деревянной скамье. Женщина одета в светлую кофту и белые брюки, а ребенок - в темную куртку и серые брюки. Они находятся под соломенной зонтиком, который защищает их от солнца. На заднем плане видны пальмы, стопки стульев и высотный здание.",
+        "description_ru": "На фотографии изображена женщина и ребенок, лежащие на деревянной скамье. Женщина одета в светлую кофту и белые брюки, а ребенок - в темную куртку и серые брюки. Они находятся под соломенной зонтиком, который защищает их от солнца. На заднем плане видны пальмы, стопки стульев и высотный здание.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "woman",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "bench",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "umbrella",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "palm trees",
+                "category": "scene",
+                "confidence": 0.5
+            },
+            {
+                "tag": "stacked chairs",
+                "category": "objects",
+                "confidence": 0.4
+            },
+            {
+                "tag": "high-rise building",
+                "category": "scene",
+                "confidence": 0.3
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

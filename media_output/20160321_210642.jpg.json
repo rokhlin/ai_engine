@@ -1,0 +1,129 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210642.jpg",
+    "file_name": "20160321_210642.jpg",
+    "file_size": 813533,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "casual",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "long_hair",
+            "category": "people",
+            "confidence": 0.6
+        },
+        {
+            "tag": "curly_hair",
+            "category": "people",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:06:42",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 320,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e3a6b691cc4c6669",
+    "faces": [
+        {
+            "bbox": [
+                361,
+                1651,
+                790,
+                2237
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8897739052772522
+        },
+        {
+            "bbox": [
+                1542,
+                1652,
+                2028,
+                2307
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.7678062319755554
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A casual indoor photo featuring two individuals posing together in a relaxed manner.",
+        "summary_ru": "Фотография в помещении с двумя людьми, которые позируют вместе в расслабленной манере.",
+        "description": "The image shows two people standing indoors. One person is wearing sunglasses and has long hair, while the other has curly hair and is also wearing sunglasses. They appear to be in a casual setting, possibly at home or an informal event. The lighting suggests it might be evening due to the indoor artificial light.",
+        "description_ru": "На изображении показаны два человека, стоящие в помещении. Один человек носит солнцезащитные очки и имеет длинные волосы, другой - курчавые волосы и также солнцезащитные очки. Они кажутся в расслабленной обстановке, возможно дома или неформальное мероприятие. Освещение указывает на то, что это может быть вечером из-за искусственного света внутри помещения.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственный",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "casual",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "long_hair",
+                "category": "people",
+                "confidence": 0.6
+            },
+            {
+                "tag": "curly_hair",
+                "category": "people",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:06 PM using a Samsung SM-N900 camera with an ISO of 320 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:06 вечера с помощью камеры Samsung SM-N900 с ISO 320 и выдержкой около 0.058 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_008",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_r5u6pqt_.jpg",
+        "reasoning": "The best frame is 'be_media_r5u6pqt_.jpg' because it has the least amount of motion blur compared to the other two images. The subject's eyes are open, and there is no defocus or bad exposure present in this image. Although both 'be_media_ie7stqpr.jpg' and 'be_media_0xvg__4z.jpg' have no motion blur and no defocus or bad exposure, they suffer from closed eyes which makes them less desirable for a portrait where eye contact is typically expected.",
+        "reasoning_ru": "Наилучшим кадром является 'be_media_r5u6pqt_.jpg', так как он имеет наименьшее количество макрофокусировки по сравнению с другими двумя изображениями. Глаза субъекта открыты, и нет дефокусировки или проблем с экспозицией в этом кадре. Хотя оба 'be_media_ie7stqpr.jpg' и 'be_media_0xvg__4z.jpg' не имеют макрофокусировки и проблем с экспозицией, они страдают от закрытых глаз, что делает их менее подходящими для портрета, где контакт глаз обычно ожидается.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

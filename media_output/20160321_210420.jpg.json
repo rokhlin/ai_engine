@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210420.jpg",
+    "file_name": "20160321_210420.jpg",
+    "file_size": 869825,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "cleaning",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "mirror",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "broom",
+            "category": "objects",
+            "confidence": 0.95
+        },
+        {
+            "tag": "indoors",
+            "category": "content_type",
+            "confidence": 0.8
+        },
+        {
+            "tag": "humor",
+            "category": "mood",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:04:20",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 200,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "b3b3e08c9ddd0e88",
+    "faces": [
+        {
+            "bbox": [
+                1789,
+                370,
+                2138,
+                892
+            ],
+            "face_id": "FACE_ID_281",
+            "name": "FACE_ID_281",
+            "confidence": 0.7825355529785156
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is holding a broom in front of a mirror, possibly in the process of cleaning or posing for a humorous photo.",
+        "summary_ru": "Человек держит метлу перед зеркалом, возможно, в процессе уборки или позирует для юмористического снимка.",
+        "description": "The image shows an individual standing in front of a mirror. They are holding a broom and appear to be in the middle of cleaning or possibly posing for a playful photo. The person is wearing a teal jacket over a white shirt, with long hair visible. The setting appears to be indoors, likely a home environment.",
+        "description_ru": "На изображении показан человек, стоящий перед зеркалом. Он держит метлу и кажется, что находится в процессе уборки или позирует для юмористического снимка. Человек одет в телевизор над белой рубашкой, с длинными волосами. Среда выглядит как домашняя обстановка.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "cleaning",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "mirror",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "broom",
+                "category": "objects",
+                "confidence": 0.95
+            },
+            {
+                "tag": "indoors",
+                "category": "content_type",
+                "confidence": 0.8
+            },
+            {
+                "tag": "humor",
+                "category": "mood",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:04 PM using a Samsung SM-N900 camera with an ISO of 200 and an exposure time of 0.05882 seconds.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:04 с использованием камеры Samsung SM-N900 при ISO 200 и выдержке 0.05882 секунды."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

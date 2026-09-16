@@ -1,0 +1,118 @@
+{
+    "file_path": "Z:\\diplicates\\20150412_190907 - Copy (4).jpg",
+    "file_name": "20150412_190907 - Copy (4).jpg",
+    "file_size": 541940,
+    "mtime": 1788358118.2846894,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "cityscape",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunset",
+            "category": "event",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cloudy_sky",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "urban_environment",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "high_rise_buildings",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "trees",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "sports_courts",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2015:04:12 19:09:07",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 64,
+        "exposure_time": "0.02000",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "c0c03f1b37f28765",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A cityscape during sunset with a dramatic sky filled with clouds and warm hues.",
+        "summary_ru": "Городской пейзаж на закате с драматическим небом, заполненным облаками и теплыми оттенками.",
+        "description": "The image captures an urban landscape during sunset. The sky is filled with clouds illuminated by the setting sun, casting a warm pink and orange glow across the scene. In the foreground, there are trees and some sports courts, while in the background, numerous high-rise buildings dominate the skyline. The overall atmosphere suggests a serene yet vibrant city environment.",
+        "description_ru": "На изображении запечатлен городской пейзаж на закате. Небо наполнено облаками, освещенными заходящим солнцем, что создает теплые оттенки розового и оранжевого. В переднем плане видны деревья и спортивные площадки, а на заднем плане доминируют многоэтажные здания. Общая атмосфера изображения передает сочетание спокойствия и яркости городской среды.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "свет природный",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "sunset",
+        "time_of_day_ru": "закат солнца",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "cityscape",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunset",
+                "category": "event",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cloudy_sky",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "urban_environment",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "high_rise_buildings",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "trees",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "sports_courts",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on April 12, 2015, at 19:09:07 using a Samsung SM-N900 camera with an ISO of 64 and an exposure time of 0.02 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 12 апреля 2015 года в 19:09:07 с помощью камеры Samsung SM-N900 с ISO 64 и выдержкой 0.02 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

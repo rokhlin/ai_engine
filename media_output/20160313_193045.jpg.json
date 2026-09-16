@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160313_193045.jpg",
+    "file_name": "20160313_193045.jpg",
+    "file_size": 472836,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "market",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "orange hat",
+            "category": "objects",
+            "confidence": 0.95
+        },
+        {
+            "tag": "indoor market",
+            "category": "content_type",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:13 19:30:45",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1eac581a74a17d4",
+    "faces": [
+        {
+            "bbox": [
+                194,
+                912,
+                652,
+                1457
+            ],
+            "face_id": "FACE_ID_11",
+            "name": "FACE_ID_11",
+            "confidence": 0.717063307762146
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person wearing a bright orange hat is taking a selfie in what appears to be an indoor market or store with various items on display.",
+        "summary_ru": "Человек в яркой оранжевой шляпе делает селфи в помещении, похожем на рынок или магазин, где видны различные товары.",
+        "description": "The image shows a person wearing an orange hat with black trim. They are taking a selfie in what looks like an indoor market or store. The background includes shelves filled with various items such as bags and other products wrapped in plastic. The lighting is bright, likely from overhead fluorescent lights, which cast reflections on the surfaces of the items.",
+        "description_ru": "На изображении человек в яркой оранжевой шляпе с черным ободком делает селфи. На заднем плане видны полки с различными товарами, такими как сумки и другие продукты, упакованные в пленку. Освещение яркое, вероятно, от светодиодных ламп на потолке, которые отражаются на поверхностях товаров.",
+        "environment": "indoor",
+        "lighting": "fluorescent",
+        "lighting_ru": "светильники",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "market",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "orange hat",
+                "category": "objects",
+                "confidence": 0.95
+            },
+            {
+                "tag": "indoor market",
+                "category": "content_type",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The EXIF data indicates that the photo was taken on March 13, 2016, at 19:30:45 using a Samsung SM-N900 camera.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

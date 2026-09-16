@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0177.HEIC",
+    "file_name": "IMG_0177.HEIC",
+    "file_size": 1519527,
+    "mtime": 1674221167.1,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "floor",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ff55d4d40b62861c",
+    "faces": [
+        {
+            "bbox": [
+                1120,
+                448,
+                1436,
+                658
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.7065660357475281
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is lying on the floor surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок лежит на полу среди разноцветного конфетти и апельсинов.",
+        "description": "На фотографии изображен маленький ребенок, лежащий на ковре. Ребенок одет в джинсы, носки с полосками и футболку с надписью \"Power\" и символом Супермена. Вокруг него разбросано много конфетти разных цветов, а также несколько апельсинов лежат на ковре.",
+        "description_ru": "На фотографии изображен маленький ребенок, лежащий на ковре. Ребенок одет в джинсы, носки с полосками и футболку с надписью \"Power\" и символом Супермена. Вокруг него разбросано много конфетти разных цветов, а также несколько апельсинов лежат на ковре.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "floor",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

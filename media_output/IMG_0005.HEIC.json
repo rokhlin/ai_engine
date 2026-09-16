@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0005.HEIC",
+    "file_name": "IMG_0005.HEIC",
+    "file_size": 2971703,
+    "mtime": 1674221167.586,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "panda shirt",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "Minnie Mouse ears",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a5f58e98d9196174",
+    "faces": [
+        {
+            "bbox": [
+                676,
+                592,
+                908,
+                914
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.7733643651008606
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person wearing a panda-patterned shirt and Minnie Mouse ears is standing indoors with their hands clasped in front of them.",
+        "summary_ru": "Люди в футболке с изображением панд и ушками Минни Маус стоят внутри дома, скрестив руки перед собой.",
+        "description": "The person in the image is wearing a panda-patterned shirt and Minnie Mouse ears. They are standing indoors with their hands clasped together in front of them. The background includes a chair with some items on it and an open door leading to another room. The setting appears to be a casual, everyday environment.",
+        "description_ru": "На изображении человек в футболке с изображением панд и ушками Минни Маус стоит внутри дома, скрестив руки перед собой. На заднем плане виден стул с некоторыми предметами на нем и открытая дверь, ведущая в другую комнату. Среда выглядит как обычная повседневная обстановка.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "природный свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "panda shirt",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "Minnie Mouse ears",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

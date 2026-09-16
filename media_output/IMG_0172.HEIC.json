@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0172.HEIC",
+    "file_name": "IMG_0172.HEIC",
+    "file_size": 1555775,
+    "mtime": 1674221168.135,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "carpet",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f756c20b2b429c37",
+    "faces": [
+        {
+            "bbox": [
+                1185,
+                499,
+                1434,
+                690
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.837421178817749
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is lying on a carpet surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок лежит на ковре среди разноцветных конфетти и апельсинов.",
+        "description": "На фотографии изображена маленький ребенок, лежащий на ковре. Ребенок одет в джинсы и футболку с надписью \"Superman\". Вокруг него разбросаны яркие конфетти различных цветов и несколько апельсинов. Детальность изображения позволяет увидеть детали одежды ребенка, такие как носки и рукава рубашки.",
+        "description_ru": "На фотографии изображен маленький ребенок, лежащий на ковре. Ребенок одет в джинсы и футболку с надписью \"Superman\". Вокруг него разбросаны яркие конфетти различных цветов и несколько апельсинов. Детальность изображения позволяет увидеть детали одежды ребенка, такие как носки и рукава рубашки.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "carpet",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

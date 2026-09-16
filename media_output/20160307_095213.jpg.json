@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_095213.jpg",
+    "file_name": "20160307_095213.jpg",
+    "file_size": 2478095,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "bear sculpture",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "outdoor",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:52:13",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00109",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "d499c763da5234ac",
+    "faces": [
+        {
+            "bbox": [
+                596,
+                1946,
+                1180,
+                2641
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.7839689254760742
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is taking a selfie with a large bear sculpture in the background.",
+        "summary_ru": "Человек делает селфи с большой скульптурой медведя на заднем плане.",
+        "description": "На фотографии изображена человек, делающий селфи. На переднем плане виден старший мужчина в клетчатой рубашке и солнцезащитных очках, держащий камеру. На заднем плане находится большая скульптура медведя. Фоном служит ясное небо.",
+        "description_ru": "На фотографии изображена человек, делающий селфи. На переднем плане виден старший мужчина в клетчатой рубашке и солнцезащитных очках, держащий камеру. На заднем плане находится большая скульптура медведя. Фоном служит ясное небо.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "натуральное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "bear sculpture",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "outdoor",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 9:52 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of approximately 0.001 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 9:52 утра с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой около 0.001 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_003",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media__i25dvfn.jpg",
+        "reasoning": "Both images appear to be of the same quality with no significant differences in focus, exposure, or motion blur. However, 'be_media__i25dvfn.jpg' seems slightly sharper and more detailed compared to 'be_media_mmd2ii63.jpg', which might be due to minor variations in lighting or camera settings during capture. Therefore, 'be_media__i25dvfn.jpg' is chosen as the best frame based on its perceived sharpness and detail.",
+        "reasoning_ru": "Оба кадра выглядят одинаково качественно без значительных отличий в фокусе, экспозиции или размытости. Однако 'be_media__i25dvfn.jpg' кажется немного более четким и детализированным по сравнению с 'be_media_mmd2ii63.jpg', что может быть связано с небольшими различиями в освещении или настройках камеры при съемке. Поэтому 'be_media__i25dvfn.jpg' выбран как лучший кадр на основе воспринимаемой четкости и детализации.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

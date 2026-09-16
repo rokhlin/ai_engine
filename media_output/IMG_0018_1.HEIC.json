@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0018_1.HEIC",
+    "file_name": "IMG_0018_1.HEIC",
+    "file_size": 1413804,
+    "mtime": 1674221168.455,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "baby",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "play mat",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "bf97e80c4cb033c9",
+    "faces": [
+        {
+            "bbox": [
+                744,
+                486,
+                1170,
+                992
+            ],
+            "face_id": "FACE_ID_38",
+            "name": "FACE_ID_38",
+            "confidence": 0.7338904142379761
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is lying on a colorful play mat indoors, looking directly at the camera with a curious expression.",
+        "summary_ru": "Младенец лежит на яркой игровой коврике внутри дома и смотрит прямо в камеру с любопытным выражением лица.",
+        "description": "The image shows a baby lying on its stomach on a colorful play mat. The baby is wearing a gray shirt and appears to be in a room with a window covered by blinds, allowing some natural light into the space. There are toys visible around the baby, including a hanging toy above it and a variety of objects scattered on the play mat.",
+        "description_ru": "На изображении показан младенец, лежащий на животе на яркой игровой коврике. Младенец одет в серую футболку и находится в комнате с окном, закрытым жалюзи, что позволяет некоторому естественному свету проникнуть в помещение. Вокруг младенца видны игрушки, включая подвешенную игрушку над ним и различные предметы на игровом коврике.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "baby",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "play mat",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

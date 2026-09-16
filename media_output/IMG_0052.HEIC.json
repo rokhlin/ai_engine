@@ -1,0 +1,88 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0052.HEIC",
+    "file_name": "IMG_0052.HEIC",
+    "file_size": 2476950,
+    "mtime": 1674221166.455,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child_playing",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy_construction_vehicle",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton_swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor_play_area",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a04140abbbeeda3d",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A child is playing with a toy construction vehicle on the floor surrounded by cotton swabs.",
+        "summary_ru": "Дети играют с игрушечной строительной машиной на полу рядом с ватными палочками.",
+        "description": "На фото изображен ребенок, сидящий на ковре и играющий с желтой игрушечной строительной машиной. Вокруг машины разбросаны белые ватные палочки, а также виден пластиковый контейнер. На заднем плане можно увидеть мебель, включая телевизор и стеллажи с различными устройствами.",
+        "description_ru": "На фотографии изображен ребенок, сидящий на ковре и играющий с желтой игрушечной строительной машиной. Вокруг машины разбросаны белые ватные палочки, а также виден пластиковый контейнер. На заднем плане можно увидеть мебель, включая телевизор и стеллажи с различными устройствами.",
+        "environment": "indoor",
+        "lighting": "indoor_lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child_playing",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy_construction_vehicle",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton_swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor_play_area",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

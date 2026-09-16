@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160308_152801.jpg",
+    "file_name": "20160308_152801.jpg",
+    "file_size": 869355,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "people",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "hat",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "shirt",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "object_in_hand",
+            "category": "objects",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:08 15:28:01",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e3704991988aeedd",
+    "faces": [
+        {
+            "bbox": [
+                841,
+                1499,
+                1211,
+                2002
+            ],
+            "face_id": "FACE_ID_128",
+            "name": "FACE_ID_128",
+            "confidence": 0.8810808062553406
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is sitting on a couch wearing a hat and holding an object in their hand.",
+        "summary_ru": "Люди сидят на диване в шляпе и держат что-то в руках.",
+        "description": "На фотографии изображена старший человек, сидящий на диване. Он одет в клетчатую рубашку и небольшую коричневую шляпу. В его руке виден черный предмет с красной кнопкой. Фоном служит белая стена и часть деревянного шкафа.",
+        "description_ru": "На фотографии изображена старший человек, сидящий на диване. Он одет в клетчатую рубашку и небольшую коричневую шляпу. В его руке виден черный предмет с красной кнопкой. Фоном служит белая стена и часть деревянного шкафа.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "people",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "hat",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "shirt",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "object_in_hand",
+                "category": "objects",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 8, 2016 at 3:28 PM using a Samsung SM-N900 camera.",
+        "exif_analysis_ru": "Фотография была сделана 8 марта 2016 года в 15:28 с помощью камеры Samsung SM-N900."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

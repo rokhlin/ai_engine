@@ -1,0 +1,140 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0203.HEIC",
+    "file_name": "IMG_0203.HEIC",
+    "file_size": 1712573,
+    "mtime": 1674221167.621,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Christmas tree",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "candy",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "artificial tree",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.75
+        },
+        {
+            "tag": "adult",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "interior",
+            "category": "content_type",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e337c4d10438ac7f",
+    "faces": [
+        {
+            "bbox": [
+                995,
+                414,
+                1142,
+                638
+            ],
+            "face_id": "FACE_ID_123",
+            "name": "FACE_ID_123",
+            "confidence": 0.8444857597351074
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is interacting with a Christmas tree decorated with oranges and candy.",
+        "summary_ru": "Маленький ребенок взаимодействует с новогодней елкой, у которой вместо игрушек лежат апельсины и конфеты.",
+        "description": "На фотографии изображен маленький ребенок в клетчатой рубашке, который стоит рядом с искусственной елкой. Елка украшена оранжевыми фруктами вместо традиционных игрушек и украшений. В переднем плане на столе лежат конфеты в стеклянной миске, а вокруг разбросаны цветные бумажные фольгированные ленты. На заднем плане виден взрослый человек, который также участвует в украшении елки.",
+        "description_ru": "На фотографии изображен маленький ребенок в клетчатой рубашке, который стоит рядом с искусственной елкой. Елка украшена оранжевыми фруктами вместо традиционных игрушек и украшений. В переднем плане на столе лежат конфеты в стеклянной миске, а вокруг разбросаны цветные бумажные фольгированные ленты. На заднем плане виден взрослый человек, который также участвует в украшении елки.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Christmas tree",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "candy",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "artificial tree",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.75
+            },
+            {
+                "tag": "adult",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "interior",
+                "category": "content_type",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

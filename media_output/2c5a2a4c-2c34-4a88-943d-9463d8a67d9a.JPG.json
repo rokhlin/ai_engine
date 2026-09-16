@@ -1,0 +1,130 @@
+{
+    "file_path": "/nas/2022/2c5a2a4c-2c34-4a88-943d-9463d8a67d9a.JPG",
+    "file_name": "2c5a2a4c-2c34-4a88-943d-9463d8a67d9a.JPG",
+    "file_size": 654439,
+    "mtime": 1662708804.845,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "woman",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "field",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "red_flowers",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "cacti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "green_field",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "clear_sky",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "cde7a2b6988c2d15",
+    "faces": [
+        {
+            "bbox": [
+                1004,
+                176,
+                1101,
+                314
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8823807835578918
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A woman and a child are standing in a lush green field with red flowers and cacti in the background under clear blue skies.",
+        "summary_ru": "Женщина и ребенок стоят в зеленом поле с красными цветами и кактусами на заднем плане под ясным голубым небом.",
+        "description": "The image shows a woman and a child standing in an outdoor setting, likely during the daytime given the bright sunlight. The environment is a green field with scattered red flowers, cacti, and other vegetation. The sky is clear blue, indicating good weather conditions. Both individuals are dressed casually for warm weather.",
+        "description_ru": "На изображении видна женщина и ребенок стоят в открытой местности, вероятно, в дневное время суток, так как свет достаточно яркий. Окружение - зеленое поле с разбросанными красными цветами, кактусами и другими растениями. Небо ясное и голубое, что указывает на хорошие погодные условия. Оба человека одеты в легкие вещи для теплой погоды.",
+        "environment": "outdoor",
+        "lighting": "natural_daylight",
+        "lighting_ru": "дневной свет",
+        "weather": "clear_sky",
+        "weather_ru": "ясное небо",
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "woman",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "field",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "red_flowers",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "cacti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "green_field",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "clear_sky",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": "",
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

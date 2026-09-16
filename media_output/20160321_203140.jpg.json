@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_203140.jpg",
+    "file_name": "20160321_203140.jpg",
+    "file_size": 425449,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "curly_hair",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "smile",
+            "category": "mood",
+            "confidence": 0.95
+        },
+        {
+            "tag": "indoor_selfie",
+            "category": "content_type",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 20:31:40",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a42ed323dcc17ee0",
+    "faces": [
+        {
+            "bbox": [
+                337,
+                786,
+                698,
+                1283
+            ],
+            "face_id": "FACE_ID_275",
+            "name": "FACE_ID_275",
+            "confidence": 0.8309219479560852
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person with curly hair is smiling while taking a selfie in an indoor setting.",
+        "summary_ru": "Люди с вьющимися волосами улыбаются и делают селфи в помещении.",
+        "description": "The image shows a person wearing a red and gray shirt, smiling widely. The individual has curly hair that is prominently featured in the foreground of the photo. The background appears to be an indoor environment with some visible elements like a window and part of a wall or ceiling structure. The lighting suggests it might be daytime.",
+        "description_ru": "На изображении виден человек в красной и серой рубашке, улыбающийся широко. У него вьющиеся волосы, которые занимают значительную часть переднего плана фотографии. На заднем плане видны элементы внутреннего помещения, такие как окно и часть стены или потолка. Освещение указывает на то, что это дневное время.",
+        "environment": "indoor",
+        "lighting": "daylight",
+        "lighting_ru": "дневной свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "curly_hair",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "smile",
+                "category": "mood",
+                "confidence": 0.95
+            },
+            {
+                "tag": "indoor_selfie",
+                "category": "content_type",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The EXIF data indicates that the photo was taken on March 21, 2016, at 8:31 PM using a Samsung SM-N900 camera. There is no information about ISO or exposure time.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

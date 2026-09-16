@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_212059.jpg",
+    "file_name": "20160321_212059.jpg",
+    "file_size": 617533,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "distressed expression",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "person sitting on couch",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "black hoodie",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "holding object",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor setting",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:20:58",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 160,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f43dcbe2a1858785",
+    "faces": [
+        {
+            "bbox": [
+                1324,
+                869,
+                1833,
+                1620
+            ],
+            "face_id": "FACE_ID_31",
+            "name": "FACE_ID_31",
+            "confidence": 0.832791268825531
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is sitting on a couch with a distressed expression while holding an object in their hand.",
+        "summary_ru": "Человек сидит на диване и выглядит озабоченным, держа в руке какой-то предмет.",
+        "description": "The image shows a person sitting on a couch with a distressed expression. They are wearing a black hoodie and holding an object in their hand. The background includes a floral-patterned cushion and part of the couch's fabric is visible. The lighting appears to be indoor, possibly from overhead lights or natural light coming through nearby windows.",
+        "description_ru": "На изображении показан человек, сидящий на диване и выглядящий озабоченным. Он одет в черную худи и держит в руке какой-то предмет. На заднем плане виден подушка с цветочным узором, а часть ткани дивана также видна. Освещение кажется искусственным, возможно от потолочных светильников или естественного света из окон.",
+        "environment": "indoor",
+        "lighting": "indoor",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "distressed expression",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "person sitting on couch",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "black hoodie",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "holding object",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor setting",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:20 PM using a Samsung SM-N900 camera with an ISO of 160 and an exposure time of 0.06667 seconds (f/2.2). The GPS location is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:20 вечера с помощью камеры Samsung SM-N900 при ISO 160 и выдержке 0.06667 секунды (f/2.2). Геолокация не доступна."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

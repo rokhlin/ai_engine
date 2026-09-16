@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0123.HEIC",
+    "file_name": "IMG_0123.HEIC",
+    "file_size": 2844115,
+    "mtime": 1674221166.708,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "natural light",
+            "category": "lighing",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "fd999307acd8488e",
+    "faces": [
+        {
+            "bbox": [
+                692,
+                513,
+                811,
+                715
+            ],
+            "face_id": "FACE_ID_78",
+            "name": "FACE_ID_78",
+            "confidence": 0.6444808840751648
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy construction vehicles on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными строительными машинами на диване в гостиной.",
+        "description": "The image shows a young child, dressed in a sleeveless shirt with colorful patterns, standing on the floor and interacting with toy construction vehicles placed on a gray couch. The child appears to be holding one of the toys, possibly pretending to operate it as part of imaginative play. The room is well-lit with natural light coming through blinds on a window to the left. Other toys are scattered around the couch, including what looks like a small car and a tank-like vehicle.",
+        "description_ru": "На изображении показан маленький ребенок, одетый в безрукавку с яркими узорами, стоящий на полу и взаимодействующий с игрушечными строительными машинами, размещёнными на сером диване. Ребенок кажется держать один из игрушек, возможно, имитируя управление им во время игрывательной игры. В комнате хорошо освещено естественным светом, проходящим через жалюзи на окне слева. Другие игрушки разбросаны вокруг дивана, включая то, что похоже на маленький автомобиль и танк.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое естественное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "natural light",
+                "category": "lighing",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

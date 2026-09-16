@@ -1,0 +1,130 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0062.HEIC",
+    "file_name": "IMG_0062.HEIC",
+    "file_size": 2015458,
+    "mtime": 1674221167.313,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction equipment",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "patterned carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "TV stand",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "electronic devices",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e2dae9871536243d",
+    "faces": [
+        {
+            "bbox": [
+                1089,
+                563,
+                1245,
+                751
+            ],
+            "face_id": "FACE_ID_48",
+            "name": "FACE_ID_48",
+            "confidence": 0.8820265531539917
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on a patterned carpet playing with toy construction equipment and cotton swabs.",
+        "summary_ru": "Маленький ребенок сидит на ковре и играет с игрушечной строительной техникой и ватными палочками.",
+        "description": "The image shows a young child sitting on the floor in what appears to be a living room. The child is wearing a striped shirt and is surrounded by various items, including toy construction equipment (a yellow excavator) and scattered cotton swabs. There are also some storage boxes with city-themed designs stacked against the wall behind the child. The setting includes a patterned carpet, a TV stand with electronic devices on top, and speakers to one side.",
+        "description_ru": "На изображении виден маленький ребенок, сидящий на полу в комнате, которая похожа на гостиную. Ребенок одет в полосатую рубашку и окружен различными предметами, включая игрушечную строительную технику (желтый экскаватор) и разбросанными ватными палочками. Также на заднем плане видны стопки коробок с дизайном городов. В комнате есть ковер с узором, тумбочка для ТВ с электронными устройствами на ней, а также динамиты.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое естественное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction equipment",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "patterned carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "TV stand",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "electronic devices",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

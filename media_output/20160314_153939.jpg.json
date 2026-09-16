@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160314_153939.jpg",
+    "file_name": "20160314_153939.jpg",
+    "file_size": 1102944,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "people",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "headphones",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:14 15:39:38",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 250,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e3592632cbcccc36",
+    "faces": [
+        {
+            "bbox": [
+                1528,
+                1476,
+                1844,
+                1845
+            ],
+            "face_id": "FACE_ID_271",
+            "name": "FACE_ID_271",
+            "confidence": 0.8486271500587463
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is sitting on a couch wearing headphones.",
+        "summary_ru": "Люди сидят на диване и одеты в наушники.",
+        "description": "На фотографии изображена взрослая мужчина, сидящий на диване. Он одет в полосатую рубашку и брюки, а также надевает наушники. Диван имеет клетчатый узор, и вокруг него видны другие предметы мебели. Фотография была сделана в помещении с искусственным освещением.",
+        "description_ru": "На фотографии изображена взрослая мужчина, сидящий на диване. Он одет в полосатую рубашку и брюки, а также надевает наушники. Диван имеет клетчатый узор, и вокруг него видны другие предметы мебели. Фотография была сделана в помещении с искусственным освещением.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "people",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "headphones",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken with a Samsung SM-N900 camera on March 14, 2016 at 3:39 PM with an ISO of 250 and an exposure time of 0.05882 seconds.",
+        "exif_analysis_ru": "Фотография была сделана с помощью камеры Samsung SM-N900 14 марта 2016 года в 3:39 PM при ISO 250 и выдержке 0.05882 секунды."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_004",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_a50f60gk.jpg",
+        "reasoning": "Both images appear to be of the same subject and scene, with no significant differences in quality or technical defects. The only difference is that one image has a slightly different angle due to rotation. Since there are no technical issues present in either photo, we can't definitively say which one is better based on technical criteria alone. However, if we consider the angle of view and the orientation for presentation purposes, 'be_media_a50f60gk.jpg' might be preferred as it appears to have a more natural and less distorted perspective compared to its rotated counterpart.",
+        "reasoning_ru": "Обе фотографии показывают одного и того же субъекта и сцены без значительных отличий в качестве или технических дефектах. Единственное различие - это несколько другой угол из-за поворота. Поскольку нет технических проблем, которые бы позволили нам однозначно сказать, что одна из них лучше по техническим критериям. Однако если учитывать угол зрения и ориентацию для презентации, 'be_media_a50f60gk.jpg' может быть предпочитаемым вариантом, так как он кажется более естественным и менее искаженным по сравнению с его повернутой версией.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

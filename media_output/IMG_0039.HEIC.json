@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0039.HEIC",
+    "file_name": "IMG_0039.HEIC",
+    "file_size": 2168947,
+    "mtime": 1674221167.394,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "bed",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "drinking",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "sleeping room",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "dafa85453a33d4a8",
+    "faces": [
+        {
+            "bbox": [
+                670,
+                823,
+                795,
+                988
+            ],
+            "face_id": "FACE_ID_43",
+            "name": "FACE_ID_43",
+            "confidence": 0.7276535034179688
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on a bed, drinking from a cup.",
+        "summary_ru": "Маленький ребенок сидит на кровати и пьет из чашки.",
+        "description": "На фотографии изображена маленькая девочка, которая сидит на кровати в спальне. Девочка одета в белую пижаму и держит зеленый стаканчик, из которого пьет. Кровать покрыта ярким постельным бельем с геометрическими узорами. В комнате видны другие предметы мебели и одежду, складированную в кресле.",
+        "description_ru": "На фотографии изображена маленькая девочка, которая сидит на кровати в спальне. Девочка одета в белую пижаму и держит зеленый стаканчик, из которого пьет. Кровать покрыта ярким постельным бельем с геометрическими узорами. В комнате видны другие предметы мебели и одежду, складированную в кресле.",
+        "environment": "indoor",
+        "lighting": "indoor lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "bed",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "drinking",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "sleeping room",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

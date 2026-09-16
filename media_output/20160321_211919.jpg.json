@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211919.jpg",
+    "file_name": "20160321_211919.jpg",
+    "file_size": 851024,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "people",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:19:18",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 200,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e0b98fec586c5654",
+    "faces": [
+        {
+            "bbox": [
+                994,
+                1267,
+                1280,
+                1694
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8540006875991821
+        },
+        {
+            "bbox": [
+                1433,
+                1378,
+                1713,
+                1731
+            ],
+            "face_id": "FACE_ID_298",
+            "name": "FACE_ID_298",
+            "confidence": 0.8461523652076721
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A playful moment between two individuals in an indoor setting.",
+        "summary_ru": "Играческий момент между двумя людьми в помещении.",
+        "description": "Два человека в интерьере, один поднимает другого на руках. Оба выглядят весело и радостно. Один из них одет в красную футболку, а другой - в белую с надписью \"Free\". На заднем плане видны стены комнаты, коврик и обувь.",
+        "description_ru": "Два человека в интерьере, один поднимает другого на руках. Оба выглядят весело и радостно. Один из них одет в красную футболку, а другой - в белую с надписью \"Free\". На заднем плане видны стены комнаты, коврик и обувь.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "people",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:19 PM using a Samsung SM-N900 camera with an ISO of 200 and an exposure time of approximately 0.058 seconds (f/2.2). The GPS information is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:19 вечера с использованием камеры Samsung SM-N900 при ISO 200 и экспозиции около 0.058 секунды (f/2.2). Информация о GPS недоступна."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_012",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_1tsw42q0.jpg",
+        "reasoning": "All images in the series show motion blur to varying degrees. However, when comparing these images for technical defects such as closed eyes, defocus, and bad exposure, it is evident that all frames are free from these issues. The primary difference between them lies in the degree of motion blur present. Since there's no significant impact on clarity or detail due to the motion blur (as they appear to be intentional), the best image can be chosen based on other factors such as composition and expression. In this case, 'be_media_1tsw42q0.jpg' appears to have a slightly better composition and more defined expressions compared to others in the series.",
+        "reasoning_ru": "Все изображения в серии показывают размытость из-за движения различной степени. Однако при сравнении этих изображений на наличие технических дефектов, таких как закрытые глаза, размытие и плохая экспозиция, становится очевидно, что все кадры свободны от этих проблем. Основное различие между ними заключается в степени присутствующей размытости. Поскольку размытость не оказывает значительного влияния на четкость или детализацию (поскольку она кажется намеренной), изображение можно выбрать на основе других факторов, таких как композиция и выражения лиц. В данном случае 'be_media_1tsw42q0.jpg' показало несколько лучшею композицию и более четкие выражения лица по сравнению с другими кадрами в серии.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "file_path": "Z:\\2016-10-22 21-02-44.JPG",
+    "file_name": "2016-10-22 21-02-44.JPG",
+    "file_size": 113200,
+    "mtime": 1787230450.010791,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "outdoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "disc",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "nature",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a6ca5995def11312",
+    "faces": [
+        {
+            "bbox": [
+                236,
+                79,
+                277,
+                127
+            ],
+            "face_id": "FACE_ID_12",
+            "name": "FACE_ID_12",
+            "confidence": 0.842247724533081
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is standing outdoors in a natural setting holding what appears to be a large circular object.",
+        "summary_ru": "Человек стоит на открытом воздухе в природной среде и держит что-то круглое большого размера.",
+        "description": "The individual, dressed in a red sleeveless shirt and camouflage shorts, is outdoors. They are holding a large circular object that resembles a disc or wheel. The background features trees and a stone wall, suggesting a rural or natural environment. The person appears to be posing for the photo.",
+        "description_ru": "Человек одет в красную безрукавку и камуфляжные шорты. Он стоит на открытом воздухе и держит что-то круглое большого размера, похожее на диск или колесо. На заднем плане видны деревья и каменная стена, что указывает на природную или сельскую среду. Человек позирует для фотографии.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "outdoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "disc",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "nature",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

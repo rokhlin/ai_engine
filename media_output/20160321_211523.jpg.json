@@ -1,0 +1,122 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211523.jpg",
+    "file_name": "20160321_211523.jpg",
+    "file_size": 567834,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "costume_party",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "casual_gathering",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor_entertainment",
+            "category": "event",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:15:23",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 125,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bdccd243653f0c1c",
+    "faces": [
+        {
+            "bbox": [
+                715,
+                777,
+                1196,
+                1375
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8752660751342773
+        },
+        {
+            "bbox": [
+                1626,
+                959,
+                2052,
+                1587
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8695545792579651
+        },
+        {
+            "bbox": [
+                2385,
+                800,
+                2833,
+                1387
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8409185409545898
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A group of three individuals are sitting together indoors, wearing costumes and sunglasses. The setting appears casual and possibly humorous or playful.",
+        "summary_ru": "Группа из трех человек сидит вместе внутри помещения, одетых в костюмы и солнцезащитными очками. Среда кажется непринужденной и возможно юмористической или забавной.",
+        "description": "The photo shows three individuals sitting closely together on a couch indoors. They are all wearing sunglasses and one of them is wearing headphones, suggesting they might be listening to music or engaging in some form of entertainment. The lighting is warm and the overall atmosphere appears relaxed and informal. There are no visible signs or text in the image.",
+        "description_ru": "На фото показано трех человек сидящих друг за другом на диване внутри помещения. Все они одеты в солнцезащитные очки, и один из них надевает наушники, что может указывать на то, что они слушают музыку или занимаются каким-то видом развлечения. Освещение теплый, а общая атмосфера кажется расслабленной и неформальной. На изображении нет видимых знаков или текста.",
+        "environment": "indoor",
+        "lighting": "warm",
+        "lighting_ru": "теплый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "costume_party",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "casual_gathering",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor_entertainment",
+                "category": "event",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken indoors on March 21, 2016 at 9:15 PM with a Samsung SM-N900 camera and an ISO of 125. The exposure time is 0.06667 seconds and the aperture used is f/2.2.",
+        "exif_analysis_ru": "Фотография была сделана внутри помещения 21 марта 2016 года в 9:15 вечера с камерой Samsung SM-N900 и ISO 125. Время экспозиции составляет 0,06667 секунды, а диафрагма использовалась f/2.2."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

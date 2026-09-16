@@ -1,0 +1,150 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211541.jpg",
+    "file_name": "20160321_211541.jpg",
+    "file_size": 687249,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 1.0
+        },
+        {
+            "tag": "group photo",
+            "category": "event",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "wig",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:15:40",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 160,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bced8c92c2c0f3c3",
+    "faces": [
+        {
+            "bbox": [
+                1743,
+                538,
+                2150,
+                1115
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8756924271583557
+        },
+        {
+            "bbox": [
+                2468,
+                365,
+                2909,
+                933
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8701435327529907
+        },
+        {
+            "bbox": [
+                858,
+                355,
+                1330,
+                964
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8417012095451355
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A group of three individuals is sitting together on a couch indoors, wearing sunglasses and wigs for a playful or humorous occasion. The person in the middle appears to be an older individual with headphones around their neck.",
+        "summary_ru": "Группа из трех человек сидит вместе на диване внутри, одетых в солнцезащитные очки и парики для забавной или юмористической ситуации. Человек посередине кажется старшим индивидуумом с наушниками вокруг шеи.",
+        "description": "The image shows three individuals sitting closely together on a couch indoors, wearing sunglasses and wigs for a playful or humorous occasion. The person in the middle appears to be an older individual with headphones around their neck. They are all smiling and seem to be enjoying themselves.",
+        "description_ru": "На изображении показаны три человека, сидящие вместе на диване внутри, одетые в солнцезащитные очки и парики для забавной или юмористической ситуации. Человек посередине кажется старшим индивидуумом с наушниками вокруг шеи. Они все улыбаются и видимо, веселятся.",
+        "environment": "indoor",
+        "lighting": "interior lighting with a warm tone and moderate brightness.",
+        "lighting_ru": "внутреннее освещение с теплым тоном и средней яркостью.",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening, based on the time stamp provided (21:15).",
+        "time_of_day_ru": "вечер, на основе времени записи (21:15).",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 1.0
+            },
+            {
+                "tag": "group photo",
+                "category": "event",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "wig",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": "",
+        "exif_analysis": "The EXIF data indicates that the photo was taken indoors on March 21, 2016 at 9:15 PM with a Samsung SM-N900 camera and an ISO of 160.",
+        "exif_analysis_ru": "Информация из EXIF указывает на то, что снимок был сделан внутри 21 марта 2016 года в 21:15 с камерой Samsung SM-N900 и ISO равным 160."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_011",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_xfikryec.jpg",
+        "reasoning": "Both images are overexposed to a similar degree and do not exhibit any significant motion blur or closed eyes. However, the first image (be_media_xfikryec.jpg) has slightly better exposure compared to the second one (be_media_aktdnhkh.jpg), making it the best frame among the two provided. The slight overexposure in both images is not severe enough to significantly impact the overall quality or usability of the photo for most purposes.",
+        "reasoning_ru": "Оба изображения имеют схожий уровень переэкспозиции и не демонстрируют значительных следов размытия или закрытых глаз. Однако первое изображение (be_media_xfikryec.jpg) имеет несколько лучше экспозицию по сравнению со вторым (be_media_aktdnhkh.jpg), что делает его лучшим кадром среди двух предоставленных. Слабая переэкспозиция в обоих изображениях не достаточно серьезна, чтобы значительно повлиять на общую качество или использование фотографии для большинства целей.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

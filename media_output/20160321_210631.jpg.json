@@ -1,0 +1,109 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210631.jpg",
+    "file_name": "20160321_210631.jpg",
+    "file_size": 523956,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "casual_clothing",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor_setting",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:06:31",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 100,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f0d3d34cc6656658",
+    "faces": [
+        {
+            "bbox": [
+                1503,
+                1325,
+                1915,
+                1898
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8546546697616577
+        },
+        {
+            "bbox": [
+                466,
+                1366,
+                847,
+                1882
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8487920165061951
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A photo of two individuals standing indoors with a plain background.",
+        "summary_ru": "Фотография двух людей, стоящих в помещении с простым фоном.",
+        "description": "The image shows two people standing close to each other in an indoor setting. Both are wearing sunglasses and casual clothing. The person on the left has curly hair and is wearing a dark shirt with colorful stripes, while the person on the right has long hair and is dressed in a light blue cardigan over a white shirt paired with jeans.",
+        "description_ru": "На изображении показаны два человека, стоящие рядом в помещении. Оба носят солнцезащитные очки и повседневную одежду. Человек слева имеет вьющиеся волосы и надет темную футболку с цветными полосками, а человек справа имеет длинные волосы и одет в светло-голубую куртку на белой рубашке вместе с джинсами.",
+        "environment": "indoor",
+        "lighting": "indirect",
+        "lighting_ru": "непрямое освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "casual_clothing",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor_setting",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:06 PM using a Samsung SM-N900 camera with an ISO of 100 and an exposure time of approximately 0.06 seconds.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:06 с использованием камеры Samsung SM-N900 при ISO 100 и выдержке около 0,06 секунды."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_007",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_k6d0l66w.jpg",
+        "reasoning": "All three frames appear to be of the same subject and scene with minimal differences in lighting or composition. The eyes being closed is a consistent feature across all images, which might indicate that this was an intentional pose for the photo session. Since there are no significant technical defects (motion blur, defocus, bad exposure) present in any frame, we can conclude that the best image is one where the subject's eyes are closed as it maintains consistency and avoids potential distractions from eye movement or open eyes.",
+        "reasoning_ru": "Все три кадра показывают одного и того же субъекта в одной и той же сцене с минимальными различиями в освещении или композиции. Закрытые глаза являются постоянной характеристикой всех изображений, что может указывать на то, что это была намеренная поза для фотосессии. Поскольку нет значимых технических дефектов (размытия движения, размытости, неправильной экспозиции) в любом изображении, можно заключить, что лучшим кадром является тот, где глаза субъекта закрыты, так как он сохраняет консистентность и избегает потенциальных отвлекающих факторов от движения глаз или открытых глаз.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

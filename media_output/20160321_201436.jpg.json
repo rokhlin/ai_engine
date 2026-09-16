@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_201436.jpg",
+    "file_name": "20160321_201436.jpg",
+    "file_size": 383542,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "mask",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "decoration",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "green",
+            "category": "color",
+            "confidence": 0.7
+        },
+        {
+            "tag": "intricate design",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "hand holding mask",
+            "category": "people",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 20:14:36",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a3642f5ee070cf31",
+    "faces": [
+        {
+            "bbox": [
+                228,
+                821,
+                672,
+                1387
+            ],
+            "face_id": "FACE_ID_274",
+            "name": "FACE_ID_274",
+            "confidence": 0.7302930951118469
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is holding a decorative mask with a greenish hue and intricate designs.",
+        "summary_ru": "Человек держит декоративную маску с зеленоватым оттенком и сложными узорами.",
+        "description": "The image shows a close-up of a person's hand holding a mask. The mask has a greenish color and features detailed patterns, including what appears to be a circular design with lines radiating outward from the center. The background includes an indoor setting with visible ceiling beams and some equipment or furniture.",
+        "description_ru": "На изображении показано близкое фото руки человека, держащего маску. Маска имеет зеленоватый оттенок и украшена сложными узорами, включая круглую форму с линиями, расходящимися из центра. На заднем плане видны элементы интерьера, такие как потолочные балки и некоторые оборудование или мебель.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "mask",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "decoration",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "green",
+                "category": "color",
+                "confidence": 0.7
+            },
+            {
+                "tag": "intricate design",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "hand holding mask",
+                "category": "people",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The EXIF data indicates that the photo was taken on March 21, 2016, at 8:14 PM using a Samsung SM-N900 camera. There is no information about the ISO or exposure time.",
+        "exif_analysis_ru": "Информация из EXIF показывает, что снимок был сделан 21 марта 2016 года в 20:14 (8:14 PM) камерой Samsung SM-N900. Нет информации о чувствительности ISO или времени экспозиции."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

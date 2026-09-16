@@ -1,0 +1,111 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211754.jpg",
+    "file_name": "20160321_211754.jpg",
+    "file_size": 763971,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "casual interaction",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "social gathering",
+            "category": "event",
+            "confidence": 0.7
+        },
+        {
+            "tag": "casual attire",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:17:54",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 320,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "d8e7ad98ce2c9898",
+    "faces": [
+        {
+            "bbox": [
+                1297,
+                1396,
+                1620,
+                1925
+            ],
+            "face_id": "FACE_ID_297",
+            "name": "FACE_ID_297",
+            "confidence": 0.7996202111244202
+        },
+        {
+            "bbox": [
+                538,
+                1185,
+                927,
+                1785
+            ],
+            "face_id": "FACE_ID_276",
+            "name": "FACE_ID_276",
+            "confidence": 0.7917543649673462
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A casual interaction between two individuals in an indoor setting.",
+        "summary_ru": "Приятельская беседа между двумя людьми в помещении.",
+        "description": "The image shows a man with curly hair wearing a white t-shirt and jeans, standing indoors. He appears to be engaged in conversation or interaction with another person who is partially visible behind him. The second individual has long dark hair and is wearing a red top. There are sunglasses placed on the surface near their feet.",
+        "description_ru": "На изображении виден мужчина с вьющимися волосами, одетый в белую футболку и джинсы, стоящий внутри помещения. Он кажется занятым разговором или взаимодействием с другим человеком, который частично виден за его спиной. Второй человек имеет длинные темные волосы и одет в красную рубашку. На поверхности рядом с их ногами лежат солнцезащитные очки.",
+        "environment": "indoor",
+        "lighting": "indoor lighting, artificial light source",
+        "lighting_ru": "внутреннее освещение, искусственный источник света",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening or night based on the exposure time and ISO setting",
+        "time_of_day_ru": "вечер или ночь на основе времени экспозиции и значения ISO",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "casual interaction",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "social gathering",
+                "category": "event",
+                "confidence": 0.7
+            },
+            {
+                "tag": "casual attire",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken with a Samsung SM-N900 camera on March 21, 2016 at 21:17:54. The ISO setting is 320 and the exposure time is 0.05882 seconds.",
+        "exif_analysis_ru": "Фотография была сделана камерой Samsung SM-N900 21 марта 2016 года в 21:17:54. Уровень ISO составляет 320, а время экспозиции равно 0.05882 секунды."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

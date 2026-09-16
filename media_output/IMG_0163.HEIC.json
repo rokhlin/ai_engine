@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0163.HEIC",
+    "file_name": "IMG_0163.HEIC",
+    "file_size": 1720379,
+    "mtime": 1674221168.165,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "ball",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "animated_screen",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "cartoon_character",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "81b69e6d338988bb",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A child is playing with a colorful ball in front of an animated screen showing a cartoon character.",
+        "summary_ru": "Дети играют с ярким мячом перед экраном с анимированным персонажем мультфильма.",
+        "description": "The image shows a child standing on a carpeted floor, holding and playing with a colorful ball. The child is facing an animated screen displaying a cartoon character that appears to be a fox wearing a purple shirt and pink pants, holding a similar colored ball. The room has some scattered confetti or paper pieces on the floor, suggesting a festive or celebratory atmosphere.",
+        "description_ru": "На изображении виден ребенок, стоящий на ковровом полу и играющий с ярким мячом. Ребенок обращен лицом к экрану, на котором показан анимированный персонаж мультфильма в виде лисы, одетой в фиолетовую рубашку и розовые брюки, держащей такой же мяч. В комнате есть разбросанные по полу конфетти или бумажные кусочки, что указывает на праздничную атмосферу.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "ball",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "animated_screen",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "cartoon_character",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

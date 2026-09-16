@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0016_1.HEIC",
+    "file_name": "IMG_0016_1.HEIC",
+    "file_size": 1479101,
+    "mtime": 1674221166.936,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "baby",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "play mat",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b5f4b3e02a9a48b6",
+    "faces": [
+        {
+            "bbox": [
+                783,
+                206,
+                1126,
+                639
+            ],
+            "face_id": "FACE_ID_38",
+            "name": "FACE_ID_38",
+            "confidence": 0.8750617504119873
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is lying on a colorful play mat with toys around them.",
+        "summary_ru": "Младенец лежит на яркой игровой коврике с игрушками вокруг.",
+        "description": "The image shows a baby wearing a gray outfit, lying on their stomach on a brightly colored play mat. The baby is surrounded by various toys, including a blue and purple toy in the foreground. The setting appears to be indoors, with a window visible in the background allowing natural light into the room.",
+        "description_ru": "На изображении показан младенец в серой одежде, лежащий на животе на ярко-цветном игровом коврике. Младенец окружён различными игрушками, включая синий и фиолетовый предмет в переднем плане. Среда кажется находиться внутри помещения, с видимым окном в заднем плане, позволяющим естественному свету проникать в комнату.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "свет от окна",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "baby",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "play mat",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0178.HEIC",
+    "file_name": "IMG_0178.HEIC",
+    "file_size": 1541964,
+    "mtime": 1674221166.561,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "carpet",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ff15d4d43a42c42d",
+    "faces": [
+        {
+            "bbox": [
+                1155,
+                503,
+                1454,
+                735
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.7686753869056702
+        },
+        {
+            "bbox": [
+                1182,
+                308,
+                1241,
+                365
+            ],
+            "face_id": "FACE_ID_122",
+            "name": "FACE_ID_122",
+            "confidence": 0.5009474754333496
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child lying on a carpet surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок лежит на ковре среди разноцветных конфетти и апельсинов.",
+        "description": "На фотографии изображен маленький ребенок, лежащий на ковре. Ребенок одет в джинсовую штану, футболку с надписью \"Find Your Power\" и полосатый свитер. Вокруг него разбросаны яркие конфетти различных цветов и несколько апельсинов.",
+        "description_ru": "На фотографии изображен маленький ребенок, лежащий на ковре. Ребенок одет в джинсовую штану, футболку с надписью \"Find Your Power\" и полосатый свитер. Вокруг него разбросаны яркие конфетти различных цветов и несколько апельсинов.",
+        "environment": "indoor",
+        "lighting": "indoor_lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day_time",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "carpet",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

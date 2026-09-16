@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0119.HEIC",
+    "file_name": "IMG_0119.HEIC",
+    "file_size": 2345098,
+    "mtime": 1674221168.178,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "eating",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "watermelon",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "988ee361f0f0ecb4",
+    "faces": [
+        {
+            "bbox": [
+                51,
+                488,
+                438,
+                939
+            ],
+            "face_id": "FACE_ID_75",
+            "name": "FACE_ID_75",
+            "confidence": 0.7639400362968445
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child in a green outfit is eating something while standing indoors near a watermelon.",
+        "summary_ru": "Маленький ребенок в зеленом костюме ест что-то, стоящий внутри дома рядом с арбузом.",
+        "description": "The image shows a young child wearing a green outfit. The child is standing on a light-colored wooden floor and appears to be eating something with their right hand near their mouth. Behind the child, there is a watermelon wrapped in plastic placed against a wall. The setting seems to be indoors, possibly in a kitchen or dining area.",
+        "description_ru": "На изображении показано маленькое ребёнок в зеленом костюме. Ребёнок стоит на светлой деревянной поверхности и кажется, что ест что-то с правой руки возле рта. За ребенком находится арбуз, обернутый в пленку, который стоит против стены. Среда кажется внутри дома, возможно, кухня или столовая.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "eating",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "watermelon",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

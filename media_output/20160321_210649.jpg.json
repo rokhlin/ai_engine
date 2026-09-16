@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210649.jpg",
+    "file_name": "20160321_210649.jpg",
+    "file_size": 830594,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "casual_outfit",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "smile",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:06:47",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 320,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1a7323189cc6e63",
+    "faces": [
+        {
+            "bbox": [
+                407,
+                1514,
+                847,
+                2101
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8701765537261963
+        },
+        {
+            "bbox": [
+                1794,
+                1474,
+                2255,
+                2139
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.7967061996459961
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A casual indoor photo of two individuals wearing sunglasses, smiling at the camera.",
+        "summary_ru": "Фотография двух людей в помещении, одетых в солнцезащитные очки и улыбающихся на камеру.",
+        "description": "The image shows a close-up of two people indoors. Both are wearing sunglasses and casual clothing. The person in the foreground is smiling broadly while looking at the camera. The background appears to be an indoor setting with plain walls, suggesting a simple or informal environment.",
+        "description_ru": "На изображении показано близкое фото двух людей внутри помещения. Оба одеты в солнцезащитные очки и повседневную одежду. Человек на переднем плане широко улыбается, глядя на камеру. На заднем плане видны простые стены, что указывает на простое или неформальное место.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "casual_outfit",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "smile",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken indoors with a Samsung SM-N900 camera at ISO 320, with an exposure time of approximately 1/17 seconds and an aperture setting of f/2.2.",
+        "exif_analysis_ru": "Фотография была сделана внутри помещения с помощью камеры Samsung SM-N900 при ISO 320, экспозиционном времени около 1/17 секунды и диафрагме f/2.2."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_008",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_r5u6pqt_.jpg",
+        "reasoning": "The best frame is 'be_media_r5u6pqt_.jpg' because it has the least amount of motion blur compared to the other two images. The subject's eyes are open, and there is no defocus or bad exposure present in this image. Although both 'be_media_ie7stqpr.jpg' and 'be_media_0xvg__4z.jpg' have no motion blur and no defocus or bad exposure, they suffer from closed eyes which makes them less desirable for a portrait where eye contact is typically expected.",
+        "reasoning_ru": "Наилучшим кадром является 'be_media_r5u6pqt_.jpg', так как он имеет наименьшее количество макрофокусировки по сравнению с другими двумя изображениями. Глаза субъекта открыты, и нет дефокусировки или проблем с экспозицией в этом кадре. Хотя оба 'be_media_ie7stqpr.jpg' и 'be_media_0xvg__4z.jpg' не имеют макрофокусировки и проблем с экспозицией, они страдают от закрытых глаз, что делает их менее подходящими для портрета, где контакт глаз обычно ожидается.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

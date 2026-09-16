@@ -1,0 +1,131 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0029.HEIC",
+    "file_name": "IMG_0029.HEIC",
+    "file_size": 1926185,
+    "mtime": 1674221168.084,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "man",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "shirt",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "wall",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "polka",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "98ae4850d5c7d9d9",
+    "faces": [
+        {
+            "bbox": [
+                13,
+                765,
+                440,
+                1311
+            ],
+            "face_id": "FACE_ID_11",
+            "name": "FACE_ID_11",
+            "confidence": 0.8017913699150085
+        },
+        {
+            "bbox": [
+                687,
+                850,
+                1060,
+                1313
+            ],
+            "face_id": "FACE_ID_42",
+            "name": "FACE_ID_42",
+            "confidence": 0.7614423632621765
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A man is holding a young child in his arms while sitting on a couch.",
+        "summary_ru": "Мужчина держит маленького ребенка на руках и сидит на диване.",
+        "description": "На фотографии изображен мужчина, который держит маленького ребенка в своих руках. Ребенок одет в серую футболку с изображением льва. Они сидят на черном диване перед белой стеной. На заднем плане видна часть черной полки.",
+        "description_ru": "На фотографии изображен мужчина, который держит маленького ребенка в своих руках. Ребенок одет в серую футболку с изображением льва. Они сидят на черном диване перед белой стеной. На заднем плане видна часть черной полки.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "man",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "shirt",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "wall",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "polka",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

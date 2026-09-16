@@ -1,0 +1,121 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210845.jpg",
+    "file_name": "20160321_210845.jpg",
+    "file_size": 672836,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "funny",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "costume",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "wig",
+            "category": "objects",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:08:44",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 160,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "af8b959cca4c6961",
+    "faces": [
+        {
+            "bbox": [
+                2749,
+                661,
+                3274,
+                1372
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8191782236099243
+        },
+        {
+            "bbox": [
+                1708,
+                584,
+                2159,
+                1209
+            ],
+            "face_id": "FACE_ID_291",
+            "name": "FACE_ID_291",
+            "confidence": 0.7697935104370117
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Two individuals are posing for a photo in an indoor setting, both wearing wigs and sunglasses.",
+        "summary_ru": "Двое людей позируют на фото в помещении, одетые в парики и солнцезащитные очки.",
+        "description": "The image shows two people standing close together indoors. Both are wearing wigs; one has a curly wig and the other has long black hair. They are also wearing sunglasses. The person on the left is wearing a blue t-shirt with colorful graphics, while the person on the right is in a white shirt under a light green jacket. Their arms are around each other's shoulders, suggesting a friendly or playful interaction.",
+        "description_ru": "На изображении показаны два человека, стоящие вместе внутри помещения. Оба носят парики; один имеет вьющуюся прическу, а другой — длинные черные волосы. Они также одеты в солнцезащитные очки. Человек на левом плане одет в синюю футболку с цветными графическими элементами, а человек на правом — в белую рубашку под светло-зеленой курткой. Их руки обвиваются вокруг плеч друг друга, что может указывать на дружественный или забавный контакт.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "funny",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "costume",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "wig",
+                "category": "objects",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:08:44 using a Samsung SM-N900 camera with an ISO of 160 and an exposure time of 0.06667 seconds (approximately 1/15th of a second). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:08:44 с использованием камеры Samsung SM-N900. ISO равен 160, время экспозиции составляет приблизительно 1/15 секунды (0.06667 секунды). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

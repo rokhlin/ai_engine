@@ -1,0 +1,74 @@
+name: media-cataloger
+
+services:
+  cataloger:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/rokhlin/media_cataloger:latest
+    container_name: media-cataloger
+    restart: unless-stopped
+    ports:
+      - "${CATALOGER_PORT:-8001}:8001"
+    env_file:
+      - ${ENV_FILE:-./data/config/.env}
+    environment:
+      - API_PORT=8001
+      - API_HOST=0.0.0.0
+      - PYTHONUNBUFFERED=1
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - ORT_LOG_LEVEL=3
+      - ORT_LOGGING_LEVEL=3
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      # Application configuration and settings (.env, settings.json)
+      - ${CONFIG_PATH:-./data/config}:/app/data/config
+      # Media input directory to scan (Windows folder, drive e.g. Z:\ or local ./media_input)
+      - ${MEDIA_INPUT:-./media_input}:/app/media_input
+      # Output directory for catalog database, face crops, and metadata sidecars
+      - ${MEDIA_OUTPUT:-./media_output}:/app/media_output
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    x-casaos:
+      ports:
+        - container: "8001"
+          description:
+            en_us: Media Cataloger AI Service Port
+      volumes:
+        - container: /app/data/config
+          description:
+            en_us: Config directory for persistent settings and .env
+        - container: /app/media_input
+          description:
+            en_us: Input media directory to scan (photos/videos on Zimaboard)
+        - container: /app/media_output
+          description:
+            en_us: Output directory for database, faces registry, and sidecar metadata
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: cataloger
+  description:
+    en_us: AI-powered automated media cataloger, facial recognition, and metadata tagger for photos and videos (Machine B Service).
+  tagline:
+    en_us: AI Media Cataloger & Tagging Suite
+  developer: rokhlin
+  author: rokhlin
+  icon: https://raw.githubusercontent.com/rokhlin/media_cataloger_web/main/public/favicon.svg
+  thumbnail: ""
+  title:
+    en_us: Media Cataloger (AI Service)
+  category: Media
+  port_map: "8001"
+  index: /docs
+  scheme: http
+

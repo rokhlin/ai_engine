@@ -1,0 +1,94 @@
+{
+    "file_path": "20260827_193143~2.jpg",
+    "file_name": "20260827_193143~2.jpg",
+    "file_size": 1531511,
+    "mtime": 1788902358.5376022,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "mural",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "angel_wings",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 0.95
+        }
+    ],
+    "exif": {
+        "datetime": "2026:08:27 19:31:43",
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e2ebe96848da5a52",
+    "faces": [
+        {
+            "bbox": [
+                1607,
+                1596,
+                1760,
+                1769
+            ],
+            "face_id": "FACE_ID_01",
+            "name": "FACE_ID_01",
+            "confidence": 0.9019039869308472
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is standing in front of a colorful mural with angel wings and text that appears to be in Hebrew.",
+        "summary_ru": "Дети стоят перед яркой муралю с крыльями ангела и текстом, который кажется на иврите.",
+        "description": "The image shows a child standing indoors against a vibrant mural featuring angel wings and text. The environment suggests an indoor setting with artificial lighting, likely in a public space such as a museum or an amusement area. The child is wearing casual clothing and appears to be posing for the photo. The mural includes playful elements like candy and stars, indicating a fun and creative atmosphere.",
+        "description_ru": "На изображении виден ребенок, стоящий перед яркой муралю с крыльями ангела и текстом. Окружение указывает на то, что это внутри помещения с искусственным освещением, возможно в публичном месте, таком как музей или развлекательный центр. Ребенок одет в повседневную одежду и видимо позирует для фотографии. Мурал включает в себя забавные элементы, такие как конфеты и звезды, что указывает на веселую и творческую атмосферу.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "mural",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "angel_wings",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 0.95
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null
+}

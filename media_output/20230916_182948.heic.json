@@ -1,0 +1,133 @@
+{
+    "file_path": "W:\\Anton's iPhone\\20230916_182948.heic",
+    "file_name": "20230916_182948.heic",
+    "file_size": 5770669,
+    "mtime": 1694978100.765,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "beach",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "family",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "sunset",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "relaxation",
+            "category": "mood",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "eee930145af3e48a",
+    "faces": [
+        {
+            "bbox": [
+                898,
+                284,
+                1100,
+                562
+            ],
+            "face_id": "FACE_ID_07",
+            "name": "FACE_ID_07",
+            "confidence": 0.8995187878608704
+        },
+        {
+            "bbox": [
+                1150,
+                212,
+                1489,
+                612
+            ],
+            "face_id": "FACE_ID_11",
+            "name": "FACE_ID_11",
+            "confidence": 0.7595453262329102
+        },
+        {
+            "bbox": [
+                473,
+                561,
+                709,
+                753
+            ],
+            "face_id": "FACE_ID_36",
+            "name": "FACE_ID_36",
+            "confidence": 0.7243013978004456
+        },
+        {
+            "bbox": [
+                63,
+                496,
+                79,
+                515
+            ],
+            "face_id": "FACE_ID_37",
+            "name": "FACE_ID_37",
+            "confidence": 0.5035673379898071
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A family enjoys a day at the beach, with one adult holding a baby wrapped in a towel and another adult sitting beside them.",
+        "summary_ru": "Семья наслаждается днем на пляже, один взрослый держит ребенка в обнимку, завернутого в полотенце, а другой сидит рядом с ними.",
+        "description": "The image captures a family moment at the beach during what appears to be late afternoon or early evening. The sky is clear and blue, suggesting pleasant weather. One adult is holding a baby wrapped in a towel, while another adult sits beside them on the sand. In the background, there are other people enjoying the beach, some seated under umbrellas, and buildings can be seen further back, indicating an urban setting near the beach.",
+        "description_ru": "На изображении запечатлен момент семьи на пляже в то время, когда это может быть вечером или ранним вечером. Небо ясное и синее, что указывает на приятную погоду. Один взрослый держит ребенка, завернутого в полотенце, а другой сидит рядом с ними на песке. На заднем плане видны другие люди, наслаждающиеся пляжем, некоторые из них сидят под зонтиками, а дальше видны здания, что указывает на городской пейзаж возле пляжа.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "свет от природы",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "late afternoon/early evening",
+        "time_of_day_ru": "вечер/ранний вечер",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "beach",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "family",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "sunset",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "relaxation",
+                "category": "mood",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

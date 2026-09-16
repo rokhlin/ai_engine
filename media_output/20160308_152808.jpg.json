@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160308_152808.jpg",
+    "file_name": "20160308_152808.jpg",
+    "file_size": 842372,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "hat",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "plaid shirt",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "electronic device",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:08 15:28:07",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e3704990dae7cd91",
+    "faces": [
+        {
+            "bbox": [
+                727,
+                1520,
+                1107,
+                2032
+            ],
+            "face_id": "FACE_ID_128",
+            "name": "FACE_ID_128",
+            "confidence": 0.8876320719718933
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is sitting on a couch wearing a straw hat and holding an object in their hands.",
+        "summary_ru": "Человек сидит на диване в шляпе и держит что-то в руках.",
+        "description": "The image shows a person seated on a patterned couch. They are wearing a straw hat and a plaid shirt, holding an object in their hands which appears to be a small electronic device or gadget. The setting seems to be indoors, possibly a living room, with a wooden side table visible in the background containing some items.",
+        "description_ru": "На изображении человек сидит на диване в шляпе и держит что-то в руках. Он одет в клетчатую рубашку и шляпу, а также имеет на руках небольшое устройство или гаджет. Среда кажется домашней, возможно, это гостиная, с видимым деревянным боковым столиком с некоторыми предметами в заднем плане.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "hat",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "plaid shirt",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "electronic device",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The EXIF data indicates that the photo was taken on March 8, 2016, at 3:28 PM using a Samsung SM-N900 camera. The image does not provide GPS or location information.",
+        "exif_analysis_ru": "Информация из EXIF показывает, что снимок был сделан 8 марта 2016 года в 15:28 на камеру Samsung SM-N900. Изображение не содержит данных о местоположении или GPS."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

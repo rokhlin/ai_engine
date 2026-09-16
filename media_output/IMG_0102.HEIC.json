@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0102.HEIC",
+    "file_name": "IMG_0102.HEIC",
+    "file_size": 1292025,
+    "mtime": 1674221166.352,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "fc9dd34ea309143a",
+    "faces": [
+        {
+            "bbox": [
+                419,
+                449,
+                736,
+                778
+            ],
+            "face_id": "FACE_ID_56",
+            "name": "FACE_ID_56",
+            "confidence": 0.734035313129425
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy vehicles on a couch in a cozy indoor setting.",
+        "summary_ru": "Маленький ребенок играет с игрушечными автомобилями на диване в уютной домашней обстановке.",
+        "description": "The image shows a young child, shirtless and with wet hair, standing on the armrest of a couch. The child is looking at several toy vehicles placed in front of them, including a black truck and a red fire truck. The setting appears to be indoors, possibly a living room or playroom, with soft lighting coming through blinds.",
+        "description_ru": "На изображении виден маленький ребенок, обнаженный и с мокрыми волосами, стоящий на подлокотнике дивана. Ребенок смотрит на несколько игрушечных автомобилей, расположенных перед ним, включая черную грузовую машину и красный пожарный автомобиль. Среда кажется домашней, возможно, это гостиная или игровая комната, с мягким освещением через жалюзи.",
+        "environment": "indoor",
+        "lighting": "soft",
+        "lighting_ru": "мягкий свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "daytime",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

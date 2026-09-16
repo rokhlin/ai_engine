@@ -1,0 +1,111 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160313_193048.jpg",
+    "file_name": "20160313_193048.jpg",
+    "file_size": 400981,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "content_type",
+            "confidence": 0.9
+        },
+        {
+            "tag": "store",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "people",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "smile",
+            "category": "mood",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:13 19:30:48",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f2163c9d8bd1323c",
+    "faces": [
+        {
+            "bbox": [
+                655,
+                682,
+                1080,
+                1278
+            ],
+            "face_id": "FACE_ID_11",
+            "name": "FACE_ID_11",
+            "confidence": 0.746076762676239
+        },
+        {
+            "bbox": [
+                -257,
+                948,
+                368,
+                1733
+            ],
+            "face_id": "FACE_ID_272",
+            "name": "FACE_ID_272",
+            "confidence": 0.6720819473266602
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A selfie taken in a store with two individuals smiling at the camera.",
+        "summary_ru": "Селфи в магазине с двумя людьми, улыбающимися на камеру.",
+        "description": "На фотографии изображены два человека, стоящие рядом и улыбаясь. Они находятся внутри здания, вероятно, в магазине или торговой точке, с видимыми полками и товаром на заднем плане. Один человек носит серую футболку с принтом и кепку с черными и белыми клетчатыми полосами, другой - оранжевую кепку с черной полосой.",
+        "description_ru": "На фотографии изображены два человека, стоящие рядом и улыбаясь. Они находятся внутри здания, вероятно, в магазине или торговой точке, с видимыми полками и товаром на заднем плане. Один человек носит серую футболку с принтом и кепку с черными и белыми клетчатыми полосами, другой - оранжевую кепку с черной полосой.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "content_type",
+                "confidence": 0.9
+            },
+            {
+                "tag": "store",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "people",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "smile",
+                "category": "mood",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 13, 2016, at 19:30:48 using a Samsung SM-N900 camera.",
+        "exif_analysis_ru": "Фотография была сделана 13 марта 2016 года в 19:30:48 с помощью камеры Samsung SM-N900."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

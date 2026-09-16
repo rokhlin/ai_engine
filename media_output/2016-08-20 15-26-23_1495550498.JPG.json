@@ -1,0 +1,98 @@
+{
+    "file_path": "Z:\\2016-08-20 15-26-23_1495550498.JPG",
+    "file_name": "2016-08-20 15-26-23_1495550498.JPG",
+    "file_size": 1150333,
+    "mtime": 1787230449.869791,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "beach",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "ocean",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "people",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "summer",
+            "category": "mood",
+            "confidence": 0.6
+        },
+        {
+            "tag": "holiday",
+            "category": "event",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": "2016:08:20 12:26:23",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00069",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e694e99b09651ae3",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A person is standing on a railing overlooking a beach with the ocean in the background.",
+        "summary_ru": "Люди стоят на ограждении и смотрят на пляж с морем в фоне.",
+        "description": "The image shows a person standing on a wooden railing, facing away from the camera towards a beach. The individual is wearing a red top and denim shorts. The beach below is crowded with people enjoying various activities such as sunbathing under umbrellas and swimming in the water. The ocean stretches out to the horizon under a clear blue sky.",
+        "description_ru": "На изображении показан человек, стоящий на деревянном ограждении и смотрящий в сторону пляжа. Человек одет в красную блузку и джинсовые шорты. Пляж ниже занят людьми, которые занимаются различными видами отдыха: загорают под зонтиками и купаются в воде. Океан простирется до горизонта под ясным синим небом.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "природный свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "beach",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "ocean",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "people",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "summer",
+                "category": "mood",
+                "confidence": 0.6
+            },
+            {
+                "tag": "holiday",
+                "category": "event",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on August 20, 2016, at 12:26 PM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00069 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 20 августа 2016 года в 12:26 на Samsung SM-N900 с ISO 50 и выдержкой 0,00069 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

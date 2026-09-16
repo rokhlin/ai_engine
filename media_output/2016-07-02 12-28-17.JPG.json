@@ -1,0 +1,110 @@
+{
+    "file_path": "Z:\\2016-07-02 12-28-17.JPG",
+    "file_name": "2016-07-02 12-28-17.JPG",
+    "file_size": 2073199,
+    "mtime": 1787230449.803791,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "beach",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "relaxation",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "summer",
+            "category": "season",
+            "confidence": 0.7
+        },
+        {
+            "tag": "beverage",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ebc816959467c8ab",
+    "faces": [
+        {
+            "bbox": [
+                1408,
+                1613,
+                1461,
+                1682
+            ],
+            "face_id": "FACE_ID_35",
+            "name": "FACE_ID_35",
+            "confidence": 0.5521395206451416
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is relaxing on a sandy beach with two bottles of beer in the foreground.",
+        "summary_ru": "Человек отдыхает на песчаном пляже с двумя бутылками пива в переднем плане.",
+        "description": "На фото изображен человек, лежащий на песке у моря. Он одет в шорты и смотрит в сторону океана. В переднем плане видны две бутылки пива, стоящие в песке рядом с ракушками.",
+        "description_ru": "На фото изображен человек, лежащий на песке у моря. Он одет в шорты и смотрит в сторону океана. В переднем плане видны две бутылки пива, стоящие в песке рядом с ракушками.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "beach",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "relaxation",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "summer",
+                "category": "season",
+                "confidence": 0.7
+            },
+            {
+                "tag": "beverage",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

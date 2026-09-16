@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_095144.jpg",
+    "file_name": "20160307_095144.jpg",
+    "file_size": 2656475,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "bear statue",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "selfie stick",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "person sitting on bear",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "outdoor setting",
+            "category": "scene",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:51:44",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00101",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "eac2712fd2c95b12",
+    "faces": [
+        {
+            "bbox": [
+                818,
+                1571,
+                1109,
+                1932
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8313324451446533
+        },
+        {
+            "bbox": [
+                944,
+                591,
+                1326,
+                1105
+            ],
+            "face_id": "FACE_ID_126",
+            "name": "FACE_ID_126",
+            "confidence": 0.6369135975837708
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is taking a selfie while sitting on a large bear statue in an outdoor setting.",
+        "summary_ru": "Человек делает селфи, сидя на большом статуе медведя в открытом месте.",
+        "description": "На фотографии изображена человек, который сидит на большой статуе медведя и держит палку для селфи. Фон состоит из деревьев и зданий, что указывает на то, что это место находится в парке или зоопарке. Световой эффект показывает, что съемка была сделана в ясный день.",
+        "description_ru": "На фотографии изображена человек, который сидит на большой статуе медведя и держит палку для селфи. Фон состоит из деревьев и зданий, что указывает на то, что это место находится в парке или зоопарке. Световой эффект показывает, что съемка была сделана в ясный день.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "натуральный свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "bear statue",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "selfie stick",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "person sitting on bear",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "outdoor setting",
+                "category": "scene",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken with a Samsung SM-N900 camera on March 7, 2016 at 9:51:44 AM with an ISO of 50 and exposure time of 0.00101 seconds.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_002",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_dcglwuci.jpg",
+        "reasoning": "All images appear to be of the same scene with a similar composition and lighting. The subject's eyes are closed in all frames, which might be intentional for privacy or a specific pose. There is no motion blur, defocus, or bad exposure observed in any of these images. Since there are no significant differences between them, we can choose one based on the best visual quality. In this case, 'be_media_dcglwuci.jpg' seems to have the least amount of noise and the most balanced lighting among the three frames provided.",
+        "reasoning_ru": "Все изображения показывают одинаковую сцену с похожей композицией и освещением. У субъекта закрыты глаза в всех кадрах, что может быть намеренно для приватности или специфического позирования. В этих изображениях нет размытости,keh несредственном фокусе или плохой экспозиции. Поскольку между ними нет значительных отличий, мы можем выбрать один на основе лучшего качества визуального восприятия. В данном случае 'be_media_dcglwuci.jpg' кажется иметь наименьшее количество шума и наиболее сбалансированное освещение среди трех предоставленных кадров.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

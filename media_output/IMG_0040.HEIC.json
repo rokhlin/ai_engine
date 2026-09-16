@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0040.HEIC",
+    "file_name": "IMG_0040.HEIC",
+    "file_size": 1551715,
+    "mtime": 1674221167.265,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "table",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "container",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "tablet",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "bottle",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e5e96534b6948c8e",
+    "faces": [
+        {
+            "bbox": [
+                587,
+                289,
+                918,
+                747
+            ],
+            "face_id": "FACE_ID_44",
+            "name": "FACE_ID_44",
+            "confidence": 0.643955647945404
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is standing at a table, holding a small container with a green lid.",
+        "summary_ru": "Маленький ребенок стоит за столом и держит маленькую баночку с зеленой крышкой.",
+        "description": "The image shows a young child wearing a light-colored shirt. The child is standing at a wooden table and holding a small container with a green lid in their right hand. On the table, there is also an orange tablet device with colorful icons on its screen. In the background, there appears to be a bottle of baby formula or similar product placed against the wall.",
+        "description_ru": "На изображении показан маленький ребенок в светлой футболке. Ребенок стоит за деревянным столом и держит маленькую баночку с зеленой крышкой в правой руке. На столе также видна оранжевая планшетная устройство с цветными иконками на экране. В фоне видно бутылку детского питания или подобного продукта, стоящую у стенки.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "table",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "container",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "tablet",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "bottle",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

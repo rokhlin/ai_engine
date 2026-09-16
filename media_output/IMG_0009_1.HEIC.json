@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0009_1.HEIC",
+    "file_name": "IMG_0009_1.HEIC",
+    "file_size": 1668657,
+    "mtime": 1674221166.608,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "bedroom",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cushion",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "childhood",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e1874b9f410df934",
+    "faces": [
+        {
+            "bbox": [
+                496,
+                582,
+                869,
+                1028
+            ],
+            "face_id": "FACE_ID_38",
+            "name": "FACE_ID_38",
+            "confidence": 0.7679300308227539
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A baby is lying on a green cushion in a bedroom setting.",
+        "summary_ru": "Младенец лежит на зеленой подушке в спальне.",
+        "description": "На фотографии изображена маленький ребенок, лежащий на зеленой подушке. Ребенок одет в серую футболку с принтом и выглядит сосредоточенно или немного задумчиво. На заднем плане видна кровать с цветными подушками и белый шкаф, а также часть стены с картиной.",
+        "description_ru": "На фотографии изображена маленький ребенок, лежащий на зеленой подушке. Ребенок одет в серую футболку с принтом и выглядит сосредоточенно или немного задумчиво. На заднем плане видна кровать с цветными подушками и белый шкаф, а также часть стены с картиной.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "bedroom",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cushion",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "childhood",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

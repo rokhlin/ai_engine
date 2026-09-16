@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0099.HEIC",
+    "file_name": "IMG_0099.HEIC",
+    "file_size": 1356547,
+    "mtime": 1674221166.657,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "playtime",
+            "category": "mood",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f79f0ce81087e3d0",
+    "faces": [
+        {
+            "bbox": [
+                414,
+                223,
+                655,
+                667
+            ],
+            "face_id": "FACE_ID_55",
+            "name": "FACE_ID_55",
+            "confidence": 0.5990243554115295
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy vehicles on a couch.",
+        "summary_ru": "Маленький ребенок играет с игрушечными автомобилями на диване.",
+        "description": "На фотографии изображена маленькая девочка, которая сидит на сером диване и играет с разноцветными игрушечными автомобилями. Девочка одета в подгузник и имеет светлые волосы. На диване также видны другие детские игрушки, такие как желтый грузовик и красный самолет.",
+        "description_ru": "На фотографии изображена маленькая девочка, которая сидит на сером диване и играет с разноцветными игрушечными автомобилями. Девочка одета в подгузник и имеет светлые волосы. На диване также видны другие детские игрушки, такие как желтый грузовик и красный самолет.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "playtime",
+                "category": "mood",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

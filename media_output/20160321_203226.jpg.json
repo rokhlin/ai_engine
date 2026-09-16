@@ -1,0 +1,131 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_203226.jpg",
+    "file_name": "20160321_203226.jpg",
+    "file_size": 1341143,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "store",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "market",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "smile",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "long_hair",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "beard",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 20:32:25",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 160,
+        "exposure_time": "0.05000",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f03cc1e09acf38ce",
+    "faces": [
+        {
+            "bbox": [
+                817,
+                1130,
+                1666,
+                2400
+            ],
+            "face_id": "FACE_ID_276",
+            "name": "FACE_ID_276",
+            "confidence": 0.8528521060943604
+        },
+        {
+            "bbox": [
+                2230,
+                1928,
+                2323,
+                2093
+            ],
+            "face_id": "FACE_ID_277",
+            "name": "FACE_ID_277",
+            "confidence": 0.5220097303390503
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person with long black hair and a beard is smiling in what appears to be a store or market setting.",
+        "summary_ru": "Люди с длинными черными волосами и бородой улыбаются в магазине или на рынке.",
+        "description": "The image shows an individual with long black hair and a beard, wearing glasses on their shirt. They are smiling at the camera. The background includes shelves stocked with various items, suggesting that this photo was taken in a store or market environment. There is also a visible sign for 'Star Wars' in the upper left corner of the image.",
+        "description_ru": "На изображении показан человек с длинными черными волосами и бородой, который носит очки на своей рубашке. Он улыбается в камеру. На заднем плане видны полки, заполненные различными предметами, что указывает на то, что это фото было сделано в магазине или на рынке. Также виден знак для 'Star Wars' в верхнем левом углу изображения.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственная",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "store",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "market",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "smile",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "long_hair",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "beard",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken with a Samsung SM-N900 camera on March 21, 2016, at 8:32 PM. The ISO setting was 160 and the exposure time was 0.05 seconds.",
+        "exif_analysis_ru": "Фотография была сделана камерой Samsung SM-N900 21 марта 2016 года в 8:32 вечера. Уровень ISO был установлен на 160, а время экспозиции составило 0.05 секунды."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

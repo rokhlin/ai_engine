@@ -1,0 +1,131 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0154.HEIC",
+    "file_name": "IMG_0154.HEIC",
+    "file_size": 2865837,
+    "mtime": 1674221167.172,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "Christmas tree",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Ornaments",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "Lighting",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "Peace sign",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "Casual clothing",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "Holiday attire",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f38d9e48a934cb29",
+    "faces": [
+        {
+            "bbox": [
+                564,
+                593,
+                681,
+                737
+            ],
+            "face_id": "FACE_ID_81",
+            "name": "FACE_ID_81",
+            "confidence": 0.8388741612434387
+        },
+        {
+            "bbox": [
+                900,
+                503,
+                1028,
+                665
+            ],
+            "face_id": "FACE_ID_82",
+            "name": "FACE_ID_82",
+            "confidence": 0.8328109979629517
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Two individuals are posing for a photo in front of a decorated Christmas tree with colorful ornaments and lights. They appear to be dressed in stylish outfits, one wearing a black blazer and skirt with knee-high socks and boots, the other in a white blazer and black dress with fishnet stockings and Mary Jane shoes.",
+        "summary_ru": "Двое людей позируют на фото перед украшенной новогодней елкой с разноцветными орнаментами и светящимися лампочками. Они одеты в стильные наряды, один в черную блузку и юбку с коленными носками и ботинками, другой в белую блузку и черное платье с сетчатыми чулками и туфлями-лодочками.",
+        "description": "The photo captures two individuals standing in front of a Christmas tree adorned with colorful ornaments and lights. The person on the left is wearing a black blazer, a cropped top, a pleated skirt, knee-high socks with a patterned design, and black boots. The person on the right is dressed in a white blazer, a black dress, fishnet stockings, and Mary Jane shoes. They are posing for the photo, with one making a peace sign gesture.",
+        "description_ru": "На фото изображены два человека, стоящие перед новогодней елкой с разноцветными украшениями и светящимися лампочками. Человек слева одет в черную блузку, обтягивающую топ, плиссированную юбку, коленчатые носки с узором и черные ботинки. Человек справа одет в белую блузку, черное платье, сетчатые чулки и туфли-лодочки. Они позируют на фото, один из них делает жест мира.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "Christmas tree",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Ornaments",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "Lighting",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "Peace sign",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "Casual clothing",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "Holiday attire",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

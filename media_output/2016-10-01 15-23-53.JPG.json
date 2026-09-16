@@ -1,0 +1,100 @@
+{
+    "file_path": "Z:\\2016-10-01 15-23-53.JPG",
+    "file_name": "2016-10-01 15-23-53.JPG",
+    "file_size": 463942,
+    "mtime": 1787230449.939791,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "chef's hat",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "pumpkin",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "kitchen",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "thoughtful person",
+            "category": "people",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a786dc192ca75c66",
+    "faces": [
+        {
+            "bbox": [
+                1006,
+                405,
+                1197,
+                676
+            ],
+            "face_id": "FACE_ID_09",
+            "name": "FACE_ID_09",
+            "confidence": 0.8932970762252808
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person wearing a chef's hat is sitting on a large pumpkin in what appears to be a kitchen or food preparation area. The individual has their hand resting under their chin and seems contemplative.",
+        "summary_ru": "Человек в шляпе повара сидит на большом тыкве в кухне или помещении для приготовления пищи. Человек держит руку под подбородком и кажется, что задумался.",
+        "description": "The image shows a person dressed in black attire and wearing a chef's hat sitting on a large pumpkin. The setting appears to be an indoor kitchen or food preparation area with various items like scales, containers, and other equipment visible in the background. The individual has their hand resting under their chin, suggesting a thoughtful or contemplative mood.",
+        "description_ru": "На изображении показан человек в черной одежде и шляпе повара сидящий на большом тыкве. Окружение выглядит как кухня или помещение для приготовления пищи, где видны различные предметы, такие как весы, контейнеры и другие оборудование. Человек держит руку под подбородком, что может указывать на задумчивый или размышляющий настроение.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "chef's hat",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "pumpkin",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "kitchen",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "thoughtful person",
+                "category": "people",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

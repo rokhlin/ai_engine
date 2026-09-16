@@ -1,0 +1,120 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0084.HEIC",
+    "file_name": "IMG_0084.HEIC",
+    "file_size": 1958067,
+    "mtime": 1674221167.575,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "adult",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "cotton_swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "rug",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living_room",
+            "category": "content_type",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "f3d401849dbb05bb",
+    "faces": [
+        {
+            "bbox": [
+                654,
+                673,
+                809,
+                832
+            ],
+            "face_id": "FACE_ID_54",
+            "name": "FACE_ID_54",
+            "confidence": 0.7629804015159607
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is playing with cotton swabs on a patterned rug while an adult sits nearby.",
+        "summary_ru": "Дети играют с ватными палочками на ковре с узором, рядом сидит взрослый человек.",
+        "description": "The image shows a child lying on their stomach on a patterned carpet, reaching out to pick up cotton swabs scattered across the rug. An adult is sitting beside them, also interacting with the cotton swabs in a container. The setting appears to be indoors, possibly in a living room or playroom, as there are toys and electronic equipment visible in the background.",
+        "description_ru": "На изображении виден ребенок лежащий на животе на ковре с узором и достающий до ватных палочек, рассредоточенных по ковру. Взрослый человек сидит рядом и также взаимодействует с ватными палочками из контейнера. Сцена происходит внутри помещения, возможно это гостиная или игровая комната, так как на заднем плане видны игрушки и электронное оборудование.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "adult",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "cotton_swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "rug",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living_room",
+                "category": "content_type",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

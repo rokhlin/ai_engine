@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0048.HEIC",
+    "file_name": "IMG_0048.HEIC",
+    "file_size": 2154184,
+    "mtime": 1674221167.454,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicle",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "patterned rug",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "red curtains",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "household items",
+            "category": "objects",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "967d2ce919078bcc",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A child is standing in a room with various toys scattered around, including a toy construction vehicle and some loose parts on the floor. The room has red curtains, a patterned rug, and a variety of household items.",
+        "summary_ru": "В комнате стоит ребенок с разбросанными игрушками, включая трактор-конструктор и некоторые детали на полу. В комнате красные шторы, ковер с узором и различные бытовые предметы.",
+        "description": "The image shows a child in the middle of a room with various toys scattered around. The child is standing near a toy construction vehicle that appears to be partially assembled or disassembled, as there are loose parts on the floor. The room has red curtains, a patterned rug, and several household items such as a chair, a chest of drawers, and some bags in the background.",
+        "description_ru": "На изображении виден ребенок в середине комнаты с разбросанными игрушками. Ребенок стоит рядом с трактором-конструктором, который кажется частично собранным или разобранным, так как на полу есть детали. В комнате красные шторы, ковер с узором и несколько бытовых предметов, таких как стул, комод и сумки в заднем плане.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicle",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "patterned rug",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "red curtains",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "household items",
+                "category": "objects",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

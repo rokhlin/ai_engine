@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0195.HEIC",
+    "file_name": "IMG_0195.HEIC",
+    "file_size": 1559716,
+    "mtime": 1674221166.322,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "confetti",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "oranges",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "floor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "d5168e591c2e3b1d",
+    "faces": [
+        {
+            "bbox": [
+                1339,
+                586,
+                1728,
+                870
+            ],
+            "face_id": "FACE_ID_121",
+            "name": "FACE_ID_121",
+            "confidence": 0.8229587078094482
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child lying on the floor surrounded by colorful confetti and oranges.",
+        "summary_ru": "Маленький ребенок лежит на полу среди разноцветных конфетти и апельсинов.",
+        "description": "На фотографии изображена маленький ребенок, лежащий на ковре. Ребенок одет в футболку с символом Супермена и штаны в клетку. Вокруг него разбросано множество разноцветных конфетти и несколько апельсинов. Детальность изображения высока, детали одежды и предметов на полу хорошо различимы.",
+        "description_ru": "На фотографии изображена маленький ребенок, лежащий на ковре. Ребенок одет в футболку с символом Супермена и штаны в клетку. Вокруг него разбросано множество разноцветных конфетти и несколько апельсинов. Детальность изображения высока, детали одежды и предметов на полу хорошо различимы.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "confetti",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "oranges",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "floor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

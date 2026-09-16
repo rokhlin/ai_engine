@@ -1,0 +1,150 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211449.jpg",
+    "file_name": "20160321_211449.jpg",
+    "file_size": 390357,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "friends",
+            "category": "people",
+            "confidence": 0.8
+        },
+        {
+            "tag": "fun",
+            "category": "mood",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoors",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "technology",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "wig",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:14:49",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 125,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "bdcdb2d262d34069",
+    "faces": [
+        {
+            "bbox": [
+                2635,
+                675,
+                3048,
+                1237
+            ],
+            "face_id": "FACE_ID_293",
+            "name": "FACE_ID_293",
+            "confidence": 0.8559084534645081
+        },
+        {
+            "bbox": [
+                1814,
+                913,
+                2232,
+                1439
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8402833342552185
+        },
+        {
+            "bbox": [
+                793,
+                627,
+                1271,
+                1215
+            ],
+            "face_id": "FACE_ID_283",
+            "name": "FACE_ID_283",
+            "confidence": 0.817168116569519
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Three individuals are gathered closely together indoors, seemingly engaged in a shared activity involving a smartphone or tablet device held by one of them. They appear to be wearing casual attire and sunglasses, with two of them sporting wigs for comedic effect.",
+        "summary_ru": "Трое людей собрались вместе внутри помещения и, похоже, заняты совместной деятельностью с использованием смартфона или планшета, который держит один из них. Они одеты в повседневную одежду и солнцезащитные очки, а двое из них носят парики для комического эффекта.",
+        "description": "The scene depicts three individuals sitting closely together on a couch indoors. They are all wearing casual clothing and sunglasses. Two of them have wigs on their heads, adding to the playful atmosphere. The person in the middle is holding what appears to be a smartphone or tablet device, suggesting they might be watching something together or taking a selfie.",
+        "description_ru": "На снимке изображены трое людей, сидящих рядом на диване внутри помещения. Все они одеты в повседневную одежду и солнцезащитные очки. Двое из них носят парики на головах, что придает сцене комический оттенок. Человек в середине держит что-то похожее на смартфон или планшет, предполагая, что они могут вместе смотреть что-то или делать совместный снимок.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "friends",
+                "category": "people",
+                "confidence": 0.8
+            },
+            {
+                "tag": "fun",
+                "category": "mood",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoors",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "technology",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "wig",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 21:14:49 using a Samsung SM-N900 camera with an ISO of 125 and an exposure time of 0.06667 seconds (f/2.2). The GPS information is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:14:49 с использованием камеры Samsung SM-N900 с ISO 125 и выдержкой 0.06667 секунды (f/2.2). Информация о GPS недоступна."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_010",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_dabq0d21.jpg",
+        "reasoning": "Both images appear to have similar issues with overexposure affecting the brightness and contrast levels. However, 'be_media_zy4_d_km.jpg' has a slightly more pronounced issue where there seems to be some motion blur present in the background, which is not visible or noticeable in 'be_media_dabq0d21.jpg'. Since both images suffer from overexposure but one also exhibits motion blur, we choose 'be_media_dabq0d21.jpg' as it has fewer technical defects overall.",
+        "reasoning_ru": "Оба изображения имеют схожие проблемы с пересветленностью, влияющей на общую яркость и контрастность. Однако в 'be_media_zy4_d_km.jpg' видна более заметная проблема - наличие размытости фона, которая не заметна или не видна в 'be_media_dabq0d21.jpg'. Поскольку оба изображения страдают от пересветленности, но одно также демонстрирует размытость фона, мы выбираем 'be_media_dabq0d21.jpg', так как у него меньше технических дефектов в целом.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_091215.jpg",
+    "file_name": "20160307_091215.jpg",
+    "file_size": 3777175,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "walking",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "palm trees",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "pathway",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "grass",
+            "category": "scene",
+            "confidence": 0.6
+        },
+        {
+            "tag": "hat",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "plaid shirt",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:12:15",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00095",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "b6f070971f4b4531",
+    "faces": [
+        {
+            "bbox": [
+                1369,
+                1619,
+                1591,
+                1884
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8875422477722168
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is walking on a path in an outdoor setting with palm trees and grassy areas.",
+        "summary_ru": "Человек идет по тропинке в открытой местности с пальмами и зеленой травой.",
+        "description": "The image shows a person walking along a paved path surrounded by lush greenery, including palm trees and grass. The individual is dressed in casual attire, wearing a plaid shirt, jeans, and a hat, holding what appears to be a walking stick or cane. The setting suggests a park or a similar recreational area with clear skies above.",
+        "description_ru": "На изображении показан человек, идущий по тротуару, окруженный зеленью, включая пальмы и траву. Человек одет в повседневную одежду, в клетчатой рубашке, джинсы и кепку, держит что-то наподобие трости или костыли. Среда указывает на парк или подобное рекреационное место с ясным небом.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "природный свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "morning",
+        "time_of_day_ru": "утро",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "walking",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "palm trees",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "pathway",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "grass",
+                "category": "scene",
+                "confidence": 0.6
+            },
+            {
+                "tag": "hat",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "plaid shirt",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 9:12 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00095 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 9:12 утра с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой 0,00095 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

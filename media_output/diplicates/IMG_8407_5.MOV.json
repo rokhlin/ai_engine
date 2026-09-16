@@ -1,0 +1,96 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8407_5.MOV",
+    "file_name": "IMG_8407_5.MOV",
+    "file_size": 16126276,
+    "mtime": 1643985045.805,
+    "media_type": "video",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "beach",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "waves",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "horizon",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "industrial structures",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "hills",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "video_metadata": {
+        "duration": 15.58,
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.974326059050064,
+        "bitrate": 8280501,
+        "codec": "hevc",
+        "datetime": null
+    },
+    "face_timeline": {},
+    "gemini_analysis": {
+        "summary": "The video showcases a serene beach scene with waves crashing onto the shore. The camera captures the rhythmic movement of the water, highlighting the contrast between the dynamic sea and the stillness of the pebbled beach. In the background, there are distant hills and some industrial structures visible on the horizon.",
+        "summary_ru": "Видео показывает спокойный пейзаж морского побережья с волнами, которые ударяются о берег. Камера фиксирует ритмичное движение воды, подчеркивая контраст между динамичным морем и неподвижностью песчаного пляжа. На заднем плане видны отдаленные холмы и некоторые промышленные сооружения на горизонте.",
+        "transcription": "This video is made possible for a year at the time of the year at New York.  Hello!",
+        "transcription_ru": "Этот видеоролик был создан на год в то время года в Нью-Йорке. Привет!",
+        "timeline_events": [
+            {
+                "timestamp_start": "00:00",
+                "timestamp_end": "00:15",
+                "activity": "The video shows a beach scene with waves crashing onto the shore, and distant hills and industrial structures are visible in the background.",
+                "activity_ru": "В видео показан пейзаж морского побережья с волнами, которые ударяются о берег. На заднем плане видны отдаленные холмы и некоторые промышленные сооружения."
+            }
+        ],
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "beach",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "waves",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "horizon",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "industrial structures",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "hills",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ]
+    },
+    "transcription": "This video is made possible for a year at the time of the year at New York.  Hello!",
+    "transcription_ru": "Этот видеоролик был создан на год в то время года в Нью-Йорке. Привет!",
+    "phash": "c6d99d847ce4862e",
+    "modules_status": {
+        "transcribe": true,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

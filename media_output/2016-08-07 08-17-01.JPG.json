@@ -1,0 +1,160 @@
+{
+    "file_path": "Z:\\2016-08-07 08-17-01.JPG",
+    "file_name": "2016-08-07 08-17-01.JPG",
+    "file_size": 369842,
+    "mtime": 1787230449.812791,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "girl",
+            "category": "people",
+            "confidence": 0.95
+        },
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.98
+        },
+        {
+            "tag": "classroom",
+            "category": "scene",
+            "confidence": 0.92
+        },
+        {
+            "tag": "chalkboard",
+            "category": "objects",
+            "confidence": 0.97
+        },
+        {
+            "tag": "protractor",
+            "category": "objects",
+            "confidence": 0.88
+        },
+        {
+            "tag": "pink bag",
+            "category": "objects",
+            "confidence": 0.94
+        },
+        {
+            "tag": "lunchbox",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "purple dress",
+            "category": "clothing",
+            "confidence": 0.96
+        },
+        {
+            "tag": "flower hair accessory",
+            "category": "accessories",
+            "confidence": 0.91
+        },
+        {
+            "tag": "school supplies",
+            "category": "context",
+            "confidence": 0.87
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ea15075a65a45cde",
+    "faces": [
+        {
+            "bbox": [
+                632,
+                738,
+                931,
+                1123
+            ],
+            "face_id": "FACE_ID_04",
+            "name": "FACE_ID_04",
+            "confidence": 0.8362035155296326
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young girl in a purple dress stands indoors, likely in a classroom, holding a large pink cylindrical object that resembles a lunchbox or pencil case. She has a white flower accessory in her hair.",
+        "summary_ru": "Молодая девушка в фиолетовом платье стоит внутри, вероятно, в классе, держа большой розовый цилиндрический объект, похожий на обеденный ящик или пенал. У нее есть белый аксессуар с цветком в волосах.",
+        "description": "The image features a young girl with light brown hair styled in pigtails and adorned with a white flower accessory on top of her head. She is wearing a sleeveless, light purple dress with a floral pattern and a darker purple sash around the waist. The girl is holding a large, cylindrical pink object wrapped in what looks like fabric or a soft material, possibly a lunchbox or a pencil case. The background shows a green chalkboard with some faint writing (letters 'BC' and numbers '1', '2') and a large yellow protractor mounted on the wall behind her.",
+        "description_ru": "На изображении изображена молодая девушка со светло-коричневыми волосами, уложенными в две косы и украшенную белым цветочным аксессуаром на макушке. Она одета в безрукавное светло-фиолетовое платье с цветочным узором и более темной фиолетовой лентой вокруг талии. Девушка держит большой цилиндрический розовый объект, обернутый в то, что выглядит как ткань или мягкий материал, возможно, обеденный ящик или пенал. На заднем плане видна зеленая доска с некоторыми faintными надписями (буквы 'BC' и цифры '1', '2') и большой желтый транспортир, прикрепленный к стене позади нее.",
+        "environment": "indoor",
+        "lighting": "soft, diffuse artificial light",
+        "lighting_ru": "мягкий, рассеянный искусственный свет",
+        "weather": "N/A",
+        "weather_ru": "Не применимо",
+        "time_of_day": "daytime (likely)",
+        "time_of_day_ru": "дневное время (вероятно)",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "girl",
+                "category": "people",
+                "confidence": 0.95
+            },
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.98
+            },
+            {
+                "tag": "classroom",
+                "category": "scene",
+                "confidence": 0.92
+            },
+            {
+                "tag": "chalkboard",
+                "category": "objects",
+                "confidence": 0.97
+            },
+            {
+                "tag": "protractor",
+                "category": "objects",
+                "confidence": 0.88
+            },
+            {
+                "tag": "pink bag",
+                "category": "objects",
+                "confidence": 0.94
+            },
+            {
+                "tag": "lunchbox",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "purple dress",
+                "category": "clothing",
+                "confidence": 0.96
+            },
+            {
+                "tag": "flower hair accessory",
+                "category": "accessories",
+                "confidence": 0.91
+            },
+            {
+                "tag": "school supplies",
+                "category": "context",
+                "confidence": 0.87
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

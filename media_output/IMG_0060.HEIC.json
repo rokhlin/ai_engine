@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0060.HEIC",
+    "file_name": "IMG_0060.HEIC",
+    "file_size": 1838467,
+    "mtime": 1674221168.145,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy construction vehicle",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "cotton swabs",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor setting",
+            "category": "scene",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "ae94bc78b09dca8a",
+    "faces": [
+        {
+            "bbox": [
+                1029,
+                219,
+                1204,
+                415
+            ],
+            "face_id": "FACE_ID_49",
+            "name": "FACE_ID_49",
+            "confidence": 0.8590610027313232
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is sitting on the floor playing with a toy construction vehicle amidst scattered cotton swabs.",
+        "summary_ru": "Маленький ребенок сидит на полу и играет с игрушечной строительной машиной среди разбросанных ватных палочек.",
+        "description": "На фотографии изображена маленькая девочка, сидящая на ковре у себя дома. Она одета в полосатую кофту и серые брюки, а также в носки с принтом. Ребенок играет с желтой и черной игрушечной строительной машиной, которая лежит рядом с разбросанными на ковре белыми ватными палочками.",
+        "description_ru": "На фотографии изображена маленькая девочка, сидящая на ковре у себя дома. Она одета в полосатую кофту и серые брюки, а также в носки с принтом. Ребенок играет с желтой и черной игрушечной строительной машиной, которая лежит рядом с разбросанными на ковре белыми ватными палочками.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy construction vehicle",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "cotton swabs",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor setting",
+                "category": "scene",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

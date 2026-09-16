@@ -1,0 +1,29 @@
+{
+    "file_path": "Z:\\20150412_190907 - Copy (2).jpg",
+    "file_name": "20150412_190907 - Copy (2).jpg",
+    "file_size": 2845363,
+    "mtime": 1428854947.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [],
+    "exif": {
+        "datetime": "2015:04:12 19:09:07",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 64,
+        "exposure_time": "0.02000",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "c0c03f1b37f28765",
+    "faces": [],
+    "gemini_analysis": {},
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": false
+    }
+}

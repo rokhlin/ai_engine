@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160312_150348.jpg",
+    "file_name": "20160312_150348.jpg",
+    "file_size": 1220431,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "waterfront",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "construction site",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "hotel",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "man sitting on bench",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "palm trees",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:12 15:03:48",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00072",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "c9aed5364a996994",
+    "faces": [
+        {
+            "bbox": [
+                3273,
+                1397,
+                3453,
+                1628
+            ],
+            "face_id": "FACE_ID_129",
+            "name": "FACE_ID_129",
+            "confidence": 0.8081150054931641
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A man is sitting on a bench by the water with a view of a construction site and a hotel in the background. The scene appears to be near a waterfront area with some construction activity visible.",
+        "summary_ru": "Мужчина сидит на скамейке у воды, виднеется строительная площадка и отель на заднем плане. Сцена кажется быть вблизи водного берега с некоторой видимостью строительной активности.",
+        "description": "The image shows a man sitting on a wooden bench by the water's edge, wearing sunglasses and casual clothing. He appears to be relaxing or observing something in front of him. The background features a waterfront area with some construction activity visible near a large building labeled 'Crowne Plaza.' There are palm trees and other structures along the shoreline, indicating a developed coastal location.",
+        "description_ru": "На изображении показан мужчина, сидящий на деревянной скамейке у воды. Он одет в солнцезащитные очки и повседневную одежду. Он кажется расслабляться или наблюдать что-то перед собой. На заднем плане виден береговая зона с некоторой строительной активностью близко к большому зданию, помеченного как 'Crowne Plaza.' Есть пальмы и другие структуры по берегу, указывая на развитую прибрежную местность.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "waterfront",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "construction site",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "hotel",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "man sitting on bench",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "palm trees",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken with a Samsung SM-N900 camera on March 12, 2016, at 3:03 PM with an ISO of 50 and an exposure time of 0.00072 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана с помощью камеры Samsung SM-N900 12 марта 2016 года в 3:03 PM при ISO 50 и выдержке времени 0.00072 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_095810.jpg",
+    "file_name": "20160307_095810.jpg",
+    "file_size": 2930206,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "outdoor_exercise_machine",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "walking_sticks",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "park",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:58:10",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00160",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "ca3abae2f8bcd044",
+    "faces": [
+        {
+            "bbox": [
+                2801,
+                635,
+                2971,
+                850
+            ],
+            "face_id": "FACE_ID_127",
+            "name": "FACE_ID_127",
+            "confidence": 0.8753384947776794
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is standing next to an outdoor exercise machine in a park setting.",
+        "summary_ru": "Человек стоит рядом с уличным тренажером в парковой зоне.",
+        "description": "The image shows an older individual wearing a plaid shirt, jeans, and a cap. They are holding two walking sticks and standing next to a metallic outdoor exercise machine with green accents. The background features trees, grassy areas, and a paved path, suggesting a park environment. The lighting indicates it is daytime.",
+        "description_ru": "На изображении виден старший человек в клетчатой рубашке, джинсах и кепке. Он держит два трости для ходьбы и стоит рядом с металлическим уличным тренажером с зелеными акцентами. На заднем плане видны деревья, зеленые участки и асфальтированный путь, что указывает на парковую зону. Освещение показывает, что это дневное время.",
+        "environment": "outdoor",
+        "lighting": "daylight",
+        "lighting_ru": "дневной свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "morning",
+        "time_of_day_ru": "утро",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "outdoor_exercise_machine",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "walking_sticks",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "park",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 9:58 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.0016 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 9:58 утра с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой 0,0016 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

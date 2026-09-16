@@ -1,0 +1,92 @@
+{
+    "file_path": "Z:\\diplicates\\IMG_8407.MOV",
+    "file_name": "IMG_8407.MOV",
+    "file_size": 16126276,
+    "mtime": 1641763365.753,
+    "media_type": "video",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "waves",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "pebble beach",
+            "category": "scene",
+            "confidence": 0.85
+        },
+        {
+            "tag": "distant hills",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "structures in the background",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "video_metadata": {
+        "duration": 15.58,
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.974326059050064,
+        "bitrate": 8280501,
+        "codec": "hevc",
+        "datetime": null
+    },
+    "face_timeline": {},
+    "gemini_analysis": {
+        "summary": "The video showcases a serene beach scene with waves crashing onto the shore. The camera captures the rhythmic motion of the water, highlighting the contrast between the dynamic sea and the stillness of the pebbled beach. In the background, there are distant hills and some structures that suggest a coastal town or industrial area.",
+        "summary_ru": "Видео показывает спокойный пейзаж морского побережья с волнами, которые бьются о берег. Камера фиксирует ритмичное движение воды, подчеркивая контраст между динамичным морем и неподвижностью песчаного пляжа. На заднем плане видны отдаленные холмы и некоторые сооружения, что указывают на прибрежный город или промышленную зону.",
+        "transcription": "I'm going to go to the next episode of the",
+        "transcription_ru": "Я пойду на следующий эпизод.",
+        "timeline_events": [
+            {
+                "timestamp_start": "00:00:00",
+                "timestamp_end": "00:05:00",
+                "activity": "The camera captures the waves crashing onto the pebbled beach with distant hills and structures in the background.",
+                "activity_ru": "Камера фиксирует волны, бьющиеся о песчаный пляж с отдаленными холмами и сооружениями на заднем плане."
+            },
+            {
+                "timestamp_start": "00:10:00",
+                "timestamp_end": "00:15:00",
+                "activity": "The camera continues to capture the waves and the pebbled beach, with a slight shift in perspective showing more of the coastal town or industrial area.",
+                "activity_ru": "Камера продолжает фиксировать волны и песчаный пляж, с небольшим изменением угла, что позволяет видеть больше прибрежного города или промышленной зоны."
+            }
+        ],
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "waves",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "pebble beach",
+                "category": "scene",
+                "confidence": 0.85
+            },
+            {
+                "tag": "distant hills",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "structures in the background",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ]
+    },
+    "transcription": "I'm going to go to the next episode of the",
+    "transcription_ru": "Я пойду на следующий эпизод.",
+    "phash": "c6d99d847ce4862e",
+    "modules_status": {
+        "transcribe": true,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

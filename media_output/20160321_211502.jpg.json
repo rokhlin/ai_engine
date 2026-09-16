@@ -1,0 +1,142 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211502.jpg",
+    "file_name": "20160321_211502.jpg",
+    "file_size": 648790,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "humor",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "playful",
+            "category": "mood",
+            "confidence": 0.7
+        },
+        {
+            "tag": "tablet",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "wigs",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:15:02",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 160,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "b9c99496c786c06f",
+    "faces": [
+        {
+            "bbox": [
+                1279,
+                569,
+                1673,
+                1077
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8866961002349854
+        },
+        {
+            "bbox": [
+                2057,
+                758,
+                2472,
+                1366
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8613458871841431
+        },
+        {
+            "bbox": [
+                2754,
+                586,
+                3291,
+                1294
+            ],
+            "face_id": "FACE_ID_294",
+            "name": "FACE_ID_294",
+            "confidence": 0.611592710018158
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "Three individuals are sitting on a couch, wearing wigs and sunglasses, looking at a tablet together.",
+        "summary_ru": "Три человека сидят на диване, одетые в парики и солнцезащитные очки, смотрят на планшет вместе.",
+        "description": "The image shows three individuals sitting closely on a couch. They are all wearing wigs and sunglasses, giving the scene a humorous or playful vibe. The person in the middle is holding a tablet, which they appear to be showing to the others. All three seem engaged with what's displayed on the screen.",
+        "description_ru": "На изображении показано трех человек сидящих на диване. Все они одеты в парики и солнцезащитные очки, что придает сцене юмористический или забавный оттенок. Человек посередине держит планшет, который показывает остальным. Все трое видимо заинтересованы тем, что отображено на экране.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "humor",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "playful",
+                "category": "mood",
+                "confidence": 0.7
+            },
+            {
+                "tag": "tablet",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "wigs",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:15 PM using a Samsung SM-N900 camera with an ISO of 160 and an exposure time of 0.06667 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 9:15 вечера с использованием камеры Samsung SM-N900 при ISO 160 и выдержке 0.06667 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

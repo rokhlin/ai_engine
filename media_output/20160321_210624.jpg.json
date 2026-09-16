@@ -1,0 +1,119 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210624.jpg",
+    "file_name": "20160321_210624.jpg",
+    "file_size": 530730,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "casual",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 1.0
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "portrait",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:06:24",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 100,
+        "exposure_time": "0.06667",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "f1c7ceccc6685898",
+    "faces": [
+        {
+            "bbox": [
+                310,
+                1406,
+                700,
+                1948
+            ],
+            "face_id": "FACE_ID_28",
+            "name": "FACE_ID_28",
+            "confidence": 0.8897429704666138
+        },
+        {
+            "bbox": [
+                1365,
+                1354,
+                1785,
+                1923
+            ],
+            "face_id": "FACE_ID_29",
+            "name": "FACE_ID_29",
+            "confidence": 0.8634768128395081
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A casual indoor portrait of two individuals wearing sunglasses.",
+        "summary_ru": "Портрет двух людей в помещении, одетых в солнцезащитные очки.",
+        "description": "The image shows a casual indoor setting with two people standing close to each other. Both are wearing sunglasses and casual clothing. The person in the foreground is dressed in a dark shirt with colorful patterns, while the person behind them wears a light blue jacket over a white shirt. They appear relaxed and are positioned against a plain background.",
+        "description_ru": "На изображении показано уютное помещение с двумя людьми, стоящими рядом друг с другом. Оба одеты в солнцезащитные очки и повседневную одежду. Первая персонаж на переднем плане одета в темную футболку с ярким узором, а второй человек надевает светло-голубую куртку поверх белой рубашки. Они выглядят расслабленными и расположены против простого фона.",
+        "environment": "indoor",
+        "lighting": "soft",
+        "lighting_ru": "мягкий свет",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "casual",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 1.0
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "portrait",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken indoors with a Samsung SM-N900 camera at ISO 100, exposure time of 0.06667 seconds (1/15), and an f-number of f/2.2. The EXIF data does not include GPS or location information.",
+        "exif_analysis_ru": "Фотография была сделана внутри помещения с помощью камеры Samsung SM-N900 при ISO 100, времени экспозиции 0.06667 секунды (1/15) и f-числом f/2.2. EXIF данные не содержат информации о GPS или местоположении."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_007",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_k6d0l66w.jpg",
+        "reasoning": "All three frames appear to be of the same subject and scene with minimal differences in lighting or composition. The eyes being closed is a consistent feature across all images, which might indicate that this was an intentional pose for the photo session. Since there are no significant technical defects (motion blur, defocus, bad exposure) present in any frame, we can conclude that the best image is one where the subject's eyes are closed as it maintains consistency and avoids potential distractions from eye movement or open eyes.",
+        "reasoning_ru": "Все три кадра показывают одного и того же субъекта в одной и той же сцене с минимальными различиями в освещении или композиции. Закрытые глаза являются постоянной характеристикой всех изображений, что может указывать на то, что это была намеренная поза для фотосессии. Поскольку нет значимых технических дефектов (размытия движения, размытости, неправильной экспозиции) в любом изображении, можно заключить, что лучшим кадром является тот, где глаза субъекта закрыты, так как он сохраняет консистентность и избегает потенциальных отвлекающих факторов от движения глаз или открытых глаз.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

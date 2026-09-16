@@ -1,0 +1,16 @@
+google-genai>=0.1.1
+pydantic>=2.0
+pillow>=10.0.0
+imagehash>=4.3.0
+reverse_geocoder>=1.5.1
+numpy>=1.24.0
+opencv-python>=4.8.0,<5.0.0
+pytest>=7.0.0
+faster-whisper>=1.0.0
+fastapi>=0.100.0
+python-multipart>=0.0.6
+uvicorn>=0.20.0
+insightface>=1.0.0
+onnxruntime-gpu>=1.16.0
+
+

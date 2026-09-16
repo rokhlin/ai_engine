@@ -1,0 +1,88 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160312_150437.jpg",
+    "file_name": "20160312_150437.jpg",
+    "file_size": 893950,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "desert",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "hotel",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "mountains",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "overcast",
+            "category": "lighting",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:12 15:04:37",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00030",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "d095a72b68daf207",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A view of a desert landscape with a modern hotel building in the foreground and rocky mountains in the background under an overcast sky.",
+        "summary_ru": "Панорама пустыни с современным отелем в переднем плане и скалистыми горами на заднем плане под облачным небом.",
+        "description": "The image captures a serene desert scene with a prominent white hotel building labeled 'David' on the right side. The foreground features a small, fenced-off area and some sparse vegetation. In the background, large rocky mountains rise against an overcast sky, creating a dramatic contrast between man-made structures and natural landscapes.",
+        "description_ru": "На изображении запечатлен пейзаж пустыни с видом на белый отель под названием 'David' в правой части. Передний план содержит небольшую огражденную зону и немного растительности. На заднем плане видны большие скалистые горы, которые контрастируют с облачным небом, создавая драматическое сочетание природных и архитектурных элементов.",
+        "environment": "outdoor",
+        "lighting": "overcast",
+        "lighting_ru": "облачно",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "desert",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "hotel",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "mountains",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "overcast",
+                "category": "lighting",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 12, 2016, at 3:04 PM with a Samsung SM-N900 camera using an ISO of 50 and an exposure time of 0.0003 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 12 марта 2016 года в 15:04 с использованием камеры Samsung SM-N900 при ISO 50 и выдержке 0.0003 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

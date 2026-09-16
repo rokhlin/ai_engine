@@ -1,0 +1,110 @@
+{
+    "file_path": "Z:\\2016-08-27 16-39-25.JPG",
+    "file_name": "2016-08-27 16-39-25.JPG",
+    "file_size": 3395627,
+    "mtime": 1787230449.886791,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "balcony",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "sea",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "mountains",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "boats",
+            "category": "objects",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:08:27 13:39:25",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00062",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "85c552cf4d61d517",
+    "faces": [
+        {
+            "bbox": [
+                2604,
+                855,
+                2857,
+                1209
+            ],
+            "face_id": "FACE_ID_05",
+            "name": "FACE_ID_05",
+            "confidence": 0.8114402294158936
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is standing on a balcony overlooking a scenic coastal view with mountains in the background.",
+        "summary_ru": "Люди стоят на балконе и смотрят на панорамный вид моря, горы на заднем плане.",
+        "description": "The image shows an individual standing on a balcony with a scenic view of the sea and mountains in the background. The person is wearing sunglasses and casual clothing, suggesting a relaxed or vacation setting. There are boats visible on the water, indicating a coastal location. The weather appears to be sunny and clear.",
+        "description_ru": "На изображении показан человек на балконе с видом на море и горы на заднем плане. Человек одет в солнцезащитные очки и повседневную одежду, что указывает на расслабленное или отпускное состояние. На воде видны лодки, что указывает на морской регион. Погода кажется яркой и солнечной.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "световой эффект",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "balcony",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "sea",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "mountains",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "boats",
+                "category": "objects",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on August 27, 2016, at 13:39:25 using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00062 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 27 августа 2016 года в 13:39:25 с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой 0.00062 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0047.HEIC",
+    "file_name": "IMG_0047.HEIC",
+    "file_size": 2034507,
+    "mtime": 1674221168.225,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "room",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor",
+            "category": "content_type",
+            "confidence": 1.0
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "b6f62cf9294582c9",
+    "faces": [
+        {
+            "bbox": [
+                538,
+                490,
+                633,
+                612
+            ],
+            "face_id": "FACE_ID_46",
+            "name": "FACE_ID_46",
+            "confidence": 0.7210454344749451
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is standing in a room with toys scattered around on the floor and a rug.",
+        "summary_ru": "Маленький ребенок стоит в комнате с игрушками, разбросанными по полу и коврике.",
+        "description": "The image shows a child wearing a striped shirt and gray pants standing in a room. The child appears to be interacting with toys on the floor, which include a yellow toy construction vehicle and some scattered items like toothpicks or sticks. The room has red curtains, wooden blinds covering a window, and various household items such as a coat rack, a chest of drawers, and a punching bag in the background.",
+        "description_ru": "На изображении виден ребенок в полосатой футболке и серых брюках, стоящий в комнате. Ребенок кажется взаимодействовать с игрушками на полу, которые включают желтую игрушечную строительную машину и некоторые разбросанные предметы, такие как палочки или палки. В комнатах есть красные шторы, деревянные жалюзи, закрывающие окно, а также различные бытовые предметы, такие как вешалка для одежды, комод и боксерский мешок на заднем плане.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлый",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "room",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor",
+                "category": "content_type",
+                "confidence": 1.0
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

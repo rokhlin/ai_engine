@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0082.HEIC",
+    "file_name": "IMG_0082.HEIC",
+    "file_size": 1999442,
+    "mtime": 1674221167.276,
+    "media_type": "photo",
+    "content_type": "family",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playing",
+            "category": "event",
+            "confidence": 0.8
+        },
+        {
+            "tag": "q-tips",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "toys",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "carpet",
+            "category": "scene",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e3d540849fba18bb",
+    "faces": [
+        {
+            "bbox": [
+                595,
+                502,
+                723,
+                655
+            ],
+            "face_id": "FACE_ID_53",
+            "name": "FACE_ID_53",
+            "confidence": 0.7583842277526855
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A child is sitting on a patterned carpet playing with q-tips and toys.",
+        "summary_ru": "Дети играют с палочками для ушей и игрушками на ковре.",
+        "description": "На фотографии изображена маленький ребенок, сидящий на ковре с ярким орнаментом. Ребенок одет в полосатую футболку и штаны. На ковре разбросаны палочки для ушей, а рядом видны игрушки, такие как желтая машинка. В левом верхнем углу изображения видна рука взрослого человека, держащего контейнер с палочками для ушей.",
+        "description_ru": "На фотографии изображена маленький ребенок, сидящий на ковре с ярким орнаментом. Ребенок одет в полосатую футболку и штаны. На ковре разбросаны палочки для ушей, а рядом видны игрушки, такие как желтая машинка. В левом верхнем углу изображения видна рука взрослого человека, держащего контейнер с палочками для ушей.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "family",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playing",
+                "category": "event",
+                "confidence": 0.8
+            },
+            {
+                "tag": "q-tips",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "toys",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "carpet",
+                "category": "scene",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

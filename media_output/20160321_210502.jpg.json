@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_210502.jpg",
+    "file_name": "20160321_210502.jpg",
+    "file_size": 442959,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "selfie",
+    "tags": [
+        {
+            "tag": "selfie",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "curly_hair",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "camera",
+            "category": "objects",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:05:02",
+        "camera_make": "samsung",
+        "camera_model": "SM-N900",
+        "iso": null,
+        "exposure_time": null,
+        "f_number": "f/2.5",
+        "gps": null,
+        "location": null
+    },
+    "phash": "a61c90c79bfc059d",
+    "faces": [
+        {
+            "bbox": [
+                309,
+                798,
+                687,
+                1322
+            ],
+            "face_id": "FACE_ID_283",
+            "name": "FACE_ID_283",
+            "confidence": 0.711755096912384
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person with curly hair is taking a selfie in an indoor setting.",
+        "summary_ru": "Человек с вьющимися волосами делает селфи в помещении.",
+        "description": "На фотографии изображена женщина или мужчина, которая держит камеру перед лицом и снимает себя. У нее вьющиеся темные волосы, она одета в футболку с принтом. Фоном служат стены и потолок помещения, возможно, это офисное или жилое пространство.",
+        "description_ru": "На фотографии изображена женщина или мужчина, которая держит камеру перед лицом и снимает себя. У нее вьющиеся темные волосы, она одета в футболку с принтом. Фоном служат стены и потолок помещения, возможно, это офисное или жилое пространство.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "selfie",
+        "tags": [
+            {
+                "tag": "selfie",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "curly_hair",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "camera",
+                "category": "objects",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:05 PM using a Samsung SM-N900 camera.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

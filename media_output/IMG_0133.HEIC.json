@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0133.HEIC",
+    "file_name": "IMG_0133.HEIC",
+    "file_size": 1632746,
+    "mtime": 1674221168.271,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy vehicles",
+            "category": "objects",
+            "confidence": 0.85
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.9
+        },
+        {
+            "tag": "playtime",
+            "category": "event",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "adc464b6d2e1d299",
+    "faces": [
+        {
+            "bbox": [
+                1064,
+                180,
+                1204,
+                367
+            ],
+            "face_id": "FACE_ID_45",
+            "name": "FACE_ID_45",
+            "confidence": 0.8260083794593811
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy vehicles on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными автомобилями на диване в гостиной.",
+        "description": "The image shows a young child, dressed in a white tank top adorned with colorful patterns, sitting on the edge of a gray couch. The child is holding and playing with a yellow toy truck. Surrounding the child are several other toy vehicles, including monster trucks and cars, scattered across the couch and floor. The setting appears to be a modern living room with light-colored flooring, a white cabinet in the background, and some decorative items on top of it.",
+        "description_ru": "На изображении показан маленький ребенок, одетый в белую майку с яркими узорами, сидящий на краю серого дивана. Ребенок держит и играет с желтым игрушечным грузовиком. Вокруг него разбросаны другие игрушечные автомобили, включая монстр-траки и машины, на диване и полу. Среда представляет собой современную гостиную с светлым напольным покрытием, белой шкафом в заднем плане и некоторыми декоративными предметами на ней.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy vehicles",
+                "category": "objects",
+                "confidence": 0.85
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.9
+            },
+            {
+                "tag": "playtime",
+                "category": "event",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

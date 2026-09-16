@@ -1,0 +1,120 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_211302.jpg",
+    "file_name": "20160321_211302.jpg",
+    "file_size": 990648,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "sunglasses",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "black jacket",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "curly hair",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "couch",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "plaid blanket",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:13:01",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 400,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "e3718e31b056b3cc",
+    "faces": [
+        {
+            "bbox": [
+                904,
+                1715,
+                1353,
+                2331
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8631312847137451
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person with curly hair wearing sunglasses and a black jacket is holding an object in their hand while sitting on a couch. The setting appears to be indoors.",
+        "summary_ru": "Человек с вьющимися волосами, одетый в черную куртку и солнцезащитные очки, держит объект в руке, сидя на диване. Среда кажется домашней.",
+        "description": "The person in the photo is wearing a black jacket with a white 'K' on it and sunglasses. They are holding an object that appears to be a small electronic device or gadget. The individual has curly hair and is seated on a couch with a plaid blanket visible beneath them. The background includes a wall and part of what looks like a wooden piece of furniture.",
+        "description_ru": "На фото человек в черной куртке с белым 'K' и солнцезащитными очками держит объект, который похож на маленький электронный прибор или гаджет. У него вьющиеся волосы, и он сидит на диване с пледом под ним. На заднем плане виден стена и часть деревянной мебели.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственная",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "sunglasses",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "black jacket",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "curly hair",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "couch",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "plaid blanket",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 21, 2016, at 9:13 PM using a Samsung SM-N900 camera with an ISO of 400 and an exposure time of 0.05882 seconds.",
+        "exif_analysis_ru": "Фотография была сделана 21 марта 2016 года в 21:13 с использованием камеры Samsung SM-N900 при ISO 400 и выдержке 0.05882 секунды."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

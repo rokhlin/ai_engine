@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160307_095200.jpg",
+    "file_name": "20160307_095200.jpg",
+    "file_size": 3357708,
+    "mtime": 1621568500.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "man",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "bear statue",
+            "category": "objects",
+            "confidence": 0.95
+        },
+        {
+            "tag": "outdoor setting",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "trees",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "clear sky",
+            "category": "mood",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:07 09:52:00",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00074",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "9a48333eb9c8b356",
+    "faces": [
+        {
+            "bbox": [
+                508,
+                1642,
+                715,
+                1894
+            ],
+            "face_id": "FACE_ID_33",
+            "name": "FACE_ID_33",
+            "confidence": 0.8856490850448608
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A man is sitting on a large bear statue in an outdoor setting with trees and a clear sky.",
+        "summary_ru": "Мужчина сидит на большом статуе медведя в открытом воздухе среди деревьев и ясного неба.",
+        "description": "На фотографии изображен мужчина, одетый в рубашку в клетку и джинсы, сидящий на огромной статуе медведя. Он держит треногу или подобное устройство. Фон состоит из зеленых деревьев и ясного голубого неба.",
+        "description_ru": "На фотографии изображен мужчина, одетый в рубашку в клетку и джинсы, сидящий на огромной статуе медведя. Он держит треногу или подобное устройство. Фон состоит из зеленых деревьев и ясного голубого неба.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "натуральное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "man",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "bear statue",
+                "category": "objects",
+                "confidence": 0.95
+            },
+            {
+                "tag": "outdoor setting",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "trees",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "clear sky",
+                "category": "mood",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 7, 2016, at 9:52 AM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00074 seconds (f/2.2). The GPS data is not available.",
+        "exif_analysis_ru": "Фотография была сделана 7 марта 2016 года в 9:52 утра с помощью камеры Samsung SM-N900 с ISO 50 и выдержкой 0,00074 секунды (f/2.2). Данные GPS недоступны."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

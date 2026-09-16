@@ -1,0 +1,108 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160321_212221.jpg",
+    "file_name": "20160321_212221.jpg",
+    "file_size": 753681,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "social",
+    "tags": [
+        {
+            "tag": "motion",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "indoor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "person",
+            "category": "people",
+            "confidence": 1.0
+        },
+        {
+            "tag": "knife",
+            "category": "objects",
+            "confidence": 0.7
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:21 21:22:20",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 200,
+        "exposure_time": "0.05882",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "d9898686b9b8da53",
+    "faces": [
+        {
+            "bbox": [
+                1079,
+                1205,
+                1468,
+                1749
+            ],
+            "face_id": "FACE_ID_32",
+            "name": "FACE_ID_32",
+            "confidence": 0.8630216121673584
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A person is captured in a dynamic pose indoors, holding what appears to be a decorative knife.",
+        "summary_ru": "На фотографии изображён человек в динамической позе внутри помещения, держащий что-то похожее на декоративный нож.",
+        "description": "The image shows an individual indoors, wearing a white t-shirt with text on it and jeans. The person is in motion, possibly dancing or performing a pose, holding what looks like a decorative knife in one hand. The background appears to be a simple indoor setting with plain walls and minimal decor.",
+        "description_ru": "На фотографии изображён человек внутри помещения, одетый в белую футболку с надписью и джинсы. Человек находится в движении, возможно танцует или исполняет позу, держа что-то похожее на декоративный нож одной рукой. На заднем плане видны простые стены и минимальная отделка.",
+        "environment": "indoor",
+        "lighting": "artificial",
+        "lighting_ru": "искусственное освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "evening",
+        "time_of_day_ru": "вечер",
+        "content_type": "social",
+        "tags": [
+            {
+                "tag": "motion",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "indoor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "person",
+                "category": "people",
+                "confidence": 1.0
+            },
+            {
+                "tag": "knife",
+                "category": "objects",
+                "confidence": 0.7
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken indoors with artificial lighting, likely in the evening given the time stamp of '2016:03:21 21:22:20'. The camera used is a Samsung SM-N900 with an ISO setting of 200 and an exposure time of approximately 0.058 seconds at f/2.2.",
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_014",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_7wnpfo52.jpg",
+        "reasoning": "All images appear to be taken in a similar setting and pose, with the subject's eyes closed. The lack of motion blur or defocus suggests that the camera was steady during the burst shooting sequence. The exposure seems consistent across all frames, indicating no significant changes in lighting conditions. Since there are no technical defects present (motion blur, defocus, bad exposure), we can consider the image with the most detail and clarity as the best frame. In this case, 'be_media_7wnpfo52.jpg' appears to have a slightly better exposure compared to others, making it the best choice for the series of images.",
+        "reasoning_ru": "Все изображения были сделаны в схожем месте и позе, у субъекта закрыты глаза. Отсутствие размытости илиkeh указывает на то, что камера была стабильной во время серии снимков. Экспозиция кажется одинаковой во всех кадрах, что указывает на отсутствие значительных изменений в условиях освещения. Поскольку нет технических дефектов (размытости,keh, плохой экспозиции), мы можем считать изображение с наибольшей детализацией и ясностью лучшим кадром для серии изображений. В данном случае 'be_media_7wnpfo52.jpg' кажется иметь несколько лучше экспозицию по сравнению с другими, делая его лучшим выбором для серии изображений.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "file_path": "Z:\\2016-08-20 15-26-16.JPG",
+    "file_name": "2016-08-20 15-26-16.JPG",
+    "file_size": 3974991,
+    "mtime": 1787230449.862791,
+    "media_type": "photo",
+    "content_type": "nature",
+    "tags": [
+        {
+            "tag": "beach",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "ocean",
+            "category": "scene",
+            "confidence": 0.8
+        },
+        {
+            "tag": "pier",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "people",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "summer",
+            "category": "mood",
+            "confidence": 0.8
+        }
+    ],
+    "exif": {
+        "datetime": "2016:08:20 12:26:16",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00066",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "b3c9a6d60e136d16",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A person standing on a pier overlooking a busy beach with the ocean in the background.",
+        "summary_ru": "Люди стоят на мостике и смотрят на пляж, который оживленный, а за ним виден океан.",
+        "description": "На фото изображена женщина в розовой блузке и джинсовых шортах, стоящая спиной к камере. Она находится на деревянном мостике с металлическими перилами. Внизу виден пляж, где много людей, зонтиков и зонтиков для отдыха. На заднем плане открытое море с несколькими яхтами.",
+        "description_ru": "На фотографии изображена женщина в розовой блузке и джинсовых шортах, стоящая спиной к камере. Она находится на деревянном мостике с металлическими перилами. Внизу виден пляж, где много людей, зонтиков и зонтиков для отдыха. На заднем плане открытое море с несколькими яхтами.",
+        "environment": "outdoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day",
+        "time_of_day_ru": "день",
+        "content_type": "nature",
+        "tags": [
+            {
+                "tag": "beach",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "ocean",
+                "category": "scene",
+                "confidence": 0.8
+            },
+            {
+                "tag": "pier",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "people",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "summer",
+                "category": "mood",
+                "confidence": 0.8
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on August 20, 2016, at 12:26 PM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00066 seconds (f/2.2). The GPS information is not available.",
+        "exif_analysis_ru": "Фотография была сделана 20 августа 2016 года в 12:26 на Samsung SM-N900 с ISO 50 и выдержкой 0,00066 секунды (f/2.2). Информация о GPS недоступна."
+    },
+    "duplicate_analysis": {
+        "group_id": "dup_group_015",
+        "changes_weight": "low",
+        "is_best_in_group": false,
+        "best_image_name": "be_media_w8izmvtg.JPG",
+        "reasoning": "Both images appear to be of the same scene and subject. There are no significant differences in clarity, focus, or exposure between them. However, the first image (be_media_w8izmvtg.JPG) seems slightly more vibrant with better lighting on the subject's hair and the overall scene, which makes it a bit more visually appealing than the second one.",
+        "reasoning_ru": "Обе фотографии показывают один и тот же сценарий и объект. Между ними нет значительных различий в четкости, фокусировке или экспозиции. Однако первая изображение (be_media_w8izmvtg.JPG) кажется немного более ярким с лучшим освещением на волосах субъекта и общем пейзаже, что делает ее немного более визуально привлекательной по сравнению со второй.",
+        "defects": null
+    },
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

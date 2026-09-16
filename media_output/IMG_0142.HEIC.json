@@ -1,0 +1,110 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0142.HEIC",
+    "file_name": "IMG_0142.HEIC",
+    "file_size": 1311206,
+    "mtime": 1674221167.689,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy cars",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "living room",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "couch",
+            "category": "objects",
+            "confidence": 0.6
+        },
+        {
+            "tag": "playtime",
+            "category": "mood",
+            "confidence": 0.5
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "a7f26821954db87a",
+    "faces": [
+        {
+            "bbox": [
+                1088,
+                144,
+                1321,
+                424
+            ],
+            "face_id": "FACE_ID_80",
+            "name": "FACE_ID_80",
+            "confidence": 0.796639084815979
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with toy cars on a couch in a living room.",
+        "summary_ru": "Маленький ребенок играет с игрушечными машинками на диване в гостиной.",
+        "description": "The image shows a young child sitting on a gray couch, holding and playing with a red toy car. The child is wearing a white tank top with colorful letter prints. Surrounding the child are several other toy cars of different colors and designs, including blue, yellow, and black ones. In the background, there is a wooden door, some hanging items (possibly coats or bags), and part of a television stand with electronic devices on it.",
+        "description_ru": "На изображении виден маленький ребенок, сидящий на сером диване и играющий с красной игрушечной машинкой. Ребенок одет в белую майку с цветными буквами. Вокруг него расположены другие игрушечные машины различных цветов и дизайнов, включая синие, желтые и черные. На заднем плане видна деревянная дверь, несколько висящих предметов (возможно, куртки или сумки) и часть телевизионной стойки с электронными устройствами.",
+        "environment": "indoor",
+        "lighting": "natural",
+        "lighting_ru": "светлое",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy cars",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "living room",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "couch",
+                "category": "objects",
+                "confidence": 0.6
+            },
+            {
+                "tag": "playtime",
+                "category": "mood",
+                "confidence": 0.5
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

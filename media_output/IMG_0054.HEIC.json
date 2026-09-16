@@ -1,0 +1,100 @@
+{
+    "file_path": "W:\\Anton's iPhone\\IMG_0054.HEIC",
+    "file_name": "IMG_0054.HEIC",
+    "file_size": 2066122,
+    "mtime": 1674221166.387,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "child_playing",
+            "category": "people",
+            "confidence": 0.9
+        },
+        {
+            "tag": "toy_construction_vehicle",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "patterned_carpet",
+            "category": "scene",
+            "confidence": 0.7
+        },
+        {
+            "tag": "indoor_play_area",
+            "category": "content_type",
+            "confidence": 0.9
+        }
+    ],
+    "exif": {
+        "datetime": null,
+        "camera_make": null,
+        "camera_model": null,
+        "iso": null,
+        "exposure_time": null,
+        "f_number": null,
+        "gps": null,
+        "location": null
+    },
+    "phash": "e342c2e6da5ac4ba",
+    "faces": [
+        {
+            "bbox": [
+                1054,
+                240,
+                1198,
+                447
+            ],
+            "face_id": "FACE_ID_47",
+            "name": "FACE_ID_47",
+            "confidence": 0.7371776103973389
+        }
+    ],
+    "gemini_analysis": {
+        "summary": "A young child is playing with a toy construction vehicle on a patterned carpet.",
+        "summary_ru": "Маленький ребенок играет с игрушечной строительной машиной на ковре с узором.",
+        "description": "На фотографии изображена маленькая девочка, которая сидит на ковре и играет с желтым и черным игрушечным трактором. На ковре также видны белые палочки для ушей, которые она может использовать в качестве строительных блоков или других предметов игры.",
+        "description_ru": "На фотографии изображена маленькая девочка, которая сидит на ковре и играет с желтым и черным игрушечным трактором. На ковре также видны белые палочки для ушей, которые она может использовать в качестве строительных блоков или других предметов игры.",
+        "environment": "indoor",
+        "lighting": "indoor_lighting",
+        "lighting_ru": "внутреннее освещение",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "day_time",
+        "time_of_day_ru": "день",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "child_playing",
+                "category": "people",
+                "confidence": 0.9
+            },
+            {
+                "tag": "toy_construction_vehicle",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "patterned_carpet",
+                "category": "scene",
+                "confidence": 0.7
+            },
+            {
+                "tag": "indoor_play_area",
+                "category": "content_type",
+                "confidence": 0.9
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": null,
+        "exif_analysis_ru": null
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}

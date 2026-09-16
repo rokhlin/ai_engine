@@ -1,0 +1,98 @@
+{
+    "file_path": "W:\\Family_Photo\\Рохлины Беер Шевы\\20160312_150310.jpg",
+    "file_name": "20160312_150310.jpg",
+    "file_size": 1535546,
+    "mtime": 1621568502.0,
+    "media_type": "photo",
+    "content_type": "other",
+    "tags": [
+        {
+            "tag": "relaxation",
+            "category": "mood",
+            "confidence": 0.8
+        },
+        {
+            "tag": "outdoor",
+            "category": "scene",
+            "confidence": 0.9
+        },
+        {
+            "tag": "bench",
+            "category": "objects",
+            "confidence": 0.7
+        },
+        {
+            "tag": "water_bottle",
+            "category": "objects",
+            "confidence": 0.8
+        },
+        {
+            "tag": "urban_environment",
+            "category": "scene",
+            "confidence": 0.6
+        }
+    ],
+    "exif": {
+        "datetime": "2016:03:12 15:03:10",
+        "camera_make": "SAMSUNG",
+        "camera_model": "SM-N900",
+        "iso": 50,
+        "exposure_time": "0.00094",
+        "f_number": "f/2.2",
+        "gps": null,
+        "location": null
+    },
+    "phash": "fd1db5c452424d93",
+    "faces": [],
+    "gemini_analysis": {
+        "summary": "A person is sitting on a bench outdoors, leaning back with their head resting against the armrest of the bench. They are holding a green water bottle and appear to be relaxing or taking a break.",
+        "summary_ru": "Человек сидит на скамейке на открытом воздухе, прислонившись назад и положив голову на подлокотник скамейки. Они держат зеленую бутылку воды и кажутся, что отдыхают или делают перерыв.",
+        "description": "The image shows a person sitting on a wooden bench in an outdoor setting. The individual is leaning back with their head resting against the armrest of the bench. They are holding a green water bottle and appear to be relaxing or taking a break. There are some buildings visible in the background, suggesting an urban environment. The weather appears overcast.",
+        "description_ru": "На изображении показан человек, сидящий на деревянной скамейке в открытом воздухе. Человек прислоняется назад и положил голову на подлокотник скамейки. Они держат зеленую бутылку воды и кажутся, что отдыхают или делают перерыв. Видны здания в фоне, что указывает на городскую среду. Погода кажется облачной.",
+        "environment": "outdoor",
+        "lighting": "overcast",
+        "lighting_ru": "облачная",
+        "weather": null,
+        "weather_ru": null,
+        "time_of_day": "afternoon",
+        "time_of_day_ru": "после полудня",
+        "content_type": "other",
+        "tags": [
+            {
+                "tag": "relaxation",
+                "category": "mood",
+                "confidence": 0.8
+            },
+            {
+                "tag": "outdoor",
+                "category": "scene",
+                "confidence": 0.9
+            },
+            {
+                "tag": "bench",
+                "category": "objects",
+                "confidence": 0.7
+            },
+            {
+                "tag": "water_bottle",
+                "category": "objects",
+                "confidence": 0.8
+            },
+            {
+                "tag": "urban_environment",
+                "category": "scene",
+                "confidence": 0.6
+            }
+        ],
+        "ocr_text": null,
+        "exif_analysis": "The photo was taken on March 12, 2016, at 3:03 PM using a Samsung SM-N900 camera with an ISO of 50 and an exposure time of 0.00094 seconds (f/2.2). The GPS information is not available.",
+        "exif_analysis_ru": "Фотография была сделана 12 марта 2016 года в 3:03 PM с помощью камеры Samsung SM-N900 с ISO 50 и временем экспозиции 0.00094 секунды (f/2.2). Информация о GPS недоступна."
+    },
+    "duplicate_analysis": null,
+    "modules_status": {
+        "transcribe": null,
+        "faces": true,
+        "duplicates": true,
+        "vision": true
+    }
+}
