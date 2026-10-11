@@ -114,7 +114,7 @@ If the AI engine is configured to index and analyze files inside private/vault f
     "output_folder": "/path/to/media_output",
     "settings": {
       "model_provider": "gemini",
-      "gemini_model": "gemini-2.5-flash"
+      "gemini_model": "gemini-3.8-flash"
     }
   }
   ```

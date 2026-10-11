@@ -377,7 +377,7 @@ class RuntimeSettings(BaseModel):
     output_folder: Optional[str] = None
     model_provider: Optional[str] = "gemini"
     llm_provider: Optional[str] = None
-    gemini_model: Optional[str] = "gemini-3.6-flash"
+    gemini_model: Optional[str] = "gemini-3.8-flash"
     local_model_name: Optional[str] = ""
     gemini_max_workers: Optional[int] = 3
     local_max_workers: Optional[int] = 2

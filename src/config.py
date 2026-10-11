@@ -149,7 +149,7 @@ def save_persistent_settings(
             data["GEMINI_MODEL"] = GEMINI_MODEL
         else:
             data.pop("GEMINI_MODEL", None)
-            GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
+            GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
         
     if local_model_name is not None:
         if local_model_name.strip():
@@ -475,8 +475,8 @@ FACE_CONFIDENCE_THRESHOLD: float = float(os.environ.get("FACE_CONFIDENCE_THRESHO
 raw_gemini_key = settings.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY", "")
 GEMINI_API_KEY: str = decrypt_secret(raw_gemini_key)
 
-# Gemini model name (default: gemini-3.6-flash)
-GEMINI_MODEL: str = str(settings.get("GEMINI_MODEL") or os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")).strip()
+# Gemini model name (default: gemini-3.8-flash)
+GEMINI_MODEL: str = str(settings.get("GEMINI_MODEL") or os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")).strip()
 
 # Rate limits for Gemini API
 RPM_LIMIT: int = int(settings.get("RPM_LIMIT") or os.environ.get("RPM_LIMIT", "15"))  # Requests per minute

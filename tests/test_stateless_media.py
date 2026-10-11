@@ -125,7 +125,7 @@ def test_api_run_sync_with_payload():
         "settings": {
             "output_folder": str(config.OUTPUT_FOLDER),
             "model_provider": "gemini",
-            "gemini_model": "gemini-3.6-flash",
+            "gemini_model": "gemini-3.8-flash",
             "gemini_max_workers": 3,
             "whisper_model": "large-v3-turbo",
             "preserve_structure": True,
