@@ -88,7 +88,7 @@ API_HOST=0.0.0.0
 
 # AI Model Configuration
 GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_MODEL=gemini-3.6-flash
+GEMINI_MODEL=gemini-3.8-flash
 MODEL_PROVIDER=gemini # or "local"
 
 # Local LLM (LM Studio / Ollama)

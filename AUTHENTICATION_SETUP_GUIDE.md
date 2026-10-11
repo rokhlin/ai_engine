@@ -188,7 +188,7 @@ CONFIG_PATH=/app/data/config
 # 3. Model Parameters
 MODEL_PROVIDER=gemini
 GEMINI_API_KEY=AIzaSy...
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.8-flash
 WHISPER_MODEL=large-v3-turbo
 WHISPER_DEVICE=cuda
 ```
