@@ -803,7 +803,8 @@ def trigger_sync(
     mode: Optional[str] = None,
     modes: Optional[str] = None,
     x_user_id: Optional[str] = Header(None, alias="X-User-ID"),
-    x_user_root_path: Optional[str] = Header(None, alias="X-User-Root-Path")
+    x_user_root_path: Optional[str] = Header(None, alias="X-User-Root-Path"),
+    x_user_role: Optional[str] = Header(None, alias="X-User-Role")
 ):
     global pipeline_state
     with state_lock:
@@ -872,7 +873,8 @@ async def trigger_file_analysis(
     file: Optional[str] = None,
     force: Optional[bool] = None,
     x_user_id: Optional[str] = Header(None, alias="X-User-ID"),
-    x_user_root_path: Optional[str] = Header(None, alias="X-User-Root-Path")
+    x_user_root_path: Optional[str] = Header(None, alias="X-User-Root-Path"),
+    x_user_role: Optional[str] = Header(None, alias="X-User-Role")
 ):
     global pipeline_state
     ct = request.headers.get("content-type", "").lower()
@@ -992,18 +994,6 @@ async def trigger_file_analysis(
     force_flag = payload.force if (payload and payload.force is not None) else (force if force is not None else False)
     output_folder = payload.output_folder if payload else None
     settings = payload.settings if payload else None
-
-    # Multi-tenant user validation and workspace scoping
-    if x_user_id:
-        from src.user_workspace import get_user_catalog_dir, validate_path_in_user_workspace
-        if not output_folder:
-            output_folder = str(get_user_catalog_dir(x_user_id, x_user_root_path))
-            Path(output_folder).mkdir(parents=True, exist_ok=True)
-        # Verify path security against traversal attacks
-        if target_file and (Path(target_file).is_absolute() or ":" in target_file or target_file.startswith("/")):
-            if not validate_path_in_user_workspace(x_user_id, Path(target_file), x_user_root_path):
-                raise HTTPException(status_code=403, detail=f"Access denied: Path '{target_file}' is outside user workspace.")
-
     if settings:
         if hasattr(settings, "model_dump"):
             config.apply_runtime_settings(**settings.model_dump())
@@ -1017,6 +1007,17 @@ async def trigger_file_analysis(
         config.apply_runtime_settings(vision_prompt_template=payload.vision_prompt_template)
     if output_folder:
         config.apply_runtime_settings(output_folder=output_folder)
+
+    # Multi-tenant user validation and workspace scoping
+    if x_user_id:
+        from src.user_workspace import get_user_catalog_dir, validate_path_in_user_workspace
+        if not output_folder:
+            output_folder = str(get_user_catalog_dir(x_user_id, x_user_root_path))
+            Path(output_folder).mkdir(parents=True, exist_ok=True)
+        # Verify path security against traversal attacks
+        if target_file and (Path(target_file).is_absolute() or ":" in target_file or target_file.startswith("/")):
+            if not validate_path_in_user_workspace(x_user_id, Path(target_file), x_user_root_path, x_user_role):
+                raise HTTPException(status_code=403, detail=f"Access denied: Path '{target_file}' is outside user workspace.")
 
     active_modes = None
     if payload and payload.modes:
@@ -1914,7 +1915,8 @@ async def browse_directory(
     path: Optional[str] = None,
     mode: str = "folder",
     x_user_id: Optional[str] = Header(None, alias="X-User-ID"),
-    x_user_root_path: Optional[str] = Header(None, alias="X-User-Root-Path")
+    x_user_root_path: Optional[str] = Header(None, alias="X-User-Root-Path"),
+    x_user_role: Optional[str] = Header(None, alias="X-User-Role")
 ):
     target_path = path
     target_mode = mode
@@ -1937,7 +1939,7 @@ async def browse_directory(
             curr_path = user_root
         else:
             curr_path = Path(str(target_path).strip()).resolve()
-            if not validate_path_in_user_workspace(x_user_id, curr_path, x_user_root_path):
+            if not validate_path_in_user_workspace(x_user_id, curr_path, x_user_root_path, x_user_role):
                 raise HTTPException(status_code=403, detail="Access denied: Cannot browse outside user workspace.")
         shortcuts = [{"label": "User Storage", "path": str(user_root)}]
     else:
@@ -1998,7 +2000,7 @@ async def browse_directory(
         directories.sort(key=str.lower)
         files.sort(key=str.lower)
         
-        if x_user_id and (str(curr_path) == str(user_root) or not validate_path_in_user_workspace(x_user_id, curr_path.parent, x_user_root_path)):
+        if x_user_id and (str(curr_path) == str(user_root) or not validate_path_in_user_workspace(x_user_id, curr_path.parent, x_user_root_path, x_user_role)):
             parent = None
         else:
             parent = str(curr_path.parent) if str(curr_path) != str(curr_path.parent) else None

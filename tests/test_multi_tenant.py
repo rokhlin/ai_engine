@@ -81,3 +81,42 @@ def test_api_path_traversal_prevention(temp_storage):
     traversal_path = str(user_root / ".." / ".." / "system")
     resp_attack = client.post("/api/fs/browse", json={"path": traversal_path}, headers=headers)
     assert resp_attack.status_code == 403
+
+def test_user_root_no_duplicate_suffix():
+    # If default_root already ends with user_id or is the user's workspace
+    user_id = "son"
+    assigned_root = "C:/projects/media_catalog/media_input/users/son"
+    root = get_user_root(user_id, default_root=assigned_root)
+    assert str(root).replace("\\", "/").rstrip("/").lower().endswith("/son")
+    assert not str(root).replace("\\", "/").rstrip("/").lower().endswith("/son/son")
+
+    # Admin user
+    admin_id = "user_admin_default"
+    admin_root = "C:/projects/media_catalog/storage/users/user_admin_default"
+    resolved_admin = get_user_root(admin_id, default_root=admin_root)
+    assert str(resolved_admin).replace("\\", "/").rstrip("/").lower().endswith("/user_admin_default")
+    assert not str(resolved_admin).replace("\\", "/").rstrip("/").lower().endswith("/user_admin_default/user_admin_default")
+
+def test_validate_path_admin_role_and_configured_folders(temp_storage, monkeypatch):
+    # Admin role can access any valid file
+    assert validate_path_in_user_workspace("regular_user", Path("/any/path/file.mp4"), user_role="admin") is True
+    assert validate_path_in_user_workspace("user_admin_default", Path("/any/path/file.mp4")) is True
+
+    # Traversal is rejected even for admin
+    assert validate_path_in_user_workspace("user_admin_default", Path("../secret.mp4"), user_role="admin") is False
+
+    # Configured input folders can be accessed by regular user
+    input_folder = temp_storage / "input"
+    input_folder.mkdir(parents=True, exist_ok=True)
+    media_file = input_folder / "video.mp4"
+    media_file.write_text("data")
+    monkeypatch.setattr(config, "INPUT_FOLDERS", [input_folder])
+
+    assert validate_path_in_user_workspace("regular_user", media_file, default_root=str(temp_storage / "users")) is True
+
+    # Foreign folder outside user workspace and outside input_folders is rejected
+    foreign_file = temp_storage / "foreign" / "private.mp4"
+    foreign_file.parent.mkdir(parents=True, exist_ok=True)
+    foreign_file.write_text("private")
+    assert validate_path_in_user_workspace("regular_user", foreign_file, default_root=str(temp_storage / "users" / "regular_user")) is False
+
