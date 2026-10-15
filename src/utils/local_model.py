@@ -9,6 +9,12 @@ import requests
 from pydantic import BaseModel
 from src import config
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 _cached_model_name = None
 
 def get_loaded_local_models() -> List[str]:
@@ -222,6 +228,31 @@ def encode_image_to_base64(image_path: Path) -> str:
     img_bytes = prepare_image_bytes(image_path)
     return base64.b64encode(img_bytes).decode("utf-8")
 
+def _parse_json_safely(raw_text: str) -> Any:
+    """Robustly parse JSON output from LLM, stripping fences and repairing unclosed structures."""
+    cleaned = raw_text.strip()
+    if "```json" in cleaned:
+        cleaned = cleaned.split("```json", 1)[1].split("```", 1)[0].strip()
+    elif "```" in cleaned:
+        cleaned = cleaned.split("```", 1)[1].split("```", 1)[0].strip()
+
+    try:
+        return json.loads(cleaned)
+    except Exception:
+        pass
+
+    # Extract outermost JSON object
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        try:
+            return json.loads(cleaned[start:end+1])
+        except Exception:
+            pass
+
+    # Fallback to direct json.loads for standard error propagation
+    return json.loads(cleaned)
+
 def call_local_model_api(
     messages: List[Dict[str, Any]],
     response_model: Type[BaseModel],
@@ -244,6 +275,7 @@ def call_local_model_api(
         "model": model_name,
         "messages": messages,
         "temperature": temperature,
+        "max_tokens": 4096,
         "response_format": {
             "type": "json_schema",
             "json_schema": {
@@ -265,17 +297,11 @@ def call_local_model_api(
         print(f"Received response from local model API ({len(content)} chars)")
         
         try:
-            parsed_json = json.loads(content)
+            parsed_json = _parse_json_safely(content)
             return response_model.model_validate(parsed_json)
         except Exception as parse_err:
             print(f"Warning: Failed to parse JSON output directly: {parse_err}")
-            cleaned_content = content.strip()
-            if "```json" in cleaned_content:
-                cleaned_content = cleaned_content.split("```json", 1)[1].split("```", 1)[0].strip()
-            elif "```" in cleaned_content:
-                cleaned_content = cleaned_content.split("```", 1)[1].split("```", 1)[0].strip()
-            
-            parsed_json = json.loads(cleaned_content)
+            parsed_json = _parse_json_safely(content)
             return response_model.model_validate(parsed_json)
             
     except Exception as api_err:
@@ -288,6 +314,7 @@ def call_local_model_api(
             "model": model_name,
             "messages": [dict(m) for m in messages],
             "temperature": temperature,
+            "max_tokens": 4096,
             "response_format": {"type": "text"}
         }
         
@@ -310,13 +337,7 @@ def call_local_model_api(
             result_data = response.json()
             content = result_data["choices"][0]["message"]["content"]
             
-            cleaned_content = content.strip()
-            if "```json" in cleaned_content:
-                cleaned_content = cleaned_content.split("```json", 1)[1].split("```", 1)[0].strip()
-            elif "```" in cleaned_content:
-                cleaned_content = cleaned_content.split("```", 1)[1].split("```", 1)[0].strip()
-                
-            parsed_json = json.loads(cleaned_content)
+            parsed_json = _parse_json_safely(content)
             return response_model.model_validate(parsed_json)
         except Exception as fallback_err:
             if 'response' in locals() and hasattr(response, 'text') and response.text:
@@ -468,6 +489,9 @@ def analyze_video_local(
         custom_template=custom_prompt
     )
     
+    if "\nIMPORTANT: Provide at most 3 to 5 key timeline events" not in prompt:
+        prompt += "\nIMPORTANT: Provide at most 3 to 5 key timeline events (do not loop or list every second, keep timeline concise)."
+    
     user_content = [{"type": "text", "text": prompt}]
     
     for idx in sampled_indices:
@@ -500,6 +524,12 @@ def analyze_video_local(
     res = call_local_model_api(messages, VideoAnalysis)
     res.transcription = transcription or ""
     res.transcription_ru = transcription_ru or ""
+    if not res.summary_ru and res.summary:
+        try:
+            from src.utils.transcribe import translate_text_local
+            res.summary_ru = translate_text_local(res.summary, "English", "Russian")
+        except Exception:
+            res.summary_ru = res.summary
     return res
 
 def analyze_duplicates_local(image_paths: List[Path]) -> Any:

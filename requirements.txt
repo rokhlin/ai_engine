@@ -12,5 +12,6 @@ python-multipart>=0.0.6
 uvicorn>=0.20.0
 insightface>=1.0.0
 onnxruntime-gpu>=1.16.0
+pillow-heif>=0.18.0
 
 

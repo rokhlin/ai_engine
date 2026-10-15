@@ -11,6 +11,12 @@ from pathlib import Path
 from typing import List, Dict, Any, Tuple, Optional, Union
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 from src import config
 from src import database
 from src.utils import exif, faces, video, hash, gemini
@@ -811,6 +817,10 @@ def process_video(
                     media_date=video_meta.get("creation_time") if video_meta else None,
                     status="PROCESSED"
                 )
+                if transcription and "transcription" not in gemini_dict:
+                    gemini_dict["transcription"] = transcription
+                if transcription_ru and "transcription_ru" not in gemini_dict:
+                    gemini_dict["transcription_ru"] = transcription_ru
                 database.upsert_media_metadata(
                     media_id=media_id,
                     summary=gemini_dict.get("summary") or metadata.get("summary"),
@@ -823,8 +833,6 @@ def process_video(
                     time_of_day=gemini_dict.get("time_of_day"),
                     ocr_text=gemini_dict.get("ocr_text"),
                     location_name=gemini_dict.get("location_name"),
-                    transcription=transcription,
-                    transcription_ru=transcription_ru,
                     raw_exif=video_meta,
                     raw_gemini=gemini_dict if "error" not in gemini_dict else None
                 )
@@ -1498,7 +1506,8 @@ def analyze_single_file(
     item_data: Optional[Any] = None,
     output_folder: Optional[str] = None,
     settings: Optional[Any] = None,
-    modes: Optional[Union[str, List[str], set]] = None
+    modes: Optional[Union[str, List[str], set]] = None,
+    force: bool = False
 ) -> Optional[Dict[str, Any]]:
     """
     Main method to analyze a single media file, ignoring database status,
@@ -1595,6 +1604,8 @@ def analyze_single_file(
         call_kwargs["tag_format"] = tag_format_arg
     if custom_prompt_arg is not None:
         call_kwargs["custom_prompt"] = custom_prompt_arg
+    if force:
+        call_kwargs["force"] = force
 
     meta = None
     if is_photo:

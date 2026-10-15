@@ -5,6 +5,12 @@ import threading
 from pathlib import Path
 from typing import List, Dict, Any, Tuple, Optional, Union
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 # Suppress scikit-image FutureWarning from internal insightface face alignment calls
 warnings.filterwarnings("ignore", category=FutureWarning, message=".*estimate.*")
 
@@ -61,6 +67,29 @@ def init_face_analyzer():
     except Exception as ex:
         print(f"Critical error: Failed to initialize OpenCV fallback detector: {ex}")
 
+def read_image_bgr(image_source: Union[Path, str, np.ndarray]) -> Optional[np.ndarray]:
+    """Read image as BGR numpy array compatible with OpenCV and InsightFace, supporting HEIC/HEIF via Pillow fallback."""
+    if isinstance(image_source, np.ndarray):
+        return image_source
+
+    p = Path(image_source)
+    try:
+        img = cv2.imread(str(p))
+        if img is not None and img.size > 0:
+            return img
+    except Exception:
+        pass
+
+    # Fallback to Pillow (supporting HEIC/HEIF via pillow_heif)
+    try:
+        from PIL import Image
+        with Image.open(p) as pil_img:
+            rgb = pil_img.convert("RGB")
+            return cv2.cvtColor(np.array(rgb), cv2.COLOR_RGB2BGR)
+    except Exception as e:
+        print(f"Error reading image {p.name}: {e}")
+        return None
+
 def crop_and_save_face(
     image_source: Union[Path, str, np.ndarray],
     bbox: List[int],
@@ -70,7 +99,7 @@ def crop_and_save_face(
     Returns the relative path inside OUTPUT_FOLDER (e.g. 'facess/FACE_ID_01.jpg')."""
     try:
         if isinstance(image_source, (Path, str)):
-            img = cv2.imread(str(image_source))
+            img = read_image_bgr(image_source)
         elif isinstance(image_source, np.ndarray):
             img = image_source
         else:
@@ -114,7 +143,7 @@ def detect_faces(image_path: Path) -> List[Dict[str, Any]]:
         if _face_app is None and _opencv_cascade is None:
             init_face_analyzer()
             
-        img = cv2.imread(str(image_path))
+        img = read_image_bgr(image_path)
         if img is None:
             print(f"Error: Failed to read image {image_path}")
             return []

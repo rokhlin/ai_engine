@@ -4,6 +4,12 @@ from pathlib import Path
 from datetime import datetime
 from typing import Optional, List, Dict, Tuple, Set, Any
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 def calculate_phash(image_path: Path) -> Optional[str]:
     """Calculate perceptual hash (pHash) of an image."""
     try:

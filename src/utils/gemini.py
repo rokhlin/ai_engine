@@ -37,18 +37,24 @@ class TagItem(BaseModel):
         return cls(tag=str(val).strip(), category="general", confidence=1.0)
 
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 class PhotoAnalysis(BaseModel):
     summary: str = Field(description="Short summary of the frame content in English")
-    summary_ru: str = Field(description="Short summary of the frame content translated into Russian")
+    summary_ru: Optional[str] = Field(default="", description="Short summary of the frame content translated into Russian")
     description: str = Field(description="Detailed semantic description of the scene in English")
-    description_ru: str = Field(description="Detailed semantic description of the scene translated into Russian")
+    description_ru: Optional[str] = Field(default="", description="Detailed semantic description of the scene translated into Russian")
     environment: Literal["indoor", "outdoor", "unknown"] = Field(description="Type of environment")
     lighting: str = Field(description="Lighting characteristics (natural, studio, dim, etc.) in English")
-    lighting_ru: str = Field(description="Lighting characteristics in Russian")
+    lighting_ru: Optional[str] = Field(default="", description="Lighting characteristics in Russian")
     weather: Optional[str] = Field(default=None, description="Weather if photo was taken outdoors in English")
     weather_ru: Optional[str] = Field(default=None, description="Weather if photo was taken outdoors in Russian")
     time_of_day: str = Field(description="Time of day (morning, day, evening, night) in English")
-    time_of_day_ru: str = Field(description="Time of day in Russian")
+    time_of_day_ru: Optional[str] = Field(default="", description="Time of day in Russian")
     content_type: Optional[str] = Field(default="other", description="High-level content classification: documents, social, nature, animals, screenshots, family, other")
     tags: List[TagItem] = Field(default_factory=list, description="Categorized semantic tags matching requested format")
     ocr_text: Optional[str] = Field(default=None, description="Recognized text in the image (OCR) if present")
@@ -74,18 +80,18 @@ class PhotoAnalysis(BaseModel):
 
 
 class TimelineEvent(BaseModel):
-    timestamp_start: str = Field(description="Start of event in MM:SS format")
-    timestamp_end: str = Field(description="End of event in MM:SS format")
-    activity: str = Field(description="Description of activity/event in English")
-    activity_ru: str = Field(description="Description of activity/event translated into Russian")
+    timestamp_start: str = Field(default="00:00", description="Start of event in MM:SS format")
+    timestamp_end: str = Field(default="00:00", description="End of event in MM:SS format")
+    activity: str = Field(default="", description="Description of activity/event in English")
+    activity_ru: Optional[str] = Field(default="", description="Description of activity/event translated into Russian")
 
 
 class VideoAnalysis(BaseModel):
     summary: str = Field(description="General description of video plot in English")
-    summary_ru: str = Field(description="General description of video plot translated into Russian")
-    transcription: str = Field(description="Transcription of speech and key background sounds in English")
-    transcription_ru: str = Field(description="Transcription of speech and key background sounds translated into Russian")
-    timeline_events: List[TimelineEvent] = Field(description="Segmented timeline of events with activity labels")
+    summary_ru: Optional[str] = Field(default="", description="General description of video plot translated into Russian")
+    transcription: Optional[str] = Field(default="", description="Transcription of speech and key background sounds in English")
+    transcription_ru: Optional[str] = Field(default="", description="Transcription of speech and key background sounds translated into Russian")
+    timeline_events: List[TimelineEvent] = Field(default_factory=list, description="Segmented timeline of events with activity labels")
     content_type: Optional[str] = Field(default="other", description="High-level content classification: documents, social, nature, animals, screenshots, family, other")
     tags: List[TagItem] = Field(default_factory=list, description="Categorized semantic tags matching requested format")
 

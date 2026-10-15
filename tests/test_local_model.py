@@ -14,6 +14,9 @@ def test_model_routing_and_auto_detect(monkeypatch):
     old_local_model_name = config.LOCAL_MODEL_NAME
     config.LOCAL_MODEL_NAME = ""
 
+    # Mock shutil.which so it tests the REST API fallback deterministically
+    monkeypatch.setattr(local_model.shutil, "which", lambda cmd: None)
+
     # Mock requests.get for /models endpoint
     mock_get = MagicMock()
     mock_get.return_value.status_code = 200

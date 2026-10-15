@@ -3,6 +3,12 @@ import json
 from pathlib import Path
 from typing import List, Optional, Dict, Any, Union
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 
 # Simple function to load .env file if it exists
 def load_dotenv(dotenv_path: Path):
@@ -584,7 +590,7 @@ DEFAULT_VIDEO_PROMPT: str = (
     "Perform a detailed analysis of the video file plot. "
     "Provide a detailed transcription of speech and key background sounds. "
     "Break the video into logical segments (timeline_events) with exact timecodes (MM:SS format) "
-    "and concise activity descriptions. "
+    "and concise activity descriptions (at most 3-5 key events). "
     "Classify the video content_type and generate rich semantic tags matching the requested tag format. "
     "Fill all main schema fields in English, and provide full Russian translations in the corresponding *_ru fields "
     "so that the output JSON supports searching in both English and Russian."

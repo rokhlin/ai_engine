@@ -4,6 +4,12 @@ from PIL.ExifTags import TAGS, GPSTAGS
 from pathlib import Path
 from typing import Optional, Dict, Any, Tuple
 
+try:
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except Exception:
+    pass
+
 def _dms_to_decimal(dms_tuple, ref_dir) -> Optional[float]:
     """Convert coordinates from Degrees/Minutes/Seconds (DMS) to decimal format."""
     try:
@@ -22,7 +28,7 @@ def _dms_to_decimal(dms_tuple, ref_dir) -> Optional[float]:
 def extract_gps_coords(exif_data: Dict[str, Any]) -> Tuple[Optional[float], Optional[float]]:
     """Extract latitude and longitude from EXIF data."""
     gps_info = exif_data.get("GPSInfo")
-    if not gps_info:
+    if not gps_info or not isinstance(gps_info, dict):
         return None, None
     
     # Decode GPSInfo tags
@@ -74,7 +80,18 @@ def read_photo_metadata(file_path: Path) -> Dict[str, Any]:
     
     try:
         with Image.open(file_path) as img:
-            exif = img._getexif()
+            exif = None
+            if hasattr(img, "getexif"):
+                try:
+                    exif = img.getexif()
+                except Exception:
+                    exif = None
+            if not exif and hasattr(img, "_getexif"):
+                try:
+                    exif = img._getexif()
+                except Exception:
+                    exif = None
+
             if not exif:
                 return meta
                 
@@ -82,6 +99,23 @@ def read_photo_metadata(file_path: Path) -> Dict[str, Any]:
             for tag, val in exif.items():
                 tag_name = TAGS.get(tag, tag)
                 decoded[tag_name] = val
+
+            # Also decode SubIFD and GPSInfo IFDs if available (standard in HEIC/HEIF)
+            if hasattr(exif, "get_ifd"):
+                try:
+                    sub_ifd = exif.get_ifd(0x8769)
+                    for tag, val in sub_ifd.items():
+                        tag_name = TAGS.get(tag, tag)
+                        if tag_name not in decoded or not decoded[tag_name]:
+                            decoded[tag_name] = val
+                except Exception:
+                    pass
+                try:
+                    gps_ifd = exif.get_ifd(0x8825)
+                    if gps_ifd and isinstance(gps_ifd, dict):
+                        decoded["GPSInfo"] = gps_ifd
+                except Exception:
+                    pass
                 
             # Extract date/time
             # Priority: DateTimeOriginal -> DateTimeDigitized -> DateTime
