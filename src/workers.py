@@ -350,7 +350,7 @@ def process_photo(
         print(f"\n--- Processing photo ({','.join(active_modes)}): {filename} ({file_path}) ---")
 
         # 2. Local EXIF (read if missing or full run)
-        if "exif" in existing_metadata and existing_metadata["exif"]:
+        if not force and "exif" in existing_metadata and existing_metadata["exif"]:
             exif_meta = existing_metadata["exif"]
         else:
             exif_meta = exif.read_photo_metadata(local_path)
@@ -629,14 +629,14 @@ def process_video(
         print(f"\n--- Processing video ({','.join(active_modes)}): {filename} ({file_path}) ---")
 
         # 2. Local container metadata
-        if "video_metadata" in existing_metadata and existing_metadata["video_metadata"]:
+        if not force and "video_metadata" in existing_metadata and existing_metadata["video_metadata"]:
             video_meta = existing_metadata["video_metadata"]
         else:
             video_meta = video.read_video_metadata(local_path)
 
         # 3. Audio transcription (Whisper)
-        transcription = existing_metadata.get("transcription") or (existing_metadata.get("gemini_analysis", {}) or {}).get("transcription")
-        transcription_ru = existing_metadata.get("transcription_ru") or (existing_metadata.get("gemini_analysis", {}) or {}).get("transcription_ru")
+        transcription = None if force else (existing_metadata.get("transcription") or (existing_metadata.get("gemini_analysis", {}) or {}).get("transcription"))
+        transcription_ru = None if force else (existing_metadata.get("transcription_ru") or (existing_metadata.get("gemini_analysis", {}) or {}).get("transcription_ru"))
 
         if "transcribe" in active_modes:
             print("Running voice recognition (Speech to Text)...")
@@ -1054,9 +1054,10 @@ class MediaWorkerQueue:
     Concurrent Worker Queue for parallel media analysis.
     Supports dynamic concurrency and selective AI module modes.
     """
-    def __init__(self, max_workers: Optional[int] = None, modes: Optional[Union[str, List[str], set]] = None):
+    def __init__(self, max_workers: Optional[int] = None, modes: Optional[Union[str, List[str], set]] = None, force: bool = False):
         self.max_workers = max_workers or config.get_max_workers()
         self.modes = normalize_modes(modes)
+        self.force = force
         self.lock = threading.Lock()
         self.total_items = 0
         self.completed_items = 0
@@ -1142,9 +1143,9 @@ class MediaWorkerQueue:
                     root_arg = Path(folder) if folder else None
 
                 if media_type == "photo":
-                    res = process_photo(call_item, root_arg, modes=self.modes)
+                    res = process_photo(call_item, root_arg, modes=self.modes, force=self.force)
                 else:
-                    res = process_video(call_item, root_arg, modes=self.modes)
+                    res = process_video(call_item, root_arg, modes=self.modes, force=self.force)
             except Exception as e:
                 print(f"[Worker {worker_id}] Error processing {filename}: {e}")
 
@@ -1411,7 +1412,7 @@ def run_pipeline(
         return
 
     workers_count = max_workers or config.get_max_workers()
-    queue = MediaWorkerQueue(max_workers=workers_count, modes=active_modes)
+    queue = MediaWorkerQueue(max_workers=workers_count, modes=active_modes, force=force_reprocess)
     with _active_queue_lock:
         _active_worker_queue = queue
 
