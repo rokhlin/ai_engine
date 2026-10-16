@@ -26,7 +26,7 @@ def load_dotenv(dotenv_path: Path):
 
 # Load environment variables
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-VERSION: str = "2.4.0"
+VERSION: str = "2.0.0"
 
 def get_system_device_info() -> Dict[str, Any]:
     """Retrieve compute device name and memory allocation metrics."""

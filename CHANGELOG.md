@@ -4,9 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.0.0] - 2026-10-16
 
 ### Added
+- **Gemini 3.8 Flash Migration**: Migrated all deprecated vision and multimodal LLM models to `gemini-3.8-flash` across analysis workers, client workflows, and configuration defaults.
+- **Force Re-Analysis Pipeline Support**: Added `force` parameter support across `MediaWorkerQueue`, `process_photo`, and `process_video`, allowing users to force complete re-analysis bypassing cached EXIF, container metadata, and Whisper transcriptions.
+- **Multi-Tenant Workspace Path Resolution**: Dynamic workspace isolation resolving relative and absolute paths for multi-user tenants, with caller role forwarding for admin tasks.
+- **HEIC & High-Efficiency Media Decoding**: Added native HEIC image decoding via `pillow_heif` and robust Pydantic schema validation for video analyses.
+
 - **AI Tag Recognition & Structured Tagging Pipeline (`src/utils/gemini.py`, `src/utils/local_model.py`, `src/workers.py`, `api.py`)**:
   - Implemented configurable AI tag generation supporting three output formats: `categorized` (`category:tag`), `flat` (`tag`), and `prefixed` (`#tag`).
   - Added custom `target_tags` target criteria / vocabulary matching evaluated in a single LLM inference pass across both Gemini API and Local Model (LM Studio).
