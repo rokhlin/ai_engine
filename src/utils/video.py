@@ -3,7 +3,7 @@ import json
 import shutil
 import tempfile
 from pathlib import Path
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 from src import config
 
 def _run_cmd(cmd: List[str]) -> subprocess.CompletedProcess:
@@ -157,3 +157,30 @@ def extract_audio_from_video(video_path: Path, output_audio_path: Path) -> Path:
     return output_audio_path
 
 
+def format_timestamp(seconds: int) -> str:
+    """Format seconds into MM:SS string."""
+    mins = seconds // 60
+    secs = seconds % 60
+    return f"{mins:02d}:{secs:02d}"
+
+
+def group_seconds_into_intervals(seconds_list: List[int]) -> List[Tuple[str, str]]:
+    """Group consecutive seconds into timecode intervals."""
+    if not seconds_list:
+        return []
+    
+    sorted_secs = sorted(list(set(seconds_list)))
+    intervals = []
+    
+    start = sorted_secs[0]
+    prev = start
+    
+    for s in sorted_secs[1:]:
+        if s - prev <= 2:
+            prev = s
+        else:
+            intervals.append((format_timestamp(start), format_timestamp(prev)))
+            start = s
+            prev = s
+    intervals.append((format_timestamp(start), format_timestamp(prev)))
+    return intervals

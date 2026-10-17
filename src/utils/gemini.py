@@ -55,7 +55,8 @@ class PhotoAnalysis(BaseModel):
     weather_ru: Optional[str] = Field(default=None, description="Weather if photo was taken outdoors in Russian")
     time_of_day: str = Field(description="Time of day (morning, day, evening, night) in English")
     time_of_day_ru: Optional[str] = Field(default="", description="Time of day in Russian")
-    content_type: Optional[str] = Field(default="other", description="High-level content classification: documents, social, nature, animals, screenshots, family, other")
+    content_type: Optional[str] = Field(default="other", description="High-level content classification: family_memories, food, nature, animals, documents, business_card, dashcam, other")
+    content_type_ru: Optional[str] = Field(default="Разное", description="Russian translation of high-level content classification")
     tags: List[TagItem] = Field(default_factory=list, description="Categorized semantic tags matching requested format")
     ocr_text: Optional[str] = Field(default=None, description="Recognized text in the image (OCR) if present")
     exif_analysis: Optional[str] = Field(default=None, description="Expert analysis based on EXIF metadata in English")
@@ -92,7 +93,8 @@ class VideoAnalysis(BaseModel):
     transcription: Optional[str] = Field(default="", description="Transcription of speech and key background sounds in English")
     transcription_ru: Optional[str] = Field(default="", description="Transcription of speech and key background sounds translated into Russian")
     timeline_events: List[TimelineEvent] = Field(default_factory=list, description="Segmented timeline of events with activity labels")
-    content_type: Optional[str] = Field(default="other", description="High-level content classification: documents, social, nature, animals, screenshots, family, other")
+    content_type: Optional[str] = Field(default="other", description="High-level content classification: family_memories, food, nature, animals, documents, business_card, dashcam, other")
+    content_type_ru: Optional[str] = Field(default="Разное", description="Russian translation of high-level content classification")
     tags: List[TagItem] = Field(default_factory=list, description="Categorized semantic tags matching requested format")
 
     @field_validator("tags", mode="before")
@@ -350,14 +352,21 @@ def analyze_photo(
     """Send photo for analysis to Gemini API or Local model, incorporating EXIF metadata, recognized faces, and optional target tags/formatting."""
     if config.MODEL_PROVIDER == "local":
         from src.utils.local_model import analyze_photo_local
-        return analyze_photo_local(
-            image_path, 
-            exif_data=exif_data, 
-            target_tags=target_tags, 
-            tag_format=tag_format,
-            faces_data=faces_data,
-            custom_prompt=custom_prompt
-        )
+        try:
+            return analyze_photo_local(
+                image_path, 
+                exif_data=exif_data, 
+                target_tags=target_tags, 
+                tag_format=tag_format,
+                faces_data=faces_data,
+                custom_prompt=custom_prompt
+            )
+        except Exception as local_err:
+            if getattr(config, "FALLBACK_TO_GEMINI", True):
+                print(f"[WARNING] Local photo model analysis failed ({local_err}). Automatic fallback to Gemini enabled. Switching to Gemini API...")
+            else:
+                print(f"[CRITICAL ERROR] Local model failed ({local_err}) and Gemini fallback is disabled.")
+                raise local_err
         
     client = get_gemini_client()
     image_bytes = prepare_image_bytes(image_path)
@@ -426,16 +435,23 @@ def analyze_video(
     """Perform semantic analysis on video file via Gemini File API or Local model."""
     if config.MODEL_PROVIDER == "local":
         from src.utils.local_model import analyze_video_local
-        return analyze_video_local(
-            video_path, 
-            frames=frames, 
-            transcription=transcription, 
-            transcription_ru=transcription_ru,
-            target_tags=target_tags,
-            tag_format=tag_format,
-            faces_data=faces_data,
-            custom_prompt=custom_prompt
-        )
+        try:
+            return analyze_video_local(
+                video_path, 
+                frames=frames, 
+                transcription=transcription, 
+                transcription_ru=transcription_ru,
+                target_tags=target_tags,
+                tag_format=tag_format,
+                faces_data=faces_data,
+                custom_prompt=custom_prompt
+            )
+        except Exception as local_err:
+            if getattr(config, "FALLBACK_TO_GEMINI", True):
+                print(f"[WARNING] Local video model analysis failed ({local_err}). Automatic fallback to Gemini enabled. Switching to Gemini API...")
+            else:
+                print(f"[CRITICAL ERROR] Local video model failed ({local_err}) and Gemini fallback is disabled.")
+                raise local_err
         
     client = get_gemini_client()
     

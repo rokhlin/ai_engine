@@ -26,7 +26,7 @@ def load_dotenv(dotenv_path: Path):
 
 # Load environment variables
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-VERSION: str = "2.0.01"
+VERSION: str = "2.2.0"
 
 def get_system_device_info() -> Dict[str, Any]:
     """Retrieve compute device name and memory allocation metrics."""
@@ -200,6 +200,16 @@ def save_persistent_settings(
         else:
             data.pop("VISION_PROMPT_TEMPLATE", None)
             VISION_PROMPT_TEMPLATE = DEFAULT_VISION_PROMPT_TEMPLATE
+
+    ai_gemini_fallback = extra_kwargs.get("ai_gemini_fallback_enabled")
+    if ai_gemini_fallback is None:
+        ai_gemini_fallback = extra_kwargs.get("fallback_to_gemini")
+    if ai_gemini_fallback is not None:
+        global FALLBACK_TO_GEMINI, AI_GEMINI_FALLBACK_ENABLED
+        FALLBACK_TO_GEMINI = bool(ai_gemini_fallback)
+        AI_GEMINI_FALLBACK_ENABLED = FALLBACK_TO_GEMINI
+        data["FALLBACK_TO_GEMINI"] = FALLBACK_TO_GEMINI
+        data["ai_gemini_fallback_enabled"] = FALLBACK_TO_GEMINI
 
     for k, v in extra_kwargs.items():
         if v is not None:
@@ -381,6 +391,14 @@ def apply_runtime_settings(
             VISION_PROMPT_TEMPLATE = cp
         else:
             VISION_PROMPT_TEMPLATE = DEFAULT_VISION_PROMPT_TEMPLATE
+
+    global FALLBACK_TO_GEMINI, AI_GEMINI_FALLBACK_ENABLED
+    ai_gemini_fb = kwargs.get("ai_gemini_fallback_enabled")
+    if ai_gemini_fb is None:
+        ai_gemini_fb = kwargs.get("fallback_to_gemini")
+    if ai_gemini_fb is not None:
+        FALLBACK_TO_GEMINI = bool(ai_gemini_fb)
+        AI_GEMINI_FALLBACK_ENABLED = FALLBACK_TO_GEMINI
 
 
 
@@ -573,6 +591,19 @@ else:
 # Whether to switch to local model if Gemini quota is reached
 FALLBACK_TO_LOCAL: bool = os.environ.get("FALLBACK_TO_LOCAL", "true").lower() in ("true", "1", "yes")
 
+# Whether to switch to Gemini model if local LM Studio is unavailable / fails
+saved_gemini_fallback = settings.get("FALLBACK_TO_GEMINI")
+if saved_gemini_fallback is None:
+    saved_gemini_fallback = settings.get("ai_gemini_fallback_enabled")
+if saved_gemini_fallback is not None:
+    FALLBACK_TO_GEMINI: bool = bool(saved_gemini_fallback)
+else:
+    FALLBACK_TO_GEMINI: bool = os.environ.get("FALLBACK_TO_GEMINI", "true").lower() in ("true", "1", "yes")
+AI_GEMINI_FALLBACK_ENABLED: bool = FALLBACK_TO_GEMINI
+
+# Streaming download timeout in seconds (default 300s = 5 minutes for large videos)
+STREAM_DOWNLOAD_TIMEOUT: int = int(os.environ.get("STREAM_DOWNLOAD_TIMEOUT", "300"))
+
 # Model identifier for local Whisper transcription (e.g. large-v3-turbo, medium, base)
 saved_whisper = settings.get("WHISPER_MODEL")
 if saved_whisper:
@@ -593,12 +624,28 @@ else:
 TARGET_TAGS: Optional[List[str]] = None
 TAG_FORMAT: str = os.environ.get("TAG_FORMAT", "categorized")
 
+TAXONOMY_INSTRUCTION = (
+    "Classify high-level 'content_type' strictly into one of: "
+    "['family_memories', 'food', 'nature', 'animals', 'documents', 'business_card', 'dashcam', 'other'].\n"
+    "STRICT PRIORITY RULES:\n"
+    "1. 'family_memories' (Priority 1): If one or more people are the subject of the photo/video (e.g. family, friends, celebrations, portraits, leisure), "
+    "it MUST be classified as 'family_memories', EVEN IF a sign, schedule, documents, or vehicle appear in the background.\n"
+    "2. 'business_card': ONLY classify as 'business_card' if the business card, store sign, opening hours, schedule, or price list is the PRIMARY CENTRAL SUBJECT.\n"
+    "3. 'dashcam': Classify as 'dashcam' if the media is video footage or snapshot captured by an automotive dashboard camera (windshield perspective, road traffic, telemetry).\n"
+    "4. 'documents': Utilitarian snapshots: paper contracts, IDs, passports, receipts, bills, utility meters, appliance serial labels, screenshots.\n"
+    "5. 'food': Culinary meals, dishes, drinks, cooking as primary subject.\n"
+    "6. 'nature': Landscapes, mountains, seas, parks, flowers without people as primary focus.\n"
+    "7. 'animals': Pets or wildlife as primary subject.\n"
+    "8. 'other': Fallback when no other category matches."
+)
+
 # Unified Vision Prompt Template with dynamic placeholders ({media_type}, {context}, {people}, {tag_instructions})
 DEFAULT_VISION_PROMPT_TEMPLATE: str = (
     "Perform a detailed semantic analysis of the {media_type}.\n"
     "Determine the environment type (indoor/outdoor/unknown), lighting characteristics, weather (if outdoor), and time of day.\n"
     "Perform OCR text recognition on any signs or visible text if present.\n"
-    "Classify high-level content_type (documents, social, nature, animals, screenshots, family, other) and generate rich semantic tags matching the requested tag format.\n"
+    + TAXONOMY_INSTRUCTION + "\n"
+    "Generate rich semantic tags matching the requested tag format.\n"
     "Fill all main schema fields in English, and provide full Russian translations in the corresponding *_ru fields "
     "so that the output JSON supports searching in both English and Russian.\n\n"
     "{context}\n\n"
@@ -611,8 +658,9 @@ DEFAULT_PHOTO_PROMPT: str = (
     "Determine the environment type (indoor/outdoor/unknown), lighting characteristics, weather (if outdoor), and time of day. "
     "Perform OCR text recognition on any signs or text if present. "
     "Analyze the provided EXIF metadata (camera model, ISO, shutter speed, aperture, capture time, GPS position) "
-    "and provide an expert conclusion in exif_analysis. "
-    "Classify the image content_type and generate rich semantic tags matching the requested tag format. "
+    "and provide an expert conclusion in exif_analysis.\n"
+    + TAXONOMY_INSTRUCTION + "\n"
+    "Generate rich semantic tags matching the requested tag format. "
     "Fill all main schema fields in English, and provide full Russian translations in the corresponding *_ru fields "
     "so that the output JSON supports searching in both English and Russian."
 )
@@ -621,8 +669,9 @@ DEFAULT_VIDEO_PROMPT: str = (
     "Perform a detailed analysis of the video file plot. "
     "Provide a detailed transcription of speech and key background sounds. "
     "Break the video into logical segments (timeline_events) with exact timecodes (MM:SS format) "
-    "and concise activity descriptions (at most 3-5 key events). "
-    "Classify the video content_type and generate rich semantic tags matching the requested tag format. "
+    "and concise activity descriptions (at most 3-5 key events).\n"
+    + TAXONOMY_INSTRUCTION + "\n"
+    "Generate rich semantic tags matching the requested tag format. "
     "Fill all main schema fields in English, and provide full Russian translations in the corresponding *_ru fields "
     "so that the output JSON supports searching in both English and Russian."
 )

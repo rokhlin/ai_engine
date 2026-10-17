@@ -228,8 +228,38 @@ def encode_image_to_base64(image_path: Path) -> str:
     img_bytes = prepare_image_bytes(image_path)
     return base64.b64encode(img_bytes).decode("utf-8")
 
+def _repair_truncated_json(text: str) -> str:
+    """Attempt to repair unclosed JSON strings and structures resulting from finish_reason='length' or loops."""
+    import re
+    # Collapse runaway repetitive word/token loops (e.g. "Четыре Четыре Четыре...")
+    cleaned = re.sub(r'(\b[\w-]+\b[\s,.]*)\1{4,}', r'\1 ', text)
+    
+    in_string = False
+    escape = False
+    for ch in cleaned:
+        if ch == '\\' and not escape:
+            escape = True
+            continue
+        if ch == '"' and not escape:
+            in_string = not in_string
+        escape = False
+    
+    repaired = cleaned
+    if in_string:
+        repaired += '"'
+        
+    open_square = repaired.count('[') - repaired.count(']')
+    if open_square > 0:
+        repaired += ']' * open_square
+        
+    open_curly = repaired.count('{') - repaired.count('}')
+    if open_curly > 0:
+        repaired += '}' * open_curly
+        
+    return repaired
+
 def _parse_json_safely(raw_text: str) -> Any:
-    """Robustly parse JSON output from LLM, stripping fences and repairing unclosed structures."""
+    """Robustly parse JSON output from LLM, stripping fences, collapsing loops, and repairing unclosed structures."""
     cleaned = raw_text.strip()
     if "```json" in cleaned:
         cleaned = cleaned.split("```json", 1)[1].split("```", 1)[0].strip()
@@ -250,13 +280,25 @@ def _parse_json_safely(raw_text: str) -> Any:
         except Exception:
             pass
 
+    # Try repairing truncated JSON (unclosed strings, braces, or repetition loops)
+    try:
+        repaired = _repair_truncated_json(cleaned)
+        start_rep = repaired.find("{")
+        end_rep = repaired.rfind("}")
+        if start_rep != -1 and end_rep != -1 and end_rep > start_rep:
+            return json.loads(repaired[start_rep:end_rep+1])
+        return json.loads(repaired)
+    except Exception:
+        pass
+
     # Fallback to direct json.loads for standard error propagation
     return json.loads(cleaned)
 
 def call_local_model_api(
     messages: List[Dict[str, Any]],
     response_model: Type[BaseModel],
-    temperature: float = 0.1
+    temperature: float = 0.1,
+    max_tokens: int = 4096
 ) -> BaseModel:
     """Call LM Studio API with JSON Schema/JSON Object format and validate/parse the response."""
     model_name = get_local_model_name()
@@ -275,7 +317,9 @@ def call_local_model_api(
         "model": model_name,
         "messages": messages,
         "temperature": temperature,
-        "max_tokens": 4096,
+        "max_tokens": max_tokens,
+        "frequency_penalty": 0.3,
+        "presence_penalty": 0.3,
         "response_format": {
             "type": "json_schema",
             "json_schema": {
@@ -314,7 +358,9 @@ def call_local_model_api(
             "model": model_name,
             "messages": [dict(m) for m in messages],
             "temperature": temperature,
-            "max_tokens": 4096,
+            "max_tokens": max_tokens,
+            "frequency_penalty": 0.3,
+            "presence_penalty": 0.3,
             "response_format": {"type": "text"}
         }
         

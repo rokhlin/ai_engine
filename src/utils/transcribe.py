@@ -67,6 +67,11 @@ def translate_text_local(text: str, source_lang: str, target_lang: str) -> str:
     """Translate text from one language to another using the local LLM (LM Studio)."""
     if not text or not text.strip():
         return ""
+
+    s_clean = source_lang.strip().lower()
+    t_clean = target_lang.strip().lower()
+    if s_clean == t_clean or (len(s_clean) >= 2 and len(t_clean) >= 2 and s_clean[:2] == t_clean[:2]):
+        return text.strip()
         
     from src.utils.local_model import call_local_model_api
     from pydantic import BaseModel, Field
@@ -84,8 +89,10 @@ def translate_text_local(text: str, source_lang: str, target_lang: str) -> str:
         {"role": "user", "content": f"{prompt}\n\nText to translate:\n{text}"}
     ]
     
+    dynamic_max_tokens = min(2048, max(256, len(text.split()) * 5))
+    
     try:
-        res = call_local_model_api(messages, TranslationResult)
+        res = call_local_model_api(messages, TranslationResult, max_tokens=dynamic_max_tokens)
         return res.translated_text.strip()
     except Exception as e:
         print(f"Warning: Local translation from {source_lang} to {target_lang} failed: {e}. Returning original text.")

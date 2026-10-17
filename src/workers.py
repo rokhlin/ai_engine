@@ -202,33 +202,9 @@ def get_relative_output_path(
 
 
 
-def format_timestamp(seconds: int) -> str:
-    """Format seconds into MM:SS string."""
-    mins = seconds // 60
-    secs = seconds % 60
-    return f"{mins:02d}:{secs:02d}"
+format_timestamp = video.format_timestamp
+group_seconds_into_intervals = video.group_seconds_into_intervals
 
-
-def group_seconds_into_intervals(seconds_list: List[int]) -> List[Tuple[str, str]]:
-    """Group consecutive seconds into timecode intervals."""
-    if not seconds_list:
-        return []
-    
-    sorted_secs = sorted(list(set(seconds_list)))
-    intervals = []
-    
-    start = sorted_secs[0]
-    prev = start
-    
-    for s in sorted_secs[1:]:
-        if s - prev <= 2:
-            prev = s
-        else:
-            intervals.append((format_timestamp(start), format_timestamp(prev)))
-            start = s
-            prev = s
-    intervals.append((format_timestamp(start), format_timestamp(prev)))
-    return intervals
 
 
 def retry_api_call(func, *args, max_retries=5, initial_delay=3, **kwargs):
@@ -591,6 +567,7 @@ def process_video(
             file_path,
             stream_url=stream_url,
             ui_base_url=ui_base_url or config.UI_BASE_URL,
+            timeout=getattr(config, "STREAM_DOWNLOAD_TIMEOUT", 300),
             local_path=local_path,
             content_base64=content_base64
         )

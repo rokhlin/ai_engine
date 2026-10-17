@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2026-10-17
+
+### Added
+- **Specialized AI Media Classification Taxonomy & Primacy Hierarchy (FEAT-028)**:
+  - Enforced 8-category content classification taxonomy (`family_memories`, `food`, `nature`, `animals`, `documents`, `business_card`, `dashcam`, `other`) in `PhotoAnalysis` and `VideoAnalysis` schemas, with localized `content_type_ru` translations.
+  - Implemented Priority 1 People Primacy Rule: images and videos featuring people as the subject are strictly classified as `family_memories` even if business signs, opening hours, or documents appear in the background.
+  - Added strict central subject rule for `business_card` and automotive dashcam detection for `dashcam`.
+- **Configurable Fallback to Gemini (FEAT-027)**:
+  - Added `FALLBACK_TO_GEMINI` / `ai_gemini_fallback_enabled` configuration setting. When enabled, the engine automatically falls back to Gemini API on local model (LM Studio) failure with a warning log. When disabled, it halts pipeline execution immediately with a critical error.
+
+### Fixed
+- **Remote Video Stream Download Socket Timeout (BUG-014)**:
+  - Implemented `STREAM_DOWNLOAD_TIMEOUT` (default 300s) for video stream downloads from remote Web UI / NAS endpoints in `resolve_or_stream_media_file`.
+  - Added 3-attempt streaming retry loop with exponential backoff (2s, 4s) to eliminate transient socket timeouts on large video files.
+- **Local LLM Translation Degeneration Loop & JSON Truncation Auto-Repair (BUG-014)**:
+  - Injected `frequency_penalty: 0.3` and `presence_penalty: 0.3` into `call_local_model_api` payload to prevent smaller local vision LLMs (e.g. Qwen2-VL) from entering degenerative repetitive loops.
+  - Added language equality early-exit in `translate_text_local` and dynamic `max_tokens` calculation based on input string length.
+  - Implemented `_repair_truncated_json` in `_parse_json_safely`: collapses runaway repetition patterns, auto-closes unclosed strings, and completes missing brackets/braces when outputs hit the token length limit.
+
 ## [2.0.0] - 2026-10-16
 
 ### Added

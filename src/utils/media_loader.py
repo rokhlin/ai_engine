@@ -19,7 +19,7 @@ def resolve_or_stream_media_file(
     file_path: Union[str, Path],
     stream_url: Optional[str] = None,
     ui_base_url: Optional[str] = None,
-    timeout: int = 15,
+    timeout: Optional[int] = None,
     local_path: Optional[Union[str, Path]] = None,
     content_base64: Optional[str] = None
 ) -> str:
@@ -139,36 +139,55 @@ def resolve_or_stream_media_file(
             elif "127.0.0.1:" in target_url:
                 target_url = target_url.replace("127.0.0.1:", "host.docker.internal:")
 
-        tmp_path = None
-        try:
-            ext = Path(fname).suffix if fname else (Path(file_path_str).suffix or ".tmp")
-            tmp_fd, tmp_path = tempfile.mkstemp(prefix="be_media_", suffix=ext)
-            os.close(tmp_fd)
+        ext = Path(fname).suffix.lower() if fname else (Path(file_path_str).suffix.lower() or ".tmp")
+        is_video = ext in getattr(config, "SUPPORTED_VIDEO_EXTS", {".mp4", ".avi", ".mov", ".mkv"}) or ext in (".mp4", ".mov", ".avi", ".mkv", ".webm", ".m4v")
+        if timeout is not None:
+            effective_timeout = timeout
+        elif is_video:
+            effective_timeout = getattr(config, "STREAM_DOWNLOAD_TIMEOUT", 300)
+        else:
+            effective_timeout = 30
 
-            req = urllib.request.Request(
-                target_url,
-                headers={"User-Agent": "MediaCataloger-BE/1.0"}
-            )
-            with urllib.request.urlopen(req, timeout=timeout) as response:
-                with open(tmp_path, "wb") as out_f:
-                    while True:
-                        chunk = response.read(65536)
-                        if not chunk:
-                            break
-                        out_f.write(chunk)
+        max_attempts = 3
+        last_error = None
+        for attempt in range(1, max_attempts + 1):
+            tmp_path = None
+            try:
+                tmp_fd, tmp_path = tempfile.mkstemp(prefix="be_media_", suffix=ext)
+                os.close(tmp_fd)
 
-            if os.path.isfile(tmp_path) and os.path.getsize(tmp_path) > 0:
-                return tmp_path
-            else:
-                if os.path.isfile(tmp_path):
-                    os.unlink(tmp_path)
-        except Exception as e:
-            if tmp_path and os.path.isfile(tmp_path):
-                try:
-                    os.unlink(tmp_path)
-                except Exception:
-                    pass
-            raise FileNotFoundError(f"Media file '{file_path_str}' is not accessible on BE filesystem (streaming failed from {target_url}: {e})")
+                req = urllib.request.Request(
+                    target_url,
+                    headers={"User-Agent": "MediaCataloger-BE/2.2.0"}
+                )
+                with urllib.request.urlopen(req, timeout=effective_timeout) as response:
+                    with open(tmp_path, "wb") as out_f:
+                        while True:
+                            chunk = response.read(65536)
+                            if not chunk:
+                                break
+                            out_f.write(chunk)
+
+                if os.path.isfile(tmp_path) and os.path.getsize(tmp_path) > 0:
+                    return tmp_path
+                else:
+                    if os.path.isfile(tmp_path):
+                        os.unlink(tmp_path)
+                    raise IOError("Downloaded media file is empty (0 bytes)")
+            except Exception as e:
+                last_error = e
+                if tmp_path and os.path.isfile(tmp_path):
+                    try:
+                        os.unlink(tmp_path)
+                    except Exception:
+                        pass
+                if attempt < max_attempts:
+                    import time
+                    wait_sec = attempt * 2
+                    print(f"Warning: Stream download attempt {attempt}/{max_attempts} failed for {fname} ({e}). Retrying in {wait_sec}s...")
+                    time.sleep(wait_sec)
+                else:
+                    raise FileNotFoundError(f"Media file '{file_path_str}' is not accessible on BE filesystem (streaming failed from {target_url} after {max_attempts} attempts: {last_error})")
 
     raise FileNotFoundError(
         f"Media file '{file_path_str}' is not accessible on BE filesystem. Provide the mediafile outside via API (multipart upload 'file_upload', 'content_base64', or reachable 'stream_url')."
