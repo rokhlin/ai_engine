@@ -30,10 +30,14 @@ services:
     volumes:
       # Application configuration and settings (.env, settings.json)
       - ${CONFIG_PATH:-./data/config}:/app/data/config
-      # Media input directory to scan (Windows folder, drive e.g. Z:\ or local ./media_input)
-      - ${MEDIA_INPUT:-./media_input}:/app/media_input
+      # Camera backup / NAS media mount point (e.g. \\WDMYCLOUDEX4100\camera_backup or local fallback)
+      - ${NAS_PATH:-//WDMYCLOUDEX4100/camera_backup}:/nas:ro
+      # Media input directory (e.g. \\ZIMABOARD\nvme0n1\shares\Photo or local fallback)
+      - ${MEDIA_INPUT:-//ZIMABOARD/nvme0n1/shares/Photo}:/app/media_input:ro
       # Output directory for catalog database, face crops, and metadata sidecars
-      - ${MEDIA_OUTPUT:-./media_output}:/app/media_output
+      - ${MEDIA_OUTPUT:-//ZIMABOARD/sda1/media_library/anton}:/app/media_output
+      # Backup directory
+      - ${BACKUP_PATH:-//ZIMABOARD/sda1/bckp/media_cataloger_bckp}:/app/backups
     extra_hosts:
       - "host.docker.internal:host-gateway"
     x-casaos:

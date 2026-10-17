@@ -90,11 +90,38 @@ def test_resolve_or_stream_media_file_ui_base_url_fallback():
         os.unlink(temp_path)
 
 
-def test_resolve_or_stream_media_file_missing_raises():
-    fake_remote_path = "Z:\\Missing\\not_found.jpg"
-    with pytest.raises(FileNotFoundError) as exc_info:
-        resolve_or_stream_media_file(fake_remote_path)
-    assert "not accessible" in str(exc_info.value)
+def test_resolve_or_stream_media_file_path_mapping_translation(tmp_path):
+    local_dir = tmp_path / "local_nas" / "DCIM" / "Camera"
+    local_dir.mkdir(parents=True, exist_ok=True)
+    test_img = local_dir / "20181225_000925.jpg"
+    test_img.write_bytes(b"sample camera image")
+
+    remote_server_path = "/media/192.168.8.13/camera_backup/DCIM/Camera/20181225_000925.jpg"
+    with patch.object(config, "PATH_MAPPINGS", {"/media/192.168.8.13/camera_backup": str(tmp_path / "local_nas")}):
+        resolved = resolve_or_stream_media_file(remote_server_path)
+        assert Path(resolved) == test_img
+        assert os.path.isfile(resolved)
+
+
+def test_resolve_or_stream_media_file_ui_base_rewrite():
+    fake_remote_path = "/nas/photos/img002.png"
+    fake_stream_url = "http://localhost:8000/api/media/file?path=%2Fnas%2Fphotos%2Fimg002.png"
+
+    mock_resp = MagicMock()
+    mock_resp.read.side_effect = [b"png bytes", b""]
+    mock_resp.__enter__.return_value = mock_resp
+    mock_resp.__exit__.return_value = False
+
+    with patch.object(config, "UI_BASE_URL", "http://192.168.8.13:8000"), \
+         patch("urllib.request.urlopen", return_value=mock_resp) as mock_urlopen:
+        temp_path = resolve_or_stream_media_file(
+            fake_remote_path,
+            stream_url=fake_stream_url
+        )
+        assert os.path.isfile(temp_path)
+        req = mock_urlopen.call_args[0][0]
+        assert "192.168.8.13:8000/api/media/file" in req.full_url
+        os.unlink(temp_path)
 
 
 def test_api_run_sync_with_payload():
