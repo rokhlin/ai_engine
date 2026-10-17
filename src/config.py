@@ -26,7 +26,7 @@ def load_dotenv(dotenv_path: Path):
 
 # Load environment variables
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-VERSION: str = "2.0.0"
+VERSION: str = "2.0.01"
 
 def get_system_device_info() -> Dict[str, Any]:
     """Retrieve compute device name and memory allocation metrics."""
@@ -337,6 +337,12 @@ def apply_runtime_settings(
     if preserve_structure is not None:
         PRESERVE_STRUCTURE = bool(preserve_structure)
 
+    global PATH_MAPPINGS
+    path_mappings_arg = kwargs.get("path_mappings")
+    if path_mappings_arg:
+        if isinstance(path_mappings_arg, dict):
+            PATH_MAPPINGS.update({str(k).strip(): str(v).strip() for k, v in path_mappings_arg.items()})
+
     global TARGET_TAGS, TAG_FORMAT
 
     if target_tags is not None:
@@ -445,6 +451,31 @@ if is_running_in_docker():
         DB_PATH = Path(db_s)
 else:
     DB_PATH = Path(raw_db_path)
+
+# --- Distributed Path Translation Mappings ---
+DEFAULT_PATH_MAPPINGS = {
+    "/media/192.168.8.13/camera_backup": "/nas",
+    "/media/nvme0n1/shares/Photo": "/app/media_input",
+    "/media/sda1/media_library/anton": "/app/media_output",
+    "/media/sda1/bckp/media_cataloger_bckp": "/app/backups",
+}
+raw_path_mappings = settings.get("PATH_MAPPINGS") or os.environ.get("PATH_MAPPINGS", "")
+PATH_MAPPINGS: Dict[str, str] = dict(DEFAULT_PATH_MAPPINGS)
+if isinstance(raw_path_mappings, dict):
+    PATH_MAPPINGS.update({str(k).strip(): str(v).strip() for k, v in raw_path_mappings.items()})
+elif isinstance(raw_path_mappings, str) and raw_path_mappings.strip():
+    try:
+        loaded = json.loads(raw_path_mappings.strip())
+        if isinstance(loaded, dict):
+            PATH_MAPPINGS.update({str(k).strip(): str(v).strip() for k, v in loaded.items()})
+    except Exception:
+        for item in raw_path_mappings.split(","):
+            if "=" in item:
+                k, v = item.split("=", 1)
+                PATH_MAPPINGS[k.strip()] = v.strip()
+            elif ":" in item and not item.startswith("http"):
+                k, v = item.split(":", 1)
+                PATH_MAPPINGS[k.strip()] = v.strip()
 
 # Optional remote database URI (e.g. libsql:// or postgresql://)
 DATABASE_URL: str = os.environ.get("DATABASE_URL", "")
