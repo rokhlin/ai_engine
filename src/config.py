@@ -26,7 +26,18 @@ def load_dotenv(dotenv_path: Path):
 
 # Load environment variables
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-VERSION: str = "2.2.0"
+VERSION: str = "2.3.0"
+
+# Watchdog timeout on per-file processing (seconds)
+FILE_ANALYSIS_TIMEOUT: int = int(os.getenv("FILE_ANALYSIS_TIMEOUT", "600"))
+VIDEO_ANALYSIS_TIMEOUT: int = int(os.getenv("VIDEO_ANALYSIS_TIMEOUT", "900"))
+
+# Photo Priority Queue (process all photos before videos)
+PHOTO_PRIORITY: bool = os.getenv("PHOTO_PRIORITY", "true").lower() in ("true", "1", "yes")
+
+# Burst shot grouping defaults
+BURST_WINDOW_SECONDS: float = float(os.getenv("BURST_WINDOW_SECONDS", "5.0"))
+BURST_SIMILARITY_THRESHOLD: float = float(os.getenv("BURST_SIMILARITY_THRESHOLD", "0.80"))
 
 def get_system_device_info() -> Dict[str, Any]:
     """Retrieve compute device name and memory allocation metrics."""

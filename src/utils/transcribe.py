@@ -177,6 +177,17 @@ def transcribe_video_audio(video_path: Path) -> Tuple[str, str]:
             if audio_path.is_file() and audio_path.stat().st_size > 100:
                 return transcribe_audio_track(audio_path)
         except Exception as e:
-            print(f"Warning: Audio transcription skipped for {video_path.name}: {e}")
-            
+            pass
     return "", ""
+
+
+def unload_whisper_model():
+    """Unload local Whisper model from memory and free PyTorch/CTranslate2 buffers."""
+    global _whisper_model
+    if _whisper_model is not None:
+        try:
+            del _whisper_model
+        except Exception:
+            pass
+        _whisper_model = None
+        print("Whisper model unloaded and memory freed.")

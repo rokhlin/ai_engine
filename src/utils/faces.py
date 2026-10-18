@@ -368,4 +368,16 @@ def match_or_register_face(
         return new_id
 
 
-
+def unload_face_analyzer():
+    """Unload face analysis models from memory and free ONNX runtime sessions."""
+    global _INSIGHTFACE_AVAILABLE, _face_app, _opencv_cascade
+    with _face_lock:
+        if _face_app is not None:
+            try:
+                del _face_app
+            except Exception:
+                pass
+            _face_app = None
+        _opencv_cascade = None
+        _INSIGHTFACE_AVAILABLE = False
+        print("InsightFace models unloaded and memory freed.")

@@ -10,6 +10,7 @@ import inspect
 from pathlib import Path
 from typing import List, Dict, Any, Tuple, Optional, Union
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import concurrent.futures
 
 try:
     import pillow_heif
@@ -636,12 +637,15 @@ def process_video(
 
             if "faces" in active_modes:
                 frames_dir = temp_dir / "frames"
-                frames = video.extract_frames_at_1fps(local_path, frames_dir)
+                report_progress(0, 0, current_file=filename, stage=f"[Video] Extracting keyframes for {filename}...")
+                frames = video.extract_sampled_frames(local_path, frames_dir, max_frames=30)
 
                 face_detections_by_second: Dict[str, List[int]] = {}
-                print(f"Starting face detection on {len(frames)} frames...")
+                print(f"Starting face detection on {len(frames)} sampled frames...")
                 for idx, frame_path in enumerate(frames):
                     second = idx
+                    if idx % 5 == 0 or idx == len(frames) - 1:
+                        report_progress(0, 0, current_file=filename, stage=f"[Faces] Detecting faces ({idx + 1}/{len(frames)}) in {filename}...")
                     detected = faces.detect_faces(frame_path)
                     for f in detected:
                         face_id = faces.match_or_register_face(
@@ -671,11 +675,12 @@ def process_video(
 
             if "vision" in active_modes:
                 compressed_path = temp_dir / f"compressed_{local_path.name}"
+                report_progress(0, 0, current_file=filename, stage=f"[Video] Compressing {filename} for AI...")
                 video.compress_video_for_cloud(local_path, compressed_path)
 
                 if not frames:
                     frames_dir = temp_dir / "frames_vision"
-                    frames = video.extract_frames_at_1fps(local_path, frames_dir)
+                    frames = video.extract_sampled_frames(local_path, frames_dir, max_frames=30)
 
                 effective_target_tags = target_tags if target_tags is not None else getattr(config, "TARGET_TAGS", None)
                 effective_tag_format = tag_format or getattr(config, "TAG_FORMAT", "categorized")
@@ -1029,12 +1034,22 @@ def check_pause_and_stop() -> bool:
 class MediaWorkerQueue:
     """
     Concurrent Worker Queue for parallel media analysis.
-    Supports dynamic concurrency and selective AI module modes.
+    Supports dynamic concurrency, selective AI module modes, photo priority scheduling,
+    per-file watchdog timeout, burst series metadata propagation, and automatic resource reclamation.
     """
-    def __init__(self, max_workers: Optional[int] = None, modes: Optional[Union[str, List[str], set]] = None, force: bool = False):
+    def __init__(
+        self,
+        max_workers: Optional[int] = None,
+        modes: Optional[Union[str, List[str], set]] = None,
+        force: bool = False,
+        photo_priority: Optional[bool] = None,
+        burst_window: Optional[float] = None
+    ):
         self.max_workers = max_workers or config.get_max_workers()
         self.modes = normalize_modes(modes)
         self.force = force
+        self.photo_priority = photo_priority if photo_priority is not None else getattr(config, "PHOTO_PRIORITY", True)
+        self.burst_window = burst_window if burst_window is not None else getattr(config, "BURST_WINDOW_SECONDS", 5.0)
         self.lock = threading.Lock()
         self.total_items = 0
         self.completed_items = 0
@@ -1058,16 +1073,101 @@ class MediaWorkerQueue:
             }
 
     def process_queue(self, items: List[Any]) -> List[Dict[str, Any]]:
-        """Processes list of items concurrently."""
+        """Processes list of items concurrently with photo priority and burst propagation."""
+        if not items:
+            report_progress(0, 0, "", "No files to process.")
+            return []
+
+        # 1. Photo Priority Sorting: process photos first, videos last
+        if self.photo_priority and len(items) > 1:
+            def _item_prio_key(it):
+                fp, _, _, _, _, _, _, _ = _extract_item_info(it)
+                ext = Path(fp).suffix.lower()
+                return 1 if ext in config.SUPPORTED_VIDEO_EXTS else 0
+            items = sorted(items, key=_item_prio_key)
+
+        # 2. Burst Series Grouping: identify photo clusters taken within burst_window in the same folder
+        burst_mapping: Dict[str, List[Any]] = {}
+        items_to_process = items
+
+        if "vision" in self.modes and not self.force and self.burst_window > 0:
+            photo_entries = []
+            non_photo_entries = []
+            for it in items:
+                fp, folder, fn, sz, mtime, su, lp, b64 = _extract_item_info(it)
+                ext = Path(fp).suffix.lower()
+                if ext in config.SUPPORTED_PHOTO_EXTS:
+                    photo_entries.append((it, fp, folder, fn, mtime or 0.0))
+                else:
+                    non_photo_entries.append(it)
+
+            if len(photo_entries) > 1:
+                # Group by folder, then sort by timestamp
+                by_folder: Dict[str, List[Tuple[Any, str, str, str, float]]] = {}
+                for pe in photo_entries:
+                    fld = pe[2] or ""
+                    by_folder.setdefault(fld, []).append(pe)
+
+                grouped_primaries = []
+                for fld, f_photos in by_folder.items():
+                    f_photos.sort(key=lambda x: x[4])
+                    current_series: List[Tuple[Any, str, str, str, float]] = []
+                    for pe in f_photos:
+                        if not current_series:
+                            current_series.append(pe)
+                            continue
+                        prev_time = current_series[-1][4]
+                        curr_time = pe[4]
+                        time_match = (0 <= abs(curr_time - prev_time) <= self.burst_window)
+
+                        is_burst = False
+                        if time_match:
+                            prev_path = Path(current_series[-1][1])
+                            curr_path = Path(pe[1])
+                            p_name = prev_path.name.lower()
+                            c_name = curr_path.name.lower()
+                            if ("burst" in p_name and "burst" in c_name) or ("series" in p_name and "series" in c_name):
+                                is_burst = True
+                            else:
+                                try:
+                                    h1 = hash.calculate_phash(prev_path)
+                                    h2 = hash.calculate_phash(curr_path)
+                                    if h1 and h2:
+                                        dist = hash.get_hamming_distance(h1, h2)
+                                        sim = (64 - dist) / 64.0
+                                        if sim >= getattr(config, "BURST_SIMILARITY_THRESHOLD", 0.80):
+                                            is_burst = True
+                                except Exception:
+                                    is_burst = False
+
+                        if is_burst:
+                            current_series.append(pe)
+                        else:
+                            if len(current_series) > 1:
+                                prim = current_series[0]
+                                sibs = [s[0] for s in current_series[1:]]
+                                grouped_primaries.append(prim[0])
+                                burst_mapping[prim[1]] = sibs
+                            else:
+                                grouped_primaries.append(current_series[0][0])
+                            current_series = [pe]
+
+                    if current_series:
+                        if len(current_series) > 1:
+                            prim = current_series[0]
+                            sibs = [s[0] for s in current_series[1:]]
+                            grouped_primaries.append(prim[0])
+                            burst_mapping[prim[1]] = sibs
+                        else:
+                            grouped_primaries.append(current_series[0][0])
+
+                items_to_process = grouped_primaries + non_photo_entries
+
         self.total_items = len(items)
         self.completed_items = 0
         self.failed_items = 0
         self.active_items.clear()
         self.processed_photos_meta.clear()
-
-        if not items:
-            report_progress(0, 0, "", "No files to process.")
-            return []
 
         mode_names = []
         if "transcribe" in self.modes: mode_names.append("🎙️ Audio")
@@ -1081,7 +1181,7 @@ class MediaWorkerQueue:
             0, self.total_items, "",
             f"Starting [{mode_str}] ({provider_name}) with {self.max_workers} worker(s)..."
         )
-        print(f"\n[Worker Queue] Initialized [{mode_str}] with {self.max_workers} worker(s). Total items: {self.total_items}")
+        print(f"\n[Worker Queue] Initialized [{mode_str}] with {self.max_workers} worker(s). Total items: {self.total_items} (Active queue: {len(items_to_process)})")
 
         def worker_task(item: Any, worker_id: int):
             if not check_pause_and_stop():
@@ -1119,10 +1219,61 @@ class MediaWorkerQueue:
                     call_item = item
                     root_arg = Path(folder) if folder else None
 
-                if media_type == "photo":
-                    res = process_photo(call_item, root_arg, modes=self.modes, force=self.force)
-                else:
-                    res = process_video(call_item, root_arg, modes=self.modes, force=self.force)
+                # Watchdog per-file timeout guard to prevent endless loops
+                timeout_sec = getattr(config, "VIDEO_ANALYSIS_TIMEOUT", 900) if media_type == "video" else getattr(config, "FILE_ANALYSIS_TIMEOUT", 600)
+
+                with concurrent.futures.ThreadPoolExecutor(max_workers=1) as single_exec:
+                    def _call_analysis():
+                        if media_type == "photo":
+                            return process_photo(call_item, root_arg, modes=self.modes, force=self.force)
+                        else:
+                            return process_video(call_item, root_arg, modes=self.modes, force=self.force)
+
+                    fut = single_exec.submit(_call_analysis)
+                    try:
+                        res = fut.result(timeout=timeout_sec)
+                    except concurrent.futures.TimeoutError:
+                        print(f"\n[TIMEOUT EXCEEDED] Analysis of {filename} ({file_path}) exceeded {timeout_sec}s! Aborting file and proceeding to next in queue.")
+                        database.update_sync_record(
+                            file_path=file_path,
+                            status="FAILED",
+                            error=f"Analysis timeout exceeded (>{timeout_sec}s)"
+                        )
+                        res = None
+
+                # 3. Burst Propagation: if this item is a burst series primary, propagate results to all siblings
+                if res and file_path in burst_mapping:
+                    siblings = burst_mapping[file_path]
+                    print(f"[Burst] Propagating primary analysis from {filename} to {len(siblings)} sibling frame(s)...")
+                    for sib in siblings:
+                        s_fp, s_fld, s_fn, s_sz, s_mt, _, _, _ = _extract_item_info(sib)
+                        s_root = Path(s_fld) if s_fld else root_arg
+                        s_sidecar = get_relative_output_path(Path(s_fp), s_root)
+                        s_sidecar.parent.mkdir(parents=True, exist_ok=True)
+
+                        sib_meta = dict(res)
+                        sib_meta["filename"] = s_fn
+                        sib_meta["file_path"] = s_fp
+                        sib_meta["is_burst_duplicate"] = True
+                        sib_meta["burst_primary"] = file_path
+                        sib_meta["similar_files_count"] = len(siblings) + 1
+
+                        try:
+                            with open(s_sidecar, "w", encoding="utf-8") as sc_out:
+                                json.dump(sib_meta, sc_out, ensure_ascii=False, indent=2)
+
+                            database.update_sync_record(
+                                file_path=s_fp,
+                                file_size=s_sz,
+                                mtime=s_mt,
+                                status="PROCESSED"
+                            )
+                            with self.lock:
+                                self.completed_items += 1
+                                self.processed_photos_meta.append(sib_meta)
+                        except Exception as sib_err:
+                            print(f"[Burst] Failed to save propagated sidecar for {s_fn}: {sib_err}")
+
             except Exception as e:
                 print(f"[Worker {worker_id}] Error processing {filename}: {e}")
 
@@ -1153,7 +1304,7 @@ class MediaWorkerQueue:
         worker_id_counter = 0
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = []
-            for item in items:
+            for item in items_to_process:
                 if is_stop_requested():
                     break
                 worker_id_counter += 1
@@ -1169,6 +1320,13 @@ class MediaWorkerQueue:
                     fut.result()
                 except Exception as e:
                     print(f"Worker task error: {e}")
+
+        # Free heavy resources (InsightFace, Whisper, PyTorch cache) upon queue completion
+        try:
+            from src.utils.resource_manager import release_pipeline_resources
+            release_pipeline_resources()
+        except Exception as res_err:
+            print(f"[Worker Queue] Warning releasing resources: {res_err}")
 
         return self.processed_photos_meta
 

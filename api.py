@@ -289,6 +289,11 @@ def run_pipeline_thread(
             pipeline_state["status"] = "failed"
             pipeline_state["error"] = str(e)
     finally:
+        try:
+            from src.utils.resource_manager import release_pipeline_resources
+            release_pipeline_resources()
+        except Exception as cleanup_err:
+            print(f"[CLEANUP ERROR] Failed to release resources: {cleanup_err}")
         with state_lock:
             pipeline_state["finished_at"] = datetime.now().isoformat()
 
@@ -1183,6 +1188,15 @@ def stop_execution():
         workers.request_stop()
         pipeline_state["status"] = "stopping"
     return {"status": "stopping", "message": "Stopping cataloging process..."}
+
+@app.post("/api/cleanup", summary="Unload models and release GPU/system memory")
+def cleanup_resources():
+    try:
+        from src.utils.resource_manager import release_pipeline_resources
+        stats = release_pipeline_resources()
+        return {"status": "success", "message": "Resources unloaded and memory reclaimed.", "details": stats}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to release resources: {e}")
 
 @app.get("/api/status", summary="Get current execution status and worker queue info")
 def get_status():

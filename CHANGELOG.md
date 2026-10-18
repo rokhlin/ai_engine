@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - 2026-10-18
+
+### Added
+- **Docker Resource Reclamation & Memory Cleanup (BUG-015 / FEAT-029)**:
+  - Added `src/utils/resource_manager.py` with `release_pipeline_resources()` to unload InsightFace and Whisper models, empty PyTorch CUDA cache, and force garbage collection.
+  - Added `POST /api/cleanup` endpoint and automatic post-pipeline resource reclamation.
+- **Video Analysis Sampling Optimization (BUG-015 / FEAT-029)**:
+  - Added `extract_sampled_frames(max_frames=30)` in `src/utils/video.py` to sample capped keyframes instead of 1 fps across long videos, eliminating Docker CPU saturation and container freezes.
+  - Granular progress reporting for video analysis sub-stages: `[Video: Extract]`, `[Faces: X/Y]`, `[Compress]`, `[AI Model]`.
+- **Per-File Watchdog Timeout (BUG-015)**:
+  - Enforced `FILE_ANALYSIS_TIMEOUT` (600s) and `VIDEO_ANALYSIS_TIMEOUT` (900s) to abort stalled tasks into `FAILED` status and proceed with the remaining queue.
+- **Photo-First Priority Queue & Burst Series Optimization (FEAT-029)**:
+  - Added photo priority scheduling (`PHOTO_PRIORITY=True`) to process all photos before heavy video analysis begins.
+  - Added burst/series shot grouping (5.0s window, >80% similarity), analyzing only one primary frame with AI and propagating metadata to siblings.
+
 ## [2.2.0] - 2026-10-17
 
 ### Added

@@ -27,6 +27,7 @@ def is_ffmpeg_available() -> bool:
 
 def read_video_metadata(file_path: Path) -> Dict[str, Any]:
     """Read video container metadata via ffprobe."""
+    file_path = Path(file_path)
     meta = {
         "duration": 0.0,
         "width": 0,
@@ -36,6 +37,9 @@ def read_video_metadata(file_path: Path) -> Dict[str, Any]:
         "codec": None,
         "datetime": None
     }
+    
+    if not file_path.exists() or not file_path.is_file():
+        return meta
     
     cmd = [
         config.FFPROBE_PATH,
@@ -132,6 +136,34 @@ def extract_frames_at_1fps(video_path: Path, output_dir: Path) -> List[Path]:
     # Return sorted list of frame file paths
     frames = sorted(list(output_dir.glob("frame_*.jpg")))
     return frames
+
+def extract_sampled_frames(video_path: Path, output_dir: Path, max_frames: int = 30) -> List[Path]:
+    """Extract sampled keyframes from video, capping at max_frames to prevent CPU hang."""
+    video_path = Path(video_path)
+    output_dir = Path(output_dir)
+    if not video_path.exists() or not video_path.is_file():
+        return []
+
+    meta = read_video_metadata(video_path)
+    duration = float(meta.get("duration", 0.0) or 0.0)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    if duration <= max_frames or duration <= 0:
+        frames = extract_frames_at_1fps(video_path, output_dir)
+        return frames[:max_frames] if len(frames) > max_frames else frames
+
+    target_fps = max_frames / max(1.0, duration)
+    cmd = [
+        config.FFMPEG_PATH,
+        "-y",
+        "-i", str(video_path),
+        "-vf", f"fps={target_fps:.4f}",
+        str(output_dir / "frame_%04d.jpg")
+    ]
+    print(f"Extracting sampled frames ({max_frames} max, target_fps={target_fps:.4f}) for {video_path.name}...")
+    _run_cmd(cmd)
+    frames = sorted(list(output_dir.glob("frame_*.jpg")))
+    return frames[:max_frames]
 
 def extract_audio_from_video(video_path: Path, output_audio_path: Path) -> Path:
     """Extract mono audio track from video optimized for local transcription."""
