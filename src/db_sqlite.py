@@ -366,6 +366,27 @@ def save_media_faces(media_id: str, faces: List[Dict[str, Any]]):
                         json.dumps(f.get("time_intervals")) if f.get("time_intervals") else None,
                         1 if f.get("is_reference", True) else 0
                     ))
+
+                    # Inherit tags assigned to this person into media_tags (FEAT-032)
+                    if person_id or (name and not name.startswith("face_") and name.lower() != "unknown"):
+                        try:
+                            p_cur = conn.cursor()
+                            p_cur.execute("""
+                                SELECT tag, category FROM person_tags
+                                WHERE person_id = ? OR person_id = ?;
+                            """, (person_id or "", name or ""))
+                            inherited = p_cur.fetchall()
+                            for row in inherited:
+                                p_tag = str(row[0]).strip().lower()
+                                p_cat = str(row[1] or "people").strip().lower()
+                                if p_tag:
+                                    conn.execute("""
+                                        INSERT INTO media_tags (media_id, tag, category, confidence)
+                                        VALUES (?, ?, ?, 1.0)
+                                        ON CONFLICT(media_id, tag, category) DO NOTHING;
+                                    """, (media_id, p_tag, p_cat))
+                        except Exception:
+                            pass
                 _refresh_fts_entry(conn, media_id)
 
 
@@ -1306,3 +1327,42 @@ def get_known_persons() -> List[Dict[str, Any]]:
                 persons_map[p_name]["sample_images"].append(r["image_path"])
 
         return list(persons_map.values())
+
+
+def get_person_tags(person_id: str) -> List[Dict[str, Any]]:
+    """Retrieve all tags associated with a specific person."""
+    if not person_id:
+        return []
+    with closing(get_db_connection()) as conn:
+        try:
+            rows = conn.execute("""
+                SELECT tag, category, created_at
+                FROM person_tags
+                WHERE person_id = ?
+                ORDER BY tag ASC;
+            """, (str(person_id).strip(),)).fetchall()
+            return [{"tag": r["tag"], "category": r["category"], "created_at": r["created_at"]} for r in rows]
+        except Exception:
+            return []
+
+
+def set_person_tags(person_id: str, tags: List[Dict[str, str]]):
+    """Set or replace all tags associated with a person."""
+    if not person_id:
+        return
+    clean_id = str(person_id).strip()
+    with _db_write_lock:
+        with closing(get_db_connection()) as conn:
+            with conn:
+                conn.execute("DELETE FROM person_tags WHERE person_id = ?;", (clean_id,))
+                for t in tags:
+                    tag_name = str(t.get("tag") or "").strip().lower()
+                    if not tag_name:
+                        continue
+                    cat = str(t.get("category") or "people").strip().lower()
+                    conn.execute("""
+                        INSERT INTO person_tags (person_id, tag, category)
+                        VALUES (?, ?, ?)
+                        ON CONFLICT(person_id, tag) DO NOTHING;
+                    """, (clean_id, tag_name, cat))
+

@@ -321,3 +321,14 @@ def remove_face_from_media_file(file_path: str, face_id: str) -> bool:
     from src import db_sqlite
     return db_sqlite.remove_face_from_media_file(file_path, face_id)
 
+
+def get_person_tags(person_id: str) -> List[Dict[str, Any]]:
+    from src import db_sqlite
+    return db_sqlite.get_person_tags(person_id)
+
+
+def set_person_tags(person_id: str, tags: List[Dict[str, str]]):
+    from src import db_sqlite
+    return db_sqlite.set_person_tags(person_id, tags)
+
+

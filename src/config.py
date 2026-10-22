@@ -222,6 +222,38 @@ def save_persistent_settings(
         data["FALLBACK_TO_GEMINI"] = FALLBACK_TO_GEMINI
         data["ai_gemini_fallback_enabled"] = FALLBACK_TO_GEMINI
 
+    global AI_ANALYSIS_PROVIDER, AI_ANALYSIS_MODEL, AI_ANALYSIS_FALLBACK_ENABLED, AI_ANALYSIS_MAX_WORKERS
+    global AI_EDITING_PROVIDER, AI_EDITING_MODEL, AI_EDITING_FALLBACK_ENABLED, AI_EDITING_STYLE_STRENGTH, AI_EDITING_PRESERVE_FACES
+
+    if "ai_analysis_provider" in extra_kwargs and extra_kwargs["ai_analysis_provider"]:
+        AI_ANALYSIS_PROVIDER = str(extra_kwargs["ai_analysis_provider"]).strip().lower()
+        data["AI_ANALYSIS_PROVIDER"] = AI_ANALYSIS_PROVIDER
+    if "ai_analysis_model" in extra_kwargs and extra_kwargs["ai_analysis_model"]:
+        AI_ANALYSIS_MODEL = str(extra_kwargs["ai_analysis_model"]).strip()
+        data["AI_ANALYSIS_MODEL"] = AI_ANALYSIS_MODEL
+    if "ai_analysis_fallback_enabled" in extra_kwargs and extra_kwargs["ai_analysis_fallback_enabled"] is not None:
+        AI_ANALYSIS_FALLBACK_ENABLED = bool(extra_kwargs["ai_analysis_fallback_enabled"])
+        data["AI_ANALYSIS_FALLBACK_ENABLED"] = AI_ANALYSIS_FALLBACK_ENABLED
+    if "ai_analysis_max_workers" in extra_kwargs and extra_kwargs["ai_analysis_max_workers"] is not None:
+        AI_ANALYSIS_MAX_WORKERS = max(1, int(extra_kwargs["ai_analysis_max_workers"]))
+        data["AI_ANALYSIS_MAX_WORKERS"] = AI_ANALYSIS_MAX_WORKERS
+
+    if "ai_editing_provider" in extra_kwargs and extra_kwargs["ai_editing_provider"]:
+        AI_EDITING_PROVIDER = str(extra_kwargs["ai_editing_provider"]).strip().lower()
+        data["AI_EDITING_PROVIDER"] = AI_EDITING_PROVIDER
+    if "ai_editing_model" in extra_kwargs and extra_kwargs["ai_editing_model"]:
+        AI_EDITING_MODEL = str(extra_kwargs["ai_editing_model"]).strip()
+        data["AI_EDITING_MODEL"] = AI_EDITING_MODEL
+    if "ai_editing_fallback_enabled" in extra_kwargs and extra_kwargs["ai_editing_fallback_enabled"] is not None:
+        AI_EDITING_FALLBACK_ENABLED = bool(extra_kwargs["ai_editing_fallback_enabled"])
+        data["AI_EDITING_FALLBACK_ENABLED"] = AI_EDITING_FALLBACK_ENABLED
+    if "ai_editing_style_strength" in extra_kwargs and extra_kwargs["ai_editing_style_strength"] is not None:
+        AI_EDITING_STYLE_STRENGTH = float(extra_kwargs["ai_editing_style_strength"])
+        data["AI_EDITING_STYLE_STRENGTH"] = AI_EDITING_STYLE_STRENGTH
+    if "ai_editing_preserve_faces" in extra_kwargs and extra_kwargs["ai_editing_preserve_faces"] is not None:
+        AI_EDITING_PRESERVE_FACES = bool(extra_kwargs["ai_editing_preserve_faces"])
+        data["AI_EDITING_PRESERVE_FACES"] = AI_EDITING_PRESERVE_FACES
+
     for k, v in extra_kwargs.items():
         if v is not None:
             data[k] = v
@@ -410,6 +442,29 @@ def apply_runtime_settings(
     if ai_gemini_fb is not None:
         FALLBACK_TO_GEMINI = bool(ai_gemini_fb)
         AI_GEMINI_FALLBACK_ENABLED = FALLBACK_TO_GEMINI
+
+    global AI_ANALYSIS_PROVIDER, AI_ANALYSIS_MODEL, AI_ANALYSIS_FALLBACK_ENABLED, AI_ANALYSIS_MAX_WORKERS
+    global AI_EDITING_PROVIDER, AI_EDITING_MODEL, AI_EDITING_FALLBACK_ENABLED, AI_EDITING_STYLE_STRENGTH, AI_EDITING_PRESERVE_FACES
+    if "ai_analysis_provider" in kwargs and kwargs["ai_analysis_provider"]:
+        AI_ANALYSIS_PROVIDER = str(kwargs["ai_analysis_provider"]).strip().lower()
+    if "ai_analysis_model" in kwargs and kwargs["ai_analysis_model"]:
+        AI_ANALYSIS_MODEL = str(kwargs["ai_analysis_model"]).strip()
+    if "ai_analysis_fallback_enabled" in kwargs and kwargs["ai_analysis_fallback_enabled"] is not None:
+        AI_ANALYSIS_FALLBACK_ENABLED = bool(kwargs["ai_analysis_fallback_enabled"])
+    if "ai_analysis_max_workers" in kwargs and kwargs["ai_analysis_max_workers"] is not None:
+        AI_ANALYSIS_MAX_WORKERS = max(1, int(kwargs["ai_analysis_max_workers"]))
+
+    if "ai_editing_provider" in kwargs and kwargs["ai_editing_provider"]:
+        AI_EDITING_PROVIDER = str(kwargs["ai_editing_provider"]).strip().lower()
+    if "ai_editing_model" in kwargs and kwargs["ai_editing_model"]:
+        AI_EDITING_MODEL = str(kwargs["ai_editing_model"]).strip()
+    if "ai_editing_fallback_enabled" in kwargs and kwargs["ai_editing_fallback_enabled"] is not None:
+        AI_EDITING_FALLBACK_ENABLED = bool(kwargs["ai_editing_fallback_enabled"])
+    if "ai_editing_style_strength" in kwargs and kwargs["ai_editing_style_strength"] is not None:
+        AI_EDITING_STYLE_STRENGTH = float(kwargs["ai_editing_style_strength"])
+    if "ai_editing_preserve_faces" in kwargs and kwargs["ai_editing_preserve_faces"] is not None:
+        AI_EDITING_PRESERVE_FACES = bool(kwargs["ai_editing_preserve_faces"])
+
 
 
 
@@ -611,6 +666,25 @@ if saved_gemini_fallback is not None:
 else:
     FALLBACK_TO_GEMINI: bool = os.environ.get("FALLBACK_TO_GEMINI", "true").lower() in ("true", "1", "yes")
 AI_GEMINI_FALLBACK_ENABLED: bool = FALLBACK_TO_GEMINI
+
+# --- Decoupled AI Configuration (FEAT-031) ---
+# Analysis & Vision
+AI_ANALYSIS_PROVIDER: str = str(settings.get("AI_ANALYSIS_PROVIDER") or settings.get("MODEL_PROVIDER") or os.environ.get("AI_ANALYSIS_PROVIDER", MODEL_PROVIDER)).strip().lower()
+AI_ANALYSIS_MODEL: str = str(settings.get("AI_ANALYSIS_MODEL") or (GEMINI_MODEL if AI_ANALYSIS_PROVIDER == "gemini" else LOCAL_MODEL_NAME) or os.environ.get("AI_ANALYSIS_MODEL", "gemini-3.8-flash")).strip()
+AI_ANALYSIS_FALLBACK_ENABLED: bool = bool(settings.get("AI_ANALYSIS_FALLBACK_ENABLED", FALLBACK_TO_GEMINI))
+saved_analysis_workers = settings.get("AI_ANALYSIS_MAX_WORKERS")
+if saved_analysis_workers is not None:
+    AI_ANALYSIS_MAX_WORKERS: int = max(1, int(saved_analysis_workers))
+else:
+    AI_ANALYSIS_MAX_WORKERS: int = GEMINI_MAX_WORKERS if AI_ANALYSIS_PROVIDER == "gemini" else LOCAL_MAX_WORKERS
+
+# Image Editing Suite & Style Transfer
+AI_EDITING_PROVIDER: str = str(settings.get("AI_EDITING_PROVIDER") or os.environ.get("AI_EDITING_PROVIDER", "gemini")).strip().lower()
+AI_EDITING_MODEL: str = str(settings.get("AI_EDITING_MODEL") or os.environ.get("AI_EDITING_MODEL", "gemini-nano-banana")).strip()
+AI_EDITING_FALLBACK_ENABLED: bool = bool(settings.get("AI_EDITING_FALLBACK_ENABLED", True))
+AI_EDITING_STYLE_STRENGTH: float = float(settings.get("AI_EDITING_STYLE_STRENGTH", 0.40))
+AI_EDITING_PRESERVE_FACES: bool = bool(settings.get("AI_EDITING_PRESERVE_FACES", True))
+
 
 # Streaming download timeout in seconds (default 300s = 5 minutes for large videos)
 STREAM_DOWNLOAD_TIMEOUT: int = int(os.environ.get("STREAM_DOWNLOAD_TIMEOUT", "300"))
