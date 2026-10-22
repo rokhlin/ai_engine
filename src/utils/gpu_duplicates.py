@@ -277,7 +277,54 @@ def run_gpu_duplicate_clustering(
                     "folder_breakdown": folders,
                 })
 
-    # 3. Vectorized GPU / CPU Visual Similarity Clustering
+    # 3. Burst Photo Series Clustering (within time delta in same folder with high similarity)
+    if mode in ("all", "burst"):
+        norm_folder = lambda p: str(p or "").replace('\\', '/').lower()
+        remaining = [
+            ef for ef in enriched_files
+            if ef["file_path"] not in assigned_files and ef.get("_bits") and len(ef["_bits"]) == 64
+        ]
+        remaining.sort(key=lambda x: parse_timestamp(x.get("capture_date"), x.get("mtime")))
+
+        current_burst: List[Dict[str, Any]] = []
+        req_sim = similarity_threshold if similarity_threshold is not None else 0.85
+        max_burst_dist = int(math.floor((1.0 - req_sim) * 64))
+
+        for item in remaining:
+            if item["file_path"] in assigned_files:
+                continue
+
+            if not current_burst:
+                current_burst.append(item)
+                continue
+
+            anchor = current_burst[0]
+            prev = current_burst[-1]
+            item_time = parse_timestamp(item.get("capture_date"), item.get("mtime"))
+            anchor_time = parse_timestamp(anchor.get("capture_date"), anchor.get("mtime"))
+            prev_time = parse_timestamp(prev.get("capture_date"), prev.get("mtime"))
+
+            time_diff_anchor = abs(item_time - anchor_time)
+            time_diff_prev = abs(item_time - prev_time)
+            is_time_match = time_diff_anchor <= burst_window_seconds and time_diff_prev <= burst_window_seconds
+            is_folder_match = norm_folder(item.get("folder")) == norm_folder(anchor.get("folder"))
+
+            is_visual_match = False
+            if item.get("_bits") and anchor.get("_bits"):
+                dist = sum(b1 ^ b2 for b1, b2 in zip(item["_bits"], anchor["_bits"]))
+                is_visual_match = dist <= max_burst_dist
+
+            if is_time_match and is_folder_match and is_visual_match:
+                current_burst.append(item)
+            else:
+                if len(current_burst) > 1:
+                    _push_burst(current_burst, groups, assigned_files, keep_strategy)
+                current_burst = [item]
+
+        if len(current_burst) > 1:
+            _push_burst(current_burst, groups, assigned_files, keep_strategy)
+
+    # 4. Vectorized GPU / CPU Visual Similarity Clustering
     if mode in ("all", "visual"):
         remaining_images = [
             ef for ef in enriched_files
@@ -359,48 +406,6 @@ def run_gpu_duplicate_clustering(
                         "reclaimable_bytes": reclaimable,
                         "folder_breakdown": folders,
                     })
-
-    # 4. Burst Photo Series Clustering (within time delta in same folder)
-    if mode in ("all", "burst"):
-        remaining = [
-            ef for ef in enriched_files
-            if ef["file_path"] not in assigned_files and ef.get("_bits") and len(ef["_bits"]) == 64 and ef.get("mtime", 0) > 0
-        ]
-        remaining.sort(key=lambda x: x["mtime"])
-
-        current_burst: List[Dict[str, Any]] = []
-        req_sim = similarity_threshold if similarity_threshold is not None else 0.85
-        max_burst_dist = int(math.floor((1.0 - req_sim) * 64))
-
-        for item in remaining:
-            if item["file_path"] in assigned_files:
-                continue
-
-            if not current_burst:
-                current_burst.append(item)
-                continue
-
-            anchor = current_burst[0]
-            prev = current_burst[-1]
-            time_diff_anchor = abs(item["mtime"] - anchor["mtime"])
-            time_diff_prev = abs(item["mtime"] - prev["mtime"])
-            is_time_match = time_diff_anchor <= burst_window_seconds and time_diff_prev <= burst_window_seconds
-            is_folder_match = item["folder"] == anchor["folder"]
-
-            is_visual_match = False
-            if item.get("_bits") and anchor.get("_bits"):
-                dist = sum(b1 ^ b2 for b1, b2 in zip(item["_bits"], anchor["_bits"]))
-                is_visual_match = dist <= max_burst_dist
-
-            if is_time_match and is_folder_match and is_visual_match:
-                current_burst.append(item)
-            else:
-                if len(current_burst) > 1:
-                    _push_burst(current_burst, groups, assigned_files, keep_strategy)
-                current_burst = [item]
-
-        if len(current_burst) > 1:
-            _push_burst(current_burst, groups, assigned_files, keep_strategy)
 
     # Clean temporary internal fields
     for g in groups:
