@@ -138,3 +138,29 @@ def test_worker_queue_watchdog_timeout(tmp_path):
             status="FAILED",
             error="Analysis timeout exceeded (>0.05s)"
         )
+
+def test_matches_target_folders():
+    from src.workers import matches_target_folders
+    assert matches_target_folders("C:/media/folderA/img.jpg", "C:/media/folderA", ["folderA"]) is True
+    assert matches_target_folders("C:/media/folderA/img.jpg", "C:/media/folderA", ["C:/media/folderA"]) is True
+    assert matches_target_folders("C:/media/folderB/img.jpg", "C:/media/folderB", ["folderA"]) is False
+    assert matches_target_folders("/app/media_input/vacation/sub/img.jpg", "/app/media_input", ["vacation"]) is True
+    assert matches_target_folders("/app/media_input/family/img.jpg", "/app/media_input", ["vacation"]) is False
+
+def test_run_pipeline_empty_files_does_not_scan_all(tmp_path):
+    from src.workers import run_pipeline
+    with patch("src.workers.scan_input_folders") as mock_scan:
+        # If files is provided as an empty list (0 matched), it must NOT fall back to scan_input_folders
+        run_pipeline(files=[], folders=["folderA"])
+        mock_scan.assert_not_called()
+
+def test_api_run_payload_accepts_folders():
+    with patch("api.run_pipeline_thread") as mock_thread:
+        res = client.post("/api/run", json={"folders": ["folderA", "folderB"], "modes": ["vision", "faces"]})
+        assert res.status_code == 200
+        mock_thread.assert_called_once()
+        # Verify folders was passed as the 9th argument
+        call_args = mock_thread.call_args[0]
+        assert call_args[8] == ["folderA", "folderB"]
+        assert call_args[5] == ["vision", "faces"]
+
