@@ -220,7 +220,8 @@ def run_pipeline_thread(
     settings: Optional[Any] = None,
     modes: Optional[Union[str, List[str], set]] = None,
     user_id: Optional[str] = None,
-    user_root: Optional[str] = None
+    user_root: Optional[str] = None,
+    folders: Optional[List[str]] = None
 ):
     global pipeline_state
     with state_lock:
@@ -260,7 +261,8 @@ def run_pipeline_thread(
                     files=files,
                     output_folder=output_folder,
                     settings=settings,
-                    modes=modes
+                    modes=modes,
+                    folders=folders
                 )
                 
                 if workers.is_stop_requested():
@@ -416,6 +418,8 @@ class RunSyncPayload(BaseModel):
     tag_format: Optional[str] = None
     modes: Optional[List[str]] = None
     mode: Optional[str] = None
+    folders: Optional[List[str]] = None
+    folder_paths: Optional[List[str]] = None
     vision_prompt_template: Optional[str] = None
 
 class AnalyzeFilePayload(BaseModel):
@@ -854,12 +858,14 @@ def trigger_sync(
     if output_folder:
         config.apply_runtime_settings(output_folder=output_folder)
 
+    folders = payload.folders if (payload and payload.folders) else (payload.folder_paths if (payload and payload.folder_paths) else None)
+
     log_dir = Path(output_folder) if output_folder else config.OUTPUT_FOLDER
     log_dir.mkdir(parents=True, exist_ok=True)
     log_path = log_dir / "cataloger_run.log"
     thread = threading.Thread(
         target=run_pipeline_thread,
-        args=(force_flag, log_path, files, output_folder, settings, active_modes, x_user_id, x_user_root_path)
+        args=(force_flag, log_path, files, output_folder, settings, active_modes, x_user_id, x_user_root_path, folders)
     )
     thread.daemon = True
     thread.start()

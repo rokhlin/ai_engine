@@ -1400,18 +1400,48 @@ def get_models_loaded_status() -> Dict[str, bool]:
 
 # --- Pipeline Orchestrator ---
 
+def matches_target_folders(file_path: str, folder: str, target_folders: Optional[List[str]]) -> bool:
+    """Check if a file or folder belongs to any of the specified target folders."""
+    if not target_folders:
+        return True
+    norm_fp = file_path.replace("\\", "/").rstrip("/").lower()
+    norm_fld = folder.replace("\\", "/").rstrip("/").lower()
+    parent_dir = os.path.dirname(norm_fp).lower()
+    dir_name = os.path.basename(parent_dir).lower()
+    folder_base = os.path.basename(norm_fld).lower()
+
+    for tf in target_folders:
+        if not tf:
+            continue
+        nt = str(tf).replace("\\", "/").rstrip("/").lower()
+        nt_base = os.path.basename(nt).lower()
+        if norm_fld == nt or norm_fld.endswith("/" + nt):
+            return True
+        if norm_fp.startswith(nt + "/") or norm_fp == nt:
+            return True
+        if parent_dir.startswith(nt + "/") or parent_dir == nt:
+            return True
+        if dir_name == nt or dir_name == nt_base:
+            return True
+        if folder_base == nt or folder_base == nt_base:
+            return True
+        if f"/{nt}/" in norm_fp:
+            return True
+    return False
+
 def run_pipeline(
     force_reprocess: bool = False,
     max_workers: Optional[int] = None,
     files: Optional[List[Any]] = None,
     output_folder: Optional[str] = None,
     settings: Optional[Any] = None,
-    modes: Optional[Union[str, List[str], set]] = None
+    modes: Optional[Union[str, List[str], set]] = None,
+    folders: Optional[List[str]] = None
 ):
     """
     Main method to launch media archive synchronization and cataloging via parallel worker queue.
     Supports modular modes (transcribe, faces, duplicates, vision) and smart skip.
-    Supports stateless execution when files and dynamic settings are provided directly by UI.
+    Supports targeted folder execution and stateless execution when files and dynamic settings are provided directly by UI.
     """
     global _active_worker_queue
     reset_controls()
@@ -1422,15 +1452,21 @@ def run_pipeline(
             config.apply_runtime_settings(**settings)
             if modes is None and "modes" in settings:
                 modes = settings.get("modes")
+            if folders is None:
+                folders = settings.get("folders") or settings.get("folder_paths")
         elif hasattr(settings, "model_dump"):
             dump = settings.model_dump()
             config.apply_runtime_settings(**dump)
             if modes is None and "modes" in dump:
                 modes = dump.get("modes")
+            if folders is None:
+                folders = dump.get("folders") or dump.get("folder_paths")
         elif hasattr(settings, "__dict__"):
             config.apply_runtime_settings(**settings.__dict__)
             if modes is None and hasattr(settings, "modes"):
                 modes = getattr(settings, "modes")
+            if folders is None:
+                folders = getattr(settings, "folders", None) or getattr(settings, "folder_paths", None)
 
     if output_folder:
         config.apply_runtime_settings(output_folder=output_folder)
@@ -1449,8 +1485,16 @@ def run_pipeline(
     items_to_process: List[Any] = []
     skipped_count = 0
 
-    if files is not None and len(files) > 0:
-        # Stateless mode: Process files supplied directly by UI without scanning INPUT_FOLDERS
+    if files is not None:
+        # Stateless mode: Process files supplied directly by UI or caller
+        if folders:
+            files = [item for item in files if matches_target_folders(*_extract_item_info(item)[:2], folders)]
+
+        if len(files) == 0:
+            report_progress(0, 0, "", f"No files to process in selected folder(s) for [{mode_display}].")
+            print(f"No files matching criteria for modes [{mode_display}].")
+            return
+
         print(f"Using provided file list ({len(files)} files) for modes [{mode_display}]...")
         for item in files:
             file_path, folder, filename, file_size, mtime, stream_url, local_path, content_base64 = _extract_item_info(item)
@@ -1497,9 +1541,11 @@ def run_pipeline(
                     "media_type": media_type
                 })
     else:
-        # Fallback to local scan for CLI/test workflows
+        # Fallback to local scan for CLI/test workflows (strictly respecting target folders if provided)
         report_progress(0, 0, "", "Scanning media folders...")
-        media_files = scan_input_folders()
+        media_files = scan_input_folders(input_folders=folders)
+        if folders:
+            media_files = [(p, r) for p, r in media_files if matches_target_folders(str(p), str(r), folders)]
         print(f"Found files to scan: {len(media_files)} for modes [{mode_display}]")
         for path, root in media_files:
             stat = path.stat()
