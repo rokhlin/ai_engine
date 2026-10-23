@@ -11,7 +11,7 @@ import hashlib
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple, Set
 from datetime import datetime
-from PIL import Image
+from PIL import Image, ImageOps
 import numpy as np
 
 try:
@@ -90,6 +90,7 @@ def compute_dhash_pil(image_path: str) -> Optional[Tuple[str, List[int]]]:
     """Calculate 64-bit dHash using PIL/NumPy (CPU fallback). Returns (hex_str, 64_bits_list)."""
     try:
         with Image.open(image_path) as img:
+            img = ImageOps.exif_transpose(img)
             img = img.convert("L").resize((9, 8), Image.Resampling.BILINEAR)
             arr = np.asarray(img, dtype=np.int16)
             diff = (arr[:, :-1] > arr[:, 1:]).astype(np.uint8).flatten()
@@ -119,6 +120,7 @@ def batch_compute_dhash_gpu(image_paths: List[str], batch_size: int = 64) -> Dic
         for p in chunk:
             try:
                 with Image.open(p) as img:
+                    img = ImageOps.exif_transpose(img)
                     img_gray = img.convert("L").resize((9, 8), Image.Resampling.BILINEAR)
                     if HAS_TORCH and TF is not None:
                         t = TF.to_tensor(img_gray).squeeze(0)  # Shape: (8, 9)
@@ -184,6 +186,7 @@ def run_gpu_duplicate_clustering(
     similarity_threshold: float = 0.90,
     burst_window_seconds: float = 3.0,
     keep_strategy: str = "highest_resolution",
+    include_videos: bool = False,
 ) -> Dict[str, Any]:
     """Execute complete high-speed GPU tensor duplicate and similarity detection."""
     start_time = time.time()
@@ -191,12 +194,21 @@ def run_gpu_duplicate_clustering(
     use_gpu = gpu_info["available"]
     device = torch.device("cuda:0") if use_gpu else (torch.device("cpu") if HAS_TORCH else None)
 
+    # 0. Filter media types: photos first, videos strictly after if enabled (PO Decision 1)
+    if not include_videos:
+        target_files = [f for f in files if f.get("is_image", True) and not f.get("is_video", False)]
+    else:
+        # Separate photos and videos: photos strictly first
+        photos = [f for f in files if f.get("is_image", True) and not f.get("is_video", False)]
+        videos = [f for f in files if f.get("is_video", False) or not f.get("is_image", True)]
+        target_files = photos + videos
+
     # 1. Gather file metadata & hashes
-    image_paths = [f["file_path"] for f in files if f.get("is_image", True)]
+    image_paths = [f["file_path"] for f in target_files if f.get("is_image", True)]
     hash_cache = batch_compute_dhash_gpu(image_paths)
 
     enriched_files: List[Dict[str, Any]] = []
-    for f in files:
+    for f in target_files:
         fp = f["file_path"]
         size = f.get("file_size")
         mtime = f.get("mtime")
@@ -233,12 +245,14 @@ def run_gpu_duplicate_clustering(
             "content_hash": content_hash,
             "phash": phash_str,
             "_bits": phash_bits,
+            "capture_date": f.get("capture_date") or f.get("media_date"),
             "is_image": f.get("is_image", True),
             "is_video": f.get("is_video", False),
         })
 
     groups: List[Dict[str, Any]] = []
-    assigned_files: Set[str] = set()
+    assigned_duplicates: Set[str] = set()
+    assigned_bursts: Set[str] = set()
 
     # 2. Exact Duplicate Clustering
     if mode in ("all", "exact"):
@@ -260,8 +274,8 @@ def run_gpu_duplicate_clustering(
                     d_copy["is_primary"] = False
                     d_copy["similarity_to_primary"] = 1.0
                     duplicates.append(d_copy)
-                    assigned_files.add(d["file_path"])
-                assigned_files.add(primary["file_path"])
+                    assigned_duplicates.add(d["file_path"])
+                assigned_duplicates.add(primary["file_path"])
 
                 reclaimable = sum(d["file_size"] for d in duplicates)
                 folders = list(set(m["folder"] for m in sorted_members))
@@ -277,58 +291,11 @@ def run_gpu_duplicate_clustering(
                     "folder_breakdown": folders,
                 })
 
-    # 3. Burst Photo Series Clustering (within time delta in same folder with high similarity)
-    if mode in ("all", "burst"):
-        norm_folder = lambda p: str(p or "").replace('\\', '/').lower()
-        remaining = [
-            ef for ef in enriched_files
-            if ef["file_path"] not in assigned_files and ef.get("_bits") and len(ef["_bits"]) == 64
-        ]
-        remaining.sort(key=lambda x: parse_timestamp(x.get("capture_date"), x.get("mtime")))
-
-        current_burst: List[Dict[str, Any]] = []
-        req_sim = similarity_threshold if similarity_threshold is not None else 0.85
-        max_burst_dist = int(math.floor((1.0 - req_sim) * 64))
-
-        for item in remaining:
-            if item["file_path"] in assigned_files:
-                continue
-
-            if not current_burst:
-                current_burst.append(item)
-                continue
-
-            anchor = current_burst[0]
-            prev = current_burst[-1]
-            item_time = parse_timestamp(item.get("capture_date"), item.get("mtime"))
-            anchor_time = parse_timestamp(anchor.get("capture_date"), anchor.get("mtime"))
-            prev_time = parse_timestamp(prev.get("capture_date"), prev.get("mtime"))
-
-            time_diff_anchor = abs(item_time - anchor_time)
-            time_diff_prev = abs(item_time - prev_time)
-            is_time_match = time_diff_anchor <= burst_window_seconds and time_diff_prev <= burst_window_seconds
-            is_folder_match = norm_folder(item.get("folder")) == norm_folder(anchor.get("folder"))
-
-            is_visual_match = False
-            if item.get("_bits") and anchor.get("_bits"):
-                dist = sum(b1 ^ b2 for b1, b2 in zip(item["_bits"], anchor["_bits"]))
-                is_visual_match = dist <= max_burst_dist
-
-            if is_time_match and is_folder_match and is_visual_match:
-                current_burst.append(item)
-            else:
-                if len(current_burst) > 1:
-                    _push_burst(current_burst, groups, assigned_files, keep_strategy)
-                current_burst = [item]
-
-        if len(current_burst) > 1:
-            _push_burst(current_burst, groups, assigned_files, keep_strategy)
-
-    # 4. Vectorized GPU / CPU Visual Similarity Clustering
+    # 3. Vectorized GPU / CPU Visual Similarity Clustering (Cross-Folder Near-Duplicates)
     if mode in ("all", "visual"):
         remaining_images = [
             ef for ef in enriched_files
-            if ef["file_path"] not in assigned_files and ef.get("_bits") and len(ef["_bits"]) == 64
+            if ef["file_path"] not in assigned_duplicates and ef.get("_bits") and len(ef["_bits"]) == 64
         ]
 
         if len(remaining_images) > 1:
@@ -339,15 +306,13 @@ def run_gpu_duplicate_clustering(
             CHUNK_SIZE = 512
 
             if HAS_TORCH and device and use_gpu:
-                # Vectorized Matrix Multiplication on GPU in bounded memory chunks
-                bits_matrix = torch.tensor([ef["_bits"] for ef in remaining_images], dtype=torch.uint8, device=device)  # (N, 64)
+                bits_matrix = torch.tensor([ef["_bits"] for ef in remaining_images], dtype=torch.uint8, device=device)
                 for start_idx in range(0, n, CHUNK_SIZE):
                     end_idx = min(start_idx + CHUNK_SIZE, n)
                     chunk_bits = bits_matrix[start_idx:end_idx]
                     chunk_dist = (chunk_bits.unsqueeze(1) ^ bits_matrix.unsqueeze(0)).sum(dim=-1)
                     dist_matrix[start_idx:end_idx] = chunk_dist.cpu().numpy()
             elif HAS_TORCH and device:
-                # Vectorized PyTorch CPU in bounded memory chunks
                 bits_matrix = torch.tensor([ef["_bits"] for ef in remaining_images], dtype=torch.uint8, device=device)
                 for start_idx in range(0, n, CHUNK_SIZE):
                     end_idx = min(start_idx + CHUNK_SIZE, n)
@@ -355,23 +320,23 @@ def run_gpu_duplicate_clustering(
                     chunk_dist = (chunk_bits.unsqueeze(1) ^ bits_matrix.unsqueeze(0)).sum(dim=-1)
                     dist_matrix[start_idx:end_idx] = chunk_dist.numpy()
             else:
-                # Vectorized NumPy CPU fallback in bounded memory chunks
                 bits_matrix = np.array([ef["_bits"] for ef in remaining_images], dtype=np.uint8)
                 for start_idx in range(0, n, CHUNK_SIZE):
                     end_idx = min(start_idx + CHUNK_SIZE, n)
                     chunk_bits = bits_matrix[start_idx:end_idx]
                     chunk_dist = np.bitwise_xor(chunk_bits[:, np.newaxis, :], bits_matrix[np.newaxis, :, :]).sum(axis=-1)
                     dist_matrix[start_idx:end_idx] = chunk_dist
+
             for i in range(n):
                 file_a = remaining_images[i]
-                if file_a["file_path"] in assigned_files:
+                if file_a["file_path"] in assigned_duplicates:
                     continue
                 
                 cluster = [file_a]
                 min_sim = 1.0
                 for j in range(i + 1, n):
                     file_b = remaining_images[j]
-                    if file_b["file_path"] in assigned_files:
+                    if file_b["file_path"] in assigned_duplicates:
                         continue
                     dist = int(dist_matrix[i, j])
                     if dist <= max_dist:
@@ -390,8 +355,8 @@ def run_gpu_duplicate_clustering(
                         d_copy["is_primary"] = False
                         d_copy["similarity_to_primary"] = min_sim
                         duplicates.append(d_copy)
-                        assigned_files.add(d["file_path"])
-                    assigned_files.add(primary["file_path"])
+                        assigned_duplicates.add(d["file_path"])
+                    assigned_duplicates.add(primary["file_path"])
 
                     reclaimable = sum(d["file_size"] for d in duplicates)
                     folders = list(set(m["folder"] for m in sorted_members))
@@ -407,6 +372,66 @@ def run_gpu_duplicate_clustering(
                         "folder_breakdown": folders,
                     })
 
+    # 4. Burst Photo Series Clustering (within time delta in same folder with high similarity)
+    # PO Decision 4: Only files with real EXIF dates can form burst series; non-EXIF never form bursts.
+    if mode in ("all", "burst"):
+        norm_folder = lambda p: str(p or "").replace('\\', '/').lower()
+        burst_candidates = []
+        for ef in enriched_files:
+            if not ef.get("is_image", True):
+                continue
+            if ef["file_path"] in assigned_bursts:
+                continue
+            if not ef.get("_bits") or len(ef["_bits"]) != 64:
+                continue
+            cdate = ef.get("capture_date")
+            ts = parse_timestamp(cdate, ef.get("mtime"))
+            if ts and ts > 0:
+                burst_candidates.append((ef, ts))
+
+        burst_candidates.sort(key=lambda x: x[1])
+
+        current_burst: List[Dict[str, Any]] = []
+        current_burst_ts: List[float] = []
+        req_sim = similarity_threshold if similarity_threshold is not None else 0.85
+        max_burst_dist = int(math.floor((1.0 - req_sim) * 64))
+
+        for item, item_time in burst_candidates:
+            if item["file_path"] in assigned_bursts:
+                continue
+
+            if not current_burst:
+                current_burst.append(item)
+                current_burst_ts.append(item_time)
+                continue
+
+            prev = current_burst[-1]
+            prev_time = current_burst_ts[-1]
+            anchor = current_burst[0]
+            anchor_time = current_burst_ts[0]
+
+            time_diff_anchor = abs(item_time - anchor_time)
+            time_diff_prev = abs(item_time - prev_time)
+            is_time_match = time_diff_anchor <= burst_window_seconds and time_diff_prev <= burst_window_seconds
+            is_folder_match = norm_folder(item.get("folder")) == norm_folder(anchor.get("folder"))
+
+            is_visual_match = False
+            if item.get("_bits") and anchor.get("_bits"):
+                dist = sum(b1 ^ b2 for b1, b2 in zip(item["_bits"], anchor["_bits"]))
+                is_visual_match = dist <= max_burst_dist
+
+            if is_time_match and is_folder_match and is_visual_match:
+                current_burst.append(item)
+                current_burst_ts.append(item_time)
+            else:
+                if len(current_burst) > 1:
+                    _push_burst(current_burst, groups, assigned_bursts, keep_strategy)
+                current_burst = [item]
+                current_burst_ts = [item_time]
+
+        if len(current_burst) > 1:
+            _push_burst(current_burst, groups, assigned_bursts, keep_strategy)
+
     # Clean temporary internal fields
     for g in groups:
         g["primary_file"].pop("_bits", None)
@@ -420,7 +445,7 @@ def run_gpu_duplicate_clustering(
         "engine": gpu_info["engine"],
         "device_name": gpu_info["device_name"],
         "elapsed_seconds": elapsed,
-        "scanned_files_count": len(files),
+        "scanned_files_count": len(target_files),
         "total_groups": len(groups),
         "groups": groups,
     }
@@ -429,7 +454,7 @@ def run_gpu_duplicate_clustering(
 def _push_burst(
     burst: List[Dict[str, Any]],
     groups: List[Dict[str, Any]],
-    assigned_files: Set[str],
+    assigned_bursts: Set[str],
     keep_strategy: str,
 ):
     sorted_members = rank_group_members(burst, keep_strategy)
@@ -449,10 +474,9 @@ def _push_burst(
         min_sim = min(min_sim, sim)
         d_copy["similarity_to_primary"] = sim
         duplicates.append(d_copy)
-        assigned_files.add(d["file_path"])
-    assigned_files.add(primary["file_path"])
+        assigned_bursts.add(d["file_path"])
+    assigned_bursts.add(primary["file_path"])
 
-    reclaimable = sum(d["file_size"] for d in duplicates)
     folders = list(set(m["folder"] for m in sorted_members))
 
     groups.append({
@@ -462,6 +486,6 @@ def _push_burst(
         "primary_file": primary,
         "duplicates": duplicates,
         "total_files": len(sorted_members),
-        "reclaimable_bytes": reclaimable,
+        "reclaimable_bytes": 0,  # Burst series are NOT counted as reclaimable space by default
         "folder_breakdown": folders,
     })

@@ -534,13 +534,13 @@ class RemoveFaceFromFileRequest(BaseModel):
     file: str
     face_id: str
 
-# Pydantic schema for dynamic settings
 class DuplicateScanRequest(BaseModel):
     files: Optional[List[str]] = None
     mode: Optional[str] = "all"
     similarity_threshold: Optional[float] = 0.90
     burst_window_seconds: Optional[float] = 3.0
     keep_strategy: Optional[str] = "highest_resolution"
+    include_videos: Optional[bool] = False
 
 class SettingsUpdateRequest(BaseModel):
     input_folders: Optional[List[str]] = None
@@ -2168,7 +2168,8 @@ def scan_duplicates(request: Optional[DuplicateScanRequest] = None):
         mode=req.mode or "all",
         similarity_threshold=req.similarity_threshold or 0.90,
         burst_window_seconds=req.burst_window_seconds or 3.0,
-        keep_strategy=req.keep_strategy or "highest_resolution"
+        keep_strategy=req.keep_strategy or "highest_resolution",
+        include_videos=bool(req.include_videos),
     )
     return result
 
